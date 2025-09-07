@@ -113,3 +113,165 @@
 - [Anexos](#anexos)
 
 ---
+
+
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
+Unipafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
+
+**Visión:**
+
+En 4 años, consolidarnos como la startup líder en Latinoamérica en la creación de puentes entre universidades y empresas, reconocidos por fomentar el talento emergente, la innovación colaborativa y el crecimiento sostenible.
+
+**Misión:**
+
+Promover el desarrollo profesional de estudiantes universitarios y recién egresados a través de la creación de espacios donde puedan conectar con organizaciones, demostrar sus capacidades y generar soluciones de alto impacto que aporten al progreso económico y social.
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Fotos del Integrantes</th>
+      <th>Nombres y Apellidos</th>
+      <th>Código de estudiante</th>
+      <th>Conocimiento técnicos y hablidades </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="images/fotointegrante-erick-palomino.jpeg" alt="foto-erick" width="500"></td>
+      <td>Palomino Fiestas, Erick Leonardo</td>
+      <td>U20231A500</td>
+      <td>Hola, Soy Erick Leonardo Palomino Fiestas, un estudiante entusiasta de quinto ciclo en Ingeniería de Software. Mi conjunto de habilidades técnicas incluye C++, HTML, CSS, fundamentos de JavaScript y experiencia con bases de datos SQL y MongoDB. Me considero una persona responsable, con sólidas habilidades de comunicación para trabajar en equipo y una perspectiva optimista. También tengo un nivel básico de inglés. </td>
+    </tr>
+      <tr>
+      <td><img src="images/fotointegrante-renzo.jpg" alt="foto-renzo" width="500"></td>
+      <td>Renzo Sebastian Rivera Ratachi</td>
+      <td>U20231D974</td>
+      <td>Soy Renzo Sebastian Rivera Ratachi y soy estudiante de la carrera de Ingeniería de Software. Actualmente estoy cursando el 6to ciclo de mi carrera y tengo conocimientos intermedios de HTML, CSS, JavaScript y C++. Me considero una persona responsable y puntual. </td>
+    </tr>
+    <tr>
+      <td><img src="images/foto-cr7.jpg" alt="foto-andres" width="500"></td>
+      <td>Carlos Andres Coca Lavado</td>
+      <td>U202313172</td>
+      <td>Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el sexto ciclo de la carrera de Ingeniería de Software. Cuento con conocimientos en C++, Python y HTML. y desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a día de hoy.  </td>
+    </tr>
+    <tr>
+      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td>Andrea Elizabeth Santur Tello </td>
+      <td>U202310988</td>
+      <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
+    </tr>
+    <tr>
+      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td>Diego Ivan Cabrera Buitron </td>
+      <td>U20211B293</td>
+      <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### 1.2. Solution Profile
+
+#### 1.2.1. Antecedentes y problemática
+#### 1.2.2. Lean UX Process
+
+##### 1.2.2.1. Lean UX Problem Statements
+
+
+##### 1.2.2.2. Lean UX Assumptions
+
+##### Business Assumptions<br/><br/>
+
+##### User Assumptions<br/><br/>
+##### Feature Assumptions<br/><br/>
+##### 1.2.2.3. Lean UX Hypothesis Statements
+##### 1.2.2.4. Lean UX Canvas
+### 1.3. Segmentos Objetivo
+
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+### 2.1. Competidores
+
+#### 2.1.1. Análisis competitivo
+
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+## Afrontando las fortalezas de nuestros competidores:
+
+## Comprendemos que nuestras fortalezas son:
+
+
+
+
+## Estrategias:
+-
+
+
+
+## Tácticas:
+-
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+
+
+## Afrontando las debilidades de nuestros competidores:
+## Comprendemos que nuestras debilidades son:
+
+## Estrategias:
+-
+
+## Tácticas:
+-
+
+## Afrontando las oportunidades de nuestros competidores:
+
+
+## Comprendemos que nuestras oportunidades son:
+
+-
+
+## Estrategias:
+
+- 
+
+## Tácticas:
+
+- 
+
+## Afrontando las amenazas de nuestros competidores:
+
+- 
+
+## Comprendemos que nuestras amenazas son:
+
+
+
+## Estrategias:
+-
+
+
+## Tácticas:
+-
+
+
+### 2.2. Entrevistas
+
+#### 2.2.1. Diseño de entrevistas
+
+#### 2.2.2. Registro de entrevistas
+
+
+
+
+
+
