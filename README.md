@@ -180,6 +180,58 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 ### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
+
+Who (¿Quién?)
+Los actores principales son los estudiantes universitarios y recién egresados, quienes representan una fuente de talento emergente y con gran potencial de innovación. A ellos se suman las universidades, que cumplen un rol central en su formación, pero que muchas veces no logran generar vínculos sólidos con el sector productivo. También están las empresas, que requieren nuevas ideas y perfiles creativos para mantenerse competitivas, aunque carecen de canales efectivos para acceder a este talento. Finalmente, la sociedad en general se ve afectada, pues el desaprovechamiento de estas capacidades limita el desarrollo económico y social de la región.
+
+What (¿Qué?)
+El problema central es la ausencia de un modelo articulado y sostenible que permita conectar de manera efectiva el talento joven con el ecosistema empresarial. Aunque existen pasantías, ferias de empleo o incubadoras, estos mecanismos son parciales y no garantizan que los estudiantes puedan mostrar su capacidad de generar soluciones innovadoras. Como consecuencia, muchas ideas que nacen en las aulas se pierden y no llegan a convertirse en aportes reales para el mercado o la sociedad.
+
+Where (¿Dónde?)
+La problemática se da especialmente en Latinoamérica, una región con gran cantidad de jóvenes que enfrentan altas tasas de desempleo y subempleo. Además, los sistemas educativos suelen estar desalineados de las necesidades laborales, lo que genera una desconexión entre la formación académica y las competencias que demandan las empresas.
+
+When (¿Cuándo?)
+Este es un problema vigente en la actualidad y que se ha intensificado en los últimos años con la digitalización, la globalización y los cambios en los modelos de trabajo. Las demandas del mercado evolucionan más rápido que los sistemas educativos, lo que amplía la brecha entre lo que aprenden los estudiantes y lo que necesitan las organizaciones.
+
+Why (¿Por qué?)
+
+- Los planes de estudio universitarios no se actualizan con suficiente rapidez frente a las demandas del mercado.
+
+- Los mecanismos tradicionales de empleabilidad no permiten demostrar plenamente el potencial creativo e innovador de los jóvenes.
+
+- Las empresas carecen de canales efectivos para conectarse con talento emergente de forma dinámica y sostenible.
+
+How (¿Cómo?)
+
+- La conexión actual se limita a prácticas profesionales, incubadoras o programas aislados.
+
+- Estas iniciativas no cuentan con alcance regional ni continuidad suficiente.
+
+- Como consecuencia, gran parte del talento joven se desaprovecha y sus proyectos no logran trascender más allá de las aulas.
+
+How Much (¿Cuánto?)
+
+Actualmente, miles de estudiantes universitarios y recién egresados en Latinoamérica no cuentan con canales efectivos para vincularse con las empresas y demostrar su talento. Esta desconexión limita sus oportunidades de desarrollo profesional y priva a las organizaciones de acceder a soluciones innovadoras. Para cerrar esta brecha, Unipafi plantea el desarrollo de una aplicación móvil que facilite la vinculación entre talento universitario y empresas.
+
+Desarrollo de la App Móvil
+
+- Diseño UI/UX y desarrollo multiplataforma: S/ 3,000 – S/ 4,500
+
+- Backend y API de conexión con empresas: S/ 1,200 – S/ 2,000
+
+- Servidores, dominio y hosting (anual): S/ 500 – S/ 900
+
+Marketing y Alianzas
+
+- Campañas en redes y universidades: S/ 800 – S/ 1,200
+
+Mantenimiento y Soporte
+
+- Actualizaciones y mejoras (anual): S/ 1,200 – S/ 2,000
+
+Total Estimado Inicial: S/ 6,700 – S/ 10,600 
+
+
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
