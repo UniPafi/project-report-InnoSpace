@@ -81,7 +81,7 @@
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
 
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-product-design)
 
   - [4.1. Strategic-Level Domain-Driven Design](#41-Strategic-level-domain-driven-design)
     - [4.1.1. EventStorming](#411-eventstorming)
