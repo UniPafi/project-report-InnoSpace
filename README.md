@@ -192,7 +192,58 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 ##### User Assumptions<br/><br/>
 ##### Feature Assumptions<br/><br/>
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Hypothesis Statement 01:**
+
+  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoBridge para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos un 70% de los estudiantes registrados completen su perfil y suban al menos un proyecto o tesis dentro del primer mes de uso.
+
+- **Hypothesis Statement 02:**
+
+  *Creemos que* InnoBridge facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos un 60% de los proyectos publicados sean completados exitosamente y reciban una calificación positiva por parte de los estudiantes, validando así la calidad del talento.
+
+- **Hypothesis Statement 03:**
+
+  *Creemos que* la incorporación de un sistema de reputación, portafolio y mensajería interna permitirá a los empleadores seleccionar candidatos más efectivamente, sin necesidad de pasar por procesos de contratación tradicionales.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* el 75% de los empleadores indiquen que encontraron al candidato adecuado usando únicamente las funcionalidades de la plataforma (perfil, reputación, portafolio y mensajería).
+
+- **Hypothesis Statement 04:**
+
+  *Creemos que* ofrecer notificaciones automáticas personalizables a los usuarios sobre nuevas oportunidades, contratación o mensajes de empresas incrementará la tasa de engagement y retención de la plataforma.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* el 80% de los usuarios registrados respondan a al menos un mensaje o postulación dentro del primer mes de uso.
+
+- **Hypothesis Statement 05:**
+
+  *Creemos que* los incentivos iniciales, como el acceso a proyectos destacados y descuentos en funciones premium, motivarán a los estudiantes y empresas a adoptar la plataforma rápidamente.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos el 50% de los estudiantes nuevos completen su perfil y postulen a proyectos dentro de los primeros 15 días después de registrarse, y al menos un 30% de las empresas paguen por suscripciones premium para acceder a perfiles destacados.
+
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<p align="center">
+  <img src="images/LeanUXCanvas-UniPafi.jpg" alt="UPC logo" width="1000">
+</p>
+
+<p align="center">
+  Lean UX Canvas - Elaboración propia
+</p>
+
 ### 1.3. Segmentos Objetivo
 
 
