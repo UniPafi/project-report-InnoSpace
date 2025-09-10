@@ -270,8 +270,156 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.2.2. Registro de entrevistas
 
+### 2.3. Needfinding
+
+En esta sección, se crearán las User Personas basándonos en la información obtenida de las entrevistas con nuestros usuarios potenciales. Consideraremos aspectos fundamentales como la edad, la ocupación, las preocupaciones y las metas de los entrevistados para entender mejor sus necesidades, comportamientos y expectativas. Además, se examinarán las características y preferencias de los usuarios a través del análisis de nuestros competidores, lo que nos ayudará a identificar áreas de oportunidad para mejorar.
+
+#### 2.3.1. User Personas
+
+- #### User Persona Estudiante Universitario
+
+<p align="center">
+  <img src="imageS/User Persona - Jeremy Vega.png" alt="UPC logo" width="1000">
+</p>
+
+<p align="center">
+  User Persona Estudiante Universitario - Elaboración propia
+</p>
 
 
+
+- #### User Persona Gerente de empresa
+
+<p align="center">
+  <img src="images/User Persona - Carlos Fernández.png" alt="UPC logo" width="1000">
+</p>
+
+<p align="center">
+  User Persona Gerente de empresa - Elaboración propia
+</p>
+
+
+#### 2.3.2. User Task Matrix
+
+En este apartado se presenta la User Task Matrix, que refleja las tareas de los dos segmentos principales: estudiantes universitarios que buscan financiar sus proyectos innovadores y participar en proyectos de empresas, y gerentes que buscan contratar talento joven para el desarrollo de sus proyectos.
+
+
+<table border="1">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2">Estudiante</th>
+      <th colspan="2">Gerente</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TASK</td>
+      <td>FREQUENCY (Estudiante)</td>
+      <td>IMPORTANCE (Estudiante)</td>
+      <td>FREQUENCY (Gerente)</td>
+      <td>IMPORTANCE (Gerente)</td>
+    </tr>
+    <tr>
+      <td>Publicar ideas o startups innovadoras</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Buscar proyectos disponibles</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Postular a ofertas</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Editar o actualizar su perfil profesional</td>
+      <td>Rarely</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Consultar el estado de sus postulaciones</td>
+      <td>Sometimes</td>
+      <td>High</td>
+      <td>Never</td>
+      <td>Low</td>
+    </tr>
+    <tr>
+      <td>Asistir a entrevistas</td>
+      <td>Rarely</td>
+      <td>High</td>
+      <td>Sometimes</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Asistir al daily scrum</td>
+      <td>Always</td>
+      <td>High</td>
+      <td>Rarely</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Registrar requerimientos de proyecto</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Publicar convocatorias de proyecto</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Chatear con miembros del equipo</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Ver postulaciones recibidas</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Sometimes</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Validar postulantes</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Rarely</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Aprobar entregables</td>
+      <td>Never</td>
+      <td>Low</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>Planificación del sprint</td>
+      <td>Often</td>
+      <td>High</td>
+      <td>Often</td>
+      <td>High</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
