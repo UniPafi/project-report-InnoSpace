@@ -420,12 +420,9 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 | Application              | Postulación                | Proceso por el cual un estudiante se inscribe a un proyecto disponible o a una convocatoria de empresa.          |
 | Profile                  | Perfil profesional         | Información personal y académica que un estudiante o gerente edita para mostrar sus capacidades y experiencia.   |
 | Application Status       | Estado de postulación      | Información sobre si la postulación de un estudiante está en revisión, aprobada o rechazada.                     |
-| Interview                | Entrevista                 | Reunión entre estudiante y gerente para evaluar la idoneidad del postulante.                                     |
-| Daily Scrum              | Reunión diaria             | Sesión corta en la que los miembros del equipo revisan avances y tareas pendientes del proyecto.                 |
 | Requirement Registration | Registro de requerimientos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
 | Candidate Validation     | Validación de postulantes  | Evaluación realizada por el gerente para determinar la pertinencia de los estudiantes postulados.                |
-| Deliverable Approval     | Aprobación de entregables  | Confirmación por parte del gerente de que los resultados entregados cumplen los requisitos del proyecto.         |
-| Sprint Planning          | Planificación del sprint   | Reunión en la que estudiantes y gerentes organizan las tareas del próximo ciclo de trabajo.                      |
+
 
 
 
