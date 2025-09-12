@@ -279,7 +279,7 @@ En esta sección, se crearán las User Personas basándonos en la información o
 - #### User Persona Estudiante Universitario
 
 <p align="center">
-  <img src="images/User Persona - Jeremy Vega.png" width="1000">
+  <img src="images/User-Persona-Jeremy-Vega-V3.png" width="1000">
 </p>
 
 <p align="center">
@@ -291,7 +291,7 @@ En esta sección, se crearán las User Personas basándonos en la información o
 - #### User Persona Gerente de empresa
 
 <p align="center">
-  <img src="images/User-Persona-Carlos Fernández-V2.png" width="1000">
+  <img src="images/User-Persona-Carlos-Fernández-V3.png" width="1000">
 </p>
 
 <p align="center">
