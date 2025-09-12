@@ -372,6 +372,68 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.2.1. Diseño de entrevistas
 
+*Preguntas Estudiantes universitarios innovadores*
+
+---
+
+**Preguntas Directas:**
+
+1. ¿Podrías proporcionarnos tu nombre completo, tu edad y qué carrera estás estudiando actualmente?
+
+2. ¿Has tenido la oportunidad de desarrollar alguna idea o proyecto innovador durante tus estudios? ¿Cómo fue esa experiencia?
+
+3. ¿Qué dificultades enfrentas actualmente para dar a conocer tus ideas o proyectos a empresas o posibles inversionistas?
+
+4. ¿Has participado en concursos, hackathons o ferias de innovación? ¿Qué aprendiste de esas experiencias?
+
+5. ¿Qué tan fácil o difícil ha sido para ti encontrar espacios donde mostrar tu talento y tus habilidades?
+
+6. ¿Qué te motiva más: que te reconozcan por tus ideas, que te apoyen con mentoría o que te den financiamiento para llevarlas a cabo?
+
+7. ¿Qué habilidades técnicas o personales tuyas consideras que serían más valiosas para una empresa que busque talento joven?
+
+8. ¿Qué plataformas, redes sociales o medios digitales utilizas hoy para difundir tus proyectos o buscar oportunidades?
+
+9. ¿Qué temores o dudas tendrías al publicar tus ideas en una aplicación que conecta estudiantes con empresas?
+
+10. Si existiera una app donde pudieras subir tus ideas, explorar proyectos de empresas y conectar directamente con gerentes, ¿la usarías? ¿Por qué sí o por qué no?<br><br>
+
+**Preguntas Complementarias:**
+
+11. ¿Qué tan importante es para ti que una plataforma valide o certifique tu participación en proyectos reales?
+
+12. ¿Qué te gustaría aprender o reforzar al colaborar con empresas en proyectos de innovación? <br><br>
+
+*Preguntas Gerentes/profesionales de innovación y talento*
+
+**Preguntas Directas:**
+
+1. ¿Podrías darnos tu nombre completo, edad y cargo actual en la empresa?
+
+2. Cuéntame un poco sobre tu empresa: ¿en qué sector operan y cómo gestionan actualmente los proyectos de innovación?
+
+3. ¿Qué tan frecuente es que busquen nuevas ideas o startups jóvenes para resolver retos internos?
+
+4. ¿Qué dificultades encuentras al identificar y contactar estudiantes con habilidades alineadas a tus proyectos?
+
+5. ¿Han intentado colaborar con universidades o estudiantes en el pasado? ¿Qué resultados tuvieron?
+
+6. ¿Qué características valoras más en un estudiante o joven innovador al momento de incluirlo en un proyecto?
+
+7. ¿Qué riesgos o preocupaciones tendrías al usar una aplicación que conecta directamente con talento emergente?
+
+8. ¿Qué tan dispuesto estarías a publicar proyectos o retos de tu empresa en una plataforma abierta a estudiantes?
+
+9. ¿Qué funcionalidades considerarías indispensables en una app como InnoSpace para que realmente sea útil para tu empresa?
+
+10. Si existiera una app local que te brinde acceso directo a ideas innovadoras y perfiles de estudiantes con portafolio visible, ¿la usarías? ¿Por qué sí o por qué no?<br><br>
+
+**Preguntas Complementarias:**
+
+11. ¿Qué tan importante sería para tu empresa contar con métricas de impacto o informes sobre la colaboración con estudiantes?
+
+12. ¿Qué expectativas tendrías de la relación con los estudiantes a través de una plataforma como esta (ideas, prototipos, contratación futura, etc.)? <br><br>
+
 #### 2.2.2. Registro de entrevistas
 
 
