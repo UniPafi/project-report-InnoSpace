@@ -311,61 +311,96 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 ## Afrontando las fortalezas de nuestros competidores:
 
+**Fortalezas de competidores:**
+- LinkedIn: base de usuarios masiva y marca consolidada.  
+- AngelList: nicho en startups e inversión.  
+- Behance: visibilidad global para creativos.  
+- InnoSpace: innovación en el vínculo educación–empresa.  
+
 ## Comprendemos que nuestras fortalezas son:
-
-
-
+- Enfoque exclusivo en estudiantes y talento emergente.  
+- Integración bidireccional: empresas publican proyectos, estudiantes aportan ideas.  
+- Nicho menos saturado, con alto potencial de crecimiento en universidades.  
 
 ## Estrategias:
--
-
-
+- Diferenciarnos mediante el **posicionamiento educativo–empresarial**, no solo profesional.  
+- Crear comunidad cerrada y validada de estudiantes para garantizar **calidad y confianza**.  
+- Alianzas estratégicas con universidades e incubadoras.  
 
 ## Tácticas:
--
+- Implementar programas piloto con universidades y ferias de empleo.  
+- Incentivar a empresas innovadoras a publicar proyectos reales.  
+- Marketing digital en redes sociales universitarias y canales académicos.  
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
-
-
+---
 
 ## Afrontando las debilidades de nuestros competidores:
+
+**Debilidades de competidores:**
+- LinkedIn: saturación, competencia interna.  
+- AngelList: limitado fuera del ecosistema startup.  
+- Behance: no cubre sectores fuera de lo creativo.  
+- InnoSpace: aún sin masa crítica de usuarios.  
+
 ## Comprendemos que nuestras debilidades son:
+- Startup nueva con poca base de usuarios.  
+- Recursos limitados frente a grandes plataformas.  
 
 ## Estrategias:
--
+- Crecer a través de **nichos específicos** antes de expandir.  
+- Apoyarnos en **alianzas institucionales** para atraer usuarios sin grandes inversiones.  
 
 ## Tácticas:
--
+- Campañas de captación en universidades.  
+- Programas de referidos entre estudiantes y empresas.  
+- Construir una primera comunidad sólida en un sector (ej. ingeniería, innovación tecnológica).  
+
+---
 
 ## Afrontando las oportunidades de nuestros competidores:
 
+**Oportunidades de competidores:**
+- Expansión de la educación digital (LinkedIn).  
+- Crecimiento del ecosistema emprendedor (AngelList).  
+- Demanda de portafolios digitales (Behance).  
+- Integración universidad–empresa (InnoSpace).  
 
 ## Comprendemos que nuestras oportunidades son:
-
--
+- Conectar talento joven con innovación empresarial.  
+- Posicionarnos como la **plataforma de early talent**.  
+- Aprovechar el auge de incubadoras, hackathons y proyectos de innovación abierta.  
 
 ## Estrategias:
-
-- 
+- Crear un espacio que combine **empleabilidad temprana + innovación colaborativa**.  
+- Aliarnos con incubadoras y hubs de emprendimiento universitario.  
 
 ## Tácticas:
+- Organizar retos de innovación con empresas patrocinadoras.  
+- Promocionar historias de éxito de estudiantes para dar visibilidad a la plataforma.  
+- Ofrecer planes gratuitos iniciales a startups emergentes para ganar tracción.  
 
-- 
+---
 
 ## Afrontando las amenazas de nuestros competidores:
 
-- 
+**Amenazas de competidores:**
+- Recursos y posicionamiento de grandes plataformas (LinkedIn, Behance).  
+- Alta competencia en redes profesionales y creativas.  
+- Barreras de entrada y dependencia de ecosistemas externos.  
 
 ## Comprendemos que nuestras amenazas son:
-
-
+- Riesgo de que grandes plataformas incorporen funcionalidades similares.  
+- Dificultad de escalar sin financiamiento fuerte.  
 
 ## Estrategias:
--
-
+- Enfocarnos en ser **más ágiles y especializados** que los grandes competidores.  
+- Desarrollar una propuesta de valor difícil de replicar: **ecosistema académico–empresarial cerrado**.  
 
 ## Tácticas:
--
+- Innovar en funcionalidades (ej. “match” entre ideas de estudiantes y retos empresariales).  
+- Fidelizar a la comunidad con beneficios exclusivos (certificados, visibilidad, mentorías).  
+- Monitorear tendencias para adaptar rápidamente la plataforma.  
+
 
 
 ### 2.2. Entrevistas
