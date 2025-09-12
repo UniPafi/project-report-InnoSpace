@@ -202,6 +202,123 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.1.1. Análisis competitivo
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="5">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- OBJETIVO -->
+    <tr>
+      <td>¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="4">Analizar a la competencia permite entender el mercado en el que se introducirá nuestro producto, ofreciendo una visión clara de las funcionalidades que ofrecen y cómo satisfacen las necesidades de sus clientes.</td>
+    </tr>
+    <!-- CABECERA -->
+    <tr>
+      <td>(Nombre y logo de cada competidor)</td>
+      <td></td>
+      <td>InnoSpace<br><img src="images/logo-startup.png" width="80"></td>
+      <td>LinkedIn <br><img src="images/logo-linkedin.png" width="80"></td>
+      <td>AngelList (Wellfound) <br><img src="images/logo-angellist.png" width="80"></td>
+      <td>Behance <br><img src="images/logo-behance.png" width="80"></td>
+    </tr>
+    <!-- PERFIL -->
+    <tr>
+      <td rowspan="3">Perfil</td>
+      <td>Overview</td>
+      <td>Plataforma móvil donde estudiantes publican ideas innovadoras y startups para atraer inversión, participar en proyectos empresariales y conectar con empresas.</td>
+      <td>Red social profesional global que conecta profesionales y empresas para networking, empleos y contenido.</td>
+      <td>Plataforma que conecta startups con inversionistas y talento especializado, muy centrada en ecosistema emprendedor.</td>
+      <td>Plataforma para creativos y diseñadores donde muestran proyectos y buscan oportunidades de colaboración.</td>
+    </tr>
+    <tr>
+      <td>Ventaja competitiva <br>¿Qué valor ofrece a los clientes?</td>
+      <td>Conecta estudiantes con empresas de forma bidireccional (ideas <-> proyectos), fomenta innovación y aprendizaje colaborativo.</td>
+      <td>Gran base de usuarios, networking masivo y posicionamiento de marca fuerte.</td>
+      <td>Acceso directo a startups, talento e inversores, muy nichado en el ecosistema.</td>
+      <td>Visibilidad global para proyectos creativos y portafolios.</td>
+    </tr>
+    <tr>
+      <td>Mercado objetivo</td>
+      <td>Estudiantes universitarios, jóvenes emprendedores, empresas que buscan innovación y talento emergente.</td>
+      <td>Profesionales de todos los sectores y empresas de cualquier tamaño.</td>
+      <td>Startups, inversionistas y profesionales del sector tecnológico y emprendedor.</td>
+      <td>Diseñadores, artistas, creativos y empresas del sector visual.</td>
+    </tr>
+    <!-- PERFIL DE MARKETING -->
+    <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Estrategias de marketing</td>
+      <td>Marketing digital en universidades, incubadoras y redes sociales. Enfoque en innovación y talento joven.</td>
+      <td>Publicidad en la misma plataforma, marketing de contenido y presencia en medios profesionales.</td>
+      <td>Eventos de startups, aceleradoras, networking en ecosistemas emprendedores.</td>
+      <td>Colaboraciones con escuelas de diseño, concursos y portafolios online.</td>
+    </tr>
+    <tr>
+      <td>Mercado objetivo</td>
+      <td>Estudiantes, startups en etapa temprana, empresas innovadoras.</td>
+      <td>Profesionales, empresas medianas y grandes.</td>
+      <td>Startups tecnológicas, inversores, emprendedores.</td>
+      <td>Creativos, diseñadores freelance, agencias.</td>
+    </tr>
+    <!-- PERFIL DE PRODUCTO -->
+    <tr>
+      <td rowspan="3">Perfil de Producto</td>
+      <td>Productos & Servicios</td>
+      <td>Publicación de ideas y startups, proyectos de empresas, exploración de estudiantes con habilidades alineadas.</td>
+      <td>Ofertas de empleo, networking, cursos, grupos profesionales.</td>
+      <td>Ofertas de empleo en startups, conexión con inversores y talento.</td>
+      <td>Portafolios creativos, exposición de proyectos, búsqueda de empleo creativo.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>Modelo freemium (básico gratis, premium para empresas o estudiantes destacados).</td>
+      <td>Gratis con funciones premium de pago (LinkedIn Premium, LinkedIn Ads).</td>
+      <td>Gratis con servicios premium para empleadores e inversores.</td>
+      <td>Gratis con opciones premium para mayor visibilidad.</td>
+    </tr>
+    <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td>
+      <td>App móvil (iOS/Android) y versión web.</td>
+      <td>App móvil y web.</td>
+      <td>App móvil y web.</td>
+      <td>App móvil y web.</td>
+    </tr>
+    <!-- SWOT -->
+    <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Innovación en el enfoque educación-empresa, espacio exclusivo para estudiantes.</td>
+      <td>Base de usuarios masiva, marca reconocida.</td>
+      <td>Nicho claro en startups e inversión.</td>
+      <td>Alta visibilidad para creativos y artistas.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Startup nueva, sin base de usuarios inicial fuerte.</td>
+      <td>Demasiada competencia interna, saturación de usuarios.</td>
+      <td>Menor popularidad que LinkedIn, limitado fuera del sector tech.</td>
+      <td>No cubre sectores fuera del diseño/creatividad.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Aliarse con universidades, incubadoras y empresas innovadoras.</td>
+      <td>Expansión a nuevos servicios de educación y formación.</td>
+      <td>Crecimiento del ecosistema emprendedor global.</td>
+      <td>Mayor demanda de portafolios digitales y talento creativo.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Competidores grandes con más recursos, barreras de entrada altas.</td>
+      <td>Pérdida de interés por parte de usuarios jóvenes.</td>
+      <td>Dependencia del ecosistema startup e inversión.</td>
+      <td>Alta competencia en redes creativas (Dribbble, ArtStation).</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
