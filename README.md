@@ -149,13 +149,13 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
       <td>Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el sexto ciclo de la carrera de Ingeniería de Software. Cuento con conocimientos en C++, Python y HTML. y desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a día de hoy.  </td>
     </tr>
     <tr>
-      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td><img src="images/foto_andrea.jpeg" alt="foto-andrea" width="500"></td>
       <td>Andrea Elizabeth Santur Tello </td>
       <td>U202310988</td>
       <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
     </tr>
     <tr>
-      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td><img src="images/foto_diego.jpeg" alt="foto-diego" width="500"></td>
       <td>Diego Ivan Cabrera Buitron </td>
       <td>U20211B293</td>
       <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
@@ -409,8 +409,73 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.2.2. Registro de entrevistas
 
+#### 2.2.3. Análisis de entrevistas
+
+### 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+### 2.3.2. User Task Matrix
+
+### 2.3.3. User Journey Mapping
+
+Esta sección muestra un Journey Map por cada segmento objetivo, detallando el proceso en el que descubren e interactuan con la aplicación.
+
+  - User Journey Map Jeremy Vega:
+
+Este Journey map detalla la experiencia de Jeremy Vega, un universitario de 22 años que descubre la aplicación móvil InnoSpace y la utiliza para presentar sus ideas.
+
+<img src="images/chapterii/journeymap_student.png" alt="journey-map-student" width="1000">
 
 
 
+ - User Journey Map Carlos Fernandez:
+
+Este Journey map detalla la experiencia de Carlos Fernández, un ingeniero dirigente de una empresa del sector tecnológico. Carlos escucha sobre la aplicación y decida probarla, explora perfiles de estudiantes e ideas de proyectos innovadoras.
+
+<img src="images/chapterii/journeymap_gerente.png" alt="journey-map-gerente" width="1000">
+
+### 2.3.4. Empathy Mapping
+
+Empathy Map Segmento 1:
 
 
+<img src="images/chapterii/empathymap_gerente.png" alt="empathymap_gerente" width="1000">
+
+
+Empathy Map Segmento 2:
+
+<img src="images/chapterii/empathymap_student.png" alt="empathymap_student" width="1000">
+
+### 2.3.5. Ubiquitous Language
+
+
+## 2.4. Requirements specification
+
+### 2.4.1. User Stories
+
+### 2.4.2. Impact Mapping
+
+### 2.4.3. Product Backlog
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+### 2.5.2. Context Mapping
+### 2.5.3. Software Architecture
+#### 2.5.3.1.Software Architecture Context Level Diagrams
+#### 2.5.3.2.Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+## 2.6.Tactical-Level Domain-Driven Design
+### 2.6.x. Bounded Context: Bounded Context Name
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4 Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.x.6.2. Bounded Context Database Design Diagrams
