@@ -657,9 +657,474 @@ Empathy Map Segmento 2:
 
 ### 2.4.1. User Stories
 
+<table border ="1" >
+  <tbody>
+    <tr>
+      <td>Epic / Story ID</td>
+      <td>Título</td>
+      <td>Descripción</td>
+      <td>Criterios de Aceptación</td>
+      <td>Relación con Epic</td>
+    </tr>
+    <tr>
+    <td>EP01</td>
+      <td>Registro y Onboarding de Usuarios</td>
+      <td>
+        <strong>Como</strong> nuevo usuario de la plataforma, <strong>quiero</strong> registrarme y completar un perfil profesional guiado, <strong>para</strong> poder acceder a oportunidades o gestionar talento según mi rol.
+      </td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Gestión de Oportunidades y Proyectos</td>
+      <td>
+        <strong>Como</strong> gerente de una empresa, <strong>quiero</strong> publicar proyectos con requisitos personalizados, <strong>para</strong> atraer a estudiantes con el perfil adecuado y resolver tareas específicas de mi organización.
+      </td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Exploración y Postulación a Proyectos</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> explorar y postularme a proyectos compatibles con mis habilidades e intereses, <strong>para</strong> ganar experiencia práctica y construir un portafolio sólido.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Evaluación y Retroalimentación</td>
+      <td>
+        <strong>Como</strong> gerente, <strong>quiero</strong> evaluar el desempeño de los estudiantes durante y al finalizar el proyecto, <strong>para</strong> asegurar la calidad del trabajo y fomentar una cultura de mejora continua.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Creación y Visualización de Portafolio</td>
+      <td>
+        <strong>Como</strong> estudiante, <strong>quiero</strong> subir proyectos y evidencias de mis habilidades en un portafolio digital, <strong>para</strong> mostrar mi experiencia a futuras oportunidades laborales.</td>
+      <td>No corresponde</td>
+      <td>No corresponde</td>
+    </tr>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>
+        <strong>Como</strong> usuario nuevo, <strong>quiero</strong> crear una cuenta, <strong>para</strong> poder acceder a las funciones de aplicación.
+      </td>
+      <td>
+      <strong>Escenario 1: Estudiante crea una cuenta     </strong><br>
+        <strong>Dado</strong> que el estudiante está en la pantalla de registro,
+        <strong>Y</strong>   selecciona la opción “Registrarse como Estudiante”,
+        <strong>cuando</strong> el estudiante ingresa un nombre de usuario, un correo electrónico y una contraseña válidos, 
+        <strong>Y</strong> presiona el botón “Registrarse”,
+        <strong>entonces</strong> la cuenta debe crearse correctamente.
+        <br><br>
+        <strong>Escenario 2: Gerente crea una cuenta     </strong><br>
+        <strong>Dado</strong> que el gerente está en la pantalla de registro, <strong>Y</strong> selecciona la opción “Registrarse como Gerente”, 
+        <strong>cuando</strong> el gerente ingresa un nombre de usuario, un correo electrónico y una contraseña válidos,
+        <strong>Y</strong> presiona el botón “Registrarse”,
+        <strong>entonces</strong> la cuenta debe crearse correctamente.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>
+        <strong>Como</strong> usuario registrado, <strong>quiero</strong> iniciar sesión, <strong>para</strong> acceder a mi cuenta y explorar los proyectos.
+      </td>
+      <td>
+      <strong>Escenario 1: Estudiante crea una cuenta     </strong><br>
+        <strong>Dado</strong> que el usuario está en la pantalla de inicio de sesión y tiene una cuenta válida,
+        <strong>cuando</strong> ingresa su nombre de usuario y contraseña correctos, 
+        <strong>Y</strong> presiona el botón “Iniciar sesión”,
+        <strong>entonces</strong> debería acceder a su cuenta correctamente.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Cierre de Sesión</td>
+      <td>
+        <strong>Como</strong> usuario, <strong>quiero</strong> cerrar sesión de mi cuenta, <strong>para</strong> proteger mi información personal.</td>
+      <td>
+      <strong>Escenario 1: Usuario cierra sesión
+      </strong><br>
+        <strong>Dado</strong> que el usuario está autenticado y en su panel principal,
+        <strong>cuando</strong> presiona el botón de “Cerrar sesión”, 
+        <strong>entonces</strong> el usuario debe ser redirigido a la pantalla de inicio de sesión y la sesión debe cerrarse correctamente.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Recuperar contraseña</td>
+      <td>
+        <strong>Como</strong> usuario, <strong>quiero</strong> recuperar mi contraseña, <strong>para</strong> poder acceder a mi cuenta si la olvido.</td>
+      <td>
+      <strong>Escenario 1: Usuario envía solicitud de recuperación
+      </strong><br>
+        <strong>Dado</strong> que el usuario está en la pantalla de inicio de sesión,
+        <strong>cuando</strong> haga clic en el enlace de “¿Olvidaste tu contraseña?”,
+        <strong>Y</strong> proporciona su correo electrónico registrado, 
+        <strong>entonces</strong> debe recibir un correo electrónico con un enlace para restablecer su contraseña.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Explorar proyectos de empresa</td>
+      <td>
+        <strong>Como</strong> estudiante, <strong>quiero</strong> explorar proyectos de empresas, <strong>para</strong> encontrar oportunidades de colaboración.</td>
+      <td>
+      <strong>Escenario 1: Estudiante explora proyectos de empresas
+      </strong><br>
+        <strong>Dado</strong> que el estudiante está en la plataforma y ha iniciado sesión,
+        <strong>cuando</strong> selecciona la opción “Explorar proyectos de empresas”,
+        <strong>entonces</strong> el estudiante debe ver una lista de proyectos de empresas disponibles para unirse o colaborar.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Gerente publica nuevo proyecto</td>
+      <td>
+        <strong>Como</strong> gerente, <strong>quiero
+        </strong> completar un formulario con los detalles de un proyecto, <strong>para</strong> publicarlo y que los estudiantes puedan verlo y postularse.
+        </td>
+      <td>
+      <strong>Escenario 1: Gerente crea un proyecto exitosamente
+      </strong><br>
+        <strong>Dado</strong> que el gerente ha iniciado sesión y está en la sección "Publicar Proyecto",
+        <strong>cuando</strong> Cuando complete los campos (título, descripción, habilidades requeridas, categoría),
+        <strong>Y</strong> haga clic en "Publicar",
+        <strong>entonces</strong> el proyecto debe mostrarse.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Estudiante publica nuevo idea innovadora</td>
+      <td>
+        <strong>Como</strong> usuario, <strong>quiero</strong> publicar una descripción de mi idea o startup innovadora, <strong>para</strong> atraer la atención e inversión de empresas interesadas.
+        </td>
+      <td>
+      <strong>Escenario 1: Estudiante pública una idea
+      </strong><br>
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y navega a "Publicar mi Idea",
+        <strong>cuando</strong> ingrese un título, descripción detallada y el sector de la idea,
+        <strong>Y</strong> haga clic en "Publicar Idea",
+        <strong>entonces</strong> la idea debe ser listada.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Editar Perfil de Usuario</td>
+      <td>
+        <strong>Como</strong> usuario registrado, <strong>quiero</strong> vditar la información de mi perfil en cualquier momento, <strong>para</strong> mantener mi perfil actualizado.</td>
+      <td>
+      <strong>Escenario 1: Edición exitosa exitosa
+      </strong><br>
+        <strong>Dado</strong> que el usuario está en la página de su perfil,
+        <strong>cuando</strong> hace clic en el botón "Editar Perfil", modifica los diferentes campos de su perfil y presiona "Guardar",
+        <strong>entonces</strong> se actualiza la información y se muestran los cambios en su perfil.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Explorar Ideas de estudiantes</td>
+      <td>
+        <strong>Como</strong> gerente, <strong>quiero</strong> explorar una lista de ideas innovadoras publicadas por estudiantes, <strong>para</strong> encontrar oportunidades potenciales en las que mi empresa pueda invertir.</td>
+      <td>
+        <strong>Escenario 1: Navegación por la lista de ideas</strong><br>
+        <strong>Dado</strong> que el gerente ha iniciado sesión y está en el dashboard, <strong>cuando</strong> navega a la sección "Ideas Innovadoras",
+        <strong>Y</strong> el gerente puede hacer clic en "Ver Detalles" para obtener más información, <strong>entonces</strong> el sistema muestra una lista de ideas, cada una con su título, descripción corta y el nombre del autor.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Búsqueda filtrada de convocatorias</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
+      <td>
+        <strong>Escenario 1: Búsqueda con resultados disponibles</strong><br>
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> aplica filtros por habilidades y área académica, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles, ordenados por relevancia, y el estudiante puede marcar algunos como favoritos.
+        <br><br>
+        <strong>Escenario 2: Búsqueda sin resultados     </strong><br>
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y aplica filtros demasiado específicos, <strong>Y</strong> selecciona la opción “Registrarse como Gerente”, 
+        <strong>cuando</strong> se ejecuta la búsqueda,
+        <strong>entonces</strong> el sistema no muestra proyectos disponibles y presenta el mensaje “No se encontraron proyectos” con la sugerencia de ampliar los filtros.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Visualización de detalles del proyecto</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> ver la descripción completa de un proyecto publicado, <strong>para</strong> decidir si postular o no.</td>
+      <td>
+        <strong>Escenario 1: Proyecto vigente con opción de postulación</strong><br>
+        <strong>Dado</strong> qque el estudiante selecciona un proyecto activo desde la lista de proyectos, <strong>cuando</strong> abre la página de detalle, <strong>entonces</strong> el sistema muestra los requisitos, duración, beneficios, empresa y fecha límite, y el botón de “Postular” está habilitado.
+        <br><br>
+        <strong>Escenario 2: Proyecto caducado sin opción de postulación</strong><br>
+        <strong>Dado</strong> que el estudiante selecciona un proyecto cuya fecha límite de postulación ya venció, 
+        <strong>cuando</strong> abre la página de detalle,
+        <strong>entonces</strong> el sistema muestra toda la información del proyecto pero el botón de “Postular” aparece deshabilitado junto al mensaje “Cerrado”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Postulación en línea</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> postular a un proyecto cargando mi CV o perfil digital, <strong>para</strong> para mostrar mis habilidades y experiencia al reclutador.
+      </td>
+      <td>
+        <strong>Escenario 1: Postulación exitosa con perfil completo cada bloque</strong><br>
+        <strong>Dado</strong> que el estudiante tiene su perfil completo en la plataforma, <strong>cuando</strong> postula en “Postular” y adjunta su CV, <strong>entonces</strong> el sistema registra la postulación y muestra el mensaje “Postulación enviada con éxito”.
+        <br><br>
+        <strong>Escenario 2: Postulación rechazada por perfil incompleto</strong><br>
+        <strong>Dado</strong> que el estudiante no completó la información mínima de su perfil, 
+        <strong>cuando</strong> intenta postular a un proyecto,
+        <strong>entonces</strong> el sistema muestra el mensaje “Completa tu perfil antes de postular” y no registra la solicitud.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Seguimiento de postulaciones</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong>ver el estado de mis postulaciones (en revisión, aceptado, rechazado), <strong>para</strong> organizar mis próximos pasos.
+      </td>
+      <td>
+        <strong>Escenario 1: Panel con postulaciones activas</strong><br>
+        <strong>Dado</strong> que el estudiante ya postuló a varios proyectos, <strong>cuando</strong> ingresa al panel de postulaciones, <strong>entonces</strong> el sistema muestra cada proyecto con su estado actualizado (en revisión, aceptado o rechazado).
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Construcción de portafolio</td>
+      <td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> que los proyectos en los que participé exitosamente se registren en mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
+      </td>
+      <td>
+        <strong>Escenario 1: Proyecto validado agregado al portafolio</strong><br>
+        <strong>Dado</strong> que el estudiante ha finalizado un proyecto y la empresa lo marcó como “Completado”, <strong>cuando</strong> crevisa su portafolio, <strong>entonces</strong> el sistema muestra automáticamente el proyecto con el rol desempeñado, duración y competencias aplicadas.
+        <br><br>
+        <strong>Escenario 2: Proyecto pendiente de validación</strong><br>
+        <strong>Dado</strong> que el estudiante finalizó un proyecto pero la empresa aún no confirma la finalización, 
+        <strong>cuando</strong> revisa su portafolio,
+        <strong>entonces</strong> el sistema no muestra el proyecto y aparece la nota “Pendiente de validación”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Guardado de Convocatorias Favoritos</td>
+      <td>
+        <strong>Como</strong> estudiante, <strong>quiero</strong> guardar proyectos como favoritos, <strong>para</strong> revisarlos más tarde antes de postular.
+      </td>
+      <td>
+        <strong>Escenario 1: Guardar proyecto como favorito</strong><br>
+        <strong>Dado</strong> que un estudiante navega por proyectos, <strong>cuando</strong> haga clic en “Guardar en Favoritos”, <strong>entonces</strong> entonces el proyecto debe añadirse a su lista personal.
+        <br><br>
+        <strong>Escenario 2: Postular desde el listado de favoritos</strong><br>
+        <strong>Dado</strong> que el estudiante revisa su lista de favoritos, <strong>cuando</strong> da click en la opción "favoritos", <strong>entonces</strong> debe ver todos los proyectos marcados con la opción de postular directamente desde ahí.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Filtrado de estudiantes</td>
+      <td>
+        <strong>Como</strong> gerente, <strong>quiero</strong>  filtrar estudiantes por habilidades y nivel académico, <strong>para</strong> para identificar candidatos adecuados más rápido.
+      </td>
+      <td>
+        <strong>Escenario 1: Filtrado exitoso por habilidades</strong><br>
+        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> selecciona habilidades específicas, <strong>entonces</strong> aparece la lista de estudiantes que cumplen.
+        <br><br>
+        <strong>Escenario 2: Manejo de filtros sin resultados</strong><br>
+        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> cuando no hay coincidencias, <strong>entonces</strong> entonces el sistema muestra el mensaje “No se encontraron estudiantes con estos criterios”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Registro inmediato desde la landing</td>
+      <td>
+        <strong>Como</strong> usuario nuevo, <strong>quiero</strong>  acceder rápidamente al formulario de registro, <strong>para</strong> comenzar a usar la plataforma sin perder tiempo.
+      </td>
+      <td>
+        <strong>Escenario 1: Acceso directo desde el encabezado</strong><br>
+        <strong>Dado</strong> qque soy un usuario que visita la landing por primera vez, <strong>cuando</strong> shago clic en el botón "Empieza" ubicado en el encabezado, <strong>entonces</strong> soy redirigido al formulario de registro correspondiente (estudiante o gerente).
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Llamados a la acción claros en cada sección</td>
+      <td>
+        <strong>Como</strong> usuario, <strong>quiero</strong> encontrar botones de acción relevantes a lo largo de la landing, <strong>para</strong> tomar decisiones sin tener que regresar al inicio.
+      </td>
+      <td>
+        <strong>Escenario 1: CTA visibles al finalizar cada bloque</strong><br>
+        <strong>Dado</strong> que estoy navegando por secciones como “¿Cómo funciona?” o “Casos de éxito”, <strong>cuando</strong> llego al final de una sección, <strong>entonces</strong> encuentro un botón como “Regístrate ahora” o “Publica tu primer proyecto” de forma clara y destacada.
+      <td>EP01</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
 ### 2.4.2. Impact Mapping
 
 ### 2.4.3. Product Backlog
+
+<table border="1">
+  <thead>
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US18</td>
+      <td>Llamados a la acción claros</td>
+      <td>Como visitante de la landing page, quiero contar con un encabezado visible en todo momento, para moverme fácilmente entre las secciones sin hacer scroll manualmente.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US17</td>
+      <td>Registro inmediato desde la landing</td>
+      <td>Como usuario nuevo, quiero acceder rápidamente al formulario de registro, para comenzar a usar la plataforma sin perder tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US01</td>
+      <td>Registro de usuario</td>
+      <td>Como usuario nuevo, quiero crear una cuenta, para poder acceder a las funciones de la aplicación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US02</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario registrado, quiero iniciar sesión, para acceder a mi cuenta y explorar los proyectos.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US04</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario registrado, quiero recuperar mi contraseña, para poder acceder a mi cuenta si la olvido.</td>
+      <td>e</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US08</td>
+      <td>Editar Perfil de Usuario</td>
+      <td>Como usuario registrado, quiero editar la información de mi perfil en cualquier momento, para mantener mi perfil actualizado.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US03</td>
+      <td>Cierre de Sesión</td>
+      <td>Como usuario, quiero cerrar sesión de mi cuenta, para proteger mi información personal.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>US06</td>
+      <td>Gerente publica nuevo proyecto</td>
+      <td>Como gerente, quiero completar un formulario con los detalles de un proyecto, para publicarlo y que los estudiantes puedan verlo y postularse.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>US10</td>
+      <td>Búsqueda filtrada de convocatorias</td>
+      <td>Como estudiante universitario, quiero buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), para identificar oportunidades que se ajusten a mi perfil.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>US05</td>
+      <td>Explorar proyectos de empresa</td>
+      <td>Como estudiante, quiero explorar proyectos de empresas, para encontrar oportunidades de colaboración.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>US11</td>
+      <td>Visualización de detalles del proyecto</td>
+      <td>Como estudiante universitario, quiero ver la descripción completa de un proyecto publicado, para decidir si postular o no.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>US12</td>
+      <td>Postulación en línea</td>
+      <td>Como estudiante universitario, quiero postular a un proyecto cargando mi CV o perfil digital, para mostrar mis habilidades y experiencia al reclutador.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>US13</td>
+      <td>Seguimiento de postulaciones</td>
+      <td>Como estudiante universitario, quiero er el estado de mis postulaciones (en revisión, aceptado, rechazado), para organizar mis próximos pasos.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>US15</td>
+      <td>Guardado de Convocatorias Favoritos</td>
+      <td>Como estudiante, quiero modificar la información de mi perfil para mantener mis datos actualizados en la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>US16</td>
+      <td>Filtrado de estudiantes</td>
+      <td>Como gerente, quiero filtrar estudiantes por habilidades y nivel académico para identificar candidatos adecuados más rápido.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>US07</td>
+      <td>Estudiante publica nueva idea innovadora</td>
+      <td>Como usuario, quiero publicar una descripción de mi idea o startup innovadora, para atraer la atención e inversión de empresas interesadas.</td>
+      <td>4</td>
+    </tr>
+    <td>17</td>
+      <td>US09</td>
+      <td>Explorar Ideas de estudiantes</td>
+      <td>Como gerente, quiero explorar una lista de ideas innovadoras publicadas por estudiantes, para encontrar oportunidades potenciales en las que mi empresa pueda invertir.</td>
+      <td>3</td>
+    </tr>
+    </tr>
+    <td>18</td>
+      <td>US14</td>
+      <td>Construcción de portafolio</td>
+      <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
