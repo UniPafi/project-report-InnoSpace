@@ -55,10 +55,8 @@
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-
+- [Capítulo II: Requirements Development and Software Solution Design](#capítulo-ii-requirements-development-and-software-solution-design)
   - [2.1. Competidores](#21-competidores)
-
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
 
@@ -71,44 +69,33 @@
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-
-- [Capítulo IV: Solution Software Design](#capítulo-iv-product-design)
-
-  - [4.1. Strategic-Level Domain-Driven Design](#41-Strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-lean-ux-canvas)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-  
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.X. Bounded Context: <Bounded Context Name>](#42x-bounded-context-bounded-context-name)
-      - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-      - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-      - [4.2.X.3. Application Layer](#42x3-application-layer)
-      - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-      - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-        - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+    - [2.3.5. Ubiquitous Language](#235-ubiquitous-language)
+  - [2.4. Requirements Specification](#24-requirements-specification)
+    - [2.4.1. User Stories](#241-user-stories)
+    - [2.4.2. Impact Mapping](#242-impact-mapping)
+    - [2.4.3. Product Backlog](#243-product-backlog)
+  - [2.5. Strategic-Level Domain-Driven Design](#25-Strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+      - [2.5.1.1. Candidate Context Discovery](#2511-lean-ux-canvas)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
+  - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    - [2.6.X. Bounded Context: <Bounded Context Name>](#26x-bounded-context-bounded-context-name)
+      - [2.6.X.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.X.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.X.3. Application Layer](#26x3-application-layer)
+      - [2.6.X.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.X.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.X.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.X.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.X.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
 
 
-
-
- 
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -162,13 +149,13 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
       <td>Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el sexto ciclo de la carrera de Ingeniería de Software. Cuento con conocimientos en C++, Python y HTML. y desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a día de hoy.  </td>
     </tr>
     <tr>
-      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td><img src="images/foto_andrea.jpeg" alt="foto-andrea" width="500"></td>
       <td>Andrea Elizabeth Santur Tello </td>
       <td>U202310988</td>
       <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
     </tr>
     <tr>
-      <td><img src="images/fotointegrante-giovany.jpeg" alt="foto-giovany" width="500"></td>
+      <td><img src="images/foto_diego.jpeg" alt="foto-diego" width="500"></td>
       <td>Diego Ivan Cabrera Buitron </td>
       <td>U20211B293</td>
       <td>Estoy cursando el sexto ciclo de mi carrera Ingeniería de Software, soy una persona responsable que le gusta resolver desafíos a la par con el trabajo responsable y en equipo tengo la capacidad de líder y me gusta aprender nuevas cosas dia a dia.</td>
@@ -192,7 +179,58 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 ##### User Assumptions<br/><br/>
 ##### Feature Assumptions<br/><br/>
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Hypothesis Statement 01:**
+
+  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoBridge para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos un 70% de los estudiantes registrados completen su perfil y suban al menos un proyecto o tesis dentro del primer mes de uso.
+
+- **Hypothesis Statement 02:**
+
+  *Creemos que* InnoBridge facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos un 60% de los proyectos publicados sean completados exitosamente y reciban una calificación positiva por parte de los estudiantes, validando así la calidad del talento.
+
+- **Hypothesis Statement 03:**
+
+  *Creemos que* la incorporación de un sistema de reputación, portafolio y mensajería interna permitirá a los empleadores seleccionar candidatos más efectivamente, sin necesidad de pasar por procesos de contratación tradicionales.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* el 75% de los empleadores indiquen que encontraron al candidato adecuado usando únicamente las funcionalidades de la plataforma (perfil, reputación, portafolio y mensajería).
+
+- **Hypothesis Statement 04:**
+
+  *Creemos que* ofrecer notificaciones automáticas personalizables a los usuarios sobre nuevas oportunidades, contratación o mensajes de empresas incrementará la tasa de engagement y retención de la plataforma.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* el 80% de los usuarios registrados respondan a al menos un mensaje o postulación dentro del primer mes de uso.
+
+- **Hypothesis Statement 05:**
+
+  *Creemos que* los incentivos iniciales, como el acceso a proyectos destacados y descuentos en funciones premium, motivarán a los estudiantes y empresas a adoptar la plataforma rápidamente.
+
+  *Sabremos que hemos tenido éxito:*
+
+  *Cuando* al menos el 50% de los estudiantes nuevos completen su perfil y postulen a proyectos dentro de los primeros 15 días después de registrarse, y al menos un 30% de las empresas paguen por suscripciones premium para acceder a perfiles destacados.
+
+
 ##### 1.2.2.4. Lean UX Canvas
+
+<p align="center">
+  <img src="images/LeanUXCanvas-UniPafi.jpg" alt="UPC logo" width="1000">
+</p>
+
+<p align="center">
+  Lean UX Canvas - Elaboración propia
+</p>
+
 ### 1.3. Segmentos Objetivo
 
 
@@ -202,66 +240,218 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.1.1. Análisis competitivo
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="5">Competitive Analysis Landscape</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- OBJETIVO -->
+    <tr>
+      <td>¿Por qué llevar a cabo este análisis?</td>
+      <td colspan="4">Analizar a la competencia permite entender el mercado en el que se introducirá nuestro producto, ofreciendo una visión clara de las funcionalidades que ofrecen y cómo satisfacen las necesidades de sus clientes.</td>
+    </tr>
+    <!-- CABECERA -->
+    <tr>
+      <td>(Nombre y logo de cada competidor)</td>
+      <td></td>
+      <td>InnoSpace<br><img src="images/logo-startup.png" width="80"></td>
+      <td>LinkedIn <br><img src="images/logo-linkedin.png" width="80"></td>
+      <td>AngelList (Wellfound) <br><img src="images/logo-angellist.png" width="80"></td>
+      <td>Behance <br><img src="images/logo-behance.png" width="80"></td>
+    </tr>
+    <!-- PERFIL -->
+    <tr>
+      <td rowspan="3">Perfil</td>
+      <td>Overview</td>
+      <td>Plataforma móvil donde estudiantes publican ideas innovadoras y startups para atraer inversión, participar en proyectos empresariales y conectar con empresas.</td>
+      <td>Red social profesional global que conecta profesionales y empresas para networking, empleos y contenido.</td>
+      <td>Plataforma que conecta startups con inversionistas y talento especializado, muy centrada en ecosistema emprendedor.</td>
+      <td>Plataforma para creativos y diseñadores donde muestran proyectos y buscan oportunidades de colaboración.</td>
+    </tr>
+    <tr>
+      <td>Ventaja competitiva <br>¿Qué valor ofrece a los clientes?</td>
+      <td>Conecta estudiantes con empresas de forma bidireccional (ideas <-> proyectos), fomenta innovación y aprendizaje colaborativo.</td>
+      <td>Gran base de usuarios, networking masivo y posicionamiento de marca fuerte.</td>
+      <td>Acceso directo a startups, talento e inversores, muy nichado en el ecosistema.</td>
+      <td>Visibilidad global para proyectos creativos y portafolios.</td>
+    </tr>
+    <tr>
+      <td>Mercado objetivo</td>
+      <td>Estudiantes universitarios, jóvenes emprendedores, empresas que buscan innovación y talento emergente.</td>
+      <td>Profesionales de todos los sectores y empresas de cualquier tamaño.</td>
+      <td>Startups, inversionistas y profesionales del sector tecnológico y emprendedor.</td>
+      <td>Diseñadores, artistas, creativos y empresas del sector visual.</td>
+    </tr>
+    <!-- PERFIL DE MARKETING -->
+    <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td>Estrategias de marketing</td>
+      <td>Marketing digital en universidades, incubadoras y redes sociales. Enfoque en innovación y talento joven.</td>
+      <td>Publicidad en la misma plataforma, marketing de contenido y presencia en medios profesionales.</td>
+      <td>Eventos de startups, aceleradoras, networking en ecosistemas emprendedores.</td>
+      <td>Colaboraciones con escuelas de diseño, concursos y portafolios online.</td>
+    </tr>
+    <tr>
+      <td>Mercado objetivo</td>
+      <td>Estudiantes, startups en etapa temprana, empresas innovadoras.</td>
+      <td>Profesionales, empresas medianas y grandes.</td>
+      <td>Startups tecnológicas, inversores, emprendedores.</td>
+      <td>Creativos, diseñadores freelance, agencias.</td>
+    </tr>
+    <!-- PERFIL DE PRODUCTO -->
+    <tr>
+      <td rowspan="3">Perfil de Producto</td>
+      <td>Productos & Servicios</td>
+      <td>Publicación de ideas y startups, proyectos de empresas, exploración de estudiantes con habilidades alineadas.</td>
+      <td>Ofertas de empleo, networking, cursos, grupos profesionales.</td>
+      <td>Ofertas de empleo en startups, conexión con inversores y talento.</td>
+      <td>Portafolios creativos, exposición de proyectos, búsqueda de empleo creativo.</td>
+    </tr>
+    <tr>
+      <td>Precios & Costos</td>
+      <td>Modelo freemium (básico gratis, premium para empresas o estudiantes destacados).</td>
+      <td>Gratis con funciones premium de pago (LinkedIn Premium, LinkedIn Ads).</td>
+      <td>Gratis con servicios premium para empleadores e inversores.</td>
+      <td>Gratis con opciones premium para mayor visibilidad.</td>
+    </tr>
+    <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td>
+      <td>App móvil (iOS/Android) y versión web.</td>
+      <td>App móvil y web.</td>
+      <td>App móvil y web.</td>
+      <td>App móvil y web.</td>
+    </tr>
+    <!-- SWOT -->
+    <tr>
+      <td rowspan="4">Análisis SWOT</td>
+      <td>Fortalezas</td>
+      <td>Innovación en el enfoque educación-empresa, espacio exclusivo para estudiantes.</td>
+      <td>Base de usuarios masiva, marca reconocida.</td>
+      <td>Nicho claro en startups e inversión.</td>
+      <td>Alta visibilidad para creativos y artistas.</td>
+    </tr>
+    <tr>
+      <td>Debilidades</td>
+      <td>Startup nueva, sin base de usuarios inicial fuerte.</td>
+      <td>Demasiada competencia interna, saturación de usuarios.</td>
+      <td>Menor popularidad que LinkedIn, limitado fuera del sector tech.</td>
+      <td>No cubre sectores fuera del diseño/creatividad.</td>
+    </tr>
+    <tr>
+      <td>Oportunidades</td>
+      <td>Aliarse con universidades, incubadoras y empresas innovadoras.</td>
+      <td>Expansión a nuevos servicios de educación y formación.</td>
+      <td>Crecimiento del ecosistema emprendedor global.</td>
+      <td>Mayor demanda de portafolios digitales y talento creativo.</td>
+    </tr>
+    <tr>
+      <td>Amenazas</td>
+      <td>Competidores grandes con más recursos, barreras de entrada altas.</td>
+      <td>Pérdida de interés por parte de usuarios jóvenes.</td>
+      <td>Dependencia del ecosistema startup e inversión.</td>
+      <td>Alta competencia en redes creativas (Dribbble, ArtStation).</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## Afrontando las fortalezas de nuestros competidores:
 
+**Fortalezas de competidores:**
+- LinkedIn: base de usuarios masiva y marca consolidada.  
+- AngelList: nicho en startups e inversión.  
+- Behance: visibilidad global para creativos.  
+- InnoSpace: innovación en el vínculo educación–empresa.  
+
 ## Comprendemos que nuestras fortalezas son:
-
-
-
+- Enfoque exclusivo en estudiantes y talento emergente.  
+- Integración bidireccional: empresas publican proyectos, estudiantes aportan ideas.  
+- Nicho menos saturado, con alto potencial de crecimiento en universidades.  
 
 ## Estrategias:
--
-
-
+- Diferenciarnos mediante el **posicionamiento educativo–empresarial**, no solo profesional.  
+- Crear comunidad cerrada y validada de estudiantes para garantizar **calidad y confianza**.  
+- Alianzas estratégicas con universidades e incubadoras.  
 
 ## Tácticas:
--
+- Implementar programas piloto con universidades y ferias de empleo.  
+- Incentivar a empresas innovadoras a publicar proyectos reales.  
+- Marketing digital en redes sociales universitarias y canales académicos.  
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
-
-
+---
 
 ## Afrontando las debilidades de nuestros competidores:
+
+**Debilidades de competidores:**
+- LinkedIn: saturación, competencia interna.  
+- AngelList: limitado fuera del ecosistema startup.  
+- Behance: no cubre sectores fuera de lo creativo.  
+- InnoSpace: aún sin masa crítica de usuarios.  
+
 ## Comprendemos que nuestras debilidades son:
+- Startup nueva con poca base de usuarios.  
+- Recursos limitados frente a grandes plataformas.  
 
 ## Estrategias:
--
+- Crecer a través de **nichos específicos** antes de expandir.  
+- Apoyarnos en **alianzas institucionales** para atraer usuarios sin grandes inversiones.  
 
 ## Tácticas:
--
+- Campañas de captación en universidades.  
+- Programas de referidos entre estudiantes y empresas.  
+- Construir una primera comunidad sólida en un sector (ej. ingeniería, innovación tecnológica).  
+
+---
 
 ## Afrontando las oportunidades de nuestros competidores:
 
+**Oportunidades de competidores:**
+- Expansión de la educación digital (LinkedIn).  
+- Crecimiento del ecosistema emprendedor (AngelList).  
+- Demanda de portafolios digitales (Behance).  
+- Integración universidad–empresa (InnoSpace).  
 
 ## Comprendemos que nuestras oportunidades son:
-
--
+- Conectar talento joven con innovación empresarial.  
+- Posicionarnos como la **plataforma de early talent**.  
+- Aprovechar el auge de incubadoras, hackathons y proyectos de innovación abierta.  
 
 ## Estrategias:
-
-- 
+- Crear un espacio que combine **empleabilidad temprana + innovación colaborativa**.  
+- Aliarnos con incubadoras y hubs de emprendimiento universitario.  
 
 ## Tácticas:
+- Organizar retos de innovación con empresas patrocinadoras.  
+- Promocionar historias de éxito de estudiantes para dar visibilidad a la plataforma.  
+- Ofrecer planes gratuitos iniciales a startups emergentes para ganar tracción.  
 
-- 
+---
 
 ## Afrontando las amenazas de nuestros competidores:
 
-- 
+**Amenazas de competidores:**
+- Recursos y posicionamiento de grandes plataformas (LinkedIn, Behance).  
+- Alta competencia en redes profesionales y creativas.  
+- Barreras de entrada y dependencia de ecosistemas externos.  
 
 ## Comprendemos que nuestras amenazas son:
-
-
+- Riesgo de que grandes plataformas incorporen funcionalidades similares.  
+- Dificultad de escalar sin financiamiento fuerte.  
 
 ## Estrategias:
--
-
+- Enfocarnos en ser **más ágiles y especializados** que los grandes competidores.  
+- Desarrollar una propuesta de valor difícil de replicar: **ecosistema académico–empresarial cerrado**.  
 
 ## Tácticas:
--
+- Innovar en funcionalidades (ej. “match” entre ideas de estudiantes y retos empresariales).  
+- Fidelizar a la comunidad con beneficios exclusivos (certificados, visibilidad, mentorías).  
+- Monitorear tendencias para adaptar rápidamente la plataforma.  
+
 
 
 ### 2.2. Entrevistas
@@ -269,6 +459,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 #### 2.2.1. Diseño de entrevistas
 
 #### 2.2.2. Registro de entrevistas
+
 
 ### 2.3. Needfinding
 
@@ -420,6 +611,74 @@ En este apartado se presenta la User Task Matrix, que refleja las tareas de los 
     </tr>
   </tbody>
 </table>
+=======
+#### 2.2.3. Análisis de entrevistas
+
+### 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+### 2.3.2. User Task Matrix
+
+### 2.3.3. User Journey Mapping
+
+Esta sección muestra un Journey Map por cada segmento objetivo, detallando el proceso en el que descubren e interactuan con la aplicación.
+
+  - User Journey Map Jeremy Vega:
+
+Este Journey map detalla la experiencia de Jeremy Vega, un universitario de 22 años que descubre la aplicación móvil InnoSpace y la utiliza para presentar sus ideas.
+
+<img src="images/chapterii/journeymap_student.png" alt="journey-map-student" width="1000">
 
 
 
+ - User Journey Map Carlos Fernandez:
+
+Este Journey map detalla la experiencia de Carlos Fernández, un ingeniero dirigente de una empresa del sector tecnológico. Carlos escucha sobre la aplicación y decida probarla, explora perfiles de estudiantes e ideas de proyectos innovadoras.
+
+<img src="images/chapterii/journeymap_gerente.png" alt="journey-map-gerente" width="1000">
+
+### 2.3.4. Empathy Mapping
+
+Empathy Map Segmento 1:
+
+
+<img src="images/chapterii/empathymap_gerente.png" alt="empathymap_gerente" width="1000">
+
+
+Empathy Map Segmento 2:
+
+<img src="images/chapterii/empathymap_student.png" alt="empathymap_student" width="1000">
+
+### 2.3.5. Ubiquitous Language
+
+
+## 2.4. Requirements specification
+
+### 2.4.1. User Stories
+
+### 2.4.2. Impact Mapping
+
+### 2.4.3. Product Backlog
+
+## 2.5. Strategic-Level Domain-Driven Design
+
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+### 2.5.2. Context Mapping
+### 2.5.3. Software Architecture
+#### 2.5.3.1.Software Architecture Context Level Diagrams
+#### 2.5.3.2.Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+## 2.6.Tactical-Level Domain-Driven Design
+### 2.6.x. Bounded Context: Bounded Context Name
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4 Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+#### 2.6.x.6.2. Bounded Context Database Design Diagrams
