@@ -1490,11 +1490,154 @@ Empathy Map Segmento 2:
 
 #### 2.6.4.1. Domain Layer
 
+### Aggregate: `Application`
+**Descripción:** Representa la postulación de un estudiante a una oportunidad, incluyendo su proyecto asociado y el estado de la postulación.
+
+| Atributos         | Tipo de dato        | Visibilidad | Descripción                                           |
+|------------------|-------------------|------------|-----------------------------------------------------|
+| applicationId     | Long              | Private    | Identificador único de la postulación             |
+| studentId         | Long              | Private    | Identificador del estudiante que postula          |
+| opportunityId     | Long              | Private    | Identificador de la oportunidad a la que postula  |
+| projectId         | Long              | Private    | Identificador del proyecto que se postula         |
+| status            | ApplicationStatus | Private    | Estado de la postulación (`Pending`, `Accepted`, `Rejected`) |
+| submissionDate    | Timestamp         | Private    | Fecha de creación de la postulación               |
+| lastUpdate        | Timestamp         | Private    | Fecha de última actualización de la postulación   |
+
+### Métodos
+
+| Método                     | Tipo de retorno | Visibilidad | Descripción                                     |
+|----------------------------|----------------|------------|------------------------------------------------|
+| getApplicationId()         | Long           | Public     | Devuelve el ID de la postulación             |
+| getStudentId()             | Long           | Public     | Devuelve el ID del estudiante                 |
+| getOpportunityId()         | Long           | Public     | Devuelve el ID de la oportunidad             |
+| getProjectId()             | Long           | Public     | Devuelve el ID del proyecto asociado         |
+| getStatus()                | ApplicationStatus | Public  | Devuelve el estado actual de la postulación |
+| submit()                   | void           | Public     | Cambia el estado de la postulación a `Pending` |
+| accept()                   | void           | Public     | Cambia el estado de la postulación a `Accepted` |
+| reject()                   | void           | Public     | Cambia el estado de la postulación a `Rejected` |
+| getSubmissionDate()        | Timestamp      | Public     | Devuelve la fecha de creación de la postulación |
+| getLastUpdate()            | Timestamp      | Public     | Devuelve la fecha de última actualización   |
+
+### Value Objects
+
+| Value Object           | Descripción                                      |
+|------------------------|--------------------------------------------------|
+| ApplicationStatus       | Representa el estado de la postulación: `Pending`, `Accepted`, `Rejected` |
+| ApplicationCriteria     | Contiene los criterios de selección aplicados por la empresa |
+
 #### 2.6.4.2. Interface Layer
+
+
+### Controlador: `ApplicationController`
+
+**Título:** ApplicationController  
+**Descripción:** Controlador REST que maneja las operaciones CRUD y gestión de postulaciones de estudiantes a oportunidades de empresa.
+
+#### Métodos
+
+| Método                 | Ruta                                       | Descripción                                               |
+|------------------------|-------------------------------------------|-----------------------------------------------------------|
+| getApplicationById      | GET /api/v1/applications/{id}             | Obtiene los detalles de una postulación específica por su ID |
+| getAllStudentApplications | GET /api/v1/applications/student/{studentId} | Obtiene todas las postulaciones de un estudiante        |
+| getAllOpportunityApplications | GET /api/v1/applications/opportunity/{opportunityId} | Obtiene todas las postulaciones a una oportunidad      |
+| submitApplication       | POST /api/v1/applications                 | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
+| acceptApplication       | POST /api/v1/applications/{id}/accept    | Cambia el estado de la postulación a `Accepted`         |
+| rejectApplication       | POST /api/v1/applications/{id}/reject    | Cambia el estado de la postulación a `Rejected`         |
+| deleteApplication       | DELETE /api/v1/applications/{id}         | Elimina una postulación del sistema                      |
+
+#### Dependencias
+
+| Dependencia                              | Descripción                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------|
+| ApplicationQueryService                  | Servicio para consultas y recuperación de datos de postulaciones          |
+| ApplicationCommandService                | Servicio para ejecutar comandos de creación, aceptación, rechazo y eliminación de postulaciones |
+| SubmitApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de creación de postulaciones         |
+| AcceptApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de aceptación de postulaciones      |
+| RejectApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de rechazo de postulaciones         |
+| DeleteApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de eliminación de postulaciones     |
+| ApplicationResourceFromEntityAssembler  | Convierte entidades de postulación en recursos REST para la respuesta     |
 
 #### 2.6.4.3. Application Layer
 
+### Clase: `ApplicationQueryServiceImpl`
+
+| Título       | ApplicationQueryServiceImpl |
+|-------------|----------------------------|
+| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con postulaciones de estudiantes |
+
+#### Métodos
+
+| Método                               | Descripción                                                |
+|-------------------------------------|------------------------------------------------------------|
+| handle(GetApplicationByIdQuery)      | Obtiene los detalles completos de una postulación por su ID |
+| handle(GetAllStudentApplicationsQuery) | Obtiene todas las postulaciones asociadas a un estudiante |
+| handle(GetAllOpportunityApplicationsQuery) | Obtiene todas las postulaciones a una oportunidad       |
+| handle(ValidateApplicationOwnershipQuery) | Verifica si un estudiante es propietario de la postulación |
+
+#### Dependencias
+
+| Dependencia                                | Descripción                                           |
+|-------------------------------------------|-------------------------------------------------------|
+| ApplicationRepository                      | Repositorio para acceso a datos de postulaciones    |
+| GetApplicationByIdQuery                    | Query para obtener detalles de postulación por ID   |
+| GetAllStudentApplicationsQuery             | Query para listar postulaciones de un estudiante   |
+| GetAllOpportunityApplicationsQuery         | Query para listar postulaciones a una oportunidad  |
+| ValidateApplicationOwnershipQuery          | Query para validar propiedad de la postulación     |
+
+<hr>
+
+### Clase: `ApplicationCommandServiceImpl`
+
+| Título       | ApplicationCommandServiceImpl |
+|-------------|-------------------------------|
+| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con postulaciones de estudiantes |
+
+#### Métodos
+
+| Método                               | Descripción                                           |
+|--------------------------------------|-------------------------------------------------------|
+| handle(SubmitApplicationCommand)      | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
+| handle(AcceptApplicationCommand)      | Cambia el estado de la postulación a `Accepted`      |
+| handle(RejectApplicationCommand)      | Cambia el estado de la postulación a `Rejected`      |
+| handle(DeleteApplicationCommand)      | Elimina una postulación del sistema                  |
+
+#### Dependencias
+
+| Dependencia                            | Descripción                                           |
+|---------------------------------------|-------------------------------------------------------|
+| ApplicationRepository                  | Repositorio para acceso a datos de postulaciones    |
+| SubmitApplicationCommand               | Comando para creación de postulaciones             |
+| AcceptApplicationCommand               | Comando para aceptación de postulaciones           |
+| RejectApplicationCommand               | Comando para rechazo de postulaciones              |
+| DeleteApplicationCommand               | Comando para eliminación de postulaciones          |
+
 #### 2.6.4.4. Infrastructure Layer
+
+
+### Clase: `ApplicationRepository`
+
+| Título       | ApplicationRepository |
+|-------------|----------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de postulaciones de estudiantes |
+
+#### Métodos
+
+| Método                 | Descripción                                           |
+|------------------------|-------------------------------------------------------|
+| save(ApplicationEntity) | Persiste una nueva postulación o actualiza una existente |
+| deleteById(Long)        | Elimina una postulación por su ID                   |
+| findById(Long)          | Obtiene una postulación por su ID                   |
+| findAllByStudentId(Long) | Obtiene todas las postulaciones asociadas a un estudiante |
+| findAllByOpportunityId(Long) | Obtiene todas las postulaciones a una oportunidad |
+
+#### Dependencias
+
+| Dependencia         | Propósito                                                   |
+|--------------------|--------------------------------------------------------------|
+| Student             | Clase que representa al estudiante en el sistema           |
+| Opportunity         | Clase que representa la oportunidad en el sistema          |
+| Project             | Clase que representa el proyecto asociado a la postulación |
+| ApplicationEntity   | Clase que representa la entidad de postulación en la base de datos |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
