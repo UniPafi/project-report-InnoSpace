@@ -1137,13 +1137,163 @@ Empathy Map Segmento 2:
 #### 2.5.3.1.Software Architecture Context Level Diagrams
 #### 2.5.3.2.Software Architecture Container Level Diagrams
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
 ## 2.6.Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: Bounded Context Name
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4 Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-#### 2.6.x.6.2. Bounded Context Database Design Diagrams
+
+### 2.6.1. Bounded Context: Student Projects
+
+#### 2.6.1.1. Domain Layer
+
+### Aggregate: `Project`
+**Descripción:** Representa un proyecto o idea innovadora creada por un estudiante, con ciclo de vida completo desde borrador hasta finalizado, incluyendo contenido y estado.
+
+| Atributos      | Tipo de dato     | Visibilidad | Descripción                                     |
+|----------------|-----------------|------------|------------------------------------------------|
+| projectId      | Long            | Private    | Identificador único del proyecto.             |
+| studentId      | Long            | Private    | Identificador del estudiante propietario.    |
+| title          | String          | Private    | Título del proyecto.                          |
+| description    | String          | Private    | Descripción detallada del proyecto.          |
+| status         | ProjectStatus   | Private    | Estado del proyecto (`Draft`, `Published`, `Completed`). |
+| creationDate   | Timestamp       | Private    | Fecha de creación del proyecto.              |
+| lastUpdate     | Timestamp       | Private    | Fecha de última actualización.               |
+
+| Métodos                         | Tipo de retorno | Visibilidad | Descripción                                      |
+|---------------------------------|----------------|------------|------------------------------------------------|
+| getProjectId()                  | Long           | Public     | Devuelve el ID del proyecto.                   |
+| getStudentId()                  | Long           | Public     | Devuelve el ID del estudiante propietario.    |
+| getTitle()                      | String         | Public     | Devuelve el título del proyecto.              |
+| getDescription()                | String         | Public     | Devuelve la descripción del proyecto.        |
+| getStatus()                     | ProjectStatus  | Public     | Devuelve el estado actual del proyecto.       |
+| publish()                       | void           | Public     | Cambia el estado del proyecto a `Published`. |
+| update(title, description)      | void           | Public     | Actualiza los campos modificables del proyecto.|
+| finalize()                      | void           | Public     | Cambia el estado del proyecto a `Completed`. |
+| getCreationDate()               | Timestamp      | Public     | Devuelve la fecha de creación.                |
+| getLastUpdate()                 | Timestamp      | Public     | Devuelve la fecha de última actualización.   |
+
+### Value Objects
+
+| Value Object   | Descripción                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| ProjectStatus  | Representa el estado del proyecto: `Draft`, `Published`, `Completed`.      |
+| ProjectContent | Contiene archivos, imágenes, prototipos o documentación asociada al proyecto.|
+
+
+#### 2.6.1.2. Interface Layer
+
+
+
+### Controlador: `ProjectController`
+
+**Título:** ProjectController  
+**Descripción:** Controlador REST que maneja las operaciones CRUD y gestión de proyectos de estudiantes.
+
+#### Métodos
+
+| Método           | Ruta                              | Descripción                                               |
+|-----------------|----------------------------------|-----------------------------------------------------------|
+| getProjectById   | GET /api/v1/projects/{id}        | Obtiene los detalles de un proyecto específico por su ID |
+| getAllStudentProjects | GET /api/v1/projects/student/{studentId} | Obtiene todos los proyectos asociados a un estudiante |
+| createProject    | POST /api/v1/projects            | Crea un nuevo proyecto a partir de los datos proporcionados |
+| updateProject    | PUT /api/v1/projects/{id}        | Actualiza los detalles de un proyecto existente          |
+| publishProject   | POST /api/v1/projects/{id}/publish | Cambia el estado del proyecto a publicado              |
+| finalizeProject  | POST /api/v1/projects/{id}/finalize | Cambia el estado del proyecto a completado            |
+| deleteProject    | DELETE /api/v1/projects/{id}     | Elimina un proyecto del sistema                          |
+
+#### Dependencias
+
+| Dependencia                         | Descripción                                                                 |
+|------------------------------------|-----------------------------------------------------------------------------|
+| ProjectQueryService                 | Servicio para consultas y recuperación de datos de proyectos               |
+| ProjectCommandService               | Servicio para ejecutar comandos de creación, actualización, publicación y eliminación de proyectos |
+| CreateProjectCommandFromResourceAssembler | Convierte recursos REST en comandos de creación de proyectos           |
+| UpdateProjectCommandFromResourceAssembler | Convierte recursos REST en comandos de actualización de proyectos      |
+| DeleteProjectCommandFromResourceAssembler | Convierte recursos REST en comandos de eliminación de proyectos         |
+| ProjectResourceFromEntityAssembler  | Convierte entidades de proyecto en recursos REST para la respuesta        |
+
+
+#### 2.6.1.3. Application Layer
+
+### Clase: `ProjectQueryServiceImpl`
+
+| Título       | ProjectQueryServiceImpl |
+|-------------|-----------------------|
+| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con proyectos de estudiantes |
+
+#### Métodos
+
+| Método                             | Descripción                                                |
+|-----------------------------------|------------------------------------------------------------|
+| handle(GetProjectByIdQuery)        | Obtiene los detalles completos de un proyecto por su ID   |
+| handle(GetAllStudentProjectsQuery) | Obtiene todos los proyectos asociados a un estudiante     |
+| handle(ValidateProjectOwnershipQuery) | Verifica si un estudiante es propietario del proyecto |
+
+#### Dependencias
+
+| Dependencia           | Descripción                                           |
+|----------------------|-------------------------------------------------------|
+| ProjectRepository     | Repositorio para acceso a datos de proyectos         |
+| GetProjectByIdQuery   | Query para obtener detalles de un proyecto por ID    |
+| GetAllStudentProjectsQuery | Query para listar proyectos de un estudiante     |
+| ValidateProjectOwnershipQuery | Query para validar propiedad del proyecto      |
+
+<hr>
+
+### Clase: `ProjectCommandServiceImpl`
+
+| Título       | ProjectCommandServiceImpl |
+|-------------|---------------------------|
+| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con proyectos de estudiantes |
+
+#### Métodos
+
+| Método                      | Descripción                                           |
+|-----------------------------|-------------------------------------------------------|
+| handle(CreateProjectCommand) | Crea un nuevo proyecto con la información proporcionada |
+| handle(UpdateProjectCommand) | Actualiza la información básica del proyecto (título, descripción, contenido) |
+| handle(PublishProjectCommand) | Cambia el estado del proyecto a publicado           |
+| handle(FinalizeProjectCommand) | Cambia el estado del proyecto a completado         |
+| handle(DeleteProjectCommand)  | Elimina un proyecto del sistema                     |
+
+#### Dependencias
+
+| Dependencia                     | Descripción                                           |
+|--------------------------------|-------------------------------------------------------|
+| ProjectRepository               | Repositorio para acceso a datos de proyectos         |
+| CreateProjectCommand            | Comando para creación de proyectos                   |
+| UpdateProjectCommand            | Comando para actualización de proyectos             |
+| PublishProjectCommand           | Comando para publicar proyectos                      |
+| FinalizeProjectCommand          | Comando para finalizar proyectos                     |
+| DeleteProjectCommand            | Comando para eliminar proyectos    
+
+#### 2.6.1.4 Infrastructure Layer
+
+
+### Clase: `ProjectRepository`
+
+| Título       | ProjectRepository |
+|-------------|------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de proyectos de estudiantes |
+
+#### Métodos
+
+| Método             | Descripción                                           |
+|-------------------|-------------------------------------------------------|
+| save(ProjectEntity) | Persiste un nuevo proyecto o actualiza uno existente |
+| deleteById(Long)   | Elimina un proyecto por su ID                        |
+| findById(Long)     | Obtiene un proyecto por su ID                        |
+| findAllByStudentId(Long) | Obtiene todos los proyectos asociados a un estudiante |
+
+#### Dependencias
+
+| Dependencia    | Propósito                                                   |
+|---------------|-------------------------------------------------------------|
+| Student       | Clase que representa al estudiante en el sistema           |
+| ProjectEntity | Clase que representa la entidad de proyecto en la base de datos |
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 2.6.1.6.2. Bounded Context Database Design Diagrams
