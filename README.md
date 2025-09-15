@@ -1296,6 +1296,14 @@ Empathy Map Segmento 2:
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/StudentProjectsUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.1.6.2. Bounded Context Database Design Diagrams
 
 
@@ -1459,6 +1467,14 @@ Empathy Map Segmento 2:
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="images/CompanyOpportunitiesUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagrams
 
@@ -1631,6 +1647,14 @@ Empathy Map Segmento 2:
 
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/ProjectCollaborationUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.3.6.2. Bounded Context Database Design Diagrams
 
 
@@ -1793,6 +1817,14 @@ Empathy Map Segmento 2:
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p align="center">
+  <img src="images/StudentApplicationsUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
 
