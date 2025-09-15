@@ -1297,3 +1297,213 @@ Empathy Map Segmento 2:
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagrams
+
+
+
+### 2.6.2. Bounded Context: Company Opportunities
+
+#### 2.6.2.1. Domain Layer
+
+
+### Aggregate: `Opportunity`
+**Descripción:** Representa una convocatoria u oportunidad publicada por una empresa, con detalles, criterios de selección y estado.
+
+| Atributos      | Tipo de dato       | Visibilidad | Descripción                                           |
+|----------------|------------------|------------|-----------------------------------------------------|
+| opportunityId  | Long             | Private    | Identificador único de la oportunidad             |
+| companyId      | Long             | Private    | Identificador de la empresa que publica la oportunidad |
+| title          | String           | Private    | Título de la convocatoria                           |
+| description    | String           | Private    | Descripción detallada de la oportunidad            |
+| requirements   | List<String>     | Private    | Lista de habilidades o criterios requeridos        |
+| status         | OpportunityStatus| Private    | Estado de la oportunidad (`Draft`, `Published`, `Closed`) |
+| creationDate   | Timestamp        | Private    | Fecha de creación                                   |
+| lastUpdate     | Timestamp        | Private    | Fecha de última actualización                        |
+
+### Métodos
+
+| Método                  | Tipo de retorno | Visibilidad | Descripción                                     |
+|-------------------------|----------------|------------|------------------------------------------------|
+| getOpportunityId()      | Long           | Public     | Devuelve el ID de la oportunidad             |
+| getCompanyId()          | Long           | Public     | Devuelve el ID de la empresa                 |
+| getTitle()              | String         | Public     | Devuelve el título de la oportunidad        |
+| getDescription()        | String         | Public     | Devuelve la descripción de la oportunidad   |
+| getRequirements()       | List<String>   | Public     | Devuelve los requisitos o habilidades       |
+| getStatus()             | OpportunityStatus | Public  | Devuelve el estado actual                    |
+| publish()               | void           | Public     | Cambia el estado de la oportunidad a `Published` |
+| close()                 | void           | Public     | Cambia el estado de la oportunidad a `Closed` |
+| update(title, description, requirements) | void | Public | Actualiza los datos básicos de la oportunidad |
+| getCreationDate()       | Timestamp      | Public     | Devuelve la fecha de creación               |
+| getLastUpdate()         | Timestamp      | Public     | Devuelve la fecha de última actualización   |
+
+### Value Objects
+
+| Value Object           | Descripción                                      |
+|------------------------|--------------------------------------------------|
+| OpportunityStatus       | Representa el estado de la oportunidad: `Draft`, `Published`, `Closed` |
+| OpportunityRequirements | Contiene las habilidades y criterios que la empresa espera de los postulantes |
+
+
+#### 2.6.2.2. Interface Layer
+
+
+### Controlador: `OpportunityController`
+
+**Título:** OpportunityController  
+**Descripción:** Controlador REST que maneja las operaciones CRUD y gestión de oportunidades/convocatorias de empresas.
+
+#### Métodos
+
+| Método               | Ruta                                  | Descripción                                               |
+|---------------------|--------------------------------------|-----------------------------------------------------------|
+| getOpportunityById   | GET /api/v1/opportunities/{id}       | Obtiene los detalles de una oportunidad específica por su ID |
+| getAllCompanyOpportunities | GET /api/v1/opportunities/company/{companyId} | Obtiene todas las oportunidades asociadas a una empresa |
+| createOpportunity    | POST /api/v1/opportunities           | Crea una nueva oportunidad a partir de los datos proporcionados |
+| updateOpportunity    | PUT /api/v1/opportunities/{id}       | Actualiza los detalles de una oportunidad existente     |
+| publishOpportunity   | POST /api/v1/opportunities/{id}/publish | Cambia el estado de la oportunidad a publicada        |
+| closeOpportunity     | POST /api/v1/opportunities/{id}/close   | Cambia el estado de la oportunidad a cerrada          |
+| deleteOpportunity    | DELETE /api/v1/opportunities/{id}    | Elimina una oportunidad del sistema                     |
+
+#### Dependencias
+
+| Dependencia                               | Descripción                                                                 |
+|------------------------------------------|-----------------------------------------------------------------------------|
+| OpportunityQueryService                   | Servicio para consultas y recuperación de datos de oportunidades           |
+| OpportunityCommandService                 | Servicio para ejecutar comandos de creación, actualización, publicación, cierre y eliminación de oportunidades |
+| CreateOpportunityCommandFromResourceAssembler | Convierte recursos REST en comandos de creación de oportunidades         |
+| UpdateOpportunityCommandFromResourceAssembler | Convierte recursos REST en comandos de actualización de oportunidades    |
+| DeleteOpportunityCommandFromResourceAssembler | Convierte recursos REST en comandos de eliminación de oportunidades       |
+| OpportunityResourceFromEntityAssembler   | Convierte entidades de oportunidad en recursos REST para la respuesta     |
+
+#### 2.6.2.3. Application Layer
+
+
+### Clase: `OpportunityQueryServiceImpl`
+
+| Título       | OpportunityQueryServiceImpl |
+|-------------|-----------------------------|
+| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con oportunidades de empresa |
+
+#### Métodos
+
+| Método                                | Descripción                                                |
+|--------------------------------------|------------------------------------------------------------|
+| handle(GetOpportunityByIdQuery)       | Obtiene los detalles completos de una oportunidad por su ID |
+| handle(GetAllCompanyOpportunitiesQuery) | Obtiene todas las oportunidades asociadas a una empresa  |
+| handle(ValidateOpportunityOwnershipQuery) | Verifica si una empresa es propietaria de la oportunidad |
+
+#### Dependencias
+
+| Dependencia                     | Descripción                                           |
+|--------------------------------|-------------------------------------------------------|
+| OpportunityRepository           | Repositorio para acceso a datos de oportunidades    |
+| GetOpportunityByIdQuery         | Query para obtener detalles de oportunidad por ID   |
+| GetAllCompanyOpportunitiesQuery | Query para listar oportunidades de una empresa      |
+| ValidateOpportunityOwnershipQuery | Query para validar propiedad de la oportunidad    |
+
+<hr>
+
+### Clase: `OpportunityCommandServiceImpl`
+
+| Título       | OpportunityCommandServiceImpl |
+|-------------|-------------------------------|
+| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con oportunidades de empresa |
+
+#### Métodos
+
+| Método                        | Descripción                                           |
+|-------------------------------|-------------------------------------------------------|
+| handle(CreateOpportunityCommand) | Crea una nueva oportunidad con la información proporcionada |
+| handle(UpdateOpportunityCommand) | Actualiza los detalles de la oportunidad (título, descripción, requisitos) |
+| handle(PublishOpportunityCommand) | Cambia el estado de la oportunidad a publicada     |
+| handle(CloseOpportunityCommand)   | Cambia el estado de la oportunidad a cerrada       |
+| handle(DeleteOpportunityCommand)  | Elimina una oportunidad del sistema                |
+
+#### Dependencias
+
+| Dependencia                           | Descripción                                           |
+|--------------------------------------|-------------------------------------------------------|
+| OpportunityRepository                 | Repositorio para acceso a datos de oportunidades    |
+| CreateOpportunityCommand              | Comando para creación de oportunidades              |
+| UpdateOpportunityCommand              | Comando para actualización de oportunidades        |
+| PublishOpportunityCommand             | Comando para publicar oportunidades                 |
+| CloseOpportunityCommand               | Comando para cerrar oportunidades                   |
+| DeleteOpportunityCommand              | Comando para eliminar oportunidades       
+
+
+#### 2.6.2.4. Infrastructure Layer
+
+### Clase: `OpportunityRepository`
+
+| Título       | OpportunityRepository |
+|-------------|----------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de oportunidades de empresa |
+
+#### Métodos
+
+| Método                | Descripción                                           |
+|----------------------|-------------------------------------------------------|
+| save(OpportunityEntity) | Persiste una nueva oportunidad o actualiza una existente |
+| deleteById(Long)       | Elimina una oportunidad por su ID                   |
+| findById(Long)         | Obtiene una oportunidad por su ID                   |
+| findAllByCompanyId(Long) | Obtiene todas las oportunidades asociadas a una empresa |
+
+#### Dependencias
+
+| Dependencia        | Propósito                                                   |
+|------------------|--------------------------------------------------------------|
+| Company           | Clase que representa a la empresa en el sistema            |
+| OpportunityEntity | Clase que representa la entidad de oportunidad en la base de datos |
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 2.6.2.6.2. Bounded Context Database Design Diagrams
+
+
+
+
+
+### 2.6.3. Bounded Context: Company Funding and Collaboration
+
+#### 2.6.3.1. Domain Layer
+
+#### 2.6.3.2. Interface Layer
+
+#### 2.6.3.3. Application Layer
+
+#### 2.6.3.4. Infrastructure Layer
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 2.6.3.6.2. Bounded Context Database Design Diagrams
+
+
+
+### 2.6.4. Bounded Context: Student Applications
+
+#### 2.6.4.1. Domain Layer
+
+#### 2.6.4.2. Interface Layer
+
+#### 2.6.4.3. Application Layer
+
+#### 2.6.4.4. Infrastructure Layer
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+#### 2.6.4.6.2. Bounded Context Database Design Diagrams
+
+
+
+
