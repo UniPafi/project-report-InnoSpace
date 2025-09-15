@@ -1135,8 +1135,11 @@ Empathy Map Segmento 2:
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 #### 2.5.3.1.Software Architecture Context Level Diagrams
+![InnoSpace-diagram-context](./images/Context-Diagram.png)
 #### 2.5.3.2.Software Architecture Container Level Diagrams
+![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
 
 ## 2.6.Tactical-Level Domain-Driven Design
 
@@ -1503,6 +1506,7 @@ Empathy Map Segmento 2:
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
+
 
 
 
