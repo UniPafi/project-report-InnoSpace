@@ -1306,7 +1306,9 @@ Empathy Map Segmento 2:
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagrams
 
-
+<p align="center">
+  <img src="images/dbd1.png" alt = "database diagram" width="80%">
+</p>
 
 ### 2.6.2. Bounded Context: Company Opportunities
 
@@ -1478,9 +1480,9 @@ Empathy Map Segmento 2:
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagrams
 
-
-
-
+<p align="center">
+  <img src="images/dbd2.png" alt = "database diagram" width="80%">
+</p>
 
 ### 2.6.3. Bounded Context: Project Collaboration
 
@@ -1657,7 +1659,9 @@ Empathy Map Segmento 2:
 
 #### 2.6.3.6.2. Bounded Context Database Design Diagrams
 
-
+<p align="center">
+  <img src="images/dbd3.png" alt = "database diagram" width="80%">
+</p>
 
 ### 2.6.4. Bounded Context: Student Applications
 
@@ -1828,6 +1832,6 @@ Empathy Map Segmento 2:
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
 
-
-
-
+<p align="center">
+  <img src="images/dbd4.png" alt = "database diagram" width="80%">
+</p>
