@@ -1466,15 +1466,164 @@ Empathy Map Segmento 2:
 
 
 
-### 2.6.3. Bounded Context: Company Funding and Collaboration
+### 2.6.3. Bounded Context: Project Collaboration
 
 #### 2.6.3.1. Domain Layer
 
+### Aggregate: `CollaborationDecision`
+**Descripción:** Representa la decisión de un gerente sobre un proyecto estudiantil y la respuesta del estudiante, incluyendo estado de interés, aceptación/rechazo y observaciones.
+
+| Atributos          | Tipo de dato            | Visibilidad | Descripción                                           |
+|-------------------|------------------------|------------|-----------------------------------------------------|
+| decisionId         | Long                   | Private    | Identificador único de la decisión                 |
+| projectId          | Long                   | Private    | Identificador del proyecto asociado                |
+| companyId          | Long                   | Private    | Identificador de la empresa o gerente evaluador    |
+| status             | CollaborationStatus    | Private    | Estado de la decisión del gerente (`Interested`, `NotInterested`) |
+| studentResponse    | StudentResponseStatus  | Private    | Respuesta del estudiante (`Pending`, `Accepted`, `Rejected`) |
+| evaluationNotes    | String                 | Private    | Observaciones o criterios de evaluación del gerente |
+| creationDate       | Timestamp              | Private    | Fecha de creación de la decisión                   |
+| lastUpdate         | Timestamp              | Private    | Fecha de última actualización                       |
+
+### Métodos
+
+| Método                     | Tipo de retorno        | Visibilidad | Descripción                                     |
+|----------------------------|----------------------|------------|------------------------------------------------|
+| getDecisionId()            | Long                 | Public     | Devuelve el ID de la decisión                  |
+| getProjectId()             | Long                 | Public     | Devuelve el ID del proyecto asociado           |
+| getCompanyId()             | Long                 | Public     | Devuelve el ID de la empresa evaluadora        |
+| getStatus()                | CollaborationStatus  | Public     | Devuelve el estado de la decisión del gerente  |
+| markInterested()           | void                 | Public     | Cambia el estado del gerente a `Interested`   |
+| markNotInterested()        | void                 | Public     | Cambia el estado del gerente a `NotInterested` |
+| addEvaluationNotes(notes)  | void                 | Public     | Agrega observaciones de evaluación            |
+| getEvaluationNotes()       | String               | Public     | Devuelve las notas de evaluación              |
+| submitStudentResponse(response) | void            | Public     | Permite al estudiante aceptar o rechazar la colaboración |
+| getStudentResponse()       | StudentResponseStatus | Public    | Devuelve el estado de respuesta del estudiante |
+| getCreationDate()          | Timestamp            | Public     | Devuelve la fecha de creación                 |
+| getLastUpdate()            | Timestamp            | Public     | Devuelve la fecha de última actualización     |
+
+### Value Objects
+
+| Value Object            | Descripción                                      |
+|-------------------------|--------------------------------------------------|
+| CollaborationStatus      | Representa el estado de la decisión del gerente: `Interested`, `NotInterested` |
+| StudentResponseStatus    | Representa la respuesta del estudiante: `Pending`, `Accepted`, `Rejected` |
+| EvaluationNotes          | Contiene observaciones o criterios de evaluación del gerente |
+
 #### 2.6.3.2. Interface Layer
+
+
+### Controlador: `CollaborationDecisionController`
+
+**Título:** CollaborationDecisionController  
+**Descripción:** Controlador REST que maneja la visualización de proyectos, registro de decisiones de gerentes y respuesta de estudiantes sobre colaboraciones.
+
+#### Métodos
+
+| Método                          | Ruta                                         | Descripción                                                 |
+|--------------------------------|---------------------------------------------|-------------------------------------------------------------|
+| getDecisionById                  | GET /api/v1/collaboration/{id}             | Obtiene los detalles de una decisión específica por ID     |
+| getAllDecisionsByProject         | GET /api/v1/collaboration/project/{projectId} | Obtiene todas las decisiones asociadas a un proyecto       |
+| getAllDecisionsByCompany         | GET /api/v1/collaboration/company/{companyId} | Obtiene todas las decisiones tomadas por una empresa       |
+| createDecision                   | POST /api/v1/collaboration                 | Permite al gerente registrar su decisión (`Interested` / `NotInterested`) |
+| addEvaluationNotes               | POST /api/v1/collaboration/{id}/notes      | Agrega observaciones o criterios de evaluación a la decisión |
+| submitStudentResponse            | POST /api/v1/collaboration/{id}/response   | Permite al estudiante aceptar o rechazar la colaboración  |
+| deleteDecision                   | DELETE /api/v1/collaboration/{id}          | Elimina una decisión de colaboración del sistema          |
+
+#### Dependencias
+
+| Dependencia                                           | Descripción                                                                 |
+|------------------------------------------------------|-----------------------------------------------------------------------------|
+| CollaborationDecisionQueryService                     | Servicio para consultas y recuperación de decisiones de colaboración       |
+| CollaborationDecisionCommandService                   | Servicio para ejecutar comandos de creación, notas, respuesta y eliminación |
+| CreateCollaborationDecisionCommandFromResourceAssembler | Convierte recursos REST en comandos para crear decisiones                   |
+| AddEvaluationNotesCommandFromResourceAssembler       | Convierte recursos REST en comandos para añadir notas                      |
+| SubmitStudentResponseCommandFromResourceAssembler    | Convierte recursos REST en comandos para que el estudiante acepte/rechace  |
+| DeleteCollaborationDecisionCommandFromResourceAssembler | Convierte recursos REST en comandos para eliminar decisiones               |
+| CollaborationDecisionResourceFromEntityAssembler     | Convierte entidades en recursos REST para la respuesta                     |
+
 
 #### 2.6.3.3. Application Layer
 
+
+
+### Clase: `CollaborationDecisionQueryServiceImpl`
+
+| Título       | CollaborationDecisionQueryServiceImpl |
+|-------------|---------------------------------------|
+| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| handle(GetDecisionByIdQuery)    | Obtiene los detalles completos de una decisión por su ID   |
+| handle(GetDecisionsByProjectQuery) | Obtiene todas las decisiones asociadas a un proyecto       |
+| handle(GetDecisionsByCompanyQuery) | Obtiene todas las decisiones tomadas por una empresa       |
+
+#### Dependencias
+
+| Dependencia                     | Descripción                                  |
+|--------------------------------|---------------------------------------------|
+| CollaborationDecisionRepository  | Repositorio para acceso a datos de decisiones |
+| GetDecisionByIdQuery             | Query para obtener decisión por ID           |
+| GetDecisionsByProjectQuery       | Query para obtener decisiones por proyecto  |
+| GetDecisionsByCompanyQuery       | Query para obtener decisiones por empresa   |
+
+---
+
+### Clase: `CollaborationDecisionCommandServiceImpl`
+
+| Título       | CollaborationDecisionCommandServiceImpl |
+|-------------|-----------------------------------------|
+| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| handle(CreateCollaborationDecisionCommand) | Crea una nueva decisión de colaboración (`Interested` / `NotInterested`) |
+| handle(AddEvaluationNotesCommand)           | Agrega notas de evaluación a una decisión                   |
+| handle(SubmitStudentResponseCommand)       | Permite al estudiante aceptar o rechazar la colaboración    |
+| handle(DeleteCollaborationDecisionCommand) | Elimina una decisión del sistema                             |
+
+#### Dependencias
+
+| Dependencia                                           | Descripción                                  |
+|------------------------------------------------------|---------------------------------------------|
+| CollaborationDecisionRepository                       | Repositorio para acceso a datos de decisiones |
+| CreateCollaborationDecisionCommand                   | Comando para crear decisiones                 |
+| AddEvaluationNotesCommand                             | Comando para agregar notas                     |
+| SubmitStudentResponseCommand                          | Comando para respuesta del estudiante        |
+| DeleteCollaborationDecisionCommand                    | Comando para eliminar decisiones             |
+
+
 #### 2.6.3.4. Infrastructure Layer
+
+
+
+### Clase: `CollaborationDecisionRepository`
+
+| Título       | CollaborationDecisionRepository |
+|-------------|---------------------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| save(CollaborationDecisionEntity) | Persiste una nueva decisión o actualiza una existente      |
+| deleteById(Long)                | Elimina una decisión por su ID                               |
+| findById(Long)                   | Recupera una decisión específica por ID                     |
+| findByProjectId(Long)            | Recupera todas las decisiones asociadas a un proyecto       |
+| findByCompanyId(Long)            | Recupera todas las decisiones tomadas por una empresa       |
+
+#### Dependencias
+
+| Dependencia                     | Propósito                                          |
+|--------------------------------|---------------------------------------------------|
+| CollaborationDecisionEntity      | Entidad que representa la decisión en la base de datos |
+| Project                          | Representa el proyecto asociado                   |
+| Company                          | Representa la empresa o gerente evaluador        
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
