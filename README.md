@@ -1129,7 +1129,22 @@ Empathy Map Segmento 2:
 ## 2.5. Strategic-Level Domain-Driven Design
 
 ### 2.5.1. EventStorming
+
+Como equipo realizamos una sesión de EventStorming con el objetivo de comprender el dominio del problema y plantear una primera aproximación al modelado general de Innospace. La actividad tuvo una duración de alrededor de 1-2 horas, donde identificamos los principales eventos, actores y reglas que definen las interacciones entre estudiantes y empresas.
+
+Durante la sesión usamos una herramienta colaborativa para organizar y visualizar los elementos, lo que nos permitió discutir, consensuar y delimitar los primeros bounded contexts del sistema. El resultado es un mapa inicial del dominio que servirá como base para el análisis y diseño detallado en las siguientes etapas.
+
+
+
+<p align="center">
+  <img src="images/chapterii/eventstorming.png" alt="UPC logo" width="1000">
+</p>
+
+
 #### 2.5.1.1. Candidate Context Discovery
+
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
