@@ -1586,6 +1586,16 @@ El ProjectRepository provee los mecanismos de persistencia para proyectos, con o
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes representa un sistema monolítico que gestiona proyectos estudiantiles dentro de la plataforma. Una aplicación Movil interactúa con el `ProjectController`.
+
+El controlador delega la lógica en dos servicios principales: `ProjectQueryService`, para recuperar y validar proyectos, y `ProjectCommandService`, para crearlos, actualizarlos, publicarlos o finalizarlos.
+
+Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Projects.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -1781,6 +1791,16 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 | OpportunityEntity | Clase que representa la entidad de oportunidad en la base de datos |
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes representa un sistema monolítico que gestiona oportunidades empresariales dentro de la plataforma. Una aplicación Movil interactúa con el `OpportunityController`..
+
+El controlador delega la lógica en dos servicios principales: `OpportunityQueryService`, para consultas y validaciones, y `OpportunityCommandService`, para creación, actualización, publicación y cierre de oportunidades.
+
+Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Opportunity.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1994,6 +2014,16 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes representa un sistema monolítico que gestiona decisiones de colaboración entre empresas y proyectos estudiantiles. Una aplicación Movil interactúa con el `CollaborationDecisionController`.
+
+El controlador conecta con `CollaborationDecisionQueryService` para consultas y con `CollaborationDecisionCommandService` para registrar decisiones, añadir notas y gestionar respuestas de estudiantes.
+
+Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/CollaborationDecision.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2194,6 +2224,16 @@ Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y co
 | ApplicationEntity   | Clase que representa la entidad de postulación en la base de datos |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes representa un sistema monolítico que gestiona postulaciones de estudiantes a oportunidades de empresas. Una aplicación Movil interactúa con el `ApplicationController`.
+
+El controlador conecta con `ApplicationQueryService` para consultas y con `ApplicationCommandService` para registrar, aceptar, rechazar o eliminar postulaciones.
+
+Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Application.png" alt = "bounded context application" width="80%">
+</p>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
