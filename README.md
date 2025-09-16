@@ -1715,7 +1715,11 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 
 #### 2.6.4.1. Domain Layer
 
-### Aggregate: `Application`
+Define el agregado Application, que encapsula los datos y reglas de negocio de una postulación (estado, fechas, vínculos a estudiante, proyecto y oportunidad), asegurando consistencia a través de Value Objects como ApplicationStatus y métodos de negocio (submit, accept, reject).
+
+
+
+#### Aggregate: `Application`
 **Descripción:** Representa la postulación de un estudiante a una oportunidad, incluyendo su proyecto asociado y el estado de la postulación.
 
 | Atributos         | Tipo de dato        | Visibilidad | Descripción                                           |
@@ -1750,8 +1754,49 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 | ApplicationStatus       | Representa el estado de la postulación: `Pending`, `Accepted`, `Rejected` |
 | ApplicationCriteria     | Contiene los criterios de selección aplicados por la empresa |
 
+
+
+#### Interfaz: `ApplicationQueryService`
+
+| Título       | ApplicationQueryService |
+|-------------|--------------------------|
+| Descripción | Contrato para operaciones de lectura relacionadas con postulaciones de estudiantes |
+
+##### Métodos
+
+| Método                                | Descripción                                                       |
+|--------------------------------------|-------------------------------------------------------------------|
+| handle(GetApplicationByIdQuery)      | Obtiene los detalles completos de una postulación por su ID       |
+| handle(GetAllStudentApplicationsQuery) | Obtiene todas las postulaciones asociadas a un estudiante        |
+| handle(GetAllOpportunityApplicationsQuery) | Obtiene todas las postulaciones a una oportunidad              |
+| handle(ValidateApplicationOwnershipQuery) | Verifica si un estudiante es propietario de la postulación     |
+
+---
+
+#### Interfaz: `ApplicationCommandService`
+
+| Título       | ApplicationCommandService |
+|-------------|-----------------------------|
+| Descripción | Contrato para operaciones de escritura relacionadas con postulaciones de estudiantes |
+
+##### Métodos
+
+| Método                               | Descripción                                                   |
+|-------------------------------------|---------------------------------------------------------------|
+| handle(SubmitApplicationCommand)    | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
+| handle(AcceptApplicationCommand)    | Cambia el estado de la postulación a `Accepted`               |
+| handle(RejectApplicationCommand)    | Cambia el estado de la postulación a `Rejected`               |
+| handle(DeleteApplicationCommand)    | Elimina una postulación del sistema                           |
+
+
+
+
+
+
 #### 2.6.4.2. Interface Layer
 
+
+Expone un controlador REST (ApplicationController) que traduce las operaciones del dominio en endpoints accesibles al cliente, manejando rutas para crear, aceptar, rechazar o listar postulaciones, y apoyándose en assemblers para transformar entidades y comandos entre el mundo REST y el dominio.
 
 ### Controlador: `ApplicationController`
 
@@ -1784,59 +1829,42 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 
 #### 2.6.4.3. Application Layer
 
-### Clase: `ApplicationQueryServiceImpl`
+Implementa los casos de uso a través de ApplicationCommandServiceImpl y ApplicationQueryServiceImpl, orquestando las operaciones sobre el dominio y gestionando el flujo entre la lógica de negocio y las dependencias externas.
+
+#### Clase: `ApplicationQueryServiceImpl`
 
 | Título       | ApplicationQueryServiceImpl |
-|-------------|----------------------------|
-| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con postulaciones de estudiantes |
+|-------------|-------------------------------|
+| Descripción | Implementación del contrato de consultas definido en el dominio para postulaciones de estudiantes |
 
-#### Métodos
+##### Dependencias
 
-| Método                               | Descripción                                                |
-|-------------------------------------|------------------------------------------------------------|
-| handle(GetApplicationByIdQuery)      | Obtiene los detalles completos de una postulación por su ID |
-| handle(GetAllStudentApplicationsQuery) | Obtiene todas las postulaciones asociadas a un estudiante |
-| handle(GetAllOpportunityApplicationsQuery) | Obtiene todas las postulaciones a una oportunidad       |
-| handle(ValidateApplicationOwnershipQuery) | Verifica si un estudiante es propietario de la postulación |
+| Dependencia                      | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| ApplicationQueryService          | Contrato definido en dominio                   |
+| ApplicationRepository            | Repositorio para acceso a datos de postulaciones |
 
-#### Dependencias
+---
 
-| Dependencia                                | Descripción                                           |
-|-------------------------------------------|-------------------------------------------------------|
-| ApplicationRepository                      | Repositorio para acceso a datos de postulaciones    |
-| GetApplicationByIdQuery                    | Query para obtener detalles de postulación por ID   |
-| GetAllStudentApplicationsQuery             | Query para listar postulaciones de un estudiante   |
-| GetAllOpportunityApplicationsQuery         | Query para listar postulaciones a una oportunidad  |
-| ValidateApplicationOwnershipQuery          | Query para validar propiedad de la postulación     |
-
-<hr>
-
-### Clase: `ApplicationCommandServiceImpl`
+#### Clase: `ApplicationCommandServiceImpl`
 
 | Título       | ApplicationCommandServiceImpl |
-|-------------|-------------------------------|
-| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con postulaciones de estudiantes |
+|-------------|--------------------------------|
+| Descripción | Implementación del contrato de comandos definido en el dominio para postulaciones de estudiantes |
 
-#### Métodos
+##### Dependencias
 
-| Método                               | Descripción                                           |
-|--------------------------------------|-------------------------------------------------------|
-| handle(SubmitApplicationCommand)      | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
-| handle(AcceptApplicationCommand)      | Cambia el estado de la postulación a `Accepted`      |
-| handle(RejectApplicationCommand)      | Cambia el estado de la postulación a `Rejected`      |
-| handle(DeleteApplicationCommand)      | Elimina una postulación del sistema                  |
+| Dependencia                      | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| ApplicationCommandService        | Contrato definido en dominio                   |
+| ApplicationRepository            | Repositorio para acceso a datos de postulaciones |
 
-#### Dependencias
 
-| Dependencia                            | Descripción                                           |
-|---------------------------------------|-------------------------------------------------------|
-| ApplicationRepository                  | Repositorio para acceso a datos de postulaciones    |
-| SubmitApplicationCommand               | Comando para creación de postulaciones             |
-| AcceptApplicationCommand               | Comando para aceptación de postulaciones           |
-| RejectApplicationCommand               | Comando para rechazo de postulaciones              |
-| DeleteApplicationCommand               | Comando para eliminación de postulaciones          |
+
 
 #### 2.6.4.4. Infrastructure Layer
+
+Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y consultas específicas por estudiante u oportunidad, conectando las entidades del dominio con la base de datos y gestionando la interacción con clases externas como Student, Project y Opportunity.
 
 
 ### Clase: `ApplicationRepository`
