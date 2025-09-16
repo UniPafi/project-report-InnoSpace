@@ -1354,6 +1354,53 @@ Enlace al Miro Board: https://miro.com/app/board/uXjVJKRuXIw=/?share_link_id=238
 
 
 #### 2.5.1.3. Bounded Context Canvases
+
+En esta parte se lleva a cabo la descomposición estratégica del dominio a través de la construcción de Bounded Context Canvases, con el propósito de reconocer y delimitar áreas funcionales claras dentro del sistema. Esta actividad es clave en el enfoque de Domain-Driven Design (DDD), ya que ayuda a definir con precisión los límites semánticos y técnicos entre los distintos módulos, reduciendo la complejidad y permitiendo que cada componente pueda evolucionar de manera independiente.
+
+
+
+### Student Projects
+<p align="center">
+  <img src="images/chapterii/canvas1.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Company Opportunities
+<p align="center">
+  <img src="images/chapterii/canvas2.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Student Applications
+<p align="center">
+  <img src="images/chapterii/canvas3.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Project Collaboration
+<p align="center">
+  <img src="images/chapterii/canvas4.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+
+
+
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 #### 2.5.3.1.Software Architecture Context Level Diagrams
