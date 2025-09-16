@@ -611,14 +611,9 @@ En este apartado se presenta la User Task Matrix, que refleja las tareas de los 
     </tr>
   </tbody>
 </table>
-=======
-#### 2.2.3. Análisis de entrevistas
 
-### 2.3. Needfinding
 
-### 2.3.1. User Personas
 
-### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
 
@@ -1144,6 +1139,10 @@ Empathy Map Segmento 2:
 
 #### 2.6.1.1. Domain Layer
 
+
+El agregado Project encapsula el ciclo de vida de un proyecto estudiantil, permitiendo crearlo, actualizarlo, publicarlo y marcarlo como completado, asegurando que el estado (Draft, Published, Completed) y los contenidos asociados se mantengan consistentes y válidos.
+
+
 ### Aggregate: `Project`
 **Descripción:** Representa un proyecto o idea innovadora creada por un estudiante, con ciclo de vida completo desde borrador hasta finalizado, incluyendo contenido y estado.
 
@@ -1178,9 +1177,44 @@ Empathy Map Segmento 2:
 | ProjectContent | Contiene archivos, imágenes, prototipos o documentación asociada al proyecto.|
 
 
+#### Clase: `ProjectQueryService`
+
+| Título       | ProjectQueryService |
+|--------------|----------------------|
+| Descripción  | Interfaz de servicio de consultas para operaciones de lectura relacionadas con proyectos de estudiantes |
+
+##### Métodos
+
+| Método                             | Descripción                                               |
+|-----------------------------------|-----------------------------------------------------------|
+| handle(GetProjectByIdQuery)        | Obtiene los detalles completos de un proyecto por su ID   |
+| handle(GetAllStudentProjectsQuery) | Obtiene todos los proyectos asociados a un estudiante     |
+| handle(ValidateProjectOwnershipQuery) | Verifica si un estudiante es propietario del proyecto |
+
+---
+
+#### Clase: `ProjectCommandService`
+
+| Título       | ProjectCommandService |
+|--------------|------------------------|
+| Descripción  | Interfaz de servicio de comandos para operaciones de escritura relacionadas con proyectos de estudiantes |
+
+##### Métodos
+
+| Método                           | Descripción                                                        |
+|---------------------------------|--------------------------------------------------------------------|
+| handle(CreateProjectCommand)     | Crea un nuevo proyecto con la información proporcionada            |
+| handle(UpdateProjectCommand)     | Actualiza la información básica del proyecto (título, descripción, contenido) |
+| handle(PublishProjectCommand)    | Cambia el estado del proyecto a publicado                          |
+| handle(FinalizeProjectCommand)   | Cambia el estado del proyecto a completado                         |
+| handle(DeleteProjectCommand)     | Elimina un proyecto del sistema     
+
+
+
+
 #### 2.6.1.2. Interface Layer
 
-
+El ProjectController expone endpoints REST que permiten a los estudiantes gestionar sus proyectos, desde la creación hasta el cierre, utilizando assemblers para mapear recursos REST a comandos de dominio y conectando las solicitudes del cliente con los servicios de aplicación.
 
 ### Controlador: `ProjectController`
 
@@ -1213,60 +1247,43 @@ Empathy Map Segmento 2:
 
 #### 2.6.1.3. Application Layer
 
-### Clase: `ProjectQueryServiceImpl`
+
+Los servicios ProjectCommandServiceImpl y ProjectQueryServiceImpl implementan los casos de uso definidos en el dominio, coordinando la creación, actualización, publicación, finalización y consulta de proyectos, sin exponer detalles de persistencia ni de transporte.
+
+#### Clase: `ProjectQueryServiceImpl`
 
 | Título       | ProjectQueryServiceImpl |
-|-------------|-----------------------|
-| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con proyectos de estudiantes |
+|--------------|--------------------------|
+| Descripción  | Implementación del servicio de consultas para operaciones de lectura relacionadas con proyectos de estudiantes |
 
-#### Métodos
+##### Dependencias
 
-| Método                             | Descripción                                                |
-|-----------------------------------|------------------------------------------------------------|
-| handle(GetProjectByIdQuery)        | Obtiene los detalles completos de un proyecto por su ID   |
-| handle(GetAllStudentProjectsQuery) | Obtiene todos los proyectos asociados a un estudiante     |
-| handle(ValidateProjectOwnershipQuery) | Verifica si un estudiante es propietario del proyecto |
+| Dependencia            | Descripción                                   |
+|-------------------------|-----------------------------------------------|
+| ProjectRepository       | Repositorio para acceso a datos de proyectos  |
+| ProjectQueryService     | Interfaz de consultas definida en el dominio  |
 
-#### Dependencias
+---
 
-| Dependencia           | Descripción                                           |
-|----------------------|-------------------------------------------------------|
-| ProjectRepository     | Repositorio para acceso a datos de proyectos         |
-| GetProjectByIdQuery   | Query para obtener detalles de un proyecto por ID    |
-| GetAllStudentProjectsQuery | Query para listar proyectos de un estudiante     |
-| ValidateProjectOwnershipQuery | Query para validar propiedad del proyecto      |
-
-<hr>
-
-### Clase: `ProjectCommandServiceImpl`
+#### Clase: `ProjectCommandServiceImpl`
 
 | Título       | ProjectCommandServiceImpl |
-|-------------|---------------------------|
-| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con proyectos de estudiantes |
+|--------------|----------------------------|
+| Descripción  | Implementación del servicio de comandos para operaciones de escritura relacionadas con proyectos de estudiantes |
 
-#### Métodos
+##### Dependencias
 
-| Método                      | Descripción                                           |
-|-----------------------------|-------------------------------------------------------|
-| handle(CreateProjectCommand) | Crea un nuevo proyecto con la información proporcionada |
-| handle(UpdateProjectCommand) | Actualiza la información básica del proyecto (título, descripción, contenido) |
-| handle(PublishProjectCommand) | Cambia el estado del proyecto a publicado           |
-| handle(FinalizeProjectCommand) | Cambia el estado del proyecto a completado         |
-| handle(DeleteProjectCommand)  | Elimina un proyecto del sistema                     |
+| Dependencia            | Descripción                                   |
+|-------------------------|-----------------------------------------------|
+| ProjectRepository       | Repositorio para acceso a datos de proyectos  |
+| ProjectCommandService   | Interfaz de comandos definida en el dominio   |
 
-#### Dependencias
 
-| Dependencia                     | Descripción                                           |
-|--------------------------------|-------------------------------------------------------|
-| ProjectRepository               | Repositorio para acceso a datos de proyectos         |
-| CreateProjectCommand            | Comando para creación de proyectos                   |
-| UpdateProjectCommand            | Comando para actualización de proyectos             |
-| PublishProjectCommand           | Comando para publicar proyectos                      |
-| FinalizeProjectCommand          | Comando para finalizar proyectos                     |
-| DeleteProjectCommand            | Comando para eliminar proyectos    
 
 #### 2.6.1.4 Infrastructure Layer
 
+
+El ProjectRepository provee los mecanismos de persistencia para proyectos, con operaciones CRUD y consultas específicas (por ID o por estudiante), integrando las entidades de dominio con representaciones en la base de datos mediante ProjectEntity.
 
 ### Clase: `ProjectRepository`
 
