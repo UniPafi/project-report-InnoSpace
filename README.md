@@ -1134,9 +1134,116 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 <p align="center">
   <img src="images/chapterii/eventstorming.png" alt="UPC logo" width="1000">
 </p>
+<p align="center">
+    Event Storming - Elaboración propia
+</p>
+
+
 
 
 #### 2.5.1.1. Candidate Context Discovery
+
+
+
+Tras concluir la sesión de Event Storming con la herramienta Miro, se llevó a cabo un análisis detallado de los eventos detectados con el fin de identificar los contextos candidatos más relevantes para el dominio. Este trabajo incluyó reconocer patrones y vínculos entre los eventos y creando flujos a partir de ellos. Como resultado, se organizaron conjuntos de eventos que correspondían a un mismo proceso dentro de la aplicación.
+
+
+
+### Onboarding 
+<p align="center">
+  <img src="images/chapterii/onboarding.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+### Creación de convocatoria 
+<p align="center">
+  <img src="images/chapterii/creacionconvo.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+
+### Colaboración y financiamiento
+<p align="center">
+  <img src="images/chapterii/colab.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+
+
+
+
+### Creación de proyectos estudiantiles
+<p align="center">
+  <img src="images/chapterii/studentproj.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+### Postulación a convocatorias de empresa
+<p align="center">
+  <img src="images/chapterii/convocapost.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+Después de mostrar los flujos de eventos que suceden dentro de la aplicación, los pivotal points (eventos que cambian el curso del sistema) son estos:
+
+- La creación de un proyecto estudiantil
+
+- La publicación de una oportunidad por parte de la empresa
+
+- La postulación de un estudiante a una oportunidad
+
+- La decisión de colaboración de una empresa sobre un proyecto
+
+- La aceptación o rechazo de la colaboración por parte del estudiante
+
+Al identificar estos pivotal points, se puede observar cómo los eventos se agrupan en contextos distintos, quedando definidos los siguientes bounded contexts:
+
+- Student Projects: Gestión del ciclo de vida de proyectos estudiantiles.
+
+- Company Opportunities: Creación y publicación de convocatorias de empresas.
+
+- Student Applications: Administración de postulaciones de estudiantes a oportunidades.
+
+- Project Collaboration: Decisiones de colaboración y respuestas de estudiantes.
+
+
+<br>
+<br>
+<br>
+<br>
+
+Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir estos Bounded Contexts, detallando los agregados, eventos y entidades:
+
+
+
+
+
 
 
 
