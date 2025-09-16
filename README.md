@@ -1242,6 +1242,42 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 
 
+### Student Projects:
+<p align="center">
+  <img src="images/chapterii/studentprojectsmiro.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Student Applications
+<p align="center">
+  <img src="images/chapterii/mirostud.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Project Collaboration:
+<p align="center">
+  <img src="images/chapterii/miro_projcollab.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+### Company Opportunities
+<p align="center">
+  <img src="images/chapterii/mirocomp.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
 
 
 
