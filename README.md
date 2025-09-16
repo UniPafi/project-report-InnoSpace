@@ -1129,7 +1129,22 @@ Empathy Map Segmento 2:
 ## 2.5. Strategic-Level Domain-Driven Design
 
 ### 2.5.1. EventStorming
+
+Como equipo realizamos una sesión de EventStorming con el objetivo de comprender el dominio del problema y plantear una primera aproximación al modelado general de Innospace. La actividad tuvo una duración de alrededor de 1-2 horas, donde identificamos los principales eventos, actores y reglas que definen las interacciones entre estudiantes y empresas.
+
+Durante la sesión usamos una herramienta colaborativa para organizar y visualizar los elementos, lo que nos permitió discutir, consensuar y delimitar los primeros bounded contexts del sistema. El resultado es un mapa inicial del dominio que servirá como base para el análisis y diseño detallado en las siguientes etapas.
+
+
+
+<p align="center">
+  <img src="images/chapterii/eventstorming.png" alt="UPC logo" width="1000">
+</p>
+
+
 #### 2.5.1.1. Candidate Context Discovery
+
+
+
 #### 2.5.1.2. Domain Message Flows Modeling
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
@@ -1299,9 +1314,19 @@ Empathy Map Segmento 2:
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/StudentProjectsUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.1.6.2. Bounded Context Database Design Diagrams
 
-
+<p align="center">
+  <img src="images/dbd1.png" alt = "database diagram" width="80%">
+</p>
 
 ### 2.6.2. Bounded Context: Company Opportunities
 
@@ -1457,7 +1482,7 @@ Los servicios OpportunityCommandServiceImpl y OpportunityQueryServiceImpl implem
 La clase OpportunityRepository gestiona la persistencia y recuperación de oportunidades en la base de datos, con operaciones CRUD y consultas específicas por empresa, asegurando la integración del dominio con entidades como Company y OpportunityEntity.
 
 
-### Clase: `OpportunityRepository`
+#### Clase: `OpportunityRepository`
 
 | Título       | OpportunityRepository |
 |-------------|----------------------|
@@ -1485,21 +1510,211 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/CompanyOpportunitiesUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.2.6.2. Bounded Context Database Design Diagrams
 
+<p align="center">
+  <img src="images/dbd2.png" alt = "database diagram" width="80%">
+</p>
 
-
-
-
-### 2.6.3. Bounded Context: Company Funding and Collaboration
+### 2.6.3. Bounded Context: Project Collaboration
 
 #### 2.6.3.1. Domain Layer
 
+Contiene la lógica principal sobre cómo las empresas (gerentes) toman decisiones respecto a proyectos estudiantiles. Incluye el agregado CollaborationDecision, con atributos como projectId, companyId, decisionStatus (interesado, aceptado, rechazado) y feedback. También maneja entidades de soporte como Manager y StudentProject.
+
+
+
+#### Aggregate: `CollaborationDecision`
+**Descripción:** Representa la decisión de un gerente sobre un proyecto estudiantil y la respuesta del estudiante, incluyendo estado de interés, aceptación/rechazo y observaciones.
+
+| Atributos          | Tipo de dato            | Visibilidad | Descripción                                           |
+|-------------------|------------------------|------------|-----------------------------------------------------|
+| decisionId         | Long                   | Private    | Identificador único de la decisión                 |
+| projectId          | Long                   | Private    | Identificador del proyecto asociado                |
+| companyId          | Long                   | Private    | Identificador de la empresa o gerente evaluador    |
+| status             | CollaborationStatus    | Private    | Estado de la decisión del gerente (`Interested`, `NotInterested`) |
+| studentResponse    | StudentResponseStatus  | Private    | Respuesta del estudiante (`Pending`, `Accepted`, `Rejected`) |
+| evaluationNotes    | String                 | Private    | Observaciones o criterios de evaluación del gerente |
+| creationDate       | Timestamp              | Private    | Fecha de creación de la decisión                   |
+| lastUpdate         | Timestamp              | Private    | Fecha de última actualización                       |
+
+### Métodos
+
+| Método                     | Tipo de retorno        | Visibilidad | Descripción                                     |
+|----------------------------|----------------------|------------|------------------------------------------------|
+| getDecisionId()            | Long                 | Public     | Devuelve el ID de la decisión                  |
+| getProjectId()             | Long                 | Public     | Devuelve el ID del proyecto asociado           |
+| getCompanyId()             | Long                 | Public     | Devuelve el ID de la empresa evaluadora        |
+| getStatus()                | CollaborationStatus  | Public     | Devuelve el estado de la decisión del gerente  |
+| markInterested()           | void                 | Public     | Cambia el estado del gerente a `Interested`   |
+| markNotInterested()        | void                 | Public     | Cambia el estado del gerente a `NotInterested` |
+| addEvaluationNotes(notes)  | void                 | Public     | Agrega observaciones de evaluación            |
+| getEvaluationNotes()       | String               | Public     | Devuelve las notas de evaluación              |
+| submitStudentResponse(response) | void            | Public     | Permite al estudiante aceptar o rechazar la colaboración |
+| getStudentResponse()       | StudentResponseStatus | Public    | Devuelve el estado de respuesta del estudiante |
+| getCreationDate()          | Timestamp            | Public     | Devuelve la fecha de creación                 |
+| getLastUpdate()            | Timestamp            | Public     | Devuelve la fecha de última actualización     |
+
+#### Value Objects
+
+| Value Object            | Descripción                                      |
+|-------------------------|--------------------------------------------------|
+| CollaborationStatus      | Representa el estado de la decisión del gerente: `Interested`, `NotInterested` |
+| StudentResponseStatus    | Representa la respuesta del estudiante: `Pending`, `Accepted`, `Rejected` |
+| EvaluationNotes          | Contiene observaciones o criterios de evaluación del gerente |
+
+
+
+#### Interfaz: `CollaborationDecisionQueryService`
+
+| Título       | CollaborationDecisionQueryService |
+|-------------|-----------------------------------|
+| Descripción | Contrato para operaciones de lectura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| handle(GetDecisionByIdQuery)    | Obtiene los detalles completos de una decisión por su ID   |
+| handle(GetDecisionsByProjectQuery) | Obtiene todas las decisiones asociadas a un proyecto       |
+| handle(GetDecisionsByCompanyQuery) | Obtiene todas las decisiones tomadas por una empresa       |
+
+---
+
+#### Interfaz: `CollaborationDecisionCommandService`
+
+| Título       | CollaborationDecisionCommandService |
+|-------------|-------------------------------------|
+| Descripción | Contrato para operaciones de escritura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                                    | Descripción                                                 |
+|-------------------------------------------|-------------------------------------------------------------|
+| handle(CreateCollaborationDecisionCommand) | Crea una nueva decisión de colaboración (`Interested` / `NotInterested`) |
+| handle(AddEvaluationNotesCommand)          | Agrega notas de evaluación a una decisión                   |
+| handle(SubmitStudentResponseCommand)       | Permite al estudiante aceptar o rechazar la colaboración    |
+| handle(DeleteCollaborationDecisionCommand) | Elimina una decisión del sistema                             |
+
+
+
+
+
+
+
+
+
 #### 2.6.3.2. Interface Layer
+
+Se refleja en la aplicación móvil, mediante los formularios que puede enviar el gerente para colaborar con un proyecto. Los gerentes envían propuestas de colaboración a proyectos específicos, y los estudiantes pueden revisarlas y responder (aceptar o rechazar).
+
+
+#### Controlador: `CollaborationDecisionController`
+
+**Título:** CollaborationDecisionController  
+**Descripción:** Controlador REST que maneja la visualización de proyectos, registro de decisiones de gerentes y respuesta de estudiantes sobre colaboraciones.
+
+#### Métodos
+
+| Método                          | Ruta                                         | Descripción                                                 |
+|--------------------------------|---------------------------------------------|-------------------------------------------------------------|
+| getDecisionById                  | GET /api/v1/collaboration/{id}             | Obtiene los detalles de una decisión específica por ID     |
+| getAllDecisionsByProject         | GET /api/v1/collaboration/project/{projectId} | Obtiene todas las decisiones asociadas a un proyecto       |
+| getAllDecisionsByCompany         | GET /api/v1/collaboration/company/{companyId} | Obtiene todas las decisiones tomadas por una empresa       |
+| createDecision                   | POST /api/v1/collaboration                 | Permite al gerente registrar su decisión (`Interested` / `NotInterested`) |
+| addEvaluationNotes               | POST /api/v1/collaboration/{id}/notes      | Agrega observaciones o criterios de evaluación a la decisión |
+| submitStudentResponse            | POST /api/v1/collaboration/{id}/response   | Permite al estudiante aceptar o rechazar la colaboración  |
+| deleteDecision                   | DELETE /api/v1/collaboration/{id}          | Elimina una decisión de colaboración del sistema          |
+
+#### Dependencias
+
+| Dependencia                                           | Descripción                                                                 |
+|------------------------------------------------------|-----------------------------------------------------------------------------|
+| CollaborationDecisionQueryService                     | Servicio para consultas y recuperación de decisiones de colaboración       |
+| CollaborationDecisionCommandService                   | Servicio para ejecutar comandos de creación, notas, respuesta y eliminación |
+| CreateCollaborationDecisionCommandFromResourceAssembler | Convierte recursos REST en comandos para crear decisiones                   |
+| AddEvaluationNotesCommandFromResourceAssembler       | Convierte recursos REST en comandos para añadir notas                      |
+| SubmitStudentResponseCommandFromResourceAssembler    | Convierte recursos REST en comandos para que el estudiante acepte/rechace  |
+| DeleteCollaborationDecisionCommandFromResourceAssembler | Convierte recursos REST en comandos para eliminar decisiones               |
+| CollaborationDecisionResourceFromEntityAssembler     | Convierte entidades en recursos REST para la respuesta                     |
+
 
 #### 2.6.3.3. Application Layer
 
+Orquesta los casos de uso para enviar, aceptar o rechazar decisiones de colaboración. Expone servicios de comandos (CollaborationDecisionCommandService) para procesar acciones y servicios de consulta (CollaborationDecisionQueryService) para obtener el estado de las decisiones.
+
+
+
+#### Clase: `CollaborationDecisionQueryServiceImpl`
+
+| Título       | CollaborationDecisionQueryServiceImpl |
+|-------------|---------------------------------------|
+| Descripción | Implementación del contrato de consultas definido en el dominio para decisiones de colaboración |
+
+#### Dependencias:
+
+| Dependencia                          | Descripción                                  |
+|-------------------------------------|---------------------------------------------|
+| CollaborationDecisionQueryService    | Contrato definido en dominio                 |
+| CollaborationDecisionRepository      | Repositorio para acceso a datos de decisiones |
+
+---
+
+#### Clase: `CollaborationDecisionCommandServiceImpl`
+
+| Título       | CollaborationDecisionCommandServiceImpl |
+|-------------|-----------------------------------------|
+| Descripción | Implementación del contrato de comandos definido en el dominio para decisiones de colaboración |
+
+#### Dependencias:
+
+| Dependencia                           | Descripción                                  |
+|--------------------------------------|---------------------------------------------|
+| CollaborationDecisionCommandService   | Contrato definido en dominio                 |
+| CollaborationDecisionRepository       | Repositorio para acceso a datos de decisiones |
+
+
+
+
+
 #### 2.6.3.4. Infrastructure Layer
+
+Implementa la persistencia de las decisiones de colaboración y la integración con servicios externos. Incluye repositorios como CollaborationDecisionRepository y adaptadores para acceder a datos de proyectos y empresas.
+
+
+
+
+#### Clase: `CollaborationDecisionRepository`
+
+| Título       | CollaborationDecisionRepository |
+|-------------|---------------------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| save(CollaborationDecisionEntity) | Persiste una nueva decisión o actualiza una existente      |
+| deleteById(Long)                | Elimina una decisión por su ID                               |
+| findById(Long)                   | Recupera una decisión específica por ID                     |
+| findByProjectId(Long)            | Recupera todas las decisiones asociadas a un proyecto       |
+| findByCompanyId(Long)            | Recupera todas las decisiones tomadas por una empresa       |
+
+#### Dependencias
+
+| Dependencia                     | Propósito                                          |
+|--------------------------------|---------------------------------------------------|
+| CollaborationDecisionEntity      | Entidad que representa la decisión en la base de datos |
+| Project                          | Representa el proyecto asociado                   |
+| Company                          | Representa la empresa o gerente evaluador        
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -1507,19 +1722,200 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/ProjectCollaborationUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.3.6.2. Bounded Context Database Design Diagrams
 
-
+<p align="center">
+  <img src="images/dbd3.png" alt = "database diagram" width="80%">
+</p>
 
 ### 2.6.4. Bounded Context: Student Applications
 
 #### 2.6.4.1. Domain Layer
 
+Define el agregado Application, que encapsula los datos y reglas de negocio de una postulación (estado, fechas, vínculos a estudiante, proyecto y oportunidad), asegurando consistencia a través de Value Objects como ApplicationStatus y métodos de negocio (submit, accept, reject).
+
+
+
+#### Aggregate: `Application`
+**Descripción:** Representa la postulación de un estudiante a una oportunidad, incluyendo su proyecto asociado y el estado de la postulación.
+
+| Atributos         | Tipo de dato        | Visibilidad | Descripción                                           |
+|------------------|-------------------|------------|-----------------------------------------------------|
+| applicationId     | Long              | Private    | Identificador único de la postulación             |
+| studentId         | Long              | Private    | Identificador del estudiante que postula          |
+| opportunityId     | Long              | Private    | Identificador de la oportunidad a la que postula  |
+| projectId         | Long              | Private    | Identificador del proyecto que se postula         |
+| status            | ApplicationStatus | Private    | Estado de la postulación (`Pending`, `Accepted`, `Rejected`) |
+| submissionDate    | Timestamp         | Private    | Fecha de creación de la postulación               |
+| lastUpdate        | Timestamp         | Private    | Fecha de última actualización de la postulación   |
+
+### Métodos
+
+| Método                     | Tipo de retorno | Visibilidad | Descripción                                     |
+|----------------------------|----------------|------------|------------------------------------------------|
+| getApplicationId()         | Long           | Public     | Devuelve el ID de la postulación             |
+| getStudentId()             | Long           | Public     | Devuelve el ID del estudiante                 |
+| getOpportunityId()         | Long           | Public     | Devuelve el ID de la oportunidad             |
+| getProjectId()             | Long           | Public     | Devuelve el ID del proyecto asociado         |
+| getStatus()                | ApplicationStatus | Public  | Devuelve el estado actual de la postulación |
+| submit()                   | void           | Public     | Cambia el estado de la postulación a `Pending` |
+| accept()                   | void           | Public     | Cambia el estado de la postulación a `Accepted` |
+| reject()                   | void           | Public     | Cambia el estado de la postulación a `Rejected` |
+| getSubmissionDate()        | Timestamp      | Public     | Devuelve la fecha de creación de la postulación |
+| getLastUpdate()            | Timestamp      | Public     | Devuelve la fecha de última actualización   |
+
+### Value Objects
+
+| Value Object           | Descripción                                      |
+|------------------------|--------------------------------------------------|
+| ApplicationStatus       | Representa el estado de la postulación: `Pending`, `Accepted`, `Rejected` |
+| ApplicationCriteria     | Contiene los criterios de selección aplicados por la empresa |
+
+
+
+#### Interfaz: `ApplicationQueryService`
+
+| Título       | ApplicationQueryService |
+|-------------|--------------------------|
+| Descripción | Contrato para operaciones de lectura relacionadas con postulaciones de estudiantes |
+
+##### Métodos
+
+| Método                                | Descripción                                                       |
+|--------------------------------------|-------------------------------------------------------------------|
+| handle(GetApplicationByIdQuery)      | Obtiene los detalles completos de una postulación por su ID       |
+| handle(GetAllStudentApplicationsQuery) | Obtiene todas las postulaciones asociadas a un estudiante        |
+| handle(GetAllOpportunityApplicationsQuery) | Obtiene todas las postulaciones a una oportunidad              |
+| handle(ValidateApplicationOwnershipQuery) | Verifica si un estudiante es propietario de la postulación     |
+
+---
+
+#### Interfaz: `ApplicationCommandService`
+
+| Título       | ApplicationCommandService |
+|-------------|-----------------------------|
+| Descripción | Contrato para operaciones de escritura relacionadas con postulaciones de estudiantes |
+
+##### Métodos
+
+| Método                               | Descripción                                                   |
+|-------------------------------------|---------------------------------------------------------------|
+| handle(SubmitApplicationCommand)    | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
+| handle(AcceptApplicationCommand)    | Cambia el estado de la postulación a `Accepted`               |
+| handle(RejectApplicationCommand)    | Cambia el estado de la postulación a `Rejected`               |
+| handle(DeleteApplicationCommand)    | Elimina una postulación del sistema                           |
+
+
+
+
+
+
 #### 2.6.4.2. Interface Layer
+
+
+Expone un controlador REST (ApplicationController) que traduce las operaciones del dominio en endpoints accesibles al cliente, manejando rutas para crear, aceptar, rechazar o listar postulaciones, y apoyándose en assemblers para transformar entidades y comandos entre el mundo REST y el dominio.
+
+### Controlador: `ApplicationController`
+
+**Título:** ApplicationController  
+**Descripción:** Controlador REST que maneja las operaciones CRUD y gestión de postulaciones de estudiantes a oportunidades de empresa.
+
+#### Métodos
+
+| Método                 | Ruta                                       | Descripción                                               |
+|------------------------|-------------------------------------------|-----------------------------------------------------------|
+| getApplicationById      | GET /api/v1/applications/{id}             | Obtiene los detalles de una postulación específica por su ID |
+| getAllStudentApplications | GET /api/v1/applications/student/{studentId} | Obtiene todas las postulaciones de un estudiante        |
+| getAllOpportunityApplications | GET /api/v1/applications/opportunity/{opportunityId} | Obtiene todas las postulaciones a una oportunidad      |
+| submitApplication       | POST /api/v1/applications                 | Crea una nueva postulación asociando estudiante, proyecto y oportunidad |
+| acceptApplication       | POST /api/v1/applications/{id}/accept    | Cambia el estado de la postulación a `Accepted`         |
+| rejectApplication       | POST /api/v1/applications/{id}/reject    | Cambia el estado de la postulación a `Rejected`         |
+| deleteApplication       | DELETE /api/v1/applications/{id}         | Elimina una postulación del sistema                      |
+
+#### Dependencias
+
+| Dependencia                              | Descripción                                                                 |
+|-----------------------------------------|-----------------------------------------------------------------------------|
+| ApplicationQueryService                  | Servicio para consultas y recuperación de datos de postulaciones          |
+| ApplicationCommandService                | Servicio para ejecutar comandos de creación, aceptación, rechazo y eliminación de postulaciones |
+| SubmitApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de creación de postulaciones         |
+| AcceptApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de aceptación de postulaciones      |
+| RejectApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de rechazo de postulaciones         |
+| DeleteApplicationCommandFromResourceAssembler | Convierte recursos REST en comandos de eliminación de postulaciones     |
+| ApplicationResourceFromEntityAssembler  | Convierte entidades de postulación en recursos REST para la respuesta     |
 
 #### 2.6.4.3. Application Layer
 
+Implementa los casos de uso a través de ApplicationCommandServiceImpl y ApplicationQueryServiceImpl, orquestando las operaciones sobre el dominio y gestionando el flujo entre la lógica de negocio y las dependencias externas.
+
+#### Clase: `ApplicationQueryServiceImpl`
+
+| Título       | ApplicationQueryServiceImpl |
+|-------------|-------------------------------|
+| Descripción | Implementación del contrato de consultas definido en el dominio para postulaciones de estudiantes |
+
+##### Dependencias
+
+| Dependencia                      | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| ApplicationQueryService          | Contrato definido en dominio                   |
+| ApplicationRepository            | Repositorio para acceso a datos de postulaciones |
+
+---
+
+#### Clase: `ApplicationCommandServiceImpl`
+
+| Título       | ApplicationCommandServiceImpl |
+|-------------|--------------------------------|
+| Descripción | Implementación del contrato de comandos definido en el dominio para postulaciones de estudiantes |
+
+##### Dependencias
+
+| Dependencia                      | Descripción                                    |
+|----------------------------------|------------------------------------------------|
+| ApplicationCommandService        | Contrato definido en dominio                   |
+| ApplicationRepository            | Repositorio para acceso a datos de postulaciones |
+
+
+
+
 #### 2.6.4.4. Infrastructure Layer
+
+Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y consultas específicas por estudiante u oportunidad, conectando las entidades del dominio con la base de datos y gestionando la interacción con clases externas como Student, Project y Opportunity.
+
+
+### Clase: `ApplicationRepository`
+
+| Título       | ApplicationRepository |
+|-------------|----------------------|
+| Descripción | Interfaz de persistencia para operaciones CRUD y consultas específicas de postulaciones de estudiantes |
+
+#### Métodos
+
+| Método                 | Descripción                                           |
+|------------------------|-------------------------------------------------------|
+| save(ApplicationEntity) | Persiste una nueva postulación o actualiza una existente |
+| deleteById(Long)        | Elimina una postulación por su ID                   |
+| findById(Long)          | Obtiene una postulación por su ID                   |
+| findAllByStudentId(Long) | Obtiene todas las postulaciones asociadas a un estudiante |
+| findAllByOpportunityId(Long) | Obtiene todas las postulaciones a una oportunidad |
+
+#### Dependencias
+
+| Dependencia         | Propósito                                                   |
+|--------------------|--------------------------------------------------------------|
+| Student             | Clase que representa al estudiante en el sistema           |
+| Opportunity         | Clase que representa la oportunidad en el sistema          |
+| Project             | Clase que representa el proyecto asociado a la postulación |
+| ApplicationEntity   | Clase que representa la entidad de postulación en la base de datos |
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
@@ -1527,9 +1923,18 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+<p align="center">
+  <img src="images/StudentApplicationsUML.png" alt = "updated class diagram" width="80%">
+</p>
+
+<p align="center">
+    Bounded Context Class Diagram - Elaboración propia
+</p>
+
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
 
 
-
-
+<p align="center">
+  <img src="images/dbd4.png" alt = "database diagram" width="80%">
+</p>
 
