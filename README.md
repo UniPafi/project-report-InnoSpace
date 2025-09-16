@@ -1150,8 +1150,11 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 #### 2.5.3.1.Software Architecture Context Level Diagrams
+![InnoSpace-diagram-context](./images/Context-Diagram.png)
 #### 2.5.3.2.Software Architecture Container Level Diagrams
+![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
 
 ## 2.6.Tactical-Level Domain-Driven Design
 
@@ -1329,6 +1332,8 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 
 #### 2.6.2.1. Domain Layer
 
+El agregado Opportunity encapsula la lógica de negocio de una convocatoria publicada por una empresa, controlando su ciclo de vida (Draft, Published, Closed), validando criterios y actualizaciones, y garantizando consistencia mediante Value Objects como OpportunityStatus y OpportunityRequirements.
+
 
 ### Aggregate: `Opportunity`
 **Descripción:** Representa una convocatoria u oportunidad publicada por una empresa, con detalles, criterios de selección y estado.
@@ -1368,8 +1373,46 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 | OpportunityRequirements | Contiene las habilidades y criterios que la empresa espera de los postulantes |
 
 
+
+
+#### Clase: `OpportunityQueryService`
+
+| Título       | OpportunityQueryService |
+|--------------|--------------------------|
+| Descripción  | Interfaz de servicio de consultas para operaciones de lectura relacionadas con oportunidades de empresa |
+
+##### Métodos
+
+| Método                                | Descripción                                               |
+|--------------------------------------|-----------------------------------------------------------|
+| handle(GetOpportunityByIdQuery)       | Obtiene los detalles completos de una oportunidad por su ID |
+| handle(GetAllCompanyOpportunitiesQuery) | Obtiene todas las oportunidades asociadas a una empresa   |
+| handle(ValidateOpportunityOwnershipQuery) | Verifica si una empresa es propietaria de la oportunidad |
+
+---
+
+#### Clase: `OpportunityCommandService`
+
+| Título       | OpportunityCommandService |
+|--------------|-----------------------------|
+| Descripción  | Interfaz de servicio de comandos para operaciones de escritura relacionadas con oportunidades de empresa |
+
+##### Métodos
+
+| Método                          | Descripción                                                       |
+|--------------------------------|-------------------------------------------------------------------|
+| handle(CreateOpportunityCommand) | Crea una nueva oportunidad con la información proporcionada       |
+| handle(UpdateOpportunityCommand) | Actualiza los detalles de la oportunidad (título, descripción, requisitos) |
+| handle(PublishOpportunityCommand) | Cambia el estado de la oportunidad a publicada                    |
+| handle(CloseOpportunityCommand)   | Cambia el estado de la oportunidad a cerrada                      |
+| handle(DeleteOpportunityCommand)  | Elimina una oportunidad del sistema                               |
+
+
+
 #### 2.6.2.2. Interface Layer
 
+
+El OpportunityController expone endpoints REST que permiten a clientes externos crear, actualizar, publicar, cerrar y consultar convocatorias, utilizando assemblers para mapear recursos REST a comandos y entidades de dominio, y conectándose a los servicios de aplicación para ejecutar la lógica correspondiente.
 
 ### Controlador: `OpportunityController`
 
@@ -1401,61 +1444,43 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 
 #### 2.6.2.3. Application Layer
 
+Los servicios OpportunityCommandServiceImpl y OpportunityQueryServiceImpl implementan los casos de uso de creación, actualización, publicación, cierre y consulta de oportunidades, actuando como orquestadores entre el dominio y la infraestructura, sin exponer detalles técnicos.
 
-### Clase: `OpportunityQueryServiceImpl`
+
+
+#### Clase: `OpportunityQueryServiceImpl`
 
 | Título       | OpportunityQueryServiceImpl |
-|-------------|-----------------------------|
-| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con oportunidades de empresa |
+|--------------|------------------------------|
+| Descripción  | Implementación del servicio de consultas para operaciones de lectura relacionadas con oportunidades de empresa |
 
-#### Métodos
+##### Dependencias
 
-| Método                                | Descripción                                                |
-|--------------------------------------|------------------------------------------------------------|
-| handle(GetOpportunityByIdQuery)       | Obtiene los detalles completos de una oportunidad por su ID |
-| handle(GetAllCompanyOpportunitiesQuery) | Obtiene todas las oportunidades asociadas a una empresa  |
-| handle(ValidateOpportunityOwnershipQuery) | Verifica si una empresa es propietaria de la oportunidad |
+| Dependencia                | Descripción                                     |
+|-----------------------------|-------------------------------------------------|
+| OpportunityRepository       | Repositorio para acceso a datos de oportunidades |
+| OpportunityQueryService     | Interfaz de consultas definida en el dominio     |
 
-#### Dependencias
+---
 
-| Dependencia                     | Descripción                                           |
-|--------------------------------|-------------------------------------------------------|
-| OpportunityRepository           | Repositorio para acceso a datos de oportunidades    |
-| GetOpportunityByIdQuery         | Query para obtener detalles de oportunidad por ID   |
-| GetAllCompanyOpportunitiesQuery | Query para listar oportunidades de una empresa      |
-| ValidateOpportunityOwnershipQuery | Query para validar propiedad de la oportunidad    |
-
-<hr>
-
-### Clase: `OpportunityCommandServiceImpl`
+#### Clase: `OpportunityCommandServiceImpl`
 
 | Título       | OpportunityCommandServiceImpl |
-|-------------|-------------------------------|
-| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con oportunidades de empresa |
+|--------------|--------------------------------|
+| Descripción  | Implementación del servicio de comandos para operaciones de escritura relacionadas con oportunidades de empresa |
 
-#### Métodos
+##### Dependencias
 
-| Método                        | Descripción                                           |
-|-------------------------------|-------------------------------------------------------|
-| handle(CreateOpportunityCommand) | Crea una nueva oportunidad con la información proporcionada |
-| handle(UpdateOpportunityCommand) | Actualiza los detalles de la oportunidad (título, descripción, requisitos) |
-| handle(PublishOpportunityCommand) | Cambia el estado de la oportunidad a publicada     |
-| handle(CloseOpportunityCommand)   | Cambia el estado de la oportunidad a cerrada       |
-| handle(DeleteOpportunityCommand)  | Elimina una oportunidad del sistema                |
-
-#### Dependencias
-
-| Dependencia                           | Descripción                                           |
-|--------------------------------------|-------------------------------------------------------|
-| OpportunityRepository                 | Repositorio para acceso a datos de oportunidades    |
-| CreateOpportunityCommand              | Comando para creación de oportunidades              |
-| UpdateOpportunityCommand              | Comando para actualización de oportunidades        |
-| PublishOpportunityCommand             | Comando para publicar oportunidades                 |
-| CloseOpportunityCommand               | Comando para cerrar oportunidades                   |
-| DeleteOpportunityCommand              | Comando para eliminar oportunidades       
+| Dependencia                | Descripción                                     |
+|-----------------------------|-------------------------------------------------|
+| OpportunityRepository       | Repositorio para acceso a datos de oportunidades |
+| OpportunityCommandService   | Interfaz de comandos definida en el dominio      |
 
 
 #### 2.6.2.4. Infrastructure Layer
+
+La clase OpportunityRepository gestiona la persistencia y recuperación de oportunidades en la base de datos, con operaciones CRUD y consultas específicas por empresa, asegurando la integración del dominio con entidades como Company y OpportunityEntity.
+
 
 #### Clase: `OpportunityRepository`
 
@@ -1908,6 +1933,8 @@ Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y co
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
 
+
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
+
