@@ -1432,7 +1432,7 @@ Empathy Map Segmento 2:
 
 #### 2.6.2.4. Infrastructure Layer
 
-### Clase: `OpportunityRepository`
+#### Clase: `OpportunityRepository`
 
 | Título       | OpportunityRepository |
 |-------------|----------------------|
@@ -1470,7 +1470,11 @@ Empathy Map Segmento 2:
 
 #### 2.6.3.1. Domain Layer
 
-### Aggregate: `CollaborationDecision`
+Contiene la lógica principal sobre cómo las empresas (gerentes) toman decisiones respecto a proyectos estudiantiles. Incluye el agregado CollaborationDecision, con atributos como projectId, companyId, decisionStatus (interesado, aceptado, rechazado) y feedback. También maneja entidades de soporte como Manager y StudentProject.
+
+
+
+#### Aggregate: `CollaborationDecision`
 **Descripción:** Representa la decisión de un gerente sobre un proyecto estudiantil y la respuesta del estudiante, incluyendo estado de interés, aceptación/rechazo y observaciones.
 
 | Atributos          | Tipo de dato            | Visibilidad | Descripción                                           |
@@ -1501,7 +1505,7 @@ Empathy Map Segmento 2:
 | getCreationDate()          | Timestamp            | Public     | Devuelve la fecha de creación                 |
 | getLastUpdate()            | Timestamp            | Public     | Devuelve la fecha de última actualización     |
 
-### Value Objects
+#### Value Objects
 
 | Value Object            | Descripción                                      |
 |-------------------------|--------------------------------------------------|
@@ -1509,10 +1513,53 @@ Empathy Map Segmento 2:
 | StudentResponseStatus    | Representa la respuesta del estudiante: `Pending`, `Accepted`, `Rejected` |
 | EvaluationNotes          | Contiene observaciones o criterios de evaluación del gerente |
 
+
+
+#### Interfaz: `CollaborationDecisionQueryService`
+
+| Título       | CollaborationDecisionQueryService |
+|-------------|-----------------------------------|
+| Descripción | Contrato para operaciones de lectura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                          | Descripción                                                 |
+|--------------------------------|-------------------------------------------------------------|
+| handle(GetDecisionByIdQuery)    | Obtiene los detalles completos de una decisión por su ID   |
+| handle(GetDecisionsByProjectQuery) | Obtiene todas las decisiones asociadas a un proyecto       |
+| handle(GetDecisionsByCompanyQuery) | Obtiene todas las decisiones tomadas por una empresa       |
+
+---
+
+#### Interfaz: `CollaborationDecisionCommandService`
+
+| Título       | CollaborationDecisionCommandService |
+|-------------|-------------------------------------|
+| Descripción | Contrato para operaciones de escritura relacionadas con decisiones de colaboración |
+
+#### Métodos
+
+| Método                                    | Descripción                                                 |
+|-------------------------------------------|-------------------------------------------------------------|
+| handle(CreateCollaborationDecisionCommand) | Crea una nueva decisión de colaboración (`Interested` / `NotInterested`) |
+| handle(AddEvaluationNotesCommand)          | Agrega notas de evaluación a una decisión                   |
+| handle(SubmitStudentResponseCommand)       | Permite al estudiante aceptar o rechazar la colaboración    |
+| handle(DeleteCollaborationDecisionCommand) | Elimina una decisión del sistema                             |
+
+
+
+
+
+
+
+
+
 #### 2.6.3.2. Interface Layer
 
+Se refleja en la aplicación móvil, mediante los formularios que puede enviar el gerente para colaborar con un proyecto. Los gerentes envían propuestas de colaboración a proyectos específicos, y los estudiantes pueden revisarlas y responder (aceptar o rechazar).
 
-### Controlador: `CollaborationDecisionController`
+
+#### Controlador: `CollaborationDecisionController`
 
 **Título:** CollaborationDecisionController  
 **Descripción:** Controlador REST que maneja la visualización de proyectos, registro de decisiones de gerentes y respuesta de estudiantes sobre colaboraciones.
@@ -1544,64 +1591,50 @@ Empathy Map Segmento 2:
 
 #### 2.6.3.3. Application Layer
 
+Orquesta los casos de uso para enviar, aceptar o rechazar decisiones de colaboración. Expone servicios de comandos (CollaborationDecisionCommandService) para procesar acciones y servicios de consulta (CollaborationDecisionQueryService) para obtener el estado de las decisiones.
 
 
-### Clase: `CollaborationDecisionQueryServiceImpl`
+
+#### Clase: `CollaborationDecisionQueryServiceImpl`
 
 | Título       | CollaborationDecisionQueryServiceImpl |
 |-------------|---------------------------------------|
-| Descripción | Implementación del servicio de consultas para operaciones de lectura relacionadas con decisiones de colaboración |
+| Descripción | Implementación del contrato de consultas definido en el dominio para decisiones de colaboración |
 
-#### Métodos
+#### Dependencias:
 
-| Método                          | Descripción                                                 |
-|--------------------------------|-------------------------------------------------------------|
-| handle(GetDecisionByIdQuery)    | Obtiene los detalles completos de una decisión por su ID   |
-| handle(GetDecisionsByProjectQuery) | Obtiene todas las decisiones asociadas a un proyecto       |
-| handle(GetDecisionsByCompanyQuery) | Obtiene todas las decisiones tomadas por una empresa       |
-
-#### Dependencias
-
-| Dependencia                     | Descripción                                  |
-|--------------------------------|---------------------------------------------|
-| CollaborationDecisionRepository  | Repositorio para acceso a datos de decisiones |
-| GetDecisionByIdQuery             | Query para obtener decisión por ID           |
-| GetDecisionsByProjectQuery       | Query para obtener decisiones por proyecto  |
-| GetDecisionsByCompanyQuery       | Query para obtener decisiones por empresa   |
+| Dependencia                          | Descripción                                  |
+|-------------------------------------|---------------------------------------------|
+| CollaborationDecisionQueryService    | Contrato definido en dominio                 |
+| CollaborationDecisionRepository      | Repositorio para acceso a datos de decisiones |
 
 ---
 
-### Clase: `CollaborationDecisionCommandServiceImpl`
+#### Clase: `CollaborationDecisionCommandServiceImpl`
 
 | Título       | CollaborationDecisionCommandServiceImpl |
 |-------------|-----------------------------------------|
-| Descripción | Implementación del servicio de comandos para operaciones de escritura relacionadas con decisiones de colaboración |
+| Descripción | Implementación del contrato de comandos definido en el dominio para decisiones de colaboración |
 
-#### Métodos
+#### Dependencias:
 
-| Método                          | Descripción                                                 |
-|--------------------------------|-------------------------------------------------------------|
-| handle(CreateCollaborationDecisionCommand) | Crea una nueva decisión de colaboración (`Interested` / `NotInterested`) |
-| handle(AddEvaluationNotesCommand)           | Agrega notas de evaluación a una decisión                   |
-| handle(SubmitStudentResponseCommand)       | Permite al estudiante aceptar o rechazar la colaboración    |
-| handle(DeleteCollaborationDecisionCommand) | Elimina una decisión del sistema                             |
+| Dependencia                           | Descripción                                  |
+|--------------------------------------|---------------------------------------------|
+| CollaborationDecisionCommandService   | Contrato definido en dominio                 |
+| CollaborationDecisionRepository       | Repositorio para acceso a datos de decisiones |
 
-#### Dependencias
 
-| Dependencia                                           | Descripción                                  |
-|------------------------------------------------------|---------------------------------------------|
-| CollaborationDecisionRepository                       | Repositorio para acceso a datos de decisiones |
-| CreateCollaborationDecisionCommand                   | Comando para crear decisiones                 |
-| AddEvaluationNotesCommand                             | Comando para agregar notas                     |
-| SubmitStudentResponseCommand                          | Comando para respuesta del estudiante        |
-| DeleteCollaborationDecisionCommand                    | Comando para eliminar decisiones             |
+
 
 
 #### 2.6.3.4. Infrastructure Layer
 
+Implementa la persistencia de las decisiones de colaboración y la integración con servicios externos. Incluye repositorios como CollaborationDecisionRepository y adaptadores para acceder a datos de proyectos y empresas.
 
 
-### Clase: `CollaborationDecisionRepository`
+
+
+#### Clase: `CollaborationDecisionRepository`
 
 | Título       | CollaborationDecisionRepository |
 |-------------|---------------------------------|
