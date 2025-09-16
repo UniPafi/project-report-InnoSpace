@@ -1284,6 +1284,75 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
+
+Ahora se mostrarán los eventos en los cuales se comunican los bounded contexts hallados previamente.
+
+
+<strong>Company Opportunities y Student Applications:</strong> Cuando un estudiante postula a una convocatoria, se mostrará en la lista de postulantes del gerente, luego el gerente podrá revisar el perfil del postulante y validar su postulación
+
+<p align="center">
+  <img src="images/chapterii/mesage3.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+<strong>Company Opportunities y Student Applications:</strong> Cuando una convocatoria acaba y el estudiante elegido participa en ella, entonces el perfil del estudiante se actualizará con la convocatoria en la que participó.
+
+<p align="center">
+  <img src="images/chapterii/mesage5.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+<strong>Project Collaboration y Student Applications:</strong> Cuando el estudiante gana experiencia después de una convocatoria, el gerente puede corroborar su experiencia antes de colaborar en un proyecto del estudiante.
+
+<p align="center">
+  <img src="images/chapterii/mesage6.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+<strong>Project Collaboration y Student Projects:</strong> Cuando el estudiante publica un proyecto, un gerente podrá verlo en la aplicación y enviar la decisión al estudiante, finalmente el estudiante aceptará si decidir la colaboración o no.
+
+<p align="center">
+  <img src="images/chapterii/mesage7.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+<br>
+
+Aca se muestra el diagrama completo que incluye los 4 Bounded Contexts: 
+
+
+
+<p align="center">
+  <img src="images/chapterii/fulldiagram.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+Enlace al Miro Board: https://miro.com/app/board/uXjVJKRuXIw=/?share_link_id=238987388336
+
+
+
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
