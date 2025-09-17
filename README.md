@@ -1141,6 +1141,12 @@ Empathy Map Segmento 2:
 
 ### 2.4.2. Impact Mapping
 
+<img src="images/immp1.png" alt = "impact mapping" width="80%">
+<img src="images/immp2.png" alt = "impact mapping" width="80%">
+
+<img src="images/immp3.png" alt = "impact mapping" width="80%">
+<img src="images/immp4.png" alt = "impact mapping" width="80%">
+
 ### 2.4.3. Product Backlog
 
 <table border="1">
