@@ -202,29 +202,29 @@ Y ante esta problemática nos surge la siguiente pregunta: ¿Cómo podríamos ha
 ##### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions<br/><br/>
-1. **Creo en que nuestros usuarios, ya sean estudiantes o profesores universitarios, puedan dar el gran paso desde la Universidad a un centro laboral.
+1. **Creo en que nuestros usuarios,** ya sean estudiantes o profesores universitarios, puedan dar el gran paso desde la Universidad a un centro laboral.
 
-2. **Estas necesidades se pueden satisfacer una plataforma web que conecte a estudiantes y profesores lanzando sus materiales importantes a personas que quieran sobresalir.
+2. **Estas necesidades se pueden satisfacer** una plataforma web que conecte a estudiantes y profesores lanzando sus materiales importantes a personas que quieran sobresalir.
 
-3. **Nuestros clientes iniciales serán estudiantes y profesores universitarios, de carreras al azar, que buscan un trabajo en cualquier empresa.
+3. **Nuestros clientes iniciales serán** estudiantes y profesores universitarios, de carreras al azar, que buscan un trabajo en cualquier empresa.
 
-4. **El valor más importante que un cliente quiere de nuestros servicios es poder conseguir trabajos y publicar sus logros y materiales anteriores para poder tener un historial llamativo.
+4. **El valor más importante que un cliente quiere de nuestros servicios es** poder conseguir trabajos y publicar sus logros y materiales anteriores para poder tener un historial llamativo.
 
-5. **El cliente también va a obtener flexibilidad de horarios, ingresos adicionales, desarrollo de habilidades blandas y validación en su perfil.
+5. **El cliente también va a obtener** flexibilidad de horarios, ingresos adicionales, desarrollo de habilidades blandas y validación en su perfil.
 
-6. **Se va a obtener a la gran mayoría de clientes mediante las redes sociales (Facebook, X, Instagram, TikTok), alianzas con empresas peruanas e internacionales y campañas digitales en varios foros universitarios.
+6. **Se va a obtener a la gran mayoría de clientes mediante** las redes sociales (Facebook, X, Instagram, TikTok), alianzas con empresas peruanas e internacionales y campañas digitales en varios foros universitarios.
 
-7. **Se van a obtener ingresos mediante comisiones por publicación de materiales u obtener una suscripción permium para empresas de mayor jerarquía.
+7. **Se van a obtener ingresos mediante** comisiones por publicación de materiales u obtener una suscripción permium para empresas de mayor jerarquía.
 
-8. **Nuestra competencia en el mercado serán plataformas como Indeed, LinkedIn Jobs, Glassdoor, etc.
+8. **Nuestra competencia en el mercado serán** plataformas como Indeed, LinkedIn Jobs, Glassdoor, etc.
 
-9. **Vamos a tener ventaja frente a nuestra competencia debido a que estamos centrados en el mercado nacional e internacional, sin barreras como un título o años de experiencia.
+9. **Vamos a tener ventaja frente a nuestra competencia debido a** que estamos centrados en el mercado nacional e internacional, sin barreras como un título o años de experiencia.
 
-10. **El mayor riesgo del servicio es la baja participación de estudiantes y profesores o la desconfianza de las empresas en contratar a personal sin tener preparación seria.
+10. **El mayor riesgo del servicio es** la baja participación de estudiantes y profesores o la desconfianza de las empresas en contratar a personal sin tener preparación seria.
 
-11. **Lo resolveremos realizando incentivos por primeras contrataciones, sistema de reputación de candidatos, alianzas con universidades y empresas y casos de éxito visible.
+11. **Lo resolveremos realizando** incentivos por primeras contrataciones, sistema de reputación de candidatos, alianzas con universidades y empresas y casos de éxito visible.
 
-12. **Otro riesgo que debemos considerar es que los estudiantes y los profesores no tengan el tiempo, ni la motivación para postularse para otros centros laborales durante su carrera.
+12. **Otro riesgo que debemos considerar es que** los estudiantes y los profesores no tengan el tiempo, ni la motivación para postularse para otros centros laborales durante su carrera.
 
 
 ##### User Assumptions<br/><br/>
@@ -344,6 +344,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 #### 2.2.1. Diseño de entrevistas
 
 #### 2.2.2. Registro de entrevistas
+
 
 
 
