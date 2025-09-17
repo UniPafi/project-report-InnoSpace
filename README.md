@@ -704,16 +704,16 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
     <th colspan="2" style="text-align:center">Entrevista 2</th>
   </tr>
   <tr>
-    <td><strong>Entrevistada</strong></td>
-    <td>aaa</td>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel David Niño Torres Grandez.</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>a</td>
+    <td>39</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
-    <td>a</td>
+    <td>Los Olivos</td>
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
@@ -730,7 +730,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   <tr>
     <td colspan="2" style="text-align:justify">
       Resumen:<br>
-      aaa
+      Manuel David Niño Torre Grande, de 39 años, fundador y administrador de su empresa dedicada a la manufactura, explicó que gestionan los proyectos de innovación a través de un comité interno y metodologías colaborativas, apoyándose en equipos multidisciplinarios. Además, indicó que suelen buscar nuevas ideas y startups jóvenes ocasionalmente, especialmente cuando requieren soluciones tecnológicas emergentes, aunque señaló como principal dificultad la falta de visibilidad y experiencia de los estudiantes, lo que dificulta identificar perfiles adecuados. No obstante, destacó que han colaborado en el pasado con universidades y colegios mediante proyectos de investigación aplicada, obteniendo resultados positivos en creatividad e innovación, aunque con algunos problemas de compromiso por parte de los estudiantes. Asimismo, valoró en los jóvenes la proactividad, la capacidad de aprendizaje rápido, el trabajo en equipo y la comunicación. Respecto a plataformas como InnoSpace, consideró indispensables funcionalidades como filtros avanzados para encontrar perfiles, portafolios visibles, acuerdos de confidencialidad y herramientas de comunicación directa, ya que una de sus principales preocupaciones es la seguridad de la información y la seriedad de los participantes. Finalmente, aseguró que sí utilizaría una aplicación de este tipo porque agilizaría la búsqueda de talento joven, permitiría validar resultados antes de invertir recursos mayores y facilitaría la creación de una cantera de futuros profesionales, lo que beneficiaría tanto a la empresa como a los estudiantes al establecer una relación de aprendizaje mutuo.
     </td>
   </tr>
    <tr>
@@ -748,15 +748,15 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
-    <td>aaa</td>
+    <td>Luis Sanchez Santur</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>a</td>
+    <td>68</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
-    <td>a</td>
+    <td>Los Olivos</td>
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
@@ -773,7 +773,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   <tr>
     <td colspan="2" style="text-align:justify">
       Resumen:<br>
-      aaa
+      Luis, empresario de 68 años y representante de la empresa Santurlo F.C.A., dedicada a edificaciones y obras viales, explicó que gestionan la innovación incorporando nuevas tecnologías como el software BIM y materiales modernos en sus proyectos. Asimismo, resaltó que para integrar estudiantes o jóvenes innovadores en su empresa considera fundamental la actitud positiva, la disposición para aprender y la capacidad de aportar ideas, ya que estos factores pesan incluso más que los conocimientos técnicos. Aunque han realizado convocatorias en universidades, aclaró que no han establecido alianzas formales, lo cual representa una oportunidad de mejora. Además, destacó que las nuevas generaciones, al estar familiarizadas con herramientas digitales, contribuyen a la automatización y agilización de procesos dentro de la empresa. En cuanto a plataformas como InnoSpace, señaló que serían útiles para conectar con talento emergente; sin embargo, manifestó cierta preocupación por la seguridad y la privacidad de la información. No obstante, consideró valioso que estas aplicaciones incluyan métricas de impacto y fomenten una colaboración tripartita entre universidad, estudiante y empresa. Finalmente, afirmó que sí estaría dispuesto a usar una herramienta de este tipo, puesto que contribuiría a visibilizar el talento, generar nuevas ideas y fortalecer la relación con futuros profesionales.
     </td>
   </tr>
    <tr>
@@ -2577,4 +2577,5 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
+
 
