@@ -1564,6 +1564,52 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 
 ### 2.5.2. Context Mapping
+
+
+Esta sección documenta el proceso de análisis y diseño estructural de la aplicación, centrándose en la identificación y relación de los bounded contexts. Utilizando la metodología de Context Mapping de Domain-Driven Design, se evaluaron diversas alternativas para definir los límites de cada contexto y los patrones de interacción entre ellos. 
+
+El proceso involucró un análisis crítico de capacidades, considerando escenarios de descomposición, consolidación y reorganización de funcionalidades. A través de iteraciones y preguntas estratégicas, se establecieron las relaciones más apropiadas—Partnership, Customer-Supplier con Anti-corruption Layer y Shared Kernels—que garantizan autonomía, consistencia y escalabilidad del sistema. 
+
+A continuación se muestran los escenarios planteados:
+
+
+#### Escenario 1: ¿Partir "Student Projects" en contextos más pequeños?
+- Análisis: Evaluamos dividirlo en "Project Creation" y "Project Management".
+
+- Decisión: No. El ciclo de vida del proyecto es cohesivo. La división añadiría acoplamiento innecesario y overhead de comunicación.
+
+#### Escenario 2: ¿Duplicar el perfil del estudiante en "Student Applications"?
+- Análisis: Consideramos duplicar datos para romper la dependencia con "Student Projects".
+
+- Decisión: No. Se optó por un Anti-corruption Layer (ACL). La duplicación genera inconsistencia. El ACL mantiene la autonomía con una sola fuente de verdad.
+
+##### Escenario 3: ¿Consolidar "Project Collaboration" y "Company Opportunities" en "Company Engagement"?
+- Análisis: Evaluamos unirlos por ser ambos iniciativas de la empresa.
+
+- Decisión:  No. Sus capacidades centrales son distintas (convocatorias abiertas vs. contacto proactivo). Mantenerlos separados con una Partnership ofrece mayor cohesión.
+
+
+<p align="center">
+  <img src="images/chapterii/contextmapping.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+| Destino (Downstream)       | Origen (Upstream)           | Tipo de Relación         | Comentario                                                                                               |
+| -------------------------- | --------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Project Collaboration      | Student Projects            | Customer/Supplier + ACL  | Consume información de proyectos y estudiantes, traduciendo modelos mediante Anti-Corruption Layer       |
+| Student Applications       | Student Projects            | ACL  | Utiliza datos de estudiantes y proyectos, protegiendo su modelo con ACL                                  |
+| Student Applications       | Company Opportunities       | Customer/Supplier + ACL  | Consume convocatorias, adaptando el modelo upstream a sus necesidades con ACL                            |
+| Project Collaboration      | Company Opportunities       | Partnership              | Coordinación activa para gestión unificada de interacciones empresa-estudiante                           |
+
+
+
+
 ### 2.5.3. Software Architecture
 #### 2.5.3.1.Software Architecture Context Level Diagrams
 ![InnoSpace-diagram-context](./images/Context-Diagram.png)
