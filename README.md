@@ -108,6 +108,11 @@ Objetivo 1: Desarrollar y lanzar una interfaz de usuario intuitiva para la plata
 
 Objetivo 2: Adquirir conocimientos y experiencia en el desarrollo de aplicaciones móviles, con el fin de seguir mejorando respecto a la accesibilidad y experiencia de usuario, mientras continúo desarrollando mis habilidades técnicas y profesionales en el ámbito del desarrollo móvil.
 
+**Santur Tello Andrea Elizabeth**
+Objetivo 1: Especializarme en el desarrollo de aplicaciones móviles multiplataforma, logrando en 2 años dominar frameworks como Flutter o React Native para mejorar proyectos como InnoSpace.
+
+Objetivo 2: Fortalecer mi experiencia en diseño y despliegue de apps móviles, participando en al menos 3 implementaciones reales en los próximos 3 años para consolidar mis habilidades profesionales.
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
@@ -2415,6 +2420,7 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
+
 
 
 
