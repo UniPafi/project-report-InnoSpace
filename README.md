@@ -100,7 +100,13 @@
 - [Anexos](#anexos)
 
 ---
+## Objetivos SMART
 
+**Coca Lavado Carlos Andrés**
+
+Objetivo 1: Desarrollar y lanzar una interfaz de usuario intuitiva para la plataforma InnoSpace con el objetivo de mejorar la experiencia de los usuarios, asegurando que los usuarios registrados tengan una navegación intuitiva y fluida en la aplicación.
+
+Objetivo 2: Adquirir conocimientos y experiencia en el desarrollo de aplicaciones móviles, con el fin de seguir mejorando respecto a la accesibilidad y experiencia de usuario, mientras continúo desarrollando mis habilidades técnicas y profesionales en el ámbito del desarrollo móvil.
 
 ## Capítulo I: Introducción
 
