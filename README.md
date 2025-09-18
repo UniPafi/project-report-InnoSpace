@@ -208,7 +208,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-El propóstivo de InnoBridge es ser el puente entre el mundo académico y el empresarial en el Perú.
+El propóstivo de InnoSpace es ser el puente entre el mundo académico y el empresarial en el Perú.
 
 En el cual, por un lado, los estudiantes y profesores universitarios, quienes podrán subir proyectos, investigaciones, tesis o ideas innovadoras. Además, podrán explorar retos reales publicados por empresas y organizaciones, con la posibilidad de trabajar y mostrar su talento en un entorno competitivo y profesional.
 
