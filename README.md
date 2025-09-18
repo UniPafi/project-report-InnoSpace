@@ -102,6 +102,12 @@
 ---
 ## Objetivos SMART
 
+**Palomino Fiestas Erick Leonardo**
+
+Objetivo 1: Obtener un puesto como desarrollador backend en una empresa de tecnología y, a la par, fortalecer mis competencias en desarrollo fullstack. Para lograrlo, me propongo alcanzar al menos dos certificaciones reconocidas en estas áreas y dedicar un mínimo de seis horas semanales a proyectos personales.
+
+Objetivo 2: Desarrollar las competencias necesarias en ciberseguridad y liderazgo que me permitan ingresar en este sector de seguridad. Para ello, planeo obtener certificados especializados en ciberseguridad, invirtiendo horas en estudios y actividades vinculadas a comunidades tecnológicas. Este objetivo lo proyecto en un plazo de cuatro años tras la graduación, con el fin de sentar las bases de un crecimiento profesional.
+
 **Coca Lavado Carlos Andrés**
 
 Objetivo 1: Desarrollar y lanzar una interfaz de usuario intuitiva para la plataforma InnoSpace con el objetivo de mejorar la experiencia de los usuarios, asegurando que los usuarios registrados tengan una navegación intuitiva y fluida en la aplicación.
