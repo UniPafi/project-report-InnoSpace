@@ -3093,7 +3093,16 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 ## Conclusiones
 
+**TB1**
+- La aplicación InnoSpace responde a una necesidad real: la falta de conexión entre estudiantes con ideas innovadoras y empresas que buscan talento joven y proyectos disruptivos.
 
+- A partir de las entrevistas a estudiantes y gerentes, se confirma que existe interés en una plataforma que ofrezca visibilidad, mentoría, certificaciones y oportunidades de colaboración, aunque persisten preocupaciones sobre la seguridad y la propiedad intelectual.
+
+- El análisis competitivo evidencia que, aunque existen plataformas consolidadas (LinkedIn, AngelList, Behance), ninguna combina de forma exclusiva la dimensión académica–empresarial, lo cual representa un nicho poco explorado.
+
+- El diseño de requerimientos (User Stories, Product Backlog, Journey Maps) y la arquitectura basada en Domain-Driven Design permiten una solución escalable y adaptable, centrada en los dos perfiles principales: estudiantes y gerentes de empresas.
+
+- El proyecto no solo tiene potencial de impacto económico, sino también formativo y social, al fortalecer la empleabilidad, la innovación abierta y la colaboración universidad–empresa.
 
 ## Bibliografia
 
