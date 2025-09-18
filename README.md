@@ -36,6 +36,69 @@
 
 ---
 
+**Registro de Versiones del Informe**
+
+<table align="center">
+  <tr>
+    <td><strong>Versión</strong></td>
+    <td><strong>Fecha</strong></td>
+    <td><strong>Autor(es)</strong></td>
+    <td><strong>Descripción de cambios</strong></td>
+  </tr>
+  <tr>
+    <td>1.00</td>
+    <td>02/09/25</td>
+    <td>
+    Rivera
+    </td>
+    <td>Creación del documento en markdown.</td>
+  </tr>
+  <tr>
+    <td>1.02</td>
+    <td>05/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creacion del Descripcion del Startup y perfil de los integrantes.</td>
+  </tr>
+  <tr>
+    <td>1.03</td>
+    <td>09/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creación Antecedentes y problematica, ademas del Lean UX Procces y la descripcion de los segmentos objetivos.</td>
+  </tr>
+  <tr>
+    <td>1.04</td>
+    <td>14/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creacion del analis competitivo, estrategias y tacticas frenete a los competidores, ademas se realizaron las entrevistas, todo el apartado del Needfinding y del Ubiquitous Language.</td>
+  </tr>
+  <tr>
+    <td>1.05</td>
+    <td>18/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
+  </tr>
+</table>
+
 ---
 
 ## Contenido
