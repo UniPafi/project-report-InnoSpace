@@ -36,6 +36,69 @@
 
 ---
 
+**Registro de Versiones del Informe**
+
+<table align="center">
+  <tr>
+    <td><strong>Versión</strong></td>
+    <td><strong>Fecha</strong></td>
+    <td><strong>Autor(es)</strong></td>
+    <td><strong>Descripción de cambios</strong></td>
+  </tr>
+  <tr>
+    <td>1.00</td>
+    <td>02/09/25</td>
+    <td>
+    Rivera
+    </td>
+    <td>Creación del documento en markdown.</td>
+  </tr>
+  <tr>
+    <td>1.02</td>
+    <td>05/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creacion del Descripcion del Startup y perfil de los integrantes.</td>
+  </tr>
+  <tr>
+    <td>1.03</td>
+    <td>09/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creación Antecedentes y problematica, ademas del Lean UX Procces y la descripcion de los segmentos objetivos.</td>
+  </tr>
+  <tr>
+    <td>1.04</td>
+    <td>14/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creacion del analis competitivo, estrategias y tacticas frenete a los competidores, ademas se realizaron las entrevistas, todo el apartado del Needfinding y del Ubiquitous Language.</td>
+  </tr>
+  <tr>
+    <td>1.05</td>
+    <td>18/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca,<br>
+    Cabrera, Santur
+    </td>
+    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
+  </tr>
+</table>
+
 ---
 
 ## Contenido
@@ -76,7 +139,7 @@
     - [2.4.3. Product Backlog](#243-product-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-Strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
-      - [2.5.1.1. Candidate Context Discovery](#2511-lean-ux-canvas)
+      - [2.5.1.1. Candidate Context Discovery](#2511-Candidate-Context-Discovery)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
     - [2.5.2. Context Mapping](#252-context-mapping)
@@ -85,21 +148,150 @@
       - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
-    - [2.6.X. Bounded Context: <Bounded Context Name>](#26x-bounded-context-bounded-context-name)
-      - [2.6.X.1. Domain Layer](#26x1-domain-layer)
-      - [2.6.X.2. Interface Layer](#26x2-interface-layer)
-      - [2.6.X.3. Application Layer](#26x3-application-layer)
-      - [2.6.X.4. Infrastructure Layer](#26x4-infrastructure-layer)
-      - [2.6.X.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
-      - [2.6.X.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
-        - [2.6.X.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
-        - [2.6.X.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
 
+    - [2.6.1. Bounded Context: Student Projects](#261-bounded-context-student-projects)
+      - [2.6.1.1. Domain Layer](#2611-domain-layer)
+      - [2.6.1.2. Interface Layer](#2612-interface-layer)
+      - [2.6.1.3. Application Layer](#2613-application-layer)
+      - [2.6.1.4. Infrastructure Layer](#2614-infrastructure-layer)
+      - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams](#2615-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams](#2616-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams](#26161-bounded-context-domain-layer-class-diagrams)
+        - [2.6.1.6.2. Bounded Context Database Design Diagram](#26162-bounded-context-database-design-diagrams)
 
+    - [2.6.2. Bounded Context: Company Opportunities](#262-bounded-context-company-opportunities)
+      - [2.6.2.1. Domain Layer](#2621-domain-layer)
+      - [2.6.2.2. Interface Layer](#2622-interface-layer)
+      - [2.6.2.3. Application Layer](#2623-application-layer)
+      - [2.6.2.4. Infrastructure Layer](#2624-infrastructure-layer)
+      - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams](#2625-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams](#2626-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams](#26261-bounded-context-domain-layer-class-diagrams)
+        - [2.6.2.6.2. Bounded Context Database Design Diagrams](#26262-bounded-context-database-design-diagrams)
+
+    - [2.6.3. Bounded Context: Project Collaboration](#263-bounded-context-project-collaboration)
+      - [2.6.3.1. Domain Layer](#2631-domain-layer)
+      - [2.6.3.2. Interface Layer](#2632-interface-layer)
+      - [2.6.3.3. Application Layer](#2633-application-layer)
+      - [2.6.3.4. Infrastructure Layer](#2634-infrastructure-layer)
+      - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams](#2635-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams](#2636-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams](#26361-bounded-context-domain-layer-class-diagrams)
+        - [2.6.3.6.2. Bounded Context Database Design Diagrams](#26362-bounded-context-database-design-diagrams)
+
+    - [2.6.4. Bounded Context: Student Applications](#264-bounded-context-student-applications)
+      - [2.6.4.1. Domain Layer](#2641-domain-layer)
+      - [2.6.4.2. Interface Layer](#2642-interface-layer)
+      - [2.6.4.3. Application Layer](#2643-application-layer)
+      - [2.6.4.4. Infrastructure Layer](#2644-infrastructure-layer)
+      - [2.6.4.5. Bounded Context Software Architecture Component Level Diagrams](#2645-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
+        - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagrams)
+
+- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
 ---
+## Student Outcome
+
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Criterio específico</th>
+      <th style="text-align: left;">Acciones realizadas</th>
+      <th style="text-align: left;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+      <td>
+        <br> TB1:Santur Tello, Andrea Elizabeth:
+Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto.
+<br> 
+
+Palomino Fiestas, Erick Leonardo:
+Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
+
+Rivera Ratachi, Renzo Sebastián:
+Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
+
+Coca Lavado, Carlos Andrés:
+Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
+ <br>
+Cabrera Buitrón, Diego Iván:
+Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema.<br><br><br>
+      </td>
+      <td>
+        TB1: Como grupo, actualizamos conceptos clave de ingeniería de software y los aplicamos de manera efectiva en el proyecto. La investigación previa, el análisis de problemas y el uso de metodologías como Eventstorming y Lean UX nos permitieron adquirir nuevos conocimientos y reforzar habilidades necesarias para el desarrollo profesional, garantizando que cada integrante ampliara su dominio en áreas específicas del proyecto.
+      </td>
+    </tr>
+    <tr>
+      <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+      <td>
+        <br>TB1:Santur Tello, Andrea Elizabeth:
+Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto. <br>
+
+Palomino Fiestas, Erick Leonardo:
+Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
+
+Rivera Ratachi, Renzo Sebastián:
+Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
+
+Coca Lavado, Carlos Andrés:
+Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
+ <br>
+Cabrera Buitrón, Diego Iván:
+Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema. <br><br> 
+<br>
+      </td>
+      <td>
+        TB1:El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La constante búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente. Este enfoque nos permitió responder de forma más eficiente a los retos del proyecto y prepararnos mejor para futuros escenarios en el ámbito de la ingeniería de software..<br>.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+## Objetivos SMART
+
+**Palomino Fiestas Erick Leonardo**
+
+Objetivo 1: Obtener un puesto como desarrollador backend en una empresa de tecnología y, a la par, fortalecer mis competencias en desarrollo fullstack. Para lograrlo, me propongo alcanzar al menos dos certificaciones reconocidas en estas áreas y dedicar un mínimo de seis horas semanales a proyectos personales.
+
+Objetivo 2: Desarrollar las competencias necesarias en ciberseguridad y liderazgo que me permitan ingresar en este sector de seguridad. Para ello, planeo obtener certificados especializados en ciberseguridad, invirtiendo horas en estudios y actividades vinculadas a comunidades tecnológicas. Este objetivo lo proyecto en un plazo de cuatro años tras la graduación, con el fin de sentar las bases de un crecimiento profesional.
+
+**Coca Lavado Carlos Andrés**
+
+Objetivo 1: Desarrollar y lanzar una interfaz de usuario intuitiva para la plataforma InnoSpace con el objetivo de mejorar la experiencia de los usuarios, asegurando que los usuarios registrados tengan una navegación intuitiva y fluida en la aplicación.
+
+Objetivo 2: Adquirir conocimientos y experiencia en el desarrollo de aplicaciones móviles, con el fin de seguir mejorando respecto a la accesibilidad y experiencia de usuario, mientras continúo desarrollando mis habilidades técnicas y profesionales en el ámbito del desarrollo móvil.
+
+**Rivera Ratachi Renzo Sebastian**
+
+Objetivo 1: Especializarme en seguridad de aplicaciones móviles, aplicando técnicas de pentesting y auditoría para garantizar la protección de datos, logrando en 3 años obtener experiencia práctica en al menos 2 proyectos de pruebas de seguridad.
+
+Objetivo 2: Desarrollar una carrera en ciberseguridad dentro del área de Blue Team y DFIR, alcanzando en 5 años certificaciones reconocidas internacionalmente que respalden mi perfil profesional.
+
+**Santur Tello Andrea Elizabeth**
+
+Objetivo 1: Especializarme en el desarrollo de aplicaciones móviles multiplataforma, logrando en 2 años dominar frameworks como Flutter o React Native para mejorar proyectos como InnoSpace.
+
+Objetivo 2: Fortalecer mi experiencia en diseño y despliegue de apps móviles, participando en al menos 3 implementaciones reales en los próximos 3 años para consolidar mis habilidades profesionales.
+
+
+**Cabrera Buitron Diego Ivan**
+
+Objetivo 1: Implementar y validar los módulos de gestión de proyectos estudiantiles en la plataforma InnoSpace, de modo que al finalizar el ciclo académico al menos el 70% de los estudiantes registrados pueda crear, publicar y actualizar sus proyectos de forma exitosa, contribuyendo a la construcción de su portafolio profesional.
+
+Objetivo 2: Fortalecer mis competencias técnicas en arquitectura de software basada en Domain-Driven Design (DDD) y el desarrollo de APIs RESTful con persistencia en MySQL, aplicando buenas prácticas de ingeniería durante el ciclo académico, para consolidar mi perfil como futuro ingeniero de software especializado en backend y diseño de soluciones escalables.
 
 
 ## Capítulo I: Introducción
@@ -171,13 +363,88 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+El propóstivo de InnoSpace es ser el puente entre el mundo académico y el empresarial en el Perú.
+
+En el cual, por un lado, los estudiantes y profesores universitarios, quienes podrán subir proyectos, investigaciones, tesis o ideas innovadoras. Además, podrán explorar retos reales publicados por empresas y organizaciones, con la posibilidad de trabajar y mostrar su talento en un entorno competitivo y profesional.
+
+Por otro lado, las empresas, ingenieros, administradores, técnicos y médicos, quienes podrán publicar problemas o necesidades que enfrenta su sector. De esta manera podrán tener acceso a un ecosistema de propuestas frescas e innovadoras de estudiantes y docentes, con lo que podrán evaluar un financiamiento o contratar soluciones concretas.
+
+Y ante esta problemática nos surge la siguiente pregunta: ¿Cómo podríamos hacer que las personas universitarias puedan tener un ámbito laboral y estable, sin importar en el sector en el que estén?
+
+- Domain: Personas con una visión laboral en base a la Universidad en la que se encuentran.
+- Customer Segments: Estudiantes y profesores de una Universidad, que quieren dar el salto del estudio al centro laboral.
+- Pain Points: Falta de personal joven que quieran tener un futuro en el ámbito laboral, falta de atención en el mundo laboral y bajos recursos para contratar profesionales de buen desempeño individual.
+- Gap: No existe una solución en el mercado que se dedique al conocimiento y a la conexión entre personas universitarias y el ámbito laboral. Así como también, las empresas requieren de personal joven para mantener una estabilidad económica aceptable.
+- Vision/Strategy: Crear una plataforma accesible cuyos estudiantes y profesores de una Universidad, puedan darse a conocer mediante sus trabajos, tesis, asignaciones y que tengan oportunidad en el mundo laboral, obteniendo múltiples propuestas.
+- Initial Segment: Estudiantes y profesores universitarios que buscan dar el paso entre la Universidad y el centro laboral, también, contar con empresas de peso, para la contratación de nuevo personal.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
 ##### Business Assumptions<br/><br/>
+1. **Creo en que nuestros usuarios,** ya sean estudiantes o profesores universitarios, puedan dar el gran paso desde la Universidad a un centro laboral.
+
+2. **Estas necesidades se pueden satisfacer** una plataforma web que conecte a estudiantes y profesores lanzando sus materiales importantes a personas que quieran sobresalir.
+
+3. **Nuestros clientes iniciales serán** estudiantes y profesores universitarios, de carreras al azar, que buscan un trabajo en cualquier empresa.
+
+4. **El valor más importante que un cliente quiere de nuestros servicios es** poder conseguir trabajos y publicar sus logros y materiales anteriores para poder tener un historial llamativo.
+
+5. **El cliente también va a obtener** flexibilidad de horarios, ingresos adicionales, desarrollo de habilidades blandas y validación en su perfil.
+
+6. **Se va a obtener a la gran mayoría de clientes mediante** las redes sociales (Facebook, X, Instagram, TikTok), alianzas con empresas peruanas e internacionales y campañas digitales en varios foros universitarios.
+
+7. **Se van a obtener ingresos mediante** comisiones por publicación de materiales u obtener una suscripción permium para empresas de mayor jerarquía.
+
+8. **Nuestra competencia en el mercado serán** plataformas como Indeed, LinkedIn Jobs, Glassdoor, etc.
+
+9. **Vamos a tener ventaja frente a nuestra competencia debido a** que estamos centrados en el mercado nacional e internacional, sin barreras como un título o años de experiencia.
+
+10. **El mayor riesgo del servicio es** la baja participación de estudiantes y profesores o la desconfianza de las empresas en contratar a personal sin tener preparación seria.
+
+11. **Lo resolveremos realizando** incentivos por primeras contrataciones, sistema de reputación de candidatos, alianzas con universidades y empresas y casos de éxito visible.
+
+12. **Otro riesgo que debemos considerar es que** los estudiantes y los profesores no tengan el tiempo, ni la motivación para postularse para otros centros laborales durante su carrera.
+
 
 ##### User Assumptions<br/><br/>
+1. <b>¿Quién es el usuario?</b>
+
+Estudiantes y profesores universitarios, con habilidades en los centros laborales, que apuntan a un futuro mejor y además, de contar con un trabajo en una empresa mostrando sus trabajos, tesis y demás.
+
+2. <b>¿Dónde encaja nuestro producto en su vida?</b>
+
+Durante la última etapa universitaria. Permitiendo aplicar conocimientos en proyectos reales, ganar reputación y generar ingresos.
+
+3. <b>¿Qué problemas resuelve nuestro producto?</b>
+
+InnoBridge se centra en resolver problemas como: Validación de trabajos y tesis, obtener oportunidades laborales a nivel nacional e internacional, poca preocupación en los nuevos empleados a las empresas, falta de contratación de plantel por bajos recursos.
+
+4. <b>¿Cuándo y cómo se usa nuestro producto?</b>
+
+En el tiempo libre de los estudiantes y profesores, acceden a la aplicación, crean su perfil, suben sus trabajos, tesis y más, buscan oportunidades mediante esos archivos y se visualizan las empresas de quienes están interesados por contar con dicha persona.
+
+5. <b>¿Qué características son importantes?</b>
+
+- Interfaz sencilla y fácil de aprender.
+- Filtro de búsqueda de habilidades.
+- Sistema de reputación.
+- Mensajes internos.
+- Perfil con insignias.
+
+6. <b>¿Cómo debería lucir y comportarse el producto?</b>
+
+Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y una experiencia clara e intuitiva que no distraiga ni complique al usuario.
+
 ##### Feature Assumptions<br/><br/>
+- **Creemos que** la aplicación debe contar una interfaz de usuario clara, responsiva y fácil de navegar que permitirá a estudiantes y empleadores a utilizar la plataforma sin necesidad de capacitación previa ni conocimientos técnicos avanzados.
+
+- **Creemos que** la plataforma debe proporcionar notificaciones automáticas y personalizables que mantendrán informados a los usuarios sobre contrataciones recibidas, nuevas oportunidades, mensajes o estados de contratación.
+
+- **Creemos que** la aplicación debe contar con un sistema de reputación y validación de desempeño, que permitirá a los clientes calificar los trabajos, las tesis tanto de otros estudiantes y profesores, para así, construir un historial profesional verificable.
+
+- **Creemos que** la aplicación debe ofrecer una sección de perfil personal con un historial digital, donde los estudiantes puedan mostrar trabajos y tesis previas, habilidades destacadas y contar con una base preparada dentro y fuera de la plataforma.
+
+- Creemos que la aplicación debe permitir la publicación rápida y sencilla de proyectos por parte de las empresas o clientes, incluendo la posibilidad de establecer plazos, presupuestos y requerimientos específicos.
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 - **Hypothesis Statement 01:**
@@ -458,7 +725,448 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
 
 #### 2.2.1. Diseño de entrevistas
 
+*Preguntas Estudiantes universitarios innovadores*
+
+---
+
+**Preguntas Directas:**
+
+1. ¿Podrías proporcionarnos tu nombre completo, tu edad y qué carrera estás estudiando actualmente?
+
+2. ¿Has tenido la oportunidad de desarrollar alguna idea o proyecto innovador durante tus estudios? ¿Cómo fue esa experiencia?
+
+3. ¿Qué dificultades enfrentas actualmente para dar a conocer tus ideas o proyectos a empresas o posibles inversionistas?
+
+4. ¿Has participado en concursos, hackathons o ferias de innovación? ¿Qué aprendiste de esas experiencias?
+
+5. ¿Qué tan fácil o difícil ha sido para ti encontrar espacios donde mostrar tu talento y tus habilidades?
+
+6. ¿Qué te motiva más: que te reconozcan por tus ideas, que te apoyen con mentoría o que te den financiamiento para llevarlas a cabo?
+
+7. ¿Qué habilidades técnicas o personales tuyas consideras que serían más valiosas para una empresa que busque talento joven?
+
+8. ¿Qué plataformas, redes sociales o medios digitales utilizas hoy para difundir tus proyectos o buscar oportunidades?
+
+9. ¿Qué temores o dudas tendrías al publicar tus ideas en una aplicación que conecta estudiantes con empresas?
+
+10. Si existiera una app donde pudieras subir tus ideas, explorar proyectos de empresas y conectar directamente con gerentes, ¿la usarías? ¿Por qué sí o por qué no?<br><br>
+
+**Preguntas Complementarias:**
+
+11. ¿Qué tan importante es para ti que una plataforma valide o certifique tu participación en proyectos reales?
+
+12. ¿Qué te gustaría aprender o reforzar al colaborar con empresas en proyectos de innovación? <br><br>
+
+*Preguntas Gerentes/profesionales de innovación y talento*
+
+**Preguntas Directas:**
+
+1. ¿Podrías darnos tu nombre completo, edad y cargo actual en la empresa?
+
+2. Cuéntame un poco sobre tu empresa: ¿en qué sector operan y cómo gestionan actualmente los proyectos de innovación?
+
+3. ¿Qué tan frecuente es que busquen nuevas ideas o startups jóvenes para resolver retos internos?
+
+4. ¿Qué dificultades encuentras al identificar y contactar estudiantes con habilidades alineadas a tus proyectos?
+
+5. ¿Han intentado colaborar con universidades o estudiantes en el pasado? ¿Qué resultados tuvieron?
+
+6. ¿Qué características valoras más en un estudiante o joven innovador al momento de incluirlo en un proyecto?
+
+7. ¿Qué riesgos o preocupaciones tendrías al usar una aplicación que conecta directamente con talento emergente?
+
+8. ¿Qué tan dispuesto estarías a publicar proyectos o retos de tu empresa en una plataforma abierta a estudiantes?
+
+9. ¿Qué funcionalidades considerarías indispensables en una app como InnoSpace para que realmente sea útil para tu empresa?
+
+10. Si existiera una app local que te brinde acceso directo a ideas innovadoras y perfiles de estudiantes con portafolio visible, ¿la usarías? ¿Por qué sí o por qué no?<br><br>
+
+**Preguntas Complementarias:**
+
+11. ¿Qué tan importante sería para tu empresa contar con métricas de impacto o informes sobre la colaboración con estudiantes?
+
+12. ¿Qué expectativas tendrías de la relación con los estudiantes a través de una plataforma como esta (ideas, prototipos, contratación futura, etc.)? <br><br>
+
 #### 2.2.2. Registro de entrevistas
+
+
+*Entrevistas a Estudiantes*
+---
+<br><br>
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Estefano Solis</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Pueblo Libre</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>0:05 - 6:59</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+      
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=2imy1h`
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+      Estefano Solis Campos, estudiante de 20 años de Ingeniería de Software en la UPC, comentó que ha desarrollado ideas innovadoras aunque con limitaciones de tiempo y recursos, y que la mayor dificultad para difundir proyectos es la falta de canales directos con empresas, lo que hace que muchos se queden en el ámbito académico; ha participado en hackatones y ferias donde aprendió a trabajar bajo presión, ser recursivo y colaborar en equipos multidisciplinarios, pero considera que fuera de la universidad es difícil encontrar espacios constantes para mostrar talento; valora más la mentoría que el financiamiento, pues la guía de expertos convierte una idea en un proyecto exitoso, y resalta sus habilidades en frontend y backend con React, además de su adaptabilidad, aprendizaje rápido y orientación a la resolución de problemas; utiliza LinkedIn y GitHub para difundir sus proyectos, aunque le preocupan la propiedad intelectual y la calidad de los contactos, pero afirma que usaría una plataforma que conecte estudiantes con empresas porque resolvería la falta de conexión con el mundo real, destacando también la importancia de que otorgue certificaciones en proyectos reales, y expresa su interés en aprender sobre toma de decisiones de negocio, gestión de proyectos, trabajo en equipos multidisciplinarios y medición del impacto de productos en el mercado
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante2.jpg" alt="segmento1entrevista2" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 2</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Adrian Moreno</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Cercado de Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>6:59 - 12:01</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+      
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo0MTkuNjEyLCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=fTkCf5`
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+      Adrián Moreno Nole, estudiante de 24 años de Marketing y Administración, ha trabajado en proyectos con pymes locales, principalmente diseñando estrategias digitales para redes sociales. Reconoce que una de sus mayores dificultades es la falta de confianza que enfrentan los estudiantes al buscar inversionistas, ya que suelen preferir proyectos más grandes y visibles. Ha participado en concursos organizados por la universidad, donde aprendió a trabajar en equipo y bajo presión, aunque considera que los espacios para mostrar talento son limitados en un entorno competitivo. Valora más la mentoría que el financiamiento, pues considera que el acompañamiento de expertos aporta mayor aprendizaje. Entre sus principales habilidades destaca el análisis de mercado, estrategias digitales y manejo de herramientas como Google Analytics y Google Ads. Utiliza LinkedIn, Instagram, Twitter y foros especializados para difundir proyectos, aunque teme que al publicarlos alguien pueda apropiarse de sus ideas. Afirma que sí usaría una aplicación que conecte estudiantes con empresas, ya que acortaría la distancia entre ambos mundos y daría mayor visibilidad a los proyectos, resaltando la importancia de que estas plataformas otorguen certificaciones para fortalecer la credibilidad profesional. Finalmente, le gustaría reforzar su capacidad de gestión con presupuestos limitados, mejorar en negociación y perfeccionar sus habilidades de presentación.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante1.jpg" alt="segmento1entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 3</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Marcelo Barrientos Quispe</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>12:01 - 21:54</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+    
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo3MjEuNDksInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=jmLSzk`
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+      Marcelo Barrientos, un estudiante de Ingeniería de Software de 20 años, comentó sobre el desarrollo de proyectos innovadores durante sus estudios. Marcelo destaca la importancia de la motivación universitaria para crear soluciones a problemáticas actuales, el valor del trabajo en equipo y la presión positiva en hackathons, así como las dificultades para comunicar y difundir ideas fuera de esos espacios. Subraya la relevancia del reconocimiento y la mentoría como primeros pasos para atraer financiamiento, y enfatiza la necesidad de aprender constantemente y adaptarse tecnológicamente. Además, valora las plataformas digitales como GitHub y LinkedIn para mostrar su trabajo y considera esencial la certificación de participación en proyectos reales para fortalecer su perfil profesional. Finalmente, expresa interés en adquirir habilidades de marketing para mejorar el impacto social y comercial de sus desarrollos.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante3.jpg" alt="segmento1entrevista3" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+*Entrevistas a Gerentes*
+---
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel Alejandro Jara</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>31</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Miraflores</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>21:54 - 43:12</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMzE0LjM3NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=S3eA6j`
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+      Manuel Alejandro Jara, coordinador de proyectos inmobiliarios de 31 años, ofrece una visión profunda sobre la gestión y la innovación en el sector inmobiliario en Lima. Manuel hace enfasis en la integración de tecnologías como la inteligencia artificial para optimizar procesos y la importancia de buscar jóvenes talentos innovadores que aporten soluciones frescas. También resalta la relevancia de habilidades analíticas y de resolución de problemas por encima del conocimiento teórico puro. Además, comenta sobre la colaboración con universidades a través de prácticas preprofesionales y la potencial utilidad de plataformas digitales para conectar empresas con estudiantes, facilitando así la innovación abierta y el desarrollo profesional. Finalmente, subraya la importancia de métricas claras para evaluar la contribución de los estudiantes y la necesidad de interacciones auténticas y colaborativas en estas plataformas.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistagerente1.jpg" alt="segmento2entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 2</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel David Niño Torres Grandez.</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>43:12 - 1:01:57</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyNTkyLjMzMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=5717fT` 
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen:<br>
+      Manuel David Niño Torres Grandez, de 39 años, fundador y administrador de su empresa dedicada a la manufactura, explicó que gestionan los proyectos de innovación a través de un comité interno y metodologías colaborativas, apoyándose en equipos multidisciplinarios. Además, indicó que suelen buscar nuevas ideas y startups jóvenes ocasionalmente, especialmente cuando requieren soluciones tecnológicas emergentes, aunque señaló como principal dificultad la falta de visibilidad y experiencia de los estudiantes, lo que dificulta identificar perfiles adecuados. No obstante, destacó que han colaborado en el pasado con universidades y colegios mediante proyectos de investigación aplicada, obteniendo resultados positivos en creatividad e innovación, aunque con algunos problemas de compromiso por parte de los estudiantes. Asimismo, valoró en los jóvenes la proactividad, la capacidad de aprendizaje rápido, el trabajo en equipo y la comunicación. Respecto a plataformas como InnoSpace, consideró indispensables funcionalidades como filtros avanzados para encontrar perfiles, portafolios visibles, acuerdos de confidencialidad y herramientas de comunicación directa, ya que una de sus principales preocupaciones es la seguridad de la información y la seriedad de los participantes. Finalmente, aseguró que sí utilizaría una aplicación de este tipo porque agilizaría la búsqueda de talento joven, permitiría validar resultados antes de invertir recursos mayores y facilitaría la creación de una cantera de futuros profesionales, lo que beneficiaría tanto a la empresa como a los estudiantes al establecer una relación de aprendizaje mutuo.
+    </td>
+  </tr>
+   <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistagerente2.jpg" alt="segmento2entrevista2" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 3</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Luis Sanchez Santur</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>68</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>1:01:57 - 1:13:14</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+      
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNzE3LjkxLCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=sW4NBN`
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen:<br>
+      Luis, empresario de 68 años y representante de la empresa Santurlo F.C.A., dedicada a edificaciones y obras viales, explicó que gestionan la innovación incorporando nuevas tecnologías como el software BIM y materiales modernos en sus proyectos. Asimismo, resaltó que para integrar estudiantes o jóvenes innovadores en su empresa considera fundamental la actitud positiva, la disposición para aprender y la capacidad de aportar ideas, ya que estos factores pesan incluso más que los conocimientos técnicos. Aunque han realizado convocatorias en universidades, aclaró que no han establecido alianzas formales, lo cual representa una oportunidad de mejora. Además, destacó que las nuevas generaciones, al estar familiarizadas con herramientas digitales, contribuyen a la automatización y agilización de procesos dentro de la empresa. En cuanto a plataformas como InnoSpace, señaló que serían útiles para conectar con talento emergente; sin embargo, manifestó cierta preocupación por la seguridad y la privacidad de la información. No obstante, consideró valioso que estas aplicaciones incluyan métricas de impacto y fomenten una colaboración tripartita entre universidad, estudiante y empresa. Finalmente, afirmó que sí estaría dispuesto a usar una herramienta de este tipo, puesto que contribuiría a visibilizar el talento, generar nuevas ideas y fortalecer la relación con futuros profesionales.
+    </td>
+  </tr>
+   <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistagerente3.jpg" alt="segmento2entrevista3" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+#### 2.2.3. Análisis de entrevistas
+
+*Segmento Estudiantes*
+
+<table>
+  <tr>
+    <td>Caracteristicas</td>
+    <td>Estudiantes que lo mencionan</td>
+    <td>Porcentaje</td>
+  </tr>
+  <tr>
+    <td>Participación en hackatones/concursos</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Uso de LinkedIn/GitHub para difundir proyectos</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Carrera Ingeniería de Software</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Perciben falta de canales de conexión con empresas</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Valoración de certificaciones en proyectos reales</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Valoran más la mentoría que el financiamiento</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Temor a pérdida de propiedad intelectual</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+</table>
+
+**Resumen del analisis de entrevistas de estudiantes:**
+
+Los estudiantes tienen entre 20 y 24 años, con perfiles en Ingeniería de Software y Marketing. Comparten experiencia en concursos, hackatones y trabajos con pymes, pero sienten que fuera de la universidad los espacios son reducidos. Valoran mucho la mentoría y certificación en proyectos reales como puerta hacia la empleabilidad. Usan LinkedIn/GitHub/redes sociales, aunque existe preocupación por la seguridad y la propiedad intelectual. Buscan fortalecer habilidades de gestión, negociación y trabajo en equipos multidisciplinarios.
+
+*Segmento Gerentes*
+
+<table>
+  <tr>
+    <td>Caracteristicas</td>
+    <td>Gerentes que lo mencionan</td>
+    <td>Porcentaje</td>
+  </tr>
+  <tr>
+    <td>Uso de tecnologías emergentes (IA, BIM, materiales modernos)</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Colaboración previa con universidades</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Interés en plataformas digitales para conectar con estudiantes</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Ven falta de visibilidad/experiencia en estudiantes como barrera</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Interés en innovación abierta y colaboración con jóvenes</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+</table>
+
+**Resumen del analisis de entrevistas de gerentes:**
+
+Los gerentes van desde 31 a 68 años y pertenecen a sectores diversos (inmobiliario, manufactura y construcción). Coinciden en la necesidad de innovación y en valorar la actitud, proactividad y capacidad de aprendizaje de los jóvenes más que la experiencia. Tienen interés en plataformas digitales como InnoSpace, pero expresan preocupación por la seguridad de datos y la seriedad de los participantes. Ven en los estudiantes una fuente de creatividad, aunque notan la falta de visibilidad y experiencia como una barrera.
+
+**Puntos relevantes**
+
+- Ambos valoran la mentoría y los espacios de conexión real entre estudiantes y empresas.
+- Estudiantes priorizan el aprendizaje y la visibilidad de sus proyectos.
+- Gerentes priorizan la proactividad y confiabilidad de los estudiantes.
+
+=======
+### 2.3.5. Ubiquitous Language
+
+| Término (Inglés)         | Término (Español)          | Definición                                                                                                       |
+| ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Student                  | Estudiante                 | Usuario que busca oportunidades para postular, compartir ideas y participar en proyectos innovadores.            |
+| Manager                  | Gerente                    | Usuario que representa a la empresa, encargado de publicar proyectos y seleccionar talento joven para colaborar. |
+| Idea Submission          | Publicación de ideas       | Acción realizada por el estudiante para compartir propuestas o startups innovadoras en la plataforma.            |
+| Project Posting          | Publicación de proyecto    | Acción realizada por el gerente para dar a conocer convocatorias de proyectos disponibles.                       |
+| Application              | Postulación                | Proceso por el cual un estudiante se inscribe a un proyecto disponible o a una convocatoria de empresa.          |
+| Profile                  | Perfil profesional         | Información personal y académica que un estudiante o gerente edita para mostrar sus capacidades y experiencia.   |
+| Application Status       | Estado de postulación      | Información sobre si la postulación de un estudiante está en revisión, aprobada o rechazada.                     |
+| Requirement Registration | Registro de requerimientos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
+| Candidate Validation     | Validación de postulantes  | Evaluación realizada por el gerente para determinar la pertinencia de los estudiantes postulados.                |
+
+
+
+
+
+
 
 
 ### 2.3. Needfinding
@@ -979,6 +1687,12 @@ Empathy Map Segmento 2:
 
 ### 2.4.2. Impact Mapping
 
+<img src="images/immp1.png" alt = "impact mapping" width="80%">
+<img src="images/immp2.png" alt = "impact mapping" width="80%">
+
+<img src="images/immp3.png" alt = "impact mapping" width="80%">
+<img src="images/immp4.png" alt = "impact mapping" width="80%">
+
 ### 2.4.3. Product Backlog
 
 <table border="1">
@@ -1119,6 +1833,23 @@ Empathy Map Segmento 2:
     </tr>
   </tbody>
 </table>
+
+<br><br>
+
+
+<p align="center">
+  <img src="images/chapterii/ProductBacklog - UniPafi.png" alt="product backlog" width="80%">
+</p>
+
+<p align="center">
+  Product Backlog - Elaboración propia
+</p>
+
+<br>
+
+`https://trello.com/invite/b/68cb965276edf7d589375471/ATTI3f30e253b26ba9715ccd503bb929f0c6A295F7FE/product-backlog-unipafi`
+
+---
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -1402,7 +2133,54 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 
 ### 2.5.2. Context Mapping
+
+
+Esta sección documenta el proceso de análisis y diseño estructural de la aplicación, centrándose en la identificación y relación de los bounded contexts. Utilizando la metodología de Context Mapping de Domain-Driven Design, se evaluaron diversas alternativas para definir los límites de cada contexto y los patrones de interacción entre ellos. 
+
+El proceso involucró un análisis crítico de capacidades, considerando escenarios de descomposición, consolidación y reorganización de funcionalidades. A través de iteraciones y preguntas estratégicas, se establecieron las relaciones más apropiadas—Partnership, Customer-Supplier con Anti-corruption Layer y Shared Kernels—que garantizan autonomía, consistencia y escalabilidad del sistema. 
+
+A continuación se muestran los escenarios planteados:
+
+
+#### Escenario 1: ¿Partir "Student Projects" en contextos más pequeños?
+- Análisis: Evaluamos dividirlo en "Project Creation" y "Project Management".
+
+- Decisión: No. El ciclo de vida del proyecto es cohesivo. La división añadiría acoplamiento innecesario y overhead de comunicación.
+
+#### Escenario 2: ¿Duplicar el perfil del estudiante en "Student Applications"?
+- Análisis: Consideramos duplicar datos para romper la dependencia con "Student Projects".
+
+- Decisión: No. Se optó por un Anti-corruption Layer (ACL). La duplicación genera inconsistencia. El ACL mantiene la autonomía con una sola fuente de verdad.
+
+##### Escenario 3: ¿Consolidar "Project Collaboration" y "Company Opportunities" en "Company Engagement"?
+- Análisis: Evaluamos unirlos por ser ambos iniciativas de la empresa.
+
+- Decisión:  No. Sus capacidades centrales son distintas (convocatorias abiertas vs. contacto proactivo). Mantenerlos separados con una Partnership ofrece mayor cohesión.
+
+
+<p align="center">
+  <img src="images/chapterii/contextmapping.png" alt = "updated diagram" width="100%">
+</p>
+
+<p align="center">
+     Elaboración propia
+</p>
+
+
+
+
+| Destino (Downstream)       | Origen (Upstream)           | Tipo de Relación         | Comentario                                                                                               |
+| -------------------------- | --------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Project Collaboration      | Student Projects            | Customer/Supplier + ACL  | Consume información de proyectos y estudiantes, traduciendo modelos mediante Anti-Corruption Layer       |
+| Student Applications       | Student Projects            | ACL  | Utiliza datos de estudiantes y proyectos, protegiendo su modelo con ACL                                  |
+| Student Applications       | Company Opportunities       | Customer/Supplier + ACL  | Consume convocatorias, adaptando el modelo upstream a sus necesidades con ACL                            |
+| Project Collaboration      | Company Opportunities       | Partnership              | Coordinación activa para gestión unificada de interacciones empresa-estudiante                           |
+
+
+
+
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1.Software Architecture Context Level Diagrams <br>
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.
 ![InnoSpace-diagram-context](./images/Context-Diagram.png)
@@ -1413,7 +2191,7 @@ En este nivel la arquitectura se organiza en tres contenedores principales: la M
 El diagrama de despliegue muestra que la Mobile App, la API Application se aloja en un servidor cloud para asegurar disponibilidad y escalabilidad, y la Database se despliega en un servidor independiente dentro de la misma nube, garantizando integridad y persistencia de los datos.
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
 
-## 2.6.Tactical-Level Domain-Driven Design
+## 2.6. Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: Student Projects
 
@@ -1588,6 +2366,16 @@ El ProjectRepository provee los mecanismos de persistencia para proyectos, con o
 | ProjectEntity | Clase que representa la entidad de proyecto en la base de datos |
 
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes representa un sistema monolítico que gestiona proyectos estudiantiles dentro de la plataforma. Una aplicación Movil interactúa con el `ProjectController`.
+
+El controlador delega la lógica en dos servicios principales: `ProjectQueryService`, para recuperar y validar proyectos, y `ProjectCommandService`, para crearlos, actualizarlos, publicarlos o finalizarlos.
+
+Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Projects.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1784,6 +2572,16 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 | OpportunityEntity | Clase que representa la entidad de oportunidad en la base de datos |
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama de componentes representa un sistema monolítico que gestiona oportunidades empresariales dentro de la plataforma. Una aplicación Movil interactúa con el `OpportunityController`..
+
+El controlador delega la lógica en dos servicios principales: `OpportunityQueryService`, para consultas y validaciones, y `OpportunityCommandService`, para creación, actualización, publicación y cierre de oportunidades.
+
+Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Opportunity.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1997,6 +2795,16 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes representa un sistema monolítico que gestiona decisiones de colaboración entre empresas y proyectos estudiantiles. Una aplicación Movil interactúa con el `CollaborationDecisionController`.
+
+El controlador conecta con `CollaborationDecisionQueryService` para consultas y con `CollaborationDecisionCommandService` para registrar decisiones, añadir notas y gestionar respuestas de estudiantes.
+
+Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/CollaborationDecision.png" alt = "bounded context CollaborationDecision" width="80%">
+</p>
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2198,6 +3006,16 @@ Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y co
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama de componentes representa un sistema monolítico que gestiona postulaciones de estudiantes a oportunidades de empresas. Una aplicación Movil interactúa con el `ApplicationController`.
+
+El controlador conecta con `ApplicationQueryService` para consultas y con `ApplicationCommandService` para registrar, aceptar, rechazar o eliminar postulaciones.
+
+Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistencia mediante JPA en una base de datos MySQL.
+
+<p align="center">
+  <img src="images/chapterii/Application.png" alt = "bounded context application" width="80%">
+</p>
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2216,5 +3034,13 @@ Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y co
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
+<br>
 
+## Conclusiones
+
+
+
+## Bibliografia
+
+## Anexos
 
