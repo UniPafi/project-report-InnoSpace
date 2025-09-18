@@ -139,7 +139,7 @@
     - [2.4.3. Product Backlog](#243-product-backlog)
   - [2.5. Strategic-Level Domain-Driven Design](#25-Strategic-level-domain-driven-design)
     - [2.5.1. EventStorming](#251-eventstorming)
-      - [2.5.1.1. Candidate Context Discovery](#2511-lean-ux-canvas)
+      - [2.5.1.1. Candidate Context Discovery](#2511-Candidate-Context-Discovery)
       - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
     - [2.5.2. Context Mapping](#252-context-mapping)
@@ -2114,6 +2114,7 @@ A continuación se muestran los escenarios planteados:
 
 
 ### 2.5.3. Software Architecture
+
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
