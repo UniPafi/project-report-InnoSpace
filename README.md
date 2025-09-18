@@ -2114,11 +2114,17 @@ A continuación se muestran los escenarios planteados:
 
 
 ### 2.5.3. Software Architecture
-#### 2.5.3.1.Software Architecture Context Level Diagrams
+
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+
 ![InnoSpace-diagram-context](./images/Context-Diagram.png)
-#### 2.5.3.2.Software Architecture Container Level Diagrams
+
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+
 ![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
