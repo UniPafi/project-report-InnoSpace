@@ -189,7 +189,7 @@
         - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
         - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagrams)
 
-
+- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -2965,6 +2965,12 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
 
+<br>
+
+## Conclusiones
 
 
 
+## Bibliografia
+
+## Anexos
