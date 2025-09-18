@@ -54,7 +54,7 @@
     <td>Creación del documento en markdown.</td>
   </tr>
   <tr>
-    <td>1.02</td>
+    <td>1.01</td>
     <td>05/09/25</td>
     <td>
     Rivera,<br>
@@ -65,7 +65,7 @@
     <td>Creacion del Descripcion del Startup y perfil de los integrantes.</td>
   </tr>
   <tr>
-    <td>1.03</td>
+    <td>1.02</td>
     <td>09/09/25</td>
     <td>
     Rivera,<br>
@@ -73,10 +73,10 @@
     Coca,<br>
     Cabrera, Santur
     </td>
-    <td>Creación Antecedentes y problematica, ademas del Lean UX Procces y la descripcion de los segmentos objetivos.</td>
+    <td>Creación Antecedentes y problematica, ademas del Lean UX Proccess y la descripcion de los segmentos objetivos.</td>
   </tr>
   <tr>
-    <td>1.04</td>
+    <td>1.03</td>
     <td>14/09/25</td>
     <td>
     Rivera,<br>
@@ -87,7 +87,7 @@
     <td>Creacion del analis competitivo, estrategias y tacticas frenete a los competidores, ademas se realizaron las entrevistas, todo el apartado del Needfinding y del Ubiquitous Language.</td>
   </tr>
   <tr>
-    <td>1.05</td>
+    <td>1.04</td>
     <td>18/09/25</td>
     <td>
     Rivera,<br>
@@ -249,7 +249,7 @@ Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Ad
 <br>
       </td>
       <td>
-        TB1:El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La constante búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente. Este enfoque nos permitió responder de forma más eficiente a los retos del proyecto y prepararnos mejor para futuros escenarios en el ámbito de la ingeniería de software..<br>.<br>
+        TB1:El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La constante búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente. Este enfoque nos permitió responder de forma más eficiente a los retos del proyecto y prepararnos mejor para futuros escenarios en el ámbito de la ingeniería de software.<br><br>
       </td>
     </tr>
   </tbody>
@@ -1238,26 +1238,6 @@ Los gerentes van desde 31 a 68 años y pertenecen a sectores diversos (inmobilia
 - Estudiantes priorizan el aprendizaje y la visibilidad de sus proyectos.
 - Gerentes priorizan la proactividad y confiabilidad de los estudiantes.
 
-=======
-### 2.3.5. Ubiquitous Language
-
-| Término (Inglés)         | Término (Español)          | Definición                                                                                                       |
-| ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Student                  | Estudiante                 | Usuario que busca oportunidades para postular, compartir ideas y participar en proyectos innovadores.            |
-| Manager                  | Gerente                    | Usuario que representa a la empresa, encargado de publicar proyectos y seleccionar talento joven para colaborar. |
-| Idea Submission          | Publicación de ideas       | Acción realizada por el estudiante para compartir propuestas o startups innovadoras en la plataforma.            |
-| Project Posting          | Publicación de proyecto    | Acción realizada por el gerente para dar a conocer convocatorias de proyectos disponibles.                       |
-| Application              | Postulación                | Proceso por el cual un estudiante se inscribe a un proyecto disponible o a una convocatoria de empresa.          |
-| Profile                  | Perfil profesional         | Información personal y académica que un estudiante o gerente edita para mostrar sus capacidades y experiencia.   |
-| Application Status       | Estado de postulación      | Información sobre si la postulación de un estudiante está en revisión, aprobada o rechazada.                     |
-| Requirement Registration | Registro de requerimientos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
-| Candidate Validation     | Validación de postulantes  | Evaluación realizada por el gerente para determinar la pertinencia de los estudiantes postulados.                |
-
-
-
-
-
-
 
 
 ### 2.3. Needfinding
@@ -1424,13 +1404,19 @@ Este Journey map detalla la experiencia de Jeremy Vega, un universitario de 22 a
 
 <img src="images/chapterii/journeymap_student.png" alt="journey-map-student" width="1000">
 
-
+<p align="center">
+  User Journey Map Jeremy Vega - Elaboración propia
+</p>
 
  - User Journey Map Carlos Fernandez:
 
 Este Journey map detalla la experiencia de Carlos Fernández, un ingeniero dirigente de una empresa del sector tecnológico. Carlos escucha sobre la aplicación y decida probarla, explora perfiles de estudiantes e ideas de proyectos innovadoras.
 
 <img src="images/chapterii/journeymap_gerente.png" alt="journey-map-gerente" width="1000">
+
+<p align="center">
+  User Journey Map Carlos Fernandez - Elaboración propia
+</p>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1439,12 +1425,31 @@ Empathy Map Segmento 1:
 
 <img src="images/chapterii/empathymap_gerente.png" alt="empathymap_gerente" width="1000">
 
+<p align="center">
+  Empathy Map Segmento 1 - Elaboración propia
+</p>
 
 Empathy Map Segmento 2:
 
 <img src="images/chapterii/empathymap_student.png" alt="empathymap_student" width="1000">
 
+<p align="center">
+  Empathy Map Segmento 2 - Elaboración propia
+</p>
+
 ### 2.3.5. Ubiquitous Language
+
+| Término (Inglés)         | Término (Español)          | Definición                                                                                                       |
+| ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Student                  | Estudiante                 | Usuario que busca oportunidades para postular, compartir ideas y participar en proyectos innovadores.            |
+| Manager                  | Gerente                    | Usuario que representa a la empresa, encargado de publicar proyectos y seleccionar talento joven para colaborar. |
+| Idea Submission          | Publicación de ideas       | Acción realizada por el estudiante para compartir propuestas o startups innovadoras en la plataforma.            |
+| Project Posting          | Publicación de proyecto    | Acción realizada por el gerente para dar a conocer convocatorias de proyectos disponibles.                       |
+| Application              | Postulación                | Proceso por el cual un estudiante se inscribe a un proyecto disponible o a una convocatoria de empresa.          |
+| Profile                  | Perfil profesional         | Información personal y académica que un estudiante o gerente edita para mostrar sus capacidades y experiencia.   |
+| Application Status       | Estado de postulación      | Información sobre si la postulación de un estudiante está en revisión, aprobada o rechazada.                     |
+| Requirement Registration | Registro de requerimientos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
+| Candidate Validation     | Validación de postulantes  | Evaluación realizada por el gerente para determinar la pertinencia de los estudiantes postulados.                |
 
 
 ## 2.4. Requirements specification
@@ -1781,8 +1786,16 @@ Empathy Map Segmento 2:
 <img src="images/immp1.png" alt = "impact mapping" width="80%">
 <img src="images/immp2.png" alt = "impact mapping" width="80%">
 
+<p align="center">
+  Impact Mapping 1 - Elaboración propia
+</p>
+
 <img src="images/immp3.png" alt = "impact mapping" width="80%">
 <img src="images/immp4.png" alt = "impact mapping" width="80%">
+
+<p align="center">
+  Impact Mapping 2 - Elaboración propia
+</p>
 
 ### 2.4.3. Product Backlog
 
@@ -1938,7 +1951,7 @@ Empathy Map Segmento 2:
 
 <br>
 
-`https://trello.com/invite/b/68cb965276edf7d589375471/ATTI3f30e253b26ba9715ccd503bb929f0c6A295F7FE/product-backlog-unipafi`
+Link del Trello: https://trello.com/invite/b/68cb965276edf7d589375471/ATTI3f30e253b26ba9715ccd503bb929f0c6A295F7FE/product-backlog-unipafi
 
 ---
 
@@ -2274,13 +2287,30 @@ A continuación se muestran los escenarios planteados:
 
 #### 2.5.3.1.Software Architecture Context Level Diagrams <br>
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.
+
 ![InnoSpace-diagram-context](./images/Context-Diagram.png)
+
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.5.3.2.Software Architecture Container Level Diagrams <br>
 En este nivel la arquitectura se organiza en tres contenedores principales: la Mobile App, que ofrece el acceso de los usuarios; la API Application, que gestiona la lógica de negocio y comunica la app con el sistema; y la Database, donde se almacenan usuarios, proyectos y postulaciones.
+
 ![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
+
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams <br>
 El diagrama de despliegue muestra que la Mobile App, la API Application se aloja en un servidor cloud para asegurar disponibilidad y escalabilidad, y la Database se despliega en un servidor independiente dentro de la misma nube, garantizando integridad y persistencia de los datos.
+
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
+
+<p align="center">
+  Elaboración propia
+</p>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
@@ -2468,6 +2498,10 @@ Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia me
   <img src="images/chapterii/Projects.png" alt = "bounded context CollaborationDecision" width="80%">
 </p>
 
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2484,6 +2518,10 @@ Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia me
 
 <p align="center">
   <img src="images/dbd1.png" alt = "database diagram" width="80%">
+</p>
+
+<p align="center">
+  Elaboración propia
 </p>
 
 ### 2.6.2. Bounded Context: Company Opportunities
@@ -2674,6 +2712,10 @@ Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia 
   <img src="images/chapterii/Opportunity.png" alt = "bounded context CollaborationDecision" width="80%">
 </p>
 
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2690,6 +2732,10 @@ Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia 
 
 <p align="center">
   <img src="images/dbd2.png" alt = "database diagram" width="80%">
+</p>
+
+<p align="center">
+  Elaboración propia
 </p>
 
 ### 2.6.3. Bounded Context: Project Collaboration
@@ -2896,6 +2942,10 @@ Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la pe
   <img src="images/chapterii/CollaborationDecision.png" alt = "bounded context CollaborationDecision" width="80%">
 </p>
 
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2912,6 +2962,10 @@ Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la pe
 
 <p align="center">
   <img src="images/dbd3.png" alt = "database diagram" width="80%">
+</p>
+
+<p align="center">
+  Elaboración propia
 </p>
 
 ### 2.6.4. Bounded Context: Student Applications
@@ -3107,6 +3161,10 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   <img src="images/chapterii/Application.png" alt = "bounded context application" width="80%">
 </p>
 
+<p align="center">
+  Elaboración propia
+</p>
+
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
@@ -3126,6 +3184,10 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
 <br>
+
+<p align="center">
+  Elaboración propia
+</p>
 
 ## Conclusiones
 
