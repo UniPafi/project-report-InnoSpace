@@ -578,7 +578,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
     <tr>
       <td>(Nombre y logo de cada competidor)</td>
       <td></td>
-      <td>InnoSpace<br><img src="images/logo-startup.png" width="80"></td>
+      <td>InnoSpace<br><img src="images/innospace.jpg" width="80"></td>
       <td>LinkedIn <br><img src="images/linkedin.png" width="80"></td>
       <td>AngelList (Wellfound) <br><img src="images/wellfound.png" width="80"></td>
       <td>Behance <br><img src="images/behance.png" width="80"></td>
