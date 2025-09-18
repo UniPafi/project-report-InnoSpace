@@ -555,6 +555,42 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 ### 1.3. Segmentos Objetivo
 
+### Estudiantes Universitarios Innovadores
+
+**Descripción:**
+Jóvenes estudiantes, entre 18 y 27 años, que se encuentran cursando estudios en carreras STEM (Ciencia, Tecnología, Ingeniería y Matemáticas). Son personas motivadas por la innovación, el desarrollo tecnológico y buscan visibilizar sus talentos para acceder a mejores oportunidades profesionales.
+
+**Características demográficas y comportamiento:**
+
+* Están inscritos en universidades de nivel superior, principalmente en áreas urbanas como Lima, Arequipa, Trujillo y otras ciudades universitarias.
+* Tienen acceso a internet y plataformas digitales para aprender, investigar y conectar con otros jóvenes o empresas.
+* Están interesados en proyectos colaborativos, hackatones y otros espacios que les permitan mostrar sus habilidades.
+* Son activos en redes sociales y plataformas profesionales como LinkedIn, donde buscan oportunidades de trabajo o prácticas profesionales.
+
+**Sustento estadístico:**
+
+* Según la Superintendencia Nacional de Educación Superior Universitaria (SUNEDU), el 45% de los estudiantes universitarios en Perú están en carreras STEM. Esta es una base de jóvenes con interés en áreas de alta demanda como programación, ingeniería, y ciencias aplicadas.
+* El Instituto Nacional de Estadística e Informática (INEI) menciona que el 80% de los jóvenes de 18 a 29 años en Perú usan internet, por lo que este grupo tiene un alto potencial de interactuar en plataformas digitales que los conecten con el mercado laboral.
+
+---
+
+### Gerentes de Empresas en Innovación y Talento
+
+**Descripción:**
+Gerentes o profesionales con experiencia en la gestión de equipos de innovación, recursos humanos o talento. Buscan detectar talento emergente, especialmente en áreas relacionadas con la tecnología, la digitalización y la innovación, para incorporarlos a sus organizaciones.
+
+**Características demográficas y comportamiento:**
+
+* Edad promedio entre 30 y 50 años, con estudios universitarios en administración, ingeniería o áreas afines.
+* Trabajan en sectores relacionados con la innovación, startups, empresas tecnológicas o empresas tradicionales que buscan transformarse digitalmente.
+* Interesados en soluciones ágiles y flexibles para acceder a talento emergente, a través de plataformas que conecten con jóvenes innovadores o freelancers.
+* Valoran la capacidad de los nuevos talentos para adaptarse rápidamente a entornos cambiantes y su disposición para aportar ideas frescas.
+
+**Sustento estadístico:**
+
+* Según el Ministerio de la Producción de Perú (Produce), el 72% de las medianas y grandes empresas están implementando proyectos de transformación digital, lo que implica una creciente demanda de profesionales jóvenes con habilidades tecnológicas.
+* El 55% de los gerentes en empresas tecnológicas en Perú buscan constantemente incorporar talento especializado a sus equipos, y prefieren contratar freelancers o nuevos egresados con un perfil innovador para cubrir necesidades puntuales.
+
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
