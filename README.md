@@ -139,6 +139,12 @@ Objetivo 1: Desarrollar y lanzar una interfaz de usuario intuitiva para la plata
 
 Objetivo 2: Adquirir conocimientos y experiencia en el desarrollo de aplicaciones móviles, con el fin de seguir mejorando respecto a la accesibilidad y experiencia de usuario, mientras continúo desarrollando mis habilidades técnicas y profesionales en el ámbito del desarrollo móvil.
 
+**Cabrera Buitron Diego Ivan**
+
+Objetivo 1: Implementar y validar los módulos de gestión de proyectos estudiantiles en la plataforma InnoSpace, de modo que al finalizar el ciclo académico al menos el 70% de los estudiantes registrados pueda crear, publicar y actualizar sus proyectos de forma exitosa, contribuyendo a la construcción de su portafolio profesional.
+
+Objetivo 2: Fortalecer mis competencias técnicas en arquitectura de software basada en Domain-Driven Design (DDD) y el desarrollo de APIs RESTful con persistencia en MySQL, aplicando buenas prácticas de ingeniería durante el ciclo académico, para consolidar mi perfil como futuro ingeniero de software especializado en backend y diseño de soluciones escalables.
+
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
@@ -2763,6 +2769,7 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
 </p>
+
 
 
 
