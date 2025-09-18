@@ -986,6 +986,101 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 </table>
 
 #### 2.2.3. Análisis de entrevistas
+
+*Segmento Estudiantes*
+
+<table>
+  <tr>
+    <td>Caracteristicas</td>
+    <td>Estudiantes que lo mencionan</td>
+    <td>Porcentaje</td>
+  </tr>
+  <tr>
+    <td>Participación en hackatones/concursos</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Uso de LinkedIn/GitHub para difundir proyectos</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Carrera Ingeniería de Software</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Perciben falta de canales de conexión con empresas</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Valoración de certificaciones en proyectos reales</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Valoran más la mentoría que el financiamiento</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Temor a pérdida de propiedad intelectual</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+</table>
+
+**Resumen del analisis de entrevistas de estudiantes:**
+
+Los estudiantes tienen entre 20 y 24 años, con perfiles en Ingeniería de Software y Marketing. Comparten experiencia en concursos, hackatones y trabajos con pymes, pero sienten que fuera de la universidad los espacios son reducidos. Valoran mucho la mentoría y certificación en proyectos reales como puerta hacia la empleabilidad. Usan LinkedIn/GitHub/redes sociales, aunque existe preocupación por la seguridad y la propiedad intelectual. Buscan fortalecer habilidades de gestión, negociación y trabajo en equipos multidisciplinarios.
+
+*Segmento Gerentes*
+
+<table>
+  <tr>
+    <td>Caracteristicas</td>
+    <td>Gerentes que lo mencionan</td>
+    <td>Porcentaje</td>
+  </tr>
+  <tr>
+    <td>Uso de tecnologías emergentes (IA, BIM, materiales modernos)</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Colaboración previa con universidades</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Interés en plataformas digitales para conectar con estudiantes</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Ven falta de visibilidad/experiencia en estudiantes como barrera</td>
+    <td>2</td>
+    <td>67%</td>
+  </tr>
+  <tr>
+    <td>Interés en innovación abierta y colaboración con jóvenes</td>
+    <td>3</td>
+    <td>100%</td>
+  </tr>
+</table>
+
+**Resumen del analisis de entrevistas de gerentes:**
+
+Los gerentes van desde 31 a 68 años y pertenecen a sectores diversos (inmobiliario, manufactura y construcción). Coinciden en la necesidad de innovación y en valorar la actitud, proactividad y capacidad de aprendizaje de los jóvenes más que la experiencia. Tienen interés en plataformas digitales como InnoSpace, pero expresan preocupación por la seguridad de datos y la seriedad de los participantes. Ven en los estudiantes una fuente de creatividad, aunque notan la falta de visibilidad y experiencia como una barrera.
+
+**Puntos relevantes**
+
+- Ambos valoran la mentoría y los espacios de conexión real entre estudiantes y empresas.
+- Estudiantes priorizan el aprendizaje y la visibilidad de sus proyectos.
+- Gerentes priorizan la proactividad y confiabilidad de los estudiantes.
+
 =======
 ### 2.3.5. Ubiquitous Language
 
