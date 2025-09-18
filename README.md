@@ -683,13 +683,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>0:05 - 6:59</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
       
-  `a`
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo1LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=2imy1h`
 
   </td>
   </tr>
@@ -724,13 +724,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>6:59 - 12:01</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
       
-  `a`
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo0MTkuNjEyLCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=fTkCf5`
 
   </td>
   </tr>
@@ -767,13 +767,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>12:01 - 21:54</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
     
-  `a`
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo3MjEuNDksInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=jmLSzk`
 
   </td>
   </tr>
@@ -813,13 +813,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>21:54 - 43:12</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
 
-  `a`
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoxMzE0LjM3NywidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=S3eA6j`
 
   </td>
   </tr>
@@ -856,13 +856,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>43:12 - 1:01:57</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
 
-  `a` 
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjoyNTkyLjMzMSwidGltZXN0YW1wZWRMaW5rUmVmZXJyZXJJbmZvIjp7InNjZW5hcmlvIjoiQ2hhcHRlclNoYXJlIiwiYWRkaXRpb25hbEluZm8iOnsiaXNTaGFyZWRDaGFwdGVyQXV0byI6ZmFsc2V9fX0sInJlZmVycmFsSW5mbyI6eyJyZWZlcnJhbEFwcCI6IlN0cmVhbVdlYkFwcCIsInJlZmVycmFsVmlldyI6IlNoYXJlQ2hhcHRlckxpbmsiLCJyZWZlcnJhbEFwcFBsYXRmb3JtIjoiV2ViIiwicmVmZXJyYWxNb2RlIjoidmlldyJ9fQ&e=5717fT` 
 
   </td>
   </tr>
@@ -899,13 +899,13 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
-    <td>a</td>
+    <td>1:01:57 - 1:13:14</td>
   </tr>
   <tr>
     <td><strong>URL</strong></td>
     <td>
       
-  `a`
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/ETIrSGpEPvRLpIKO-WCKbugBi5G1VwGVTmBdKGfewB1PrA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjozNzE3LjkxLCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=sW4NBN`
 
   </td>
   </tr>
