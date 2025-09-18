@@ -121,6 +121,7 @@ Objetivo 1: Especializarme en seguridad de aplicaciones móviles, aplicando téc
 Objetivo 2: Desarrollar una carrera en ciberseguridad dentro del área de Blue Team y DFIR, alcanzando en 5 años certificaciones reconocidas internacionalmente que respalden mi perfil profesional.
 
 **Santur Tello Andrea Elizabeth**
+
 Objetivo 1: Especializarme en el desarrollo de aplicaciones móviles multiplataforma, logrando en 2 años dominar frameworks como Flutter o React Native para mejorar proyectos como InnoSpace.
 
 Objetivo 2: Fortalecer mi experiencia en diseño y despliegue de apps móviles, participando en al menos 3 implementaciones reales en los próximos 3 años para consolidar mis habilidades profesionales.
