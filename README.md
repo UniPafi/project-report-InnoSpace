@@ -2184,21 +2184,14 @@ A continuación se muestran los escenarios planteados:
 #### 2.5.3.1.Software Architecture Context Level Diagrams <br>
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.<br>
 ![InnoSpace-diagram-context](./images/Context-Diagram.png) <br>
-<p align="center">
-     Elaboración propia
-</p>
+
 #### 2.5.3.2.Software Architecture Container Level Diagrams <br>
 En este nivel la arquitectura se organiza en tres contenedores principales: la Mobile App, que ofrece el acceso de los usuarios; la API Application, que gestiona la lógica de negocio y comunica la app con el sistema; y la Database, donde se almacenan usuarios, proyectos y postulaciones.<br>
-![InnoSpace-diagram-containers](./images/Container-Diagrams.png) <br>
-<p align="center">
-     Elaboración propia
-</p>
+![InnoSpace-diagram-containers](./images/Container-Diagrams.png)<br>
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams <br>
 El diagrama de despliegue muestra que la Mobile App, la API Application se aloja en un servidor cloud para asegurar disponibilidad y escalabilidad, y la Database se despliega en un servidor independiente dentro de la misma nube, garantizando integridad y persistencia de los datos.<br>
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png) <br>
-<p align="center">
-     Elaboración propia
-</p>
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
