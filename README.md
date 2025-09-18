@@ -616,15 +616,15 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
-    <td>a</td>
+    <td>Marcelo Barrientos Quispe</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>a</td>
+    <td>20</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
-    <td>a</td>
+    <td>San Isidro</td>
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
@@ -641,7 +641,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   <tr>
     <td colspan="2" style="text-align:justify">
       Resumen: <br>
-      aaa
+      Marcelo Barrientos, un estudiante de Ingeniería de Software de 20 años, comentó sobre el desarrollo de proyectos innovadores durante sus estudios. Marcelo destaca la importancia de la motivación universitaria para crear soluciones a problemáticas actuales, el valor del trabajo en equipo y la presión positiva en hackathons, así como las dificultades para comunicar y difundir ideas fuera de esos espacios. Subraya la relevancia del reconocimiento y la mentoría como primeros pasos para atraer financiamiento, y enfatiza la necesidad de aprender constantemente y adaptarse tecnológicamente. Además, valora las plataformas digitales como GitHub y LinkedIn para mostrar su trabajo y considera esencial la certificación de participación en proyectos reales para fortalecer su perfil profesional. Finalmente, expresa interés en adquirir habilidades de marketing para mejorar el impacto social y comercial de sus desarrollos.
     </td>
   </tr>
   <tr>
@@ -662,15 +662,15 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   </tr>
   <tr>
     <td><strong>Entrevistado</strong></td>
-    <td>a</td>
+    <td>Manuel Alejandro Jara</td>
   </tr>
   <tr>
     <td><strong>Edad</strong></td>
-    <td>a</td>
+    <td>31</td>
   </tr>
   <tr>
     <td><strong>Distrito</strong></td>
-    <td>a</td>
+    <td>Miraflores</td>
   </tr>
   <tr>
     <td><strong>Timing</strong></td>
@@ -687,7 +687,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   <tr>
     <td colspan="2" style="text-align:justify">
       Resumen: <br>
-      aaa
+      Manuel Alejandro Jara, coordinador de proyectos inmobiliarios de 31 años, ofrece una visión profunda sobre la gestión y la innovación en el sector inmobiliario en Lima. Manuel hace enfasis en la integración de tecnologías como la inteligencia artificial para optimizar procesos y la importancia de buscar jóvenes talentos innovadores que aporten soluciones frescas. También resalta la relevancia de habilidades analíticas y de resolución de problemas por encima del conocimiento teórico puro. Además, comenta sobre la colaboración con universidades a través de prácticas preprofesionales y la potencial utilidad de plataformas digitales para conectar empresas con estudiantes, facilitando así la innovación abierta y el desarrollo profesional. Finalmente, subraya la importancia de métricas claras para evaluar la contribución de los estudiantes y la necesidad de interacciones auténticas y colaborativas en estas plataformas.
     </td>
   </tr>
   <tr>
