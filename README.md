@@ -144,8 +144,8 @@
       - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
     - [2.5.2. Context Mapping](#252-context-mapping)
     - [2.5.3. Software Architecture](#253-software-architecture)
-      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-Software-Architecture-Context-Level-Diagrams)
-      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-Software-Architecture-Container-Level-Diagrams)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
       - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
   - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
 
@@ -2114,11 +2114,17 @@ A continuación se muestran los escenarios planteados:
 
 
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1.Software Architecture Context Level Diagrams
+
 ![InnoSpace-diagram-context](./images/Context-Diagram.png)
+
 #### 2.5.3.2.Software Architecture Container Level Diagrams
+
 ![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
