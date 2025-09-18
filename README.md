@@ -1125,6 +1125,23 @@ Empathy Map Segmento 2:
   </tbody>
 </table>
 
+<br><br>
+
+
+<p align="center">
+  <img src="images/chapterii/ProductBacklog - UniPafi.png" alt="product backlog" width="80%">
+</p>
+
+<p align="center">
+  Product Backlog - Elaboración propia
+</p>
+
+<br>
+
+`https://trello.com/invite/b/68cb965276edf7d589375471/ATTI3f30e253b26ba9715ccd503bb929f0c6A295F7FE/product-backlog-unipafi`
+
+---
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
