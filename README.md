@@ -99,6 +99,41 @@
   </tr>
 </table>
 
+
+---
+
+## Project Report Collaboration Insights
+
+**Integrantes:**
+
++ Andrea Santur (andreli-star)
+
++ Erick Palomino(ErickLeo13)
+
++ Renzo Rivera(renzor11)
+
++ Carlos Coca(MrAndres08DV)
+
++ Diego Cabrera(omele7)
+
+## TB1
+
+<p align="center">
+  <img src="images/contributors.png" alt="contributors" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="images/pulse.png" alt="contributors" width="80%">
+</p>
+
+<p align="center">
+  <img src="images/networkgraph.png" alt="network" width="80%">
+</p>
+
+
+
+
 ---
 
 ## Contenido
