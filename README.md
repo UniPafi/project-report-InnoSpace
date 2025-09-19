@@ -232,7 +232,7 @@ Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Ad
     <tr>
       <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        <br>TB1:Santur Tello, Andrea Elizabeth:
+        <br>TB1: Santur Tello, Andrea Elizabeth:
 Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto. <br>
 
 Palomino Fiestas, Erick Leonardo:
@@ -1443,13 +1443,12 @@ Empathy Map Segmento 2:
 | ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Student                  | Estudiante                 | Usuario que busca oportunidades para postular, compartir ideas y participar en proyectos innovadores.            |
 | Manager                  | Gerente                    | Usuario que representa a la empresa, encargado de publicar proyectos y seleccionar talento joven para colaborar. |
-| Idea Submission          | Publicación de ideas       | Acción realizada por el estudiante para compartir propuestas o startups innovadoras en la plataforma.            |
-| Project Posting          | Publicación de proyecto    | Acción realizada por el gerente para dar a conocer convocatorias de proyectos disponibles.                       |
+| Project Creation          | Publicación de ideas       | Acción realizada por el estudiante para compartir propuestas o startups innovadoras en la plataforma.            |
+| Opportunity Posting          | Publicación de proyecto    | Acción realizada por el gerente para dar a conocer convocatorias de proyectos disponibles.                       |
 | Application              | Postulación                | Proceso por el cual un estudiante se inscribe a un proyecto disponible o a una convocatoria de empresa.          |
 | Profile                  | Perfil profesional         | Información personal y académica que un estudiante o gerente edita para mostrar sus capacidades y experiencia.   |
 | Application Status       | Estado de postulación      | Información sobre si la postulación de un estudiante está en revisión, aprobada o rechazada.                     |
-| Requirement Registration | Registro de requerimientos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
-| Candidate Validation     | Validación de postulantes  | Evaluación realizada por el gerente para determinar la pertinencia de los estudiantes postulados.                |
+| Requirement Registration | Registro de requisitos | Proceso en el que el gerente detalla las necesidades específicas del proyecto.                                   |
 
 
 ## 2.4. Requirements specification
