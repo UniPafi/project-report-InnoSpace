@@ -539,7 +539,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 - **Hypothesis Statement 01:**
 
-  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoBridge para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
+  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoSpace para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
 
   *Sabremos que hemos tenido éxito:*
 
@@ -547,7 +547,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 - **Hypothesis Statement 02:**
 
-  *Creemos que* InnoBridge facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
+  *Creemos que* InnoSpace facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
 
   *Sabremos que hemos tenido éxito:*
 
