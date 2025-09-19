@@ -231,7 +231,6 @@
 ---
 ## Student Outcome
 
-
 <table>
   <thead>
     <tr>
@@ -244,47 +243,33 @@
     <tr>
       <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        <br> TB1:Santur Tello, Andrea Elizabeth:
-Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto.
-<br> 
-
-Palomino Fiestas, Erick Leonardo:
-Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
-
-Rivera Ratachi, Renzo Sebastián:
-Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
-
-Coca Lavado, Carlos Andrés:
-Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
- <br>
-Cabrera Buitrón, Diego Iván:
-Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema.<br><br><br>
+        <strong>TB1:</strong>
+        <ul>
+          <li><strong>Santur Tello, Andrea Elizabeth:</strong> Participó en Eventstorming, realizó entrevistas, definió la arquitectura de software (Context, Container y Deployment), trabajó en Problem Statements y Assumptions con Lean UX, y en el Ubiquitous Language.</li>
+          <li><strong>Palomino Fiestas, Erick Leonardo:</strong> Colaboró en Eventstorming, documentó antecedentes y problemáticas, hizo un análisis de competidores y entrevistas, elaboró diagramas de componentes en Bounded Context y definió User Stories.</li>
+          <li><strong>Rivera Ratachi, Renzo Sebastián:</strong> Elaboró Solution Profile y Startup Profile, desarrolló User Journey Mapping y User Empathy Mapping, participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure).</li>
+          <li><strong>Coca Lavado, Carlos Andrés:</strong> Realizó entrevistas, definió User Stories, organizó y priorizó el Product Backlog, y creó User Personas.</li>
+          <li><strong>Cabrera Buitrón, Diego Iván:</strong> Apoyó en Eventstorming, definió antecedentes y problemáticas, y diseñó diagramas de base de datos.</li>
+        </ul>
       </td>
       <td>
-        TB1: Como grupo, actualizamos conceptos clave de ingeniería de software y los aplicamos de manera efectiva en el proyecto. La investigación previa, el análisis de problemas y el uso de metodologías como Eventstorming y Lean UX nos permitieron adquirir nuevos conocimientos y reforzar habilidades necesarias para el desarrollo profesional, garantizando que cada integrante ampliara su dominio en áreas específicas del proyecto.
+        <strong>TB1:</strong> Como grupo, actualizamos conceptos clave de ingeniería de software y los aplicamos en el proyecto. La investigación previa, el análisis de problemas y el uso de metodologías como Eventstorming y Lean UX nos permitieron adquirir nuevos conocimientos y reforzar habilidades necesarias para el desarrollo profesional.
       </td>
     </tr>
     <tr>
       <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        <br>TB1: Santur Tello, Andrea Elizabeth:
-Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto. <br>
-
-Palomino Fiestas, Erick Leonardo:
-Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
-
-Rivera Ratachi, Renzo Sebastián:
-Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
-
-Coca Lavado, Carlos Andrés:
-Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
- <br>
-Cabrera Buitrón, Diego Iván:
-Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema. <br><br> 
-<br>
+        <strong>TB1:</strong>
+        <ul>
+          <li><strong>Santur Tello, Andrea Elizabeth:</strong> Participó en Eventstorming, realizó entrevistas, definió la arquitectura de software (Context, Container y Deployment), trabajó en Problem Statements y Assumptions con Lean UX, y en el Ubiquitous Language.</li>
+          <li><strong>Palomino Fiestas, Erick Leonardo:</strong> Colaboró en Eventstorming, documentó antecedentes y problemáticas, hizo un análisis de competidores y entrevistas, elaboró diagramas de componentes en Bounded Context y definió User Stories.</li>
+          <li><strong>Rivera Ratachi, Renzo Sebastián:</strong> Elaboró Solution Profile y Startup Profile, desarrolló User Journey Mapping y User Empathy Mapping, participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure).</li>
+          <li><strong>Coca Lavado, Carlos Andrés:</strong> Realizó entrevistas, definió User Stories, organizó y priorizó el Product Backlog, y creó User Personas.</li>
+          <li><strong>Cabrera Buitrón, Diego Iván:</strong> Apoyó en Eventstorming, definió antecedentes y problemáticas, y diseñó diagramas de base de datos.</li>
+        </ul>
       </td>
       <td>
-        TB1:El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La constante búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente. Este enfoque nos permitió responder de forma más eficiente a los retos del proyecto y prepararnos mejor para futuros escenarios en el ámbito de la ingeniería de software.<br><br>
+        <strong>TB1:</strong> El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente y nos prepararon mejor para futuros escenarios en ingeniería de software.
       </td>
     </tr>
   </tbody>
@@ -335,7 +320,7 @@ Objetivo 2: Fortalecer mis competencias técnicas en arquitectura de software ba
 
 #### 1.1.1. Descripción de la Startup
 
-Unipafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
+UniPafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
 
 **Visión:**
 
@@ -361,7 +346,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
       <td><img src="images/fotointegrante-erick-palomino.jpeg" alt="foto-erick" width="500"></td>
       <td>Palomino Fiestas, Erick Leonardo</td>
       <td>U20231A500</td>
-      <td>Hola, Soy Erick Leonardo Palomino Fiestas, un estudiante entusiasta de quinto ciclo en Ingeniería de Software. Mi conjunto de habilidades técnicas incluye C++, HTML, CSS, fundamentos de JavaScript y experiencia con bases de datos SQL y MongoDB. Me considero una persona responsable, con sólidas habilidades de comunicación para trabajar en equipo y una perspectiva optimista. También tengo un nivel básico de inglés. </td>
+      <td>Hola, Soy Erick Leonardo Palomino Fiestas, un estudiante entusiasta de sexto ciclo en Ingeniería de Software. Mi conjunto de habilidades técnicas incluye C++, HTML, CSS, fundamentos de JavaScript y experiencia con bases de datos SQL y MongoDB. Me considero una persona responsable, con sólidas habilidades de comunicación para trabajar en equipo y una perspectiva optimista. También tengo un nivel básico de inglés. </td>
     </tr>
       <tr>
       <td><img src="images/fotointegrante-renzo.jpg" alt="foto-renzo" width="500"></td>
@@ -1962,7 +1947,7 @@ Empathy Map Segmento 2:
       <td>Como gerente, quiero explorar una lista de ideas innovadoras publicadas por estudiantes, para encontrar oportunidades potenciales en las que mi empresa pueda invertir.</td>
       <td>3</td>
     </tr>
-    </tr>
+    <tr>
     <td>18</td>
       <td>US14</td>
       <td>Construcción de portafolio</td>
