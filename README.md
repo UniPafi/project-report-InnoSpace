@@ -3223,6 +3223,278 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   Elaboración propia
 </p>
 
+---
+
+## Capítulo III: Solution UI/UX Design
+
+### 3.1. Product design
+
+#### 3.1.1. Style Guidelines
+
+- _Branding:_    
+    - La identidad visual de Innospace es moderna, innovadora y con un toque futurista, reflejando su enfoque en la tecnología y el espacio. El logo, con la figura de un cohete, transmite dinamismo y la idea de exploración y crecimiento. El color morado aporta sofisticación, mientras que los tonos de azul y blanco refuerzan la confiabilidad y accesibilidad.
+    - Uso del logotipo: El logotipo de Innospace debe emplearse preferentemente sobre fondos claros, como blanco, gris claro o tonos pastel neutros, lo que permitirá que los colores del logo resalten. Si se utiliza sobre fondos oscuros, se recomienda emplear la versión en blanco del logo para mantener su visibilidad y claridad.
+    - No se permite:
+        - Rotar el logotipo.
+        - Aplicar sombras, contornos o degradados, ya que esto puede restar claridad a la imagen del logo.
+        - Modificar la tipografía original del nombre "Innospace", para mantener la consistencia de la identidad de marca.
+
+<br>
+
+<p align="center">
+  <img src="images/chapteriii/logoInnoscape.jpg"/ width=70%>
+</p>
+
+<p align="center">
+  Logo Innospace - Elaboración propia
+</p>
+
+<br>
+
+
+- _Typography:_
+    - La tipografía utilizada en el logotipo es una fuente sans-serif geométrica, moderna y legible. Para mantener coherencia, se adoptará un sistema tipográfico similar en toda la aplicación.
+
+    - Fuente primaria: Nunito Sans
+        - Uso: Títulos, botones, navegación.
+        - Estilos permitidos: Regular, SemiBold, Bold.
+
+    - Fuente secundaria: Inter
+        - Uso: Cuerpos de texto largos, formularios.
+
+    - Tamaños recomendados:
+        - Título principal (H1): 32px / 700
+        - Subtítulo (H2): 24px / 600
+        - Texto normal: 16px / 400
+        - Nota o ayuda: 12px / 400
+    
+        | Nombre de fuente | Tipografia |
+        |:----------------:|:----------:|
+        | Nunito Sans | <img src="images/chapteriii/tipografiaUniPafi.png" alt="nunito-sans-font" width=200px/> |
+        | Inter | <img src="images/chapteriii/tipografiaUniPafi2.png" alt="inter-font" width=200px/> |        
+              
+- _Colors:_
+    - La paleta de colores de Innospace se basa en una combinación de tonos vibrantes y suaves, que ayudan a transmitir innovación, confianza y profesionalismo. El morado es el color protagonista, con el azul y blanco complementando la identidad visual. Además, se incluye un acento en amarillo cálido para las llamadas a la acción<br><br>
+    
+    | Color | Hex | Uso Principal | 
+    |:-----:|:---:|:-------------:|
+    |Morado| #6A1B9A | Logotipo, títulos destacados, secciones clave|
+    |Azul| #1E3A8A | Texto principal, botones, enlaces, secciones de confianza|
+    |Blanco| #FFFFFF | Fondo base, formularios, claridad visual|
+    |Gris Claro| #B0BEC5 | Bordes, textos secundarios, fondos suaves|
+    |Azul Claro| #3F82D4| Botones secundarios, enlaces, etiquetas |
+    |Amarillo Cálido| #FFD400|Llamadas a la acción, alertas, iconos destacados|
+<br>
+
+<p align="center">
+    <img src="images/chapteriii/ColoresInnoSpace.png"/ width=70%>
+</p>
+
+<p align="center">
+    System Colors InnoSpace - Elaboración propia
+</p>
+
+<br>
+
+- _Spacing:_
+    - La coherencia en el espaciado es clave para una interfaz limpia y clara.
+        - Espaciado entre secciones principales: 32px
+        - Margen interno de botones y campos: 12px vertical / 20px horizontal
+        - Separación entre elementos repetitivos (cards, ítems): 16px
+        - Padding general de contenedores: 24px
+
+- _Tono de comunicación y lenguaje:_
+    - El tono de InnoSpace es cercano, entusiasta y profesional.
+    
+    | Estilo de redacción | Tono predominante |
+    |---------------------|-------------------|
+    | 1. Amigable y claro <br> 2. Sin tecnicismos innecesarios <br> 3. Verbos en voz activa <br> 4. Enfocado en beneficios (“Descubre experiencias únicas”, “Reserva en segundos”)| 1. Formal-casual: Respetuoso, pero no rígido. <br> 2. Entusiasta: Inspirador, motivador, acogedor. <br> 3. Directo: Frases cortas y llamadas a la acción claras. |
+
+### 3.1.2. Information Architecture
+
+La arquitectura de información de InnoSpace define cómo se organizará, etiquetará, navegará y buscará el contenido dentro de la aplicación móvil y su Landing Page. El objetivo es permitir que los usuarios interactúen de manera fluida con la plataforma, accedan fácilmente a los recursos clave y logren sus objetivos con el mínimo esfuerzo cognitivo.
+
+#### 3.1.2.1. Organization Systems <br><br>
+
+InnoSpace utilizará una combinación de organización jerárquica, secuencial y matricial, aplicada estratégicamente tanto en la Landing Page como en las secciones funcionales de la aplicación móvil. Se aplicarán también diferentes esquemas de categorización.
+
++ Jerarquía visual:
+
+La jerarquía visual en InnoSpace se aplicará en vistas clave de la aplicación móvil. En la Landing Page, el contenido se organizará en secciones jerárquicas que priorizan el título, los beneficios clave y llamados a la acción como "Explora tu próximo proyecto" o "Únete a InnoSpace ahora". En el dashboard del usuario, las oportunidades recomendadas, las notificaciones y los próximos pasos estarán destacados visualmente con tarjetas y gráficos resaltados. En el dashboard del gerente, se destacarán las vistas de los proyectos activos, las notificaciones de validación y los próximos pasos a seguir, optimizando la gestión desde el primer acceso.<br><br>
+
++ Organización secuencial:
+
+La organización secuencial en InnoSpace se aplicará en los procesos clave que requieran un acompañamiento paso a paso. En el onboarding del usuario, el flujo estará compuesto por etapas guiadas que incluyen el registro, la carga del perfil, publicación del portafolio y la vinculación con proyectos. Para los gerentes, la publicación de proyectos se estructurará como un formulario inteligente que guiará al usuario desde los datos generales hasta los filtros específicos para encontrar el candidato ideal.<br><br>
+
++ Organización matricial:
+
+La organización matricial en InnoSpace facilitará la exploración libre de contenidos mediante el uso de cuadrículas y tarjetas visuales. En la vista de proyectos, las oportunidades se organizarán en una grilla que podrá filtrarse dinámicamente por criterios relevantes. Para los gerentes, la vista de postulantes mostrará tarjetas con información clave como nombre, carrera, portafolio, puntuación y habilidades, permitiendo comparaciones rápidas entre los candidatos.<br><br>
+
++ Esquemas de categorización:
+
+  + **Por audiencia:** El contenido se adaptará a si el usuario es un estudiante o un gerente, con rutas diferenciadas y menús personalizados.
+
+  + **Alfabético:** Para búsquedas de proyectos, habilidades y empresas.
+
+  + **Cronológico:** En el historial de entregas, postulaciones y validaciones.<br><br>
+
+#### 4.2.2. Labeling Systems  <br><br>
+
+El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consistente en las interfaces de la Landing Page y la Aplicación Móvil. Se emplearán términos cortos y directos (máximo 2 palabras) que permitan a los usuarios de distintos niveles de experiencia entender rápidamente el propósito de cada sección o acción.
+
++ Landing Page:
+
+  + Inicio (logo)
+
+  + ¿Cómo funciona?
+
+  + Casos de éxito
+
+  + FAQs
+
+  + Unirse a InnoSpace
+
++ Aplicación Móvil (Usuarios):
+
+  + Oportunidades
+
+  + Portafolio
+
+  + Mis postulaciones
+
+  + Perfil
+
+
++ Aplicación Móvil (Gerentes):
+
+  + Mis Proyectos
+
+  + Talento
+
+  + Evaluaciones
+
+  + Mi empresa
+
+<br>
+
+<p align="center">
+  <img src="images/chapteriii/labelingSystem-InnoSpace.jpg" alt="wireframe" width="1000">
+</p>
+
+<p align="center">
+    Labeling System - Elaboración propia
+</p>
+
+
+<br><br>
+
+  <table align="center">
+  <tr>
+    <td><strong>Tipo etiqueta</strong></td>
+    <td><strong>Ejemplo</strong></td>
+    <td><strong>Aparición</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Encabezado</strong></td>
+    <td>"Mis postulaciones"</td>
+    <td>En la parte superior del dashboard del estudiante</td>
+  </tr>
+  <tr>
+    <td><strong>Panel</strong></td>
+    <td>"Portafolio"</td>
+    <td>Dentro de una tarjeta destacada del dashboard</td>
+  </tr>
+  <tr>
+    <td><strong>Botón</strong></td>
+    <td>"Publicar proyecto”</td>
+    <td>Acción principal para los gerentes en el módulo de creación de oportunidades</td>
+  </tr>
+  <tr>
+    <td><strong>Navegación</strong></td>
+    <td>“Inicio” – “Portafolio” – “Evaluaciones”</td>
+    <td>En la barra lateral o menú superior según el dispositivo</td>
+  </tr>
+  <tr>
+    <td><strong>Estado</strong></td>
+    <td>““En revisión” – “Aceptado” – “Entregado””</td>
+    <td>En la tarjeta de estado de cada proyecto o postulación</td>
+  </tr>
+</table><br><br>
+
+#### 4.2.3. SEO Tags and Meta Tags  <br><br>
+
+Las meta etiquetas permitirán estructurar adecuadamente la información que los buscadores necesitan para indexar y posicionar el contenido del sitio. Serán definidas de forma diferenciada para la Landing Page y la Aplicación Móvil.
+
++ Landing Page:
+
+  + Título<br><br>
+
+  ```html
+  <title>InnoSpace – Conecta con proyectos innovadores</title>
+  ```
+
+  + Codificación de caracteres<br><br>
+
+  ```html
+  <meta charset="utf-8">
+  ```
+
+  + Meta Description<br><br>
+
+  ```html
+  <meta name="description" content="Plataforma que conecta a profesionales y empresas con proyectos innovadores y oportunidades de desarrollo."/>
+  ```
+
+  + Keywords<br><br>
+
+  ```html
+  <meta name="keywords" content="innovación, proyectos, oportunidades profesionales, portafolio digital, talento joven"/>
+  ```
+
+  + Autor y Derechos de Autor<br><br>
+
+  ```html
+  <meta name="author" content="InnoSpace Team"/>
+  <meta name="copyright" content="© 2025 InnoSpace. Todos los derechos reservados." />
+  ```
+
+<br>
+
++ Applicación Movil:
+
+  + Título<br><br>
+
+  ```html
+  <title>InnoSpace – Proyectos Innovadores hacia grandes Destinos</title>
+  ```
+
+  + Codificación de caracteres<br><br>
+
+  ```html
+  <meta charset="utf-8">
+  ```
+
+  + Meta Description<br><br>
+
+  ```html
+  <meta name="description" content="Gestiona tu perfil profesional, postula a proyectos innovadores, construye un portafolio digital y recibe feedback de empresas reales."/>
+  ```
+
+  + Keywords<br><br>
+
+  ```html
+  <meta name="keywords" content="proyectos innovadores, profesionales, estudiantes, oportunidades laborales, portafolio digital"/>
+  ```
+
+  + Autor y Derechos de Autor<br><br>
+
+  ```html
+  <meta name="author" content="InnoSpace Team"/>
+  <meta name="copyright" content="© 2025 InnoSpace. Todos los derechos reservados." />
+  ```
+
+  <br>
+
 ## Conclusiones
 
 **TB1**
