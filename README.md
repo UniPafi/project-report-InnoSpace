@@ -3403,6 +3403,86 @@ Las meta etiquetas permitirán estructurar adecuadamente la información que los
 
 <br>
 
+#### 3.1.2.4. Searching Systems  <br><br>
+
+Dado que InnoSpace concentrará gran volumen de información (proyectos publicados por empresas, ideas innovadoras de estudiantes, perfiles académicos y portafolios), la app contará con un buscador centralizado y filtros contextuales, optimizados para pantallas móviles
+
+Opciones de búsqueda:
+
+- Buscar proyectos de empresas.
+
+- Buscar ideas innovadoras de estudiantes.
+
+- Buscar estudiantes por habilidades y nivel académico.
+
+- Buscar convocatorias disponibles con filtros avanzados.
+
+- Buscar proyectos guardados en favoritos.
+
+Filtros disponibles:
+
+Para estudiantes:
+
+- Modalidad: Presencial / Remoto / Híbrido.
+
+- Habilidades requeridas (Ej: programación, marketing, diseño).
+
+- Nivel académico: Pregrado, Posgrado, Técnico.
+
+- Área académica: Ingeniería, Negocios, Salud, etc.
+
+- Duración del proyecto: Corto plazo, Mediano, Largo plazo.
+
+Para gerentes:
+
+- Área académica: Ingeniería, Negocios, Salud, etc.
+
+- Estado del proyecto: En busca de Inversion y Contratación
+
+Visualización de resultados:
+
+Lista interactiva con tarjetas que muestran:
+
+- Título del proyecto o idea.
+
+- Descripción corta.
+
+- Habilidades requeridas.
+
+- Universidad/empresa asociada.
+
+- Estado (vigente o cerrado).
+
+- Botones de acción: Ver más, Guardar en favoritos, Postular/Contactar.
+
+- En caso de no encontrar resultados, se mostrará un mensaje: “No se encontraron coincidencias.”.
+
+#### 3.1.2.5. Navigation Systems  <br><br>
+
+La navegación en InnoSpace está diseñada para ser clara, intuitiva y responsiva, guiando a los usuarios a través del landing page y la aplicación mobile, de forma que logren cumplir sus objetivos sin fricción.
+
+Landing Page:
+
+El sitio web implementa un diseño de una sola página con scroll (one-page scroll), donde el usuario navega desplazándose verticalmente por las secciones de Inicio, ¿Cómo funciona?, Proyectos exitosos y Nosotros. Esta experiencia está complementada por un encabezado fijo que permanece visible en todo momento y ofrece accesos directos a cada sección junto con el botón de Iniciar sesión. Para impulsar la interacción, al final de cada bloque se integran llamadas a la acción (CTAs) relevantes como "Regístrate ahora" (para estudiantes y gerentes) y "Publica tu primer proyecto". Este acceso directo desde la página de inicio hacia los formularios de registro está específicamente diseñado para garantizar un flujo de registro ágil y una experiencia de usuario optimizada.
+
+Mobile App:
+
+La aplicación integra un sistema de navegación dual que combina flujos guiados para procesos críticos con exploración libre para descubrimiento. Para acciones esenciales como registro y perfil, publicación de proyectos, propuesta de ideas innovadoras y postulaciones, se implementa una navegación secuencial que divide cada proceso en pantallas consecutivas con retroalimentación visual. Paralelamente, un menú inferior fijo ofrece acceso inmediato a diferentes secciones clave: Proyectos, Ideas Innovadoras, Portafolio, Postulaciones y Perfil. El sistema se complementa con indicadores de estado claros que incluyen etiquetas de postulación, botones de postulación contextuales, íconos de favoritos resaltados y diferenciación visual entre elementos validados y pendientes en el portafolio, creando un ecosistema de navegación intuitivo y transparente.
+
+### 3.1.3. Landing Page UI Desing
+
+### 3.1.3.1 Landing Page Wireframe
+
+<p align="center">
+  <img src="images/desing/landingpage-wireframe.jpg" alt="wireframe" width="1000">
+</p>
+
+### 3.1.3.2 Landing Page Mock-up
+
+<p align="center">
+  <img src="images/desing/landingpage-mockup.jpg" alt="mockup" width="1000">
+</p>
+
 ## Conclusiones
 
 **TB1**
