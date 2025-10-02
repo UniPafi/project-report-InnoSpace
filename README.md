@@ -3338,9 +3338,9 @@ La organización matricial en InnoSpace facilitará la exploración libre de con
 
   + **Cronológico:** En el historial de entregas, postulaciones y validaciones.<br><br>
 
-#### 4.2.2. Labeling Systems  <br><br>
+#### 3.1.2.2. Labeling Systems  <br><br>
 
-El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consistente en las interfaces de la Landing Page y la Aplicación Móvil. Se emplearán términos cortos y directos (máximo 2 palabras) que permitan a los usuarios de distintos niveles de experiencia entender rápidamente el propósito de cada sección o acción.
+El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consistente en la interfaz de la Landing Page. Se emplearán términos cortos y precisos que permitan a los usuarios tener una mejor experiencia con la plataforma
 
 + Landing Page:
 
@@ -3348,80 +3348,23 @@ El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consi
 
   + ¿Cómo funciona?
 
-  + Casos de éxito
+  + Proyectos exitosos
 
-  + FAQs
+  + Nosotros
 
-  + Unirse a InnoSpace
-
-+ Aplicación Móvil (Usuarios):
-
-  + Oportunidades
-
-  + Portafolio
-
-  + Mis postulaciones
-
-  + Perfil
-
-
-+ Aplicación Móvil (Gerentes):
-
-  + Mis Proyectos
-
-  + Talento
-
-  + Evaluaciones
-
-  + Mi empresa
+  + Iniciar Sesión
 
 <br>
 
 <p align="center">
-  <img src="images/chapteriii/labelingSystem-InnoSpace.jpg" alt="wireframe" width="1000">
+  <img src="images/chapteriii/Labeling-System.png" alt="wireframe" width="1000">
 </p>
 
 <p align="center">
     Labeling System - Elaboración propia
 </p>
 
-
-<br><br>
-
-  <table align="center">
-  <tr>
-    <td><strong>Tipo etiqueta</strong></td>
-    <td><strong>Ejemplo</strong></td>
-    <td><strong>Aparición</strong></td>
-  </tr>
-  <tr>
-    <td><strong>Encabezado</strong></td>
-    <td>"Mis postulaciones"</td>
-    <td>En la parte superior del dashboard del estudiante</td>
-  </tr>
-  <tr>
-    <td><strong>Panel</strong></td>
-    <td>"Portafolio"</td>
-    <td>Dentro de una tarjeta destacada del dashboard</td>
-  </tr>
-  <tr>
-    <td><strong>Botón</strong></td>
-    <td>"Publicar proyecto”</td>
-    <td>Acción principal para los gerentes en el módulo de creación de oportunidades</td>
-  </tr>
-  <tr>
-    <td><strong>Navegación</strong></td>
-    <td>“Inicio” – “Portafolio” – “Evaluaciones”</td>
-    <td>En la barra lateral o menú superior según el dispositivo</td>
-  </tr>
-  <tr>
-    <td><strong>Estado</strong></td>
-    <td>““En revisión” – “Aceptado” – “Entregado””</td>
-    <td>En la tarjeta de estado de cada proyecto o postulación</td>
-  </tr>
-</table><br><br>
-
-#### 4.2.3. SEO Tags and Meta Tags  <br><br>
+#### 3.1.2.3. SEO Tags and Meta Tags  <br><br>
 
 Las meta etiquetas permitirán estructurar adecuadamente la información que los buscadores necesitan para indexar y posicionar el contenido del sitio. Serán definidas de forma diferenciada para la Landing Page y la Aplicación Móvil.
 
@@ -3430,7 +3373,7 @@ Las meta etiquetas permitirán estructurar adecuadamente la información que los
   + Título<br><br>
 
   ```html
-  <title>InnoSpace – Conecta con proyectos innovadores</title>
+  <title>InnoSpace</title>
   ```
 
   + Codificación de caracteres<br><br>
@@ -3442,13 +3385,13 @@ Las meta etiquetas permitirán estructurar adecuadamente la información que los
   + Meta Description<br><br>
 
   ```html
-  <meta name="description" content="Plataforma que conecta a profesionales y empresas con proyectos innovadores y oportunidades de desarrollo."/>
+  <meta name="description" content="El puente directo entre el talento universitario y los desafios de la industria"/>
   ```
 
   + Keywords<br><br>
 
   ```html
-  <meta name="keywords" content="innovación, proyectos, oportunidades profesionales, portafolio digital, talento joven"/>
+  <meta name="keywords" content="innovación, proyectos innovadores, postular"/>
   ```
 
   + Autor y Derechos de Autor<br><br>
@@ -3459,41 +3402,6 @@ Las meta etiquetas permitirán estructurar adecuadamente la información que los
   ```
 
 <br>
-
-+ Applicación Movil:
-
-  + Título<br><br>
-
-  ```html
-  <title>InnoSpace – Proyectos Innovadores hacia grandes Destinos</title>
-  ```
-
-  + Codificación de caracteres<br><br>
-
-  ```html
-  <meta charset="utf-8">
-  ```
-
-  + Meta Description<br><br>
-
-  ```html
-  <meta name="description" content="Gestiona tu perfil profesional, postula a proyectos innovadores, construye un portafolio digital y recibe feedback de empresas reales."/>
-  ```
-
-  + Keywords<br><br>
-
-  ```html
-  <meta name="keywords" content="proyectos innovadores, profesionales, estudiantes, oportunidades laborales, portafolio digital"/>
-  ```
-
-  + Autor y Derechos de Autor<br><br>
-
-  ```html
-  <meta name="author" content="InnoSpace Team"/>
-  <meta name="copyright" content="© 2025 InnoSpace. Todos los derechos reservados." />
-  ```
-
-  <br>
 
 ## Conclusiones
 
