@@ -8,7 +8,7 @@
 
 **Ingeniería de Software**
 
-**6to Ciclo**
+**Ciclo 2025-02**
 
 **Código del curso:** 1ACC0238
 
@@ -34,9 +34,11 @@
 
 **Agosto 2025**
 
----
+<br>
 
 **Registro de Versiones del Informe**
+
+<br>
 
 <table align="center">
   <tr>
@@ -99,8 +101,7 @@
   </tr>
 </table>
 
-
----
+<br>
 
 ## Project Report Collaboration Insights
 
@@ -1810,6 +1811,57 @@ Empathy Map Segmento 2:
         <strong>Dado</strong> que estoy navegando por secciones como “¿Cómo funciona?” o “Casos de éxito”, <strong>cuando</strong> llego al final de una sección, <strong>entonces</strong> encuentro un botón como “Regístrate ahora” o “Publica tu primer proyecto” de forma clara y destacada.
       <td>EP01</td>
     </tr>
+    <tr>
+      <td>TS01</td>
+      <td>Configuración de autenticación y roles</td>
+      <td>
+        Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.
+      </td>
+      <td>
+        Escenario 1: Registro de nuevo estudiante.
+        Dado que un usuario nuevo ingresa al formulario de registro, Cuando completa sus datos personales y selecciona el rol Estudiante, Entonces el sistema crea su cuenta, asigna el rol correspondiente y lo redirige al dashboard de estudiante. Escenario 2: Inicio de sesión de gerente Dado que un gerente registrado accede a la pantalla de inicio de sesión, Cuando introduce su correo y contraseña válidos, Entonces el sistema autentica al usuario y muestra el dashboard del rol gerente, ocultando las funciones del perfil estudiante.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+      <td>
+        Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.
+      </td>
+      <td>
+        Escenario 1: Registro de convocatoria por gerente Dado que un gerente completa el formulario “Nueva convocatoria”, Cuando presiona el botón Publicar, Entonces el sistema guarda los datos en la colección “Convocatorias” y los asocia al ID del gerente creador. Escenario 2: Publicación de proyecto por estudiante Dado que un estudiante finaliza el registro de un nuevo proyecto, Cuando guarda los cambios, Entonces la información se almacena en la colección “Proyectos” y se vincula automáticamente con el portafolio del estudiante.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Bottom Navigation Bar</td>
+      <td>
+        Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.
+      </td>
+      <td>
+        Escenario 1: Cambio de secciones por parte del estudiante Dado que el estudiante se encuentra en la pantalla “Explorar”, Cuando selecciona el ícono Portafolio en la barra inferior, Entonces el sistema muestra la vista “Mi Portafolio” sin pérdida de navegación. Escenario 2: Retorno al inicio del gerente Dado que el gerente está revisando sus convocatorias, Cuando toca el ícono Explorar de la barra inferior, Entonces la aplicación lo redirige correctamente a la vista de exploración de proyectos estudiantiles.
+      <td></td>
+    </tr>
+    <tr>
+      <td>SP01</td>
+      <td>Evaluar frameworks móviles para el desarrollo</td>
+      <td>
+        Como equipo de desarrollo, queremos analizar diferentes frameworks móviles (Flutter, React Native, Ionic) para determinar cuál ofrece mejor rendimiento y compatibilidad con la infraestructura del proyecto.
+      </td>
+      <td>
+        Escenario 1: Prueba de rendimiento en Flutter Dado que se desarrolla un prototipo base de la aplicación en Flutter, Cuando se ejecuta en distintos dispositivos Android, Entonces se registran los tiempos de carga, consumo de recursos y estabilidad general. Escenario 2: Comparación con React Native Dado que se replica el mismo prototipo en React Native, Cuando se evalúan las integraciones con Firebase y la fluidez de la interfaz, Entonces se documentan los resultados y se selecciona el framework más eficiente.
+      <td></td>
+    </tr>
+    <tr>
+      <td>SP02</td>
+      <td>Validar integración de Firebase Authentication y Firestore</td>
+      <td>
+        Como desarrollador, quiero realizar pruebas de integración entre Firebase Authentication y Firestore, para confirmar que ambos servicios permiten gestionar usuarios, roles y datos de forma segura y sincronizada.
+      </td>
+      <td>
+        Escenario 1: Creación de usuario y registro en Firestore Dado que un nuevo usuario completa su registro, Cuando se autentica mediante Firebase Authentication, Entonces sus datos se guardan automáticamente en la colección correspondiente dentro de Firestore. Escenario 2: Verificación de roles en autenticación Dado que un usuario autenticado intenta acceder a funciones restringidas, Cuando su rol no corresponde a la acción solicitada, Entonces el sistema bloquea el acceso y muestra un mensaje de restricción.
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
@@ -3471,16 +3523,133 @@ La aplicación integra un sistema de navegación dual que combina flujos guiados
 
 ### 3.1.3. Landing Page UI Desing
 
-### 3.1.3.1 Landing Page Wireframe
+#### 3.1.3.1 Landing Page Wireframe
 
 <p align="center">
   <img src="images/desing/landingpage-wireframe.jpg" alt="wireframe" width="1000">
 </p>
 
-### 3.1.3.2 Landing Page Mock-up
+#### 3.1.3.2 Landing Page Mock-up
 
 <p align="center">
   <img src="images/desing/landingpage-mockup.jpg" alt="mockup" width="1000">
+</p>
+
+### 3.1.4 Mobile Applications UX/UI Design
+
+#### 3.1.4.1 Mobile Applications Wireframes
+
+Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Cada vista presenta una navegación intuitiva mediante una barra inferior fija y el uso consistente de tarjetas, íconos y botones de acción, facilitando tareas como explorar proyectos, crear convocatorias y gestionar solicitudes. El diseño mantiene una estructura jerárquica y legible, optimizada para dispositivos móviles, garantizando una experiencia fluida y eficiente orientada a los objetivos principales del sistema: publicar, postular y colaborar en proyectos de innovación.
+
+[https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3](https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3)
+
+- Iniciar sesión / Registrarse:
+
+<p align="center">
+  <img src="images/wirelogin.png" alt="mockup" width="500">
+</p>
+
+- Dashboard
+
+<p align="center">
+  <img src="images/wiredashboard.png" alt="mockup" width="200">
+</p>
+
+- Agregar Portafolio
+
+<p align="center">
+  <img src="images/wireport.png" alt="mockup" width="500">
+</p>
+
+- Proyectos
+
+<p align="center">
+  <img src="images/wireproj.png" alt="mockup" width="200">
+</p>
+
+- Evaluaciones
+
+<p align="center">
+  <img src="images/wireeval.png" alt="mockup" width="400">
+</p>
+
+#### 3.1.4.2 Mobile Applications Wireframes Diagrams
+
+**Wireflow 1: Login / Registrarse**
+
+- **User Goal:**  
+  Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma según mi rol.
+
+- **User Persona:**  
+  Estudiante y Gerente de empresa  
+
+- **Flujo:**  
+  - El usuario accede a la pantalla inicial y selecciona **“Acceder”**.  
+  - Elige su rol mediante un botón conmutador (**Estudiante / Gerente**).  
+  - Si ya posee cuenta, introduce su **correo y contraseña** para iniciar sesión.  
+  - Si es nuevo, selecciona **“Crear cuenta”** y completa el formulario con nombre, correo, contraseña y datos adicionales (carrera o empresa).  
+  - Al finalizar, el sistema lo redirige automáticamente a su **dashboard** correspondiente.
+
+<p align="center">
+  <img src="images/dwirelogin.png" alt="mockup" width="400">
+</p>
+
+**Wireflow 2: Publicar convocatoria (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero crear una nueva convocatoria para atraer estudiantes interesados en participar en proyectos de innovación.
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde el dashboard, el gerente selecciona la sección **“Mis Convocatorias”**.  
+  - Presiona el botón **“+ Crear convocatoria”**.  
+  - Completa el formulario con **título, descripción, habilidades requeridas, categoría** y **fecha límite**.  
+  - Elige entre **“Guardar como borrador”** o **“Publicar”**.  
+  - La convocatoria aparece listada en la vista principal con estado **“Activa”**.  
+  - Puede **editarla** o **cerrarla** posteriormente.
+
+<p align="center">
+  <img src="images/dwireconv.png" alt="mockup" width="500">
+</p>
+
+**Wireflow 3: Explorar proyectos (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero explorar proyectos creados por estudiantes para identificar ideas innovadoras y posibles colaboradores.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde la barra inferior, selecciona la opción **“Explorar”**.  
+  - Visualiza una lista de proyectos de estudiantes con barra de **búsqueda y filtros**.  
+  - Al seleccionar un proyecto, accede a su **detalle completo** con descripción, autores y categoría.  
+  - Puede presionar **“Enviar solicitud”** para contactar al estudiante.  
+  - El sistema registra la solicitud en la sección **“Solicitudes”**.
+
+<p align="center">
+  <img src="images/dwirexplo.png" alt="mockup" width="500">
+</p>
+
+**Wireflow 4: Solicitudes enviadas (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero revisar el estado de las solicitudes que he enviado a los estudiantes.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Accede a la pestaña **“Solicitudes”** desde la barra inferior.  
+  - Revisa la lista de solicitudes enviadas, con estado **Pendiente**, **Aceptada** o **Rechazada**.  
+  - Al seleccionar una solicitud, se muestra el **detalle del proyecto y mensaje enviado**.  
+  - Puede **enviar un nuevo mensaje**, **cancelar la solicitud** o **ver el portafolio del estudiante**.  
+  - El estado se actualiza según la respuesta del estudiante.
+
+<p align="center">
+  <img src="images/dwiresoli.png" alt="mockup" width="500">
 </p>
 
 ## Conclusiones
