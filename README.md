@@ -2374,7 +2374,7 @@ A continuación se muestran los escenarios planteados:
 #### 2.5.3.1.Software Architecture Context Level Diagrams <br>
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.
 
-![InnoSpace-diagram-context](./images/Context-Diagram.png)
+![InnoSpace-diagram-context](./images/Context-Diagrams.png)
 
 <p align="center">
   Elaboración propia
@@ -3676,5 +3676,6 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
 
