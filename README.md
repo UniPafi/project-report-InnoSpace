@@ -2383,7 +2383,7 @@ Este diagrama representa la visión de más alto nivel del sistema InnoSpace Pla
 #### 2.5.3.2.Software Architecture Container Level Diagrams <br>
 En este nivel la arquitectura se organiza en tres contenedores principales: la Mobile App, que ofrece el acceso de los usuarios; la API Application, que gestiona la lógica de negocio y comunica la app con el sistema; y la Database, donde se almacenan usuarios, proyectos y postulaciones.
 
-![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
+![InnoSpace-diagram-containers](./images/Container-Diagramss.png)
 
 <p align="center">
   Elaboración propia
@@ -3676,4 +3676,5 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
