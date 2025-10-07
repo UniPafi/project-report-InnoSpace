@@ -26,11 +26,12 @@
 
 | **Código** | **Apellidos y Nombres**             |
 | ---------- | ----------------------------------- |
-| U20211B293 | Cabrera Buitron, Diego Ivan |
-| U202313172 | Coca Lavado, Carlos Andres |
-| U20231A500 | Palomino Fiestas, Erick Leonardo    |
-| U20231D974 | Rivera Ratachi, Renzo Sebastian     |
-| U202310988 | Santur Tello, Andrea Elizabeth     |
+| U202310988 | Andrea Elizabeth, Santur Tello     |
+| U202313172 | Carlos Andres, Coca Lavado |
+| U20211B293 | Diego Ivan, Cabrera Buitron, |
+| U20231A500 | Erick Leonardo, Palomino Fiestas    |
+| U20231D974 | Renzo Sebastian, Rivera Ratachi     |
+
 
 **Agosto 2025**
 
@@ -224,6 +225,52 @@
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
         - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagrams)
+
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+
+  - [3.1. Product Design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+
 
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -3573,7 +3620,7 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
   <img src="images/wireeval.png" alt="mockup" width="400">
 </p>
 
-#### 3.1.4.2 Mobile Applications Wireframes Diagrams
+#### 3.1.4.2 Mobile Applications Wireflows Diagrams
 
 **Wireflow 1: Login / Registrarse**
 
@@ -3651,6 +3698,155 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 <p align="center">
   <img src="images/dwiresoli.png" alt="mockup" width="500">
 </p>
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+#### 3.1.4.5. Mobile Applications Prototyping
+
+
+
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+### 4.1.1. Software Development Environment Configuration
+### 4.1.2. Source Code Management
+### 4.1.3. Source Code Style Guide & Conventions
+### 4.1.4. Software Deployment Configuration
+
+## 4.2. Landing Page & Mobile Application Implementation
+### 4.2.1. Sprint 1
+#### 4.2.1.1. Sprint Planning 1
+#### 4.2.1.2. Sprint Backlog 1
+#### 4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+
+En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despliegue del landing page. Además tambien se logro avanzar el desarrollo del backend y las pantallas principales de la aplicación móvil.
+
+
++ TS01 Registrarse 
++ TS02 Iniciar Sesion
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/authentication.png" alt="execution" width="1000">
+</p>
+
+<br>
+
++ TS03 Actualizar Usuario
++ TS04 Obtener todos los usuarios
++ TS05 Obtener usuario por Id
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/users.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS06 Crear perfil de estudiante
++ TS07 Actualizar perfil de estudiante por Id
++ TS08 Obtener perfil de estudiante por Id
++ TS09 Obtener perfiles de estudiante
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/studnetproifesl.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS10 Crear perfil de manager
++ TS11 Actualizar perfil de manager por Id
++ TS12 Obtener perfil de manager por Id
++ TS13 Obtener perfiles de manager
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS14 Crear Convocatoria
++ TS15 Actualizar Convocatoria
++ TS16 Cambiar estado de convocatoria a publicado
++ TS17 Cambiar estado de convocatoria a cerrado
++ TS18 Borrar convocatoria
++ TS19 Obtener convocatoria por Id
++ TS20 Obtener todas las convocatorias
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS21 Crear Proyecto
++ TS22 Actualizar Proyecto
++ TS23 Cambiar estado de Proyecto publicado
++ TS24 Cambiar estado de Proyecto cerrado
++ TS25 Borrar Proyecto
++ TS26 Obtener Proyectopor Id
++ TS27 Obtener todas los Proyectos
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot_1.png" alt="execution" width="1000">
+</p>
+<br>
+
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+<h3>Endpoints implementados</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint URL (local)</th>
+      <th>Recurso</th>
+      <th>Verbo HTTP</th>
+      <th>Acción / Sintaxis</th>
+      <th>Parámetros</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>GET</td><td>Obtener todos los perfiles de managers</td><td>Ninguno</td><td>[ { "id": 1, "name": "John Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>POST</td><td>Crear un nuevo perfil de manager</td><td>Body: fullName, position, etc.</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{id}</td><td>Manager Profiles</td><td>PUT</td><td>Actualizar un perfil de manager por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Jane Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{profileId}</td><td>Manager Profiles</td><td>GET</td><td>Obtener perfil de manager por ID</td><td>profileId</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidad por ID</td><td>id</td><td>{ "id": 1, "title": "Internship Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>PUT</td><td>Actualizar oportunidad</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "title": "Updated Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>DELETE</td><td>Eliminar oportunidad</td><td>id</td><td>{ "message": "Opportunity deleted" }</td></tr>
+    <tr><td>/api/v1/opportunities</td><td>Opportunities</td><td>POST</td><td>Crear una nueva oportunidad</td><td>Body: title, description, etc.</td><td>{ "id": 1, "title": "New Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/publish</td><td>Opportunities</td><td>POST</td><td>Publicar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/close</td><td>Opportunities</td><td>POST</td><td>Cerrar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Closed" }</td></tr>
+    <tr><td>/api/v1/opportunities/company/{companyId}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidades de una compañía</td><td>companyId</td><td>[ { "id": 1, "title": "Opportunity A" }, ... ]</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>GET</td><td>Obtener proyecto por ID</td><td>id</td><td>{ "id": 1, "name": "AI Research Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>PUT</td><td>Actualizar proyecto</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Updated Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>DELETE</td><td>Eliminar proyecto</td><td>id</td><td>{ "message": "Project deleted" }</td></tr>
+    <tr><td>/api/v1/projects</td><td>Projects</td><td>POST</td><td>Crear un nuevo proyecto</td><td>Body: name, description, etc.</td><td>{ "id": 1, "name": "New Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/publish</td><td>Projects</td><td>POST</td><td>Publicar proyecto</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/finalize</td><td>Projects</td><td>POST</td><td>Finalizar proyecto</td><td>id</td><td>{ "id": 1, "status": "Finalized" }</td></tr>
+    <tr><td>/api/v1/projects/student/{studentId}</td><td>Projects</td><td>GET</td><td>Obtener proyectos por ID de estudiante</td><td>studentId</td><td>[ { "id": 1, "name": "Capstone Project" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>GET</td><td>Obtener todos los perfiles de estudiantes</td><td>Ninguno</td><td>[ { "id": 1, "fullName": "Alice Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>POST</td><td>Crear un nuevo perfil de estudiante</td><td>Body: fullName, major, etc.</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{id}</td><td>Student Profiles</td><td>PUT</td><td>Actualizar perfil de estudiante</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "fullName": "Alice Updated" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{profileId}</td><td>Student Profiles</td><td>GET</td><td>Obtener perfil de estudiante por ID</td><td>profileId</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-up</td><td>Authentication</td><td>POST</td><td>Registro de usuario</td><td>Body: email, password, role, etc.</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-in</td><td>Authentication</td><td>POST</td><td>Inicio de sesión</td><td>Body: email, password</td><td>{ "token": "jwt-token", "userId": 1 }</td></tr>
+    <tr><td>/api/v1/users</td><td>Users</td><td>GET</td><td>Obtener todos los usuarios</td><td>Ninguno</td><td>[ { "id": 1, "email": "user@example.com" }, ... ]</td></tr>
+    <tr><td>/api/v1/users/{id}</td><td>Users</td><td>PUT</td><td>Actualizar usuario por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "email": "updated@example.com" }</td></tr>
+    <tr><td>/api/v1/users/{userId}</td><td>Users</td><td>GET</td><td>Obtener usuario por ID</td><td>userId</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+  </tbody>
+</table>
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+### 4.3.1. Diseño de Entrevistas
+### 4.3.2. Registro de Entrevistas
+### 4.3.3. Evaluaciones según heurísticas
+
 
 ## Conclusiones
 
