@@ -3208,6 +3208,28 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   Elaboración propia
 </p>
 
+### 4.1.3 Source Code Style Guide & Conventions
+Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
+La aplicación de estas directrices garantiza la uniformidad del código en toda la plataforma, facilita el trabajo colaborativo entre los desarrolladores y mejora la comprensión del sistema.
+Además, estas prácticas contribuyen a reducir errores durante las etapas de desarrollo, prueba y mantenimiento, asegurando la calidad y escalabilidad del software de InnoSpace.
+
+#### Convenciones para HTML/CSS (Google HTML/CSS Style Guide)
+
+Durante el desarrollo de la **Landing Page de UniPafi (InnoSpace)**, se aplicaron las buenas prácticas recomendadas por la **guía de estilo de Google para HTML y CSS**, con el fin de mantener un código limpio, semántico y accesible:
+
+* Declarar siempre el tipo de documento (`<!DOCTYPE html>`) al inicio del archivo.
+* Utilizar minúsculas en los nombres de las etiquetas HTML (`<p>`, `<h1>`, `<section>`, etc.).
+* Asegurar el cierre correcto de todos los elementos HTML (por ejemplo, `<p></p>`).
+* Colocar entre comillas los valores de los atributos (por ejemplo, `<div class="container">`).
+* Incluir los atributos **alt**, **width** y **height** en las imágenes para optimizar la accesibilidad y el rendimiento.
+* Mantener las líneas de código cortas y ordenadas para facilitar la lectura y el mantenimiento.
+* No omitir el elemento `<title>` dentro del `<head>`, garantizando la correcta identificación de la página.
+
+### 4.1.4 Software Deployment Configuration
+
+Para el despliegue de la Landing Page
+
+
 ## Conclusiones
 
 **TB1**
@@ -3234,5 +3256,6 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 ## Anexos
 
 **Link del repositorio en Github:**
+
 
 https://github.com/UniPafi/project-report-InnoSpace
