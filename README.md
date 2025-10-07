@@ -3843,7 +3843,87 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
+
 ### 4.3.1. Diseño de Entrevistas
+
+Segmentos encontrados:
+
+- Estudiantes universitarios innovadores (Talento joven)
+
+- Gerentes/Profesionales de Innovación y Talento (Ecosistema empresarial)
+
+Antes de realizar las entrevistas respectivas, consideramos sumamente necesario realizar un análisis previo que nos permita entender mejor a nuestros públicos objetivo. Por ende, se diseñaron preguntas específicas para cada segmento, con el fin de orientar nuestras entrevistas de manera más eficiente y alineada a sus realidades.
+
+Para esta fase inicial de validación, queremos conocer la experiencia de nuestros usuarios al navegar por nuestra Landing Page que comunica el valor de Innospace. Con este contexto, proponemos estas preguntas cualitativas orientadas a validar la claridad de nuestro mensaje, el atractivo de nuestra propuesta de valor y la efectividad de la página para generar el interés y la acción deseados.
+
+Las siguientes preguntas están organizadas según los dos segmentos clave de la startup Unipafi y asi nos permitirán recoger percepciones reales sobre la comunicación y la propuesta inicial.
+
+**Preguntas para Estudiantes Universitarios Innovadores (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al abrir la página por primera vez, ¿cuál es tu impresión general en estos primeros momentos de interacción?
+
+2. Después de leer el encabezado principal, ¿puedes explicarme con tus propias palabras qué crees que hace una aplicación como InnoSpace?
+
+3. ¿El mensaje te resulta atractivo? ¿Por qué sí o por qué no?
+
+Claridad de la propuesta de valor
+
+4. ¿Qué beneficios específicos para un estudiante como tú logras identificar en la página?
+
+5. ¿La información te hace sentir que InnoSpace entiende tus necesidades y aspiraciones?
+
+6. ¿Hay algo que esperabas encontrar o que te gustaría saber, pero que no está mencionado en la página?
+
+Navegación y llamado a la acción (Call to Action)
+
+7. ¿El propósito de la página te parece claro?
+
+Confianza y credibilidad
+
+8. ¿Qué elementos de la página te generan confianza en Unipafi?
+
+9. Por el contrario, ¿hay algo en la página que te genere dudas o desconfianza?
+
+Interés y disposición futura
+
+10. Basándote solo en lo que ves en esta página, ¿estarías interesado en registrarte en una plataforma como Unipafi cuando esté disponible? ¿Por qué?
+
+11. ¿Compartirías esta página con algún compañero o amigo que esté buscando oportunidades? ¿Qué le dirías?
+
+
+
+**Preguntas para Gerentes/Profesionales de Innovación y Talento (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al aterrizar en la página, ¿la presentación le parece profesional y acorde a lo que esperaría una empresa?
+
+2. Tras una lectura rápida, ¿puede resumir cuál cree que es la propuesta de valor de InnoSpace para una organización como la suya?
+
+Claridad del modelo de colaboración
+
+3. Desde su perspectiva, ¿qué beneficios concretos para una empresa identifica en la página?
+
+4. ¿Falta algún argumento o información crítica que necesitaría para considerar a InnoSpace como un socio potencial?
+
+Navegación y llamado a la acción para empresas
+
+5. ¿El lenguaje y el diseño están orientados correctamente a un tomador de decisiones empresarial?
+
+6. Si quisiera entender el impacto de InnoSpace, ¿encontró fácilmente casos de éxito, o testimonios relevantes?
+
+Confianza y viabilidad
+
+7. ¿La Landing Page transmite la seriedad y solidez necesarias para que una empresa considere una colaboración?
+
+8. ¿Qué le daría mayor seguridad sobre el potencial del talento que InnoSpace puede ofrecer?
+
+Interés y adopción potencial
+
+9. ¿Qué barreras internas o externas cree que podría encontrar al proponer una herramienta como esta dentro de su organización?
+
 ### 4.3.2. Registro de Entrevistas
 ### 4.3.3. Evaluaciones según heurísticas
 
