@@ -3699,6 +3699,10 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
   <img src="images/dwiresoli.png" alt="mockup" width="500">
 </p>
 
+#### 3.1.4.3. Mobile Applications Mock-ups
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+#### 3.1.4.5. Mobile Applications Prototyping
+
 ## Capitulo IV: Product Implementation & Validation
 
 ### 4. Product Implementation & Validation
@@ -3766,18 +3770,8 @@ Teniendo en cuenta la información anterior nos inclinamos por este tipo de orga
 - **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
 - **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
 
-#### 3.1.4.3. Mobile Applications Mock-ups
-#### 3.1.4.4. Mobile Applications User Flow Diagrams
-#### 3.1.4.5. Mobile Applications Prototyping
 
 
-
-
-# Capítulo IV: Product Implementation & Validation
-
-## 4.1. Software Configuration Management
-### 4.1.1. Software Development Environment Configuration
-### 4.1.2. Source Code Management
 ### 4.1.3 Source Code Style Guide & Conventions
 
 Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
