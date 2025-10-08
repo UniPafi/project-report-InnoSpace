@@ -4040,6 +4040,31 @@ Durante el desarrollo de la **Landing Page de UniPafi (InnoSpace)**, se aplicaro
 * Mantener las líneas de código cortas y ordenadas para facilitar la lectura y el mantenimiento.
 * No omitir el elemento `<title>` dentro del `<head>`, garantizando la correcta identificación de la página.
 
+#### Convenciones para JavaScript (Google JavaScript Style Guide)
+Para el desarrollo de las funcionalidades interactivas de la Landing Page, se siguieron las convenciones de la Google JavaScript Style Guide:
+
+* Utilizar camelCase para nombres de variables y funciones (calculateSum(), userDataList).
+* Usar comillas simples para definir cadenas de texto ('mensaje').
+* Finalizar todas las sentencias con punto y coma ;.
+* Evitar var, priorizando let o const según el caso.
+* Usar nombres descriptivos y evitar abreviaturas innecesarias.
+* Incluir comentarios claros para funciones y bloques complejos.
+  
+Estas prácticas favorecen la uniformidad, previenen errores de interpretación y facilitan la colaboración entre desarrolladores.
+
+#### Convenciones para Kotlin (Google Kotlin Style Guide)
+En el desarrollo de la aplicación móvil Android, se aplicaron las guías oficiales de Google Kotlin Style Guide, promoviendo un código expresivo, seguro y fácil de mantener:
+
+* Usar camelCase para variables, funciones y métodos (getUserData(), userName).
+* Declarar constantes con val y variables mutables con var solo cuando sea necesario.
+* Omitir el punto y coma al final de las sentencias.
+* Aplicar sangría de 4 espacios y bloques bien estructurados.
+* Utilizar funciones de extensión, lambdas y expresiones funcionales donde sea apropiado.
+* Nombrar las clases y funciones con claridad y precisión.
+* Dividir clases largas en archivos separados para mejorar la legibilidad.
+
+Estas convenciones permitieron mantener un código Android idiomático, alineado con las prácticas modernas del ecosistema Kotlin.
+
 ### 4.1.4 Software Deployment Configuration
 
 Para el despliegue de la Landing Page del presente proyecto, perteneciente a la plataforma UniPafi (InnoSpace), se empleó una arquitectura distribuida basada en contenedores y servicios independientes, garantizando la escalabilidad, disponibilidad y mantenimiento modular del sistema. De tal manera, el proceso de despliegue se llevó a cabo siguiendo los pasos principales recomendados por la guía de GitHub Pages:
@@ -4054,8 +4079,7 @@ Para el despliegue de la Landing Page del presente proyecto, perteneciente a la 
 
 * Finalmente, se verificó la correcta carga de estilos, scripts e imágenes desde distintos dispositivos, garantizando una experiencia responsiva y fluida.
 
-**Enlace de la Landing Page:**
-🔗 [https://unipafi.github.io/landing-page-InnoSpace/]([https://unipafi.github.io/landing-page-InnoSpace/])
+[Enlace a la Landing Page desplegada](https://unipafi.github.io/landing-page-InnoSpace/)
 
 Este enlace dirige a la versión en vivo de la Lading Page, la cual es accesible globalmente desde cualquier dispositivo. Esto te permite validar su funcionalidad y evaluar la apariencia visual.
 
@@ -4075,11 +4099,187 @@ El despliegue nos proveyó de una página funcional desde el inicio del proyecto
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones
+Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones. A partir del Product Backlog, se organizan los avances en secciones internas por cada Sprint, donde se registran las evidencias de desarrollo, ejecución y trabajo colaborativo del equipo.
 
 ### 4.2.1. Sprint 1
+
+Durante el Sprint 1 del proyecto, el equipo se enfocó en el diseño y desarrollo de la Landing Page. Además, se avanzó en el desarrollo de los componentes en Kotlin y en la implementación del backend, junto con la definición de requisitos mediante historias de usuario funcionales y técnicas, así como la elaboración de artefactos esenciales del sistema. El objetivo principal fue construir una base sólida que facilitara la comunicación entre los miembros del equipo y permitiera visualizar los requerimientos iniciales del proyecto, asegurando coherencia entre la planificación y la implementación inicial.
+
 #### 4.2.1.1. Sprint Planning 1
+En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 1. Este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante el sprint. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 1</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-09-30</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>05:50 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Santur Tello, Andrea Elizabeth</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Rivera Ratachi, Renzo Sebastian
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Review Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Retrospective Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo..</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Goal</b></td>
+      <td>Our focus is on building an informative and responsive Landing Page for the UniPafi platform, supported by initial backend and Kotlin component development.
+We believe it delivers a clear understanding of the platform’s purpose and value to students and company managers, increasing their interest and trust in the application.
+This will be confirmed when users can access the published Landing Page, navigate its sections smoothly, and comprehend the benefits and features of UniPafi across different devices.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Velocity</b></td>
+      <td>9 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>9 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.1.2. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<h3>Sprint Backlog – Sprint 1</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th colspan="9">Sprint 1</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="2">WorkItem / Task</th>
+      <th>Description</th>
+      <th>Estimation (Hours)</th>
+      <th>Assigned To</th>
+      <th>Status (To-do / In-Process / To-Review / Done)</th>
+    </tr>
+    <tr>
+      <th>Id</th><th>Title</th>
+      <th>Id</th><th>Title</th>
+      <th></th><th></th><th></th><th></th>
+    </tr>
+  </thead>
+  <tbody>
+   <tr>
+      <td>EP01</td>
+      <td>Registro y Onboarding de Usuarios</td>
+      <td>WI001</td>
+      <td>Diseño de la estructura de Landing Page</td>
+      <td>Diseñar la estructura base de la Landing Page y definir secciones vinculadas al flujo de registro de usuarios.</td>
+      <td>2</td>
+      <td>Renzo Rivera</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP01</td>
+      <td>Registro y Onboarding de Usuarios</td>
+      <td>WI002</td>
+      <td>Implementación visual en HTML y CSS</td>
+      <td>Implementar el diseño de la Landing Page utilizando HTML5 y CSS3, asegurando coherencia con los mockups en Figma.</td>
+      <td>3</td>
+      <td>Andrea Santur</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Gestión de Oportunidades y Proyectos</td>
+      <td>WI003</td>
+      <td>Configuración del Backend con Spring Boot</td>
+      <td>Configurar el entorno backend con Spring Boot, estableciendo endpoints iniciales para gestión de proyectos y conexión con MySQL.</td>
+      <td>5</td>
+      <td>Diego Cabrera</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Gestión de Oportunidades y Proyectos</td>
+      <td>WI004</td>
+      <td>Creación de modelo de datos inicial</td>
+      <td>Definir entidades y relaciones principales en MySQL para representar proyectos, usuarios y postulaciones.</td>
+      <td>3</td>
+      <td>Diego Cabrera</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Exploración y Postulación a Proyectos</td>
+      <td>WI005</td>
+      <td>Desarrollo de componentes en Kotlin</td>
+      <td>Programar los componentes iniciales en Kotlin para la aplicación móvil, permitiendo visualizar proyectos disponibles.</td>
+      <td>4</td>
+      <td>Erick Palomino</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Exploración y Postulación a Proyectos</td>
+      <td>WI006</td>
+      <td>Integración con backend</td>
+      <td>Conectar los componentes móviles con los servicios del backend mediante llamadas API para la postulación a proyectos.</td>
+      <td>3</td>
+      <td>Erick Palomino</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Evaluación y Retroalimentación</td>
+      <td>WI007</td>
+      <td>Diseño del módulo de evaluación</td>
+      <td>Diseñar la interfaz conceptual del módulo de evaluación para gerentes en Figma y documentar criterios de retroalimentación.</td>
+      <td>2</td>
+      <td>Carlos Coca</td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Creación y Visualización de Portafolio</td>
+      <td>WI008</td>
+      <td>Diseño de la sección Portafolio</td>
+      <td>Definir la estructura visual del portafolio del estudiante dentro de la Landing Page y planificar futuras integraciones.</td>
+      <td>2</td>
+      <td>Renzo Rivera</td>
+      <td>Done</td>
+    </tr>
+  </tbody>
+</table>
+  </tbody>
+</table>
+
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
@@ -4314,6 +4514,9 @@ Interés y adopción potencial
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
+
+
 
 
 
