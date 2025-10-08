@@ -3652,6 +3652,73 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
   <img src="images/dwiresoli.png" alt="mockup" width="500">
 </p>
 
+## Capitulo IV: Product Implementation & Validation
+
+### 4. Product Implementation & Validation
+
+#### 4.1 Software Configuration Management
+
+En este ítem se detallan las reglas, lineamientos y procesos establecidos durante el desarrollo de InnoSpace, la aplicación móvil de la startup UniPafi. El propósito de estas directrices es asegurar la integridad, trazabilidad y consistencia del software a lo largo de todo su ciclo de vida; desde la fase inicial de desarrollo, pasando por la integración y las pruebas, hasta el despliegue y mantenimiento en producción.
+
+#### 4.1.1 Software Development Environment Configuration
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST. Para el desarrollo de la landing page utilizamos HTML, CSS y JavaScript.
+
+| Herramienta     | Descripción                                                                   | Enlace                                 |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| Android         | Lenguaje de programación utilizado para la creación de la mobile application | https://developer.android.com/         |
+| Jetpack Compose | Framework utilizado para la creación de la mobile application                 | https://developer.android.com/compose  |
+| Spring Boot     | Framework utilizado para la creación de la API REST                           | https://spring.io/projects/spring-boot |
+| Tailwind CSS    | Framework utilizado para la creación de la landing page                       | https://tailwindcss.com/               |
+
+**Software Deployment**
+
+Se empleó los siguientes software para desplegar los servicios del proyecto. Base de datos: Railway, API y Landing Page: Render, Mobile Application: Android Studio.
+
+| Herramienta    | Descripción                                                     | Enlace                               |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------ |
+| Railway        | Base de datos utilizada para el proyecto                         | https://railway.com//                   |
+| Render         | API y Landing Page utilizada para el proyecto                    | https://render.com/                  |
+| Android Studio | Herramienta utilizada para la creación de la mobile application | https://developer.android.com/studio |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos Markdown, y para el trabajo colaborativo Github.
+
+| Herramienta | Descripción                                                      | Enlace                          |
+| ----------- | ----------------------------------------------------------------- | ------------------------------- |
+| Markdown    | Lenguaje de marcado utilizado para la documentación del proyecto | https://www.markdownguide.org/  |
+| Github      | Para gestionar la documentación del proyecto                     | https://github.com/UniPafi/project-report-InnoSpace |
+
+#### 4.1.2 Source Code Management
+
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+
+| Producto           | Repositorio       | Enlace                                     |
+| ------------------ | ----------------- | ------------------------------------------ |
+| Mobile Application | kotlin-app-innospace | https://github.com/UniPafi/kotlin_app_InnoSpace |
+| Backend            | backend-innospace    | https://github.com/UniPafi/backend-InnoSpace    |
+| Landing Page       | landingpage-innospace| https://github.com/UniPafi/landing-page-InnoSpace    |
+
+**Flujo de trabajo GitFlow**
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
 ## Conclusiones
 
 **TB1**
