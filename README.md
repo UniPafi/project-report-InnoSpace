@@ -3836,7 +3836,7 @@ La aplicación integra un sistema de navegación dual que combina flujos guiados
 
 #### 3.1.4.1 Mobile Applications Wireframes
 
-Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Cada vista presenta una navegación intuitiva mediante una barra inferior fija y el uso consistente de tarjetas, íconos y botones de acción, facilitando tareas como explorar proyectos, crear convocatorias y gestionar solicitudes. El diseño mantiene una estructura jerárquica y legible, optimizada para dispositivos móviles, garantizando una experiencia fluida y eficiente orientada a los objetivos principales del sistema: publicar, postular y colaborar en proyectos de innovación.
+Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Cada vista presenta una navegación intuitiva mediante una barra inferior fija y el uso consistente de tarjetas, íconos y botones de acción, facilitando tareas como explorar proyectos, crear convocatorias y gestionar solicitudes. 
 
 [https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3](https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3)
 
@@ -3850,12 +3850,6 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 
 <p align="center">
   <img src="images/wiredashboard.png" alt="mockup" width="200">
-</p>
-
-- Agregar Portafolio
-
-<p align="center">
-  <img src="images/wireport.png" alt="mockup" width="500">
 </p>
 
 - Proyectos
@@ -3950,6 +3944,41 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 </p>
 
 #### 3.1.4.3. Mobile Applications Mock-ups
+
+
+Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Las vistas mantienen una navegación intuitiva con barra inferior fija y uso consistente de tarjetas, íconos y botones, facilitando la interacción y gestión dentro de la plataforma.
+
+[https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3](https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3)
+
+- Iniciar sesión / Registrarse:
+
+<p align="center">
+  <img src="images/chapter4-sprint1/mockuplogin.png" alt="mockup" width="500">
+</p>
+
+- Dashboards
+
+<p align="center">
+  <img src="images/chapter4-sprint1/dashboards.png" alt="mockup" width="400">
+</p>
+
+
+- Perfil y Proyectos
+
+<p align="center">
+  <img src="images/chapter4-sprint1/perfil_proyects.png" alt="mockup" width="200">
+</p>
+
+- Evaluaciones
+
+<p align="center">
+  <img src="images/chapter4-sprint1/evaluacioens.png" alt="mockup" width="400">
+</p>
+
+
+
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 **User Flow 1: Login / Registrarse**
