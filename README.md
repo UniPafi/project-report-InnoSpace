@@ -26,11 +26,12 @@
 
 | **Código** | **Apellidos y Nombres**             |
 | ---------- | ----------------------------------- |
-| U20211B293 | Cabrera Buitron, Diego Ivan |
-| U202313172 | Coca Lavado, Carlos Andres |
-| U20231A500 | Palomino Fiestas, Erick Leonardo    |
-| U20231D974 | Rivera Ratachi, Renzo Sebastian     |
-| U202310988 | Santur Tello, Andrea Elizabeth     |
+| U202310988 | Andrea Elizabeth, Santur Tello     |
+| U202313172 | Carlos Andres, Coca Lavado |
+| U20211B293 | Diego Ivan, Cabrera Buitron, |
+| U20231A500 | Erick Leonardo, Palomino Fiestas    |
+| U20231D974 | Renzo Sebastian, Rivera Ratachi     |
+
 
 **Agosto 2025**
 
@@ -224,6 +225,52 @@
       - [2.6.4.6. Bounded Context Software Architecture Code Level Diagrams](#2646-bounded-context-software-architecture-code-level-diagrams)
         - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
         - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagrams)
+
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+
+  - [3.1. Product Design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+
 
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -3573,7 +3620,7 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
   <img src="images/wireeval.png" alt="mockup" width="400">
 </p>
 
-#### 3.1.4.2 Mobile Applications Wireframes Diagrams
+#### 3.1.4.2 Mobile Applications Wireflows Diagrams
 
 **Wireflow 1: Login / Registrarse**
 
@@ -3719,6 +3766,286 @@ Teniendo en cuenta la información anterior nos inclinamos por este tipo de orga
 - **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
 - **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
 
+#### 3.1.4.3. Mobile Applications Mock-ups
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+#### 3.1.4.5. Mobile Applications Prototyping
+
+
+
+
+# Capítulo IV: Product Implementation & Validation
+
+## 4.1. Software Configuration Management
+### 4.1.1. Software Development Environment Configuration
+### 4.1.2. Source Code Management
+### 4.1.3 Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
+La aplicación de estas directrices garantiza la uniformidad del código en toda la plataforma, facilita el trabajo colaborativo entre los desarrolladores y mejora la comprensión del sistema.
+Además, estas prácticas contribuyen a reducir errores durante las etapas de desarrollo, prueba y mantenimiento, asegurando la calidad y escalabilidad del software de InnoSpace.
+
+#### Convenciones para HTML/CSS (Google HTML/CSS Style Guide)
+
+Durante el desarrollo de la **Landing Page de UniPafi (InnoSpace)**, se aplicaron las buenas prácticas recomendadas por la **guía de estilo de Google para HTML y CSS**, con el fin de mantener un código limpio, semántico y accesible:
+
+* Declarar siempre el tipo de documento (`<!DOCTYPE html>`) al inicio del archivo.
+* Utilizar minúsculas en los nombres de las etiquetas HTML (`<p>`, `<h1>`, `<section>`, etc.).
+* Asegurar el cierre correcto de todos los elementos HTML (por ejemplo, `<p></p>`).
+* Colocar entre comillas los valores de los atributos (por ejemplo, `<div class="container">`).
+* Incluir los atributos **alt**, **width** y **height** en las imágenes para optimizar la accesibilidad y el rendimiento.
+* Mantener las líneas de código cortas y ordenadas para facilitar la lectura y el mantenimiento.
+* No omitir el elemento `<title>` dentro del `<head>`, garantizando la correcta identificación de la página.
+
+### 4.1.4 Software Deployment Configuration
+
+Para el despliegue de la Landing Page del presente proyecto, perteneciente a la plataforma UniPafi (InnoSpace), se empleó una arquitectura distribuida basada en contenedores y servicios independientes, garantizando la escalabilidad, disponibilidad y mantenimiento modular del sistema. De tal manera, el proceso de despliegue se llevó a cabo siguiendo los pasos principales recomendados por la guía de GitHub Pages:
+
+* Se creó un repositorio en GitHub con todos los archivos fuente del sitio (HTML, CSS, JavaScript, imágenes y recursos).
+
+* Se aseguró que el archivo principal se denomine index.html y que los recursos estén organizados en carpetas como /css, /js e /img.
+
+* En la configuración del repositorio, se accedió a Settings → Pages, seleccionando la rama main y la carpeta raíz (root) como fuente de publicación.
+
+* GitHub generó automáticamente la URL pública donde la Landing Page quedó disponible.
+
+* Finalmente, se verificó la correcta carga de estilos, scripts e imágenes desde distintos dispositivos, garantizando una experiencia responsiva y fluida.
+
+**Enlace de la Landing Page:**
+🔗 [https://unipafi.github.io/landing-page-InnoSpace/]([https://unipafi.github.io/landing-page-InnoSpace/])
+
+Este enlace dirige a la versión en vivo de la Lading Page, la cual es accesible globalmente desde cualquier dispositivo. Esto te permite validar su funcionalidad y evaluar la apariencia visual.
+
+#### Proceso del Despliegue 
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/deploy_github.png" alt="Github Pages Configuration" style="width:70%;"/>
+</div>
+
+#### Resultado del Despliegue
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/landing_page.png" alt="Evidencia del Deploy" style="width:70%;"/>
+</div>
+
+El despliegue nos proveyó de una página funcional desde el inicio del proyecto, haciendo más sencillo que usuarios, stakeholders y evaluadores pudieran revisarla y aprobarla oportunamente
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones
+
+### 4.2.1. Sprint 1
+#### 4.2.1.1. Sprint Planning 1
+#### 4.2.1.2. Sprint Backlog 1
+#### 4.2.1.3. Development Evidence for Sprint Review
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+
+En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despliegue del landing page. Además tambien se logro avanzar el desarrollo del backend y las pantallas principales de la aplicación móvil.
+
+
++ TS01 Registrarse 
++ TS02 Iniciar Sesion
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/authentication.png" alt="execution" width="1000">
+</p>
+
+<br>
+
++ TS03 Actualizar Usuario
++ TS04 Obtener todos los usuarios
++ TS05 Obtener usuario por Id
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/users.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS06 Crear perfil de estudiante
++ TS07 Actualizar perfil de estudiante por Id
++ TS08 Obtener perfil de estudiante por Id
++ TS09 Obtener perfiles de estudiante
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/studnetproifesl.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS10 Crear perfil de manager
++ TS11 Actualizar perfil de manager por Id
++ TS12 Obtener perfil de manager por Id
++ TS13 Obtener perfiles de manager
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS14 Crear Convocatoria
++ TS15 Actualizar Convocatoria
++ TS16 Cambiar estado de convocatoria a publicado
++ TS17 Cambiar estado de convocatoria a cerrado
++ TS18 Borrar convocatoria
++ TS19 Obtener convocatoria por Id
++ TS20 Obtener todas las convocatorias
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS21 Crear Proyecto
++ TS22 Actualizar Proyecto
++ TS23 Cambiar estado de Proyecto publicado
++ TS24 Cambiar estado de Proyecto cerrado
++ TS25 Borrar Proyecto
++ TS26 Obtener Proyectopor Id
++ TS27 Obtener todas los Proyectos
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot_1.png" alt="execution" width="1000">
+</p>
+<br>
+
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+<h3>Endpoints implementados</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint URL (local)</th>
+      <th>Recurso</th>
+      <th>Verbo HTTP</th>
+      <th>Acción / Sintaxis</th>
+      <th>Parámetros</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>GET</td><td>Obtener todos los perfiles de managers</td><td>Ninguno</td><td>[ { "id": 1, "name": "John Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>POST</td><td>Crear un nuevo perfil de manager</td><td>Body: fullName, position, etc.</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{id}</td><td>Manager Profiles</td><td>PUT</td><td>Actualizar un perfil de manager por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Jane Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{profileId}</td><td>Manager Profiles</td><td>GET</td><td>Obtener perfil de manager por ID</td><td>profileId</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidad por ID</td><td>id</td><td>{ "id": 1, "title": "Internship Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>PUT</td><td>Actualizar oportunidad</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "title": "Updated Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>DELETE</td><td>Eliminar oportunidad</td><td>id</td><td>{ "message": "Opportunity deleted" }</td></tr>
+    <tr><td>/api/v1/opportunities</td><td>Opportunities</td><td>POST</td><td>Crear una nueva oportunidad</td><td>Body: title, description, etc.</td><td>{ "id": 1, "title": "New Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/publish</td><td>Opportunities</td><td>POST</td><td>Publicar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/close</td><td>Opportunities</td><td>POST</td><td>Cerrar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Closed" }</td></tr>
+    <tr><td>/api/v1/opportunities/company/{companyId}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidades de una compañía</td><td>companyId</td><td>[ { "id": 1, "title": "Opportunity A" }, ... ]</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>GET</td><td>Obtener proyecto por ID</td><td>id</td><td>{ "id": 1, "name": "AI Research Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>PUT</td><td>Actualizar proyecto</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Updated Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>DELETE</td><td>Eliminar proyecto</td><td>id</td><td>{ "message": "Project deleted" }</td></tr>
+    <tr><td>/api/v1/projects</td><td>Projects</td><td>POST</td><td>Crear un nuevo proyecto</td><td>Body: name, description, etc.</td><td>{ "id": 1, "name": "New Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/publish</td><td>Projects</td><td>POST</td><td>Publicar proyecto</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/finalize</td><td>Projects</td><td>POST</td><td>Finalizar proyecto</td><td>id</td><td>{ "id": 1, "status": "Finalized" }</td></tr>
+    <tr><td>/api/v1/projects/student/{studentId}</td><td>Projects</td><td>GET</td><td>Obtener proyectos por ID de estudiante</td><td>studentId</td><td>[ { "id": 1, "name": "Capstone Project" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>GET</td><td>Obtener todos los perfiles de estudiantes</td><td>Ninguno</td><td>[ { "id": 1, "fullName": "Alice Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>POST</td><td>Crear un nuevo perfil de estudiante</td><td>Body: fullName, major, etc.</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{id}</td><td>Student Profiles</td><td>PUT</td><td>Actualizar perfil de estudiante</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "fullName": "Alice Updated" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{profileId}</td><td>Student Profiles</td><td>GET</td><td>Obtener perfil de estudiante por ID</td><td>profileId</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-up</td><td>Authentication</td><td>POST</td><td>Registro de usuario</td><td>Body: email, password, role, etc.</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-in</td><td>Authentication</td><td>POST</td><td>Inicio de sesión</td><td>Body: email, password</td><td>{ "token": "jwt-token", "userId": 1 }</td></tr>
+    <tr><td>/api/v1/users</td><td>Users</td><td>GET</td><td>Obtener todos los usuarios</td><td>Ninguno</td><td>[ { "id": 1, "email": "user@example.com" }, ... ]</td></tr>
+    <tr><td>/api/v1/users/{id}</td><td>Users</td><td>PUT</td><td>Actualizar usuario por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "email": "updated@example.com" }</td></tr>
+    <tr><td>/api/v1/users/{userId}</td><td>Users</td><td>GET</td><td>Obtener usuario por ID</td><td>userId</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+  </tbody>
+</table>
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+Segmentos encontrados:
+
+- Estudiantes universitarios innovadores (Talento joven)
+
+- Gerentes/Profesionales de Innovación y Talento (Ecosistema empresarial)
+
+Antes de realizar las entrevistas respectivas, consideramos sumamente necesario realizar un análisis previo que nos permita entender mejor a nuestros públicos objetivo. Por ende, se diseñaron preguntas específicas para cada segmento, con el fin de orientar nuestras entrevistas de manera más eficiente y alineada a sus realidades.
+
+Para esta fase inicial de validación, queremos conocer la experiencia de nuestros usuarios al navegar por nuestra Landing Page que comunica el valor de Innospace. Con este contexto, proponemos estas preguntas cualitativas orientadas a validar la claridad de nuestro mensaje, el atractivo de nuestra propuesta de valor y la efectividad de la página para generar el interés y la acción deseados.
+
+Las siguientes preguntas están organizadas según los dos segmentos clave de la startup Unipafi y asi nos permitirán recoger percepciones reales sobre la comunicación y la propuesta inicial.
+
+**Preguntas para Estudiantes Universitarios Innovadores (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al abrir la página por primera vez, ¿cuál es tu impresión general en estos primeros momentos de interacción?
+
+2. Después de leer el encabezado principal, ¿puedes explicarme con tus propias palabras qué crees que hace una aplicación como InnoSpace?
+
+3. ¿El mensaje te resulta atractivo? ¿Por qué sí o por qué no?
+
+Claridad de la propuesta de valor
+
+4. ¿Qué beneficios específicos para un estudiante como tú logras identificar en la página?
+
+5. ¿La información te hace sentir que InnoSpace entiende tus necesidades y aspiraciones?
+
+6. ¿Hay algo que esperabas encontrar o que te gustaría saber, pero que no está mencionado en la página?
+
+Navegación y llamado a la acción (Call to Action)
+
+7. ¿El propósito de la página te parece claro?
+
+Confianza y credibilidad
+
+8. ¿Qué elementos de la página te generan confianza en Unipafi?
+
+9. Por el contrario, ¿hay algo en la página que te genere dudas o desconfianza?
+
+Interés y disposición futura
+
+10. Basándote solo en lo que ves en esta página, ¿estarías interesado en registrarte en una plataforma como Unipafi cuando esté disponible? ¿Por qué?
+
+11. ¿Compartirías esta página con algún compañero o amigo que esté buscando oportunidades? ¿Qué le dirías?
+
+
+
+**Preguntas para Gerentes/Profesionales de Innovación y Talento (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al aterrizar en la página, ¿la presentación le parece profesional y acorde a lo que esperaría una empresa?
+
+2. Tras una lectura rápida, ¿puede resumir cuál cree que es la propuesta de valor de InnoSpace para una organización como la suya?
+
+Claridad del modelo de colaboración
+
+3. Desde su perspectiva, ¿qué beneficios concretos para una empresa identifica en la página?
+
+4. ¿Falta algún argumento o información crítica que necesitaría para considerar a InnoSpace como un socio potencial?
+
+Navegación y llamado a la acción para empresas
+
+5. ¿El lenguaje y el diseño están orientados correctamente a un tomador de decisiones empresarial?
+
+6. Si quisiera entender el impacto de InnoSpace, ¿encontró fácilmente casos de éxito, o testimonios relevantes?
+
+Confianza y viabilidad
+
+7. ¿La Landing Page transmite la seriedad y solidez necesarias para que una empresa considere una colaboración?
+
+8. ¿Qué le daría mayor seguridad sobre el potencial del talento que InnoSpace puede ofrecer?
+
+Interés y adopción potencial
+
+9. ¿Qué barreras internas o externas cree que podría encontrar al proponer una herramienta como esta dentro de su organización?
+
+### 4.3.2. Registro de Entrevistas
+### 4.3.3. Evaluaciones según heurísticas
+
+
 ## Conclusiones
 
 **TB1**
@@ -3743,6 +4070,7 @@ Teniendo en cuenta la información anterior nos inclinamos por este tipo de orga
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
 
 
