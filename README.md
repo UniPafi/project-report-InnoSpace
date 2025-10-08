@@ -3711,10 +3711,61 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 ## 4.1. Software Configuration Management
 ### 4.1.1. Software Development Environment Configuration
 ### 4.1.2. Source Code Management
-### 4.1.3. Source Code Style Guide & Conventions
-### 4.1.4. Software Deployment Configuration
+### 4.1.3 Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
+La aplicación de estas directrices garantiza la uniformidad del código en toda la plataforma, facilita el trabajo colaborativo entre los desarrolladores y mejora la comprensión del sistema.
+Además, estas prácticas contribuyen a reducir errores durante las etapas de desarrollo, prueba y mantenimiento, asegurando la calidad y escalabilidad del software de InnoSpace.
+
+#### Convenciones para HTML/CSS (Google HTML/CSS Style Guide)
+
+Durante el desarrollo de la **Landing Page de UniPafi (InnoSpace)**, se aplicaron las buenas prácticas recomendadas por la **guía de estilo de Google para HTML y CSS**, con el fin de mantener un código limpio, semántico y accesible:
+
+* Declarar siempre el tipo de documento (`<!DOCTYPE html>`) al inicio del archivo.
+* Utilizar minúsculas en los nombres de las etiquetas HTML (`<p>`, `<h1>`, `<section>`, etc.).
+* Asegurar el cierre correcto de todos los elementos HTML (por ejemplo, `<p></p>`).
+* Colocar entre comillas los valores de los atributos (por ejemplo, `<div class="container">`).
+* Incluir los atributos **alt**, **width** y **height** en las imágenes para optimizar la accesibilidad y el rendimiento.
+* Mantener las líneas de código cortas y ordenadas para facilitar la lectura y el mantenimiento.
+* No omitir el elemento `<title>` dentro del `<head>`, garantizando la correcta identificación de la página.
+
+### 4.1.4 Software Deployment Configuration
+
+Para el despliegue de la Landing Page del presente proyecto, perteneciente a la plataforma UniPafi (InnoSpace), se empleó una arquitectura distribuida basada en contenedores y servicios independientes, garantizando la escalabilidad, disponibilidad y mantenimiento modular del sistema. De tal manera, el proceso de despliegue se llevó a cabo siguiendo los pasos principales recomendados por la guía de GitHub Pages:
+
+* Se creó un repositorio en GitHub con todos los archivos fuente del sitio (HTML, CSS, JavaScript, imágenes y recursos).
+
+* Se aseguró que el archivo principal se denomine index.html y que los recursos estén organizados en carpetas como /css, /js e /img.
+
+* En la configuración del repositorio, se accedió a Settings → Pages, seleccionando la rama main y la carpeta raíz (root) como fuente de publicación.
+
+* GitHub generó automáticamente la URL pública donde la Landing Page quedó disponible.
+
+* Finalmente, se verificó la correcta carga de estilos, scripts e imágenes desde distintos dispositivos, garantizando una experiencia responsiva y fluida.
+
+**Enlace de la Landing Page:**
+🔗 [https://unipafi.github.io/landing-page-InnoSpace/]([https://unipafi.github.io/landing-page-InnoSpace/])
+
+Este enlace dirige a la versión en vivo de la Lading Page, la cual es accesible globalmente desde cualquier dispositivo. Esto te permite validar su funcionalidad y evaluar la apariencia visual.
+
+#### Proceso del Despliegue 
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/deploy_github.png" alt="Github Pages Configuration" style="width:70%;"/>
+</div>
+
+#### Resultado del Despliegue
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/landing_page.png" alt="Evidencia del Deploy" style="width:70%;"/>
+</div>
+
+El despliegue nos proveyó de una página funcional desde el inicio del proyecto, haciendo más sencillo que usuarios, stakeholders y evaluadores pudieran revisarla y aprobarla oportunamente
 
 ## 4.2. Landing Page & Mobile Application Implementation
+
+Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones
+
 ### 4.2.1. Sprint 1
 #### 4.2.1.1. Sprint Planning 1
 #### 4.2.1.2. Sprint Backlog 1
@@ -3952,6 +4003,7 @@ Interés y adopción potencial
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
 
 
