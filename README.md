@@ -4402,6 +4402,79 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 </table>
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el deployment de la landing page y del 70% del backend de Innospace en Azure. El backend fue desplegado mediante Azure App Service, conectado a su base de datos MySQL en Azure, asegurando disponibilidad, escalabilidad y persistencia de datos. 
+
+### Landing Page:
+
+#### Configuracion de Github Pages
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/landingpage.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+#### Visualizacion de Landing Page desplegada con Github Pages
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/visualizacionlanding.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+### Base de datos:
+
+#### Creación de base de datos con Azure Database for MySql Flexible Servers
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/databaseazure.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+### Backend:
+
+#### Imagen del proyecto subida a Docker
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/imagendokcer.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+#### Imagen Docker subida a Container Registry en Azure
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/cotnaienrregistry.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+#### Creacion de Web App utilizando el Container Registry
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+#### Vista del Backend desplegado a traves de Swagger UI
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+
+
+
+
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
 ## 4.3. Validation Interviews
