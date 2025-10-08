@@ -3891,7 +3891,7 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
       <td>Diseño de la estructura de Landing Page</td>
       <td>Diseñar la estructura base de la Landing Page y definir secciones vinculadas al flujo de registro de usuarios.</td>
       <td>2</td>
-      <td>Andrea Santur</td>
+      <td>Renzo Rivera</td>
       <td>Done</td>
     </tr>
     <tr>
@@ -4203,6 +4203,7 @@ Interés y adopción potencial
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
 
 
