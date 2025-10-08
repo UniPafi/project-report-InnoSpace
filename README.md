@@ -3951,6 +3951,88 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+**User Flow 1: Login / Registrarse**
+
+- **User Goal:**  
+  Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma según mi rol.
+
+- **User Persona:**  
+  Estudiante y Gerente de empresa  
+
+- **Flujo:**  
+  - El usuario accede a la pantalla inicial y selecciona **“Acceder”**.  
+  - Elige su rol mediante un botón conmutador (**Estudiante / Gerente**).  
+  - Si ya posee cuenta, introduce su **correo y contraseña** para iniciar sesión.  
+  - Si es nuevo, selecciona **“Crear cuenta”** y completa el formulario con nombre, correo, contraseña y datos adicionales (carrera o empresa).  
+  - Al finalizar, el sistema lo redirige automáticamente a su **dashboard** correspondiente.
+
+<p align="center">
+  <img src="images/chapteriii/loginregisdter.png" alt="mockup" width="400">
+</p>
+
+**User Flow 2: Publicar convocatoria (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero crear una nueva convocatoria para atraer estudiantes interesados en participar en proyectos de innovación.
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde el dashboard, el gerente selecciona la sección **“Mis Convocatorias”**.  
+  - Presiona el botón **“+ Crear convocatoria”**.  
+  - Completa el formulario con **título, descripción, habilidades requeridas, categoría** y **fecha límite**.  
+  - Elige entre **“Guardar como borrador”** o **“Publicar”**.  
+  - La convocatoria aparece listada en la vista principal con estado **“Activa”**.  
+  - Puede **editarla** o **cerrarla** posteriormente.
+
+<p align="center">
+  <img src="images/chapteriii/usereflow2.png" alt="mockup" width="500">
+</p>
+
+**User Flow 3: Explorar proyectos (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero explorar proyectos creados por estudiantes para identificar ideas innovadoras y posibles colaboradores.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde la barra inferior, selecciona la opción **“Explorar”**.  
+  - Visualiza una lista de proyectos de estudiantes con barra de **búsqueda y filtros**.  
+  - Al seleccionar un proyecto, accede a su **detalle completo** con descripción, autores y categoría.  
+  - Puede presionar **“Enviar solicitud”** para contactar al estudiante.  
+  - El sistema registra la solicitud en la sección **“Solicitudes”**.
+
+<p align="center">
+  <img src="images/chapteriii/userflow3.png" alt="mockup" width="500">
+</p>
+
+**User Flow 4: Solicitudes enviadas (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero revisar el estado de las solicitudes que he enviado a los estudiantes.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Accede a la pestaña **“Solicitudes”** desde la barra inferior.  
+  - Revisa la lista de solicitudes enviadas, con estado **Pendiente**, **Aceptada** o **Rechazada**.  
+  - Al seleccionar una solicitud, se muestra el **detalle del proyecto y mensaje enviado**.  
+  - Puede **enviar un nuevo mensaje**, **cancelar la solicitud** o **ver el portafolio del estudiante**.  
+  - El estado se actualiza según la respuesta del estudiante.
+
+<p align="center">
+  <img src="images/chapteriii/solictudesenviadas4.png" alt="mockup" width="500">
+</p>
+
+
+
+
+
 #### 3.1.4.5. Mobile Applications Prototyping
 
 ## Capitulo IV: Product Implementation & Validation
