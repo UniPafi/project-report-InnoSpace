@@ -3743,8 +3743,7 @@ Para el despliegue de la Landing Page del presente proyecto, perteneciente a la 
 
 * Finalmente, se verificó la correcta carga de estilos, scripts e imágenes desde distintos dispositivos, garantizando una experiencia responsiva y fluida.
 
-**Enlace de la Landing Page:**
-🔗 [https://unipafi.github.io/landing-page-InnoSpace/]([https://unipafi.github.io/landing-page-InnoSpace/])
+[Enlace a la Landing Page desplegada](https://unipafi.github.io/landing-page-InnoSpace/)
 
 Este enlace dirige a la versión en vivo de la Lading Page, la cual es accesible globalmente desde cualquier dispositivo. Esto te permite validar su funcionalidad y evaluar la apariencia visual.
 
@@ -3764,11 +3763,83 @@ El despliegue nos proveyó de una página funcional desde el inicio del proyecto
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
-Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones
+Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones. A partir del Product Backlog, se organizan los avances en secciones internas por cada Sprint, donde se registran las evidencias de desarrollo, ejecución y trabajo colaborativo del equipo.
 
 ### 4.2.1. Sprint 1
+
+Durante el Sprint 1 del proyecto, el equipo se enfocó en el diseño y desarrollo de la Landing Page. Además, se avanzó en el desarrollo de los componentes en Kotlin y en la implementación del backend, junto con la definición de requisitos mediante historias de usuario funcionales y técnicas, así como la elaboración de artefactos esenciales del sistema. El objetivo principal fue construir una base sólida que facilitara la comunicación entre los miembros del equipo y permitiera visualizar los requerimientos iniciales del proyecto, asegurando coherencia entre la planificación y la implementación inicial.
+
 #### 4.2.1.1. Sprint Planning 1
+En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 1. Este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante el sprint. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 1</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-09-30</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>05:50 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Santur Tello, Andrea Elizabeth</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Rivera Ratachi, Renzo Sebastian
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Review Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Retrospective Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo..</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Goal</b></td>
+      <td>Our focus is on building an informative and responsive Landing Page for the UniPafi platform, supported by initial backend and Kotlin component development.
+We believe it delivers a clear understanding of the platform’s purpose and value to students and company managers, increasing their interest and trust in the application.
+This will be confirmed when users can access the published Landing Page, navigate its sections smoothly, and comprehend the benefits and features of UniPafi across different devices.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Velocity</b></td>
+      <td>9 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>9 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.1.2. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;"> <thead> <tr> <th>User Story ID</th> <th>Título</th> <th>Descripción</th> <th>Work Items / Tasks</th> <th>Responsable</th> <th>Estado</th> </tr> </thead> <tbody> <tr> <td>EP01</td> <td>Registro y Onboarding de Usuarios</td> <td>Como nuevo usuario de la plataforma, quiero registrarme y completar un perfil profesional guiado, para poder acceder a oportunidades o gestionar talento según mi rol.</td> <td> - Definir estructura inicial de la Landing Page y sección de registro.<br> - Crear maquetado en HTML y CSS.<br> - Diseñar flujo visual del proceso de registro en Figma.<br> - Validar la navegación y redirección a formulario de registro. </td> <td>Andrea Santur</td> <td>Completado</td> </tr> <tr> <td>EP02</td> <td>Gestión de Oportunidades y Proyectos</td> <td>Como gerente de una empresa, quiero publicar proyectos con requisitos personalizados, para atraer a estudiantes con el perfil adecuado.</td> <td> - Implementar estructura base del backend en Spring Boot.<br> - Crear endpoints iniciales para proyectos (GET/POST).<br> - Configurar base de datos MySQL y conexión con API.<br> - Realizar pruebas unitarias básicas. </td> <td>Diego Cabrera</td> <td>En progreso</td> </tr> <tr> <td>EP03</td> <td>Exploración y Postulación a Proyectos</td> <td>Como estudiante universitario, quiero explorar y postularme a proyectos compatibles con mis habilidades, para ganar experiencia práctica.</td> <td> - Desarrollar prototipo de exploración en la interfaz móvil.<br> - Implementar componentes iniciales en Kotlin.<br> - Conectar vistas con los endpoints del backend.<br> - Validar flujo de postulación básica (mock data). </td> <td>Erick Palomino</td> <td>En progreso</td> </tr> <tr> <td>EP04</td> <td>Evaluación y Retroalimentación</td> <td>Como gerente, quiero evaluar el desempeño de los estudiantes durante y al finalizar el proyecto, para fomentar la mejora continua.</td> <td> - Diseñar estructura del módulo de evaluación (borrador).<br> - Documentar funcionalidades esperadas.<br> - Definir estructura de almacenamiento temporal para evaluaciones. </td> <td>Carlos Coca</td> <td>Pendiente</td> </tr> <tr> <td>EP05</td> <td>Creación y Visualización de Portafolio</td> <td>Como estudiante, quiero subir proyectos y evidencias de mis habilidades en un portafolio digital.</td> <td> - Crear estructura de la sección “Portafolio” en la Landing Page.<br> - Diseñar mockup del portafolio en Figma.<br> - Preparar endpoints para carga futura de archivos. </td> <td>Renzo Rivera</td> <td>Pendiente</td> </tr> </tbody> </table>
+
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
@@ -4003,6 +4074,7 @@ Interés y adopción potencial
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
 
 
 
