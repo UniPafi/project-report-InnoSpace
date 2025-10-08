@@ -1890,6 +1890,256 @@ Empathy Map Segmento 2:
       <td></td>
     </tr>
     <tr>
+      <td>TS04</td>
+      <td>Registrarse</td>
+      <td>
+        Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.
+      </td>
+      <td>
+        Escenario 1: Registro exitoso Dado que un nuevo usuario completa correctamente el formulario de registro, Cuando presiona el botón Crear cuenta, Entonces el sistema crea su usuario, asigna el rol correspondiente y redirige al dashboard de bienvenida. Escenario 2: Registro con correo duplicado Dado que un usuario intenta registrarse con un correo ya existente, Cuando envía el formulario, Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>Iniciar Sesión</td>
+      <td>
+        Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.
+      </td>
+      <td>
+        Escenario 1: Inicio de sesión exitoso Dado que el usuario tiene una cuenta registrada, Cuando introduce su correo y contraseña correctos, Entonces el sistema autentica su identidad y muestra el panel correspondiente a su rol. Escenario 2: Inicio de sesión fallido Dado que un usuario introduce credenciales incorrectas, Cuando intenta iniciar sesión, Entonces el sistema muestra un mensaje de error y no permite el acceso.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Actualizar Usuario</td>
+      <td>
+        Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.
+      </td>
+      <td>
+        Escenario 1: Actualización exitosa Dado que un usuario autenticado accede a su perfil, Cuando edita sus datos y guarda los cambios, Entonces el sistema actualiza la información en la base de datos. Escenario 2: Intento sin permisos Dado que un usuario intenta modificar los datos de otro usuario, Cuando realiza una solicitud de actualización, Entonces el sistema rechaza la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Obtener todos los usuarios</td>
+      <td>
+        Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.
+      </td>
+      <td>
+        Escenario 1: Solicitud válida Dado que un administrador solicita la lista de usuarios, Cuando el sistema procesa la solicitud, Entonces devuelve un listado con todos los usuarios y sus roles. Escenario 2: Solicitud sin permisos Dado que un usuario sin rol de administrador intenta obtener todos los usuarios, Cuando ejecuta la solicitud, Entonces el sistema responde con un error de autorización.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Obtener usuario por Id</td>
+      <td>
+        Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que se solicita un usuario existente por su ID, Cuando el sistema consulta la base de datos, Entonces devuelve los datos completos del usuario. Escenario 2: ID no encontrado Dado que se ingresa un ID inexistente, Cuando el sistema intenta recuperarlo, Entonces devuelve un mensaje indicando que el usuario no existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Crear perfil de estudiante</td>
+      <td>
+        Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un estudiante recién registrado accede a la opción “Crear perfil”, Cuando completa el formulario y guarda, Entonces el sistema genera su perfil y lo asocia a su usuario. Escenario 2: Perfil duplicado Dado que un estudiante intenta crear otro perfil, Cuando ya tiene uno asociado, Entonces el sistema bloquea la acción y muestra un mensaje indicando que el perfil ya existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Actualizar perfil de estudiante por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.
+      </td>
+      <td>
+        Escenario 1: Actualización correcta Dado que un estudiante accede a su perfil, Cuando modifica su descripción y habilidades, Entonces el sistema guarda los cambios exitosamente. Escenario 2: Actualización fallida Dado que el estudiante intenta actualizar un campo no permitido, Cuando envía los cambios, Entonces el sistema muestra un mensaje de error y no aplica la modificación.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Obtener perfil de estudiante por Id</td>
+      <td>
+        Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un gerente busca el perfil de un estudiante, Cuando se envía la solicitud con un ID existente, Entonces el sistema muestra los datos del perfil solicitado. Escenario 2: ID inexistente Dado que se consulta un ID no registrado, Cuando el sistema intenta obtener los datos, Entonces devuelve un mensaje indicando que no se encontró el perfil.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Obtener perfiles de estudiante</td>
+      <td>
+        Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un gerente accede a la sección “Explorar estudiantes”, Cuando el sistema obtiene los perfiles, Entonces muestra una lista con nombre, carrera y habilidades. Escenario 2: Filtro aplicado Dado que el gerente busca perfiles por categoría, Cuando aplica un filtro (por carrera o habilidad), Entonces el sistema muestra solo los perfiles que coinciden.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Crear perfil de manager</td>
+      <td>
+        Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un gerente ha completado su registro de usuario, Cuando ingresa a la opción Crear perfil de empresa y llena todos los campos requeridos, Entonces el sistema crea el perfil y lo vincula correctamente al ID del usuario. Escenario 2: Perfil ya existente Dado que el gerente intenta crear un nuevo perfil teniendo uno activo, Cuando presiona Guardar, Entonces el sistema muestra un mensaje indicando que el perfil ya ha sido creado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un gerente autenticado accede a su perfil, Cuando modifica su cargo o descripción empresarial, Entonces el sistema guarda los cambios en la base de datos. Escenario 2: Actualización no autorizada Dado que un usuario intenta modificar el perfil de otro gerente, Cuando envía la solicitud, Entonces el sistema bloquea la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un gerente autenticado accede a su perfil, Cuando modifica su cargo o descripción empresarial, Entonces el sistema guarda los cambios en la base de datos. Escenario 2: Actualización no autorizada Dado que un usuario intenta modificar el perfil de otro gerente, Cuando envía la solicitud, Entonces el sistema bloquea la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Obtener perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un estudiante consulta el perfil de un gerente específico, Cuando se envía el ID correspondiente, Entonces el sistema devuelve los datos completos del perfil empresarial. Escenario 2: ID inexistente Dado que se solicita un ID no registrado, Cuando el sistema intenta obtener los datos, Entonces muestra un mensaje informando que el perfil no existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Obtener perfiles de manager</td>
+      <td>
+        Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un estudiante accede a la sección Explorar empresas, Cuando el sistema carga los datos, Entonces muestra una lista de gerentes con su empresa y área de especialización. Escenario 2: Filtrado por rubro Dado que el estudiante busca empresas de un sector específico, Cuando aplica un filtro por rubro o categoría, Entonces el sistema muestra únicamente los perfiles que cumplen con ese criterio.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Crear convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un gerente autenticado completa el formulario de nueva convocatoria, Cuando presiona el botón Publicar, Entonces el sistema guarda la convocatoria y la asocia a su perfil. Escenario 2: Campos incompletos Dado que el gerente deja campos obligatorios sin llenar, Cuando intenta guardar la convocatoria, Entonces el sistema muestra un mensaje indicando los campos faltantes.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Actualizar convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.
+      </td>
+      <td>
+        Escenario 1: Edición correcta Dado que el gerente desea modificar la descripción o requisitos, Cuando guarda los cambios, Entonces el sistema actualiza los datos y mantiene la convocatoria activa. Escenario 2: Edición no permitida Dado que la convocatoria ya está cerrada, Cuando el gerente intenta modificarla, Entonces el sistema rechaza la edición y muestra un aviso informativo.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS19</td>
+      <td>Cambiar estado de convocatoria a publicado</td>
+      <td>
+        Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.
+      </td>
+      <td>
+        Escenario 1: Publicación válida Dado que la convocatoria está en estado borrador, Cuando el gerente presiona Publicar, Entonces el sistema cambia el estado a Publicado y la muestra en el listado de exploración. Escenario 2: Publicación fallida Dado que la convocatoria tiene información incompleta, Cuando el gerente intenta publicarla, Entonces el sistema muestra un error indicando que no cumple con los requisitos mínimos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS20</td>
+      <td>Cambiar estado de convocatoria a cerrado</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.
+      </td>
+      <td>
+        Escenario 1: Cierre exitoso Dado que la fecha límite de la convocatoria ha vencido, Cuando el gerente la marca como Cerrada, Entonces el sistema actualiza su estado y la retira de la vista pública. Escenario 2: Intento de cierre prematuro Dado que la convocatoria aún se encuentra activa, Cuando el gerente intenta cerrarla antes de la fecha, Entonces el sistema solicita confirmación antes de proceder.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS21</td>
+      <td>Borrar convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.
+      </td>
+      <td>
+        Escenario 1: Eliminación válida Dado que el gerente desea eliminar una convocatoria inactiva, Cuando confirma la acción, Entonces el sistema elimina el registro y muestra un mensaje de éxito. Escenario 2: Eliminación no autorizada Dado que un usuario intenta borrar una convocatoria que no creó, Cuando envía la solicitud, Entonces el sistema rechaza la acción y notifica falta de permisos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS22</td>
+      <td>Obtener convocatoria por Id</td>
+      <td>
+        Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un estudiante selecciona una convocatoria, Cuando el sistema consulta la base de datos, Entonces devuelve el detalle completo de la convocatoria seleccionada. Escenario 2: ID inválido Dado que el sistema recibe un ID que no existe, Cuando intenta recuperar la información, Entonces muestra un mensaje indicando que la convocatoria no fue encontrada.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS23</td>
+      <td>Obtener todas las convocatorias</td>
+      <td>
+        Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un estudiante ingresa a Explorar Convocatorias, Cuando el sistema solicita los registros activos, Entonces muestra una lista con las convocatorias publicadas. Escenario 2: Búsqueda filtrada Dado que el estudiante aplica un filtro por categoría o empresa, Cuando el sistema procesa la búsqueda, Entonces muestra solo las convocatorias que coinciden con el criterio.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS24</td>
+      <td>Crear Proyecto</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un estudiante autenticado completa el formulario de creación de proyecto, Cuando presiona el botón Guardar, Entonces el sistema crea el registro del proyecto y lo asocia al ID del estudiante. Escenario 2: Campos incompletos Dado que el estudiante deja vacíos campos obligatorios (como título o descripción), Cuando intenta guardar el proyecto, Entonces el sistema muestra un mensaje indicando que debe completar los campos requeridos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS25</td>
+      <td>Actualizar Proyecto</td>
+      <td>
+        Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un estudiante accede a su proyecto, Cuando modifica el contenido y guarda los cambios, Entonces el sistema actualiza la información correctamente en la base de datos. Escenario 2: Actualización no permitida Dado que un usuario intenta editar un proyecto que no le pertenece, Cuando realiza la solicitud, Entonces el sistema rechaza la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS26</td>
+      <td>Cambiar estado de proyecto a publicado</td>
+      <td>
+        Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.
+      </td>
+      <td>
+        Escenario 1: Publicación exitosa Dado que un estudiante ha completado todos los datos del proyecto, Cuando selecciona la opción Publicar, Entonces el sistema cambia el estado del proyecto a Publicado y lo muestra en la sección de exploración. Escenario 2: Publicación rechazada Dado que el proyecto está incompleto, Cuando el estudiante intenta publicarlo, Entonces el sistema muestra un mensaje de error indicando que faltan datos requeridos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS27</td>
+      <td>Cambiar estado de proyecto a cerrado</td>
+      <td>
+        Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.
+      </td>
+      <td>
+        Escenario 1: Cierre exitoso Dado que el proyecto está actualmente publicado, Cuando el estudiante selecciona la opción Cerrar proyecto, Entonces el sistema cambia el estado a Cerrado y lo retira de la lista pública. Escenario 2: Cierre inválido Dado que el proyecto ya está en estado Cerrado, Cuando el usuario intenta cerrarlo nuevamente, Entonces el sistema muestra un aviso indicando que ya no es posible la acción.
+      <td></td>
+    </tr>
+    <tr>
       <td>SP01</td>
       <td>Evaluar frameworks móviles para el desarrollo</td>
       <td>
