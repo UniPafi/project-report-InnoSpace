@@ -4089,8 +4089,8 @@ Se empleó los siguientes software para desplegar los servicios del proyecto. Ba
 
 | Herramienta    | Descripción                                                     | Enlace                               |
 | -------------- | ---------------------------------------------------------------- | ------------------------------------ |
-| Railway        | Base de datos utilizada para el proyecto                         | https://railway.com//                   |
-| Render         | API y Landing Page utilizada para el proyecto                    | https://render.com/                  |
+| MySQL      | Base de datos utilizada para el proyecto                         | https://www.mysql.com/                 |
+| Azure Cloud Services         | API y Landing Page utilizada para el proyecto                    | https://azure.microsoft.com/                  |
 | Android Studio | Herramienta utilizada para la creación de la mobile application | https://developer.android.com/studio |
 
 **Software Documentation**
@@ -4399,8 +4399,39 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despliegue del landing page. Además tambien se logro avanzar el desarrollo del backend y las pantallas principales de la aplicación móvil.
 
 
-+ TS01 Registrarse 
-+ TS02 Iniciar Sesion
++ TS01 Configuración de autenticación y roles
+
+<br>
+<p align="center">
+  <img src="images/authorization.png" alt="execution" width="650">
+</p>
+
+<br>
+
+
++ TS02 Estructura de base de datos para gestión de proyectos y convocatorias
+
+
+<br>
+<p align="center">
+  <img src="images/dtbase.png" alt="execution" width="450">
+</p>
+
+<br>
+
+
+
++ TS03 Bottom Navigation Bar
+
+<br>
+<p align="center">
+  <img src="images/bottombar.jpeg" alt="execution" width="150">
+</p>
+
+<br>
+
++ TS04 Registrarse 
++ TS05 Iniciar Sesion
 
 <br>
 <p align="center">
@@ -4409,9 +4440,9 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 
 <br>
 
-+ TS03 Actualizar Usuario
-+ TS04 Obtener todos los usuarios
-+ TS05 Obtener usuario por Id
++ TS06 Actualizar Usuario
++ TS07 Obtener todos los usuarios
++ TS08 Obtener usuario por Id
 
 <br>
 <p align="center">
@@ -4419,46 +4450,46 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 </p>
 <br>
 
-+ TS06 Crear perfil de estudiante
-+ TS07 Actualizar perfil de estudiante por Id
-+ TS08 Obtener perfil de estudiante por Id
-+ TS09 Obtener perfiles de estudiante
++ TS09 Crear perfil de estudiante
++ TS10 Actualizar perfil de estudiante por Id
++ TS11 Obtener perfil de estudiante por Id
++ TS12 Obtener perfiles de estudiante
 <br>
 <p align="center">
   <img src="images/chapter4-sprint1/studnetproifesl.png" alt="execution" width="1000">
 </p>
 <br>
 
-+ TS10 Crear perfil de manager
-+ TS11 Actualizar perfil de manager por Id
-+ TS12 Obtener perfil de manager por Id
-+ TS13 Obtener perfiles de manager
++ TS13 Crear perfil de manager
++ TS14 Actualizar perfil de manager por Id
++ TS15 Obtener perfil de manager por Id
++ TS16 Obtener perfiles de manager
 <br>
 <p align="center">
   <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="execution" width="1000">
 </p>
 <br>
 
-+ TS14 Crear Convocatoria
-+ TS15 Actualizar Convocatoria
-+ TS16 Cambiar estado de convocatoria a publicado
-+ TS17 Cambiar estado de convocatoria a cerrado
-+ TS18 Borrar convocatoria
-+ TS19 Obtener convocatoria por Id
-+ TS20 Obtener todas las convocatorias
++ TS17 Crear Convocatoria
++ TS18 Actualizar Convocatoria
++ TS19 Cambiar estado de convocatoria a publicado
++ TS20 Cambiar estado de convocatoria a cerrado
++ TS21 Borrar convocatoria
++ TS22 Obtener convocatoria por Id
++ TS23 Obtener todas las convocatorias
 <br>
 <p align="center">
   <img src="images/chapter4-sprint1/oportunites.png" alt="execution" width="1000">
 </p>
 <br>
 
-+ TS21 Crear Proyecto
-+ TS22 Actualizar Proyecto
-+ TS23 Cambiar estado de Proyecto publicado
-+ TS24 Cambiar estado de Proyecto cerrado
-+ TS25 Borrar Proyecto
-+ TS26 Obtener Proyectopor Id
-+ TS27 Obtener todas los Proyectos
++ TS24 Crear Proyecto
++ TS25 Actualizar Proyecto
++ TS26 Cambiar estado de Proyecto publicado
++ TS27 Cambiar estado de Proyecto cerrado
++ TS28 Borrar Proyecto
++ TS29 Obtener Proyectopor Id
++ TS30 Obtener todas los Proyectos
 <br>
 <p align="center">
   <img src="images/chapter4-sprint1/projectsot_1.png" alt="execution" width="1000">
