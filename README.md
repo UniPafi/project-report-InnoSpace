@@ -4702,6 +4702,98 @@ Interés y adopción potencial
 9. ¿Qué barreras internas o externas cree que podría encontrar al proponer una herramienta como esta dentro de su organización?
 
 ### 4.3.2. Registro de Entrevistas
+
+*Entrevistas a Estudiantes*
+---
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Estafano Solis</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Pueblo Libre</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:08 - 8:17</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/EZVEpcfMJzxJrRd3kD6-o94BBHWvBdKvE1ETwTlTQBf4hA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo4LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=jW9ozx`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Estefano Solis considera que lo que han visto de la Landing Page es claro y está bien estructurado. Resalta la forma en que se comunica la propuesta del startup, de manera comprensible. La sección de postulaciones le parece fácil de entender y le transmite confianza al mostrar con claridad el estado de cada proceso. . Además, opina que el diseño visual de la aplicación es moderno, intuitivo y limpio.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/chapter4-sprint1/Validacion-Estudiante.png" alt="entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+*Entrevistas a Gerentes*
+---
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel David Niño Torres Grandez</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>8:17 - 27:06</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/EZVEpcfMJzxJrRd3kD6-o94BBHWvBdKvE1ETwTlTQBf4hA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo0OTcsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=9a9BTg` 
+
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+       Manuel David participó en la prueba de la Landing Page de InnoSpace y comentó que la navegación fue fluida y sin dificultades. Destacó  especialmente la claridad y simplicidad de la interfaz, la cual percibió como profesional y confiable. Por último, propuso enriquecer el diseño visual con más detalles de estilo y complementar ciertas secciones con campos adicionales para mejorar la presentación de la información.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/chapter4-sprint1/Validacion-Gerentes.png" alt="entrevistado" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 
