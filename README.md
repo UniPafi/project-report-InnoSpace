@@ -152,6 +152,8 @@
 
 ## Project Report Collaboration Insights
 
+<br>
+
 **Integrantes:**
 
 + Andrea Santur (andreli-star)
@@ -166,38 +168,53 @@
 
 ## TB1
 
+<br>
+
 <p align="center">
   <img src="images/contributors.png" alt="contributors" width="80%">
 </p>
 
+<br>
 
 <p align="center">
   <img src="images/pulse.png" alt="contributors" width="80%">
 </p>
 
+<br>
+
 <p align="center">
   <img src="images/networkgraph.png" alt="network" width="80%">
 </p>
 
+<br>
+
 ## TP1
+
+<br>
 
 <p align="center">
   <img src="images/contibutors2.png" alt="contributors" width="80%">
 </p>
 
+<br>
 
 <p align="center">
   <img src="images/pulse2.png" alt="contributors" width="80%">
 </p>
 
+<br>
+
 <p align="center">
   <img src="images/networkgraph2.png" alt="network" width="80%">
 </p>
 
+<br>
 
 ---
 
 ## Contenido
+
+<br>
 
 - [Student Outcome](#student-outcome)
 - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -336,7 +353,12 @@
 - [Anexos](#anexos)
 
 ---
+
+<br>
+
 ## Student Outcome
+
+<br>
 
 <table align="center">
   <tr>
@@ -399,12 +421,11 @@
   </tr>
 </table>
 
-
-
-
-
+<br>
 
 ## Objetivos SMART
+
+<br>
 
 **Palomino Fiestas Erick Leonardo**
 
@@ -440,9 +461,15 @@ Objetivo 2: Fortalecer mis competencias técnicas en arquitectura de software ba
 
 ## Capítulo I: Introducción
 
+<br>
+
 ### 1.1. Startup Profile
 
+<br>
+
 #### 1.1.1. Descripción de la Startup
+
+<br>
 
 UniPafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
 
@@ -455,6 +482,8 @@ En 4 años, consolidarnos como la startup líder en Latinoamérica en la creaci�
 Promover el desarrollo profesional de estudiantes universitarios y recién egresados a través de la creación de espacios donde puedan conectar con organizaciones, demostrar sus capacidades y generar soluciones de alto impacto que aporten al progreso económico y social.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+<br>
 
 <table border="1">
   <thead>
@@ -499,10 +528,15 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
   </tbody>
 </table>
 
+<br>
 
 ### 1.2. Solution Profile
 
+<br>
+
 #### 1.2.1. Antecedentes y problemática
+
+<br>
 
 Who (¿Quién?)
 
@@ -560,7 +594,11 @@ Total Estimado Inicial: S/ 6,700 – S/ 10,600
 
 #### 1.2.2. Lean UX Process
 
+<br>
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
+<br>
 
 El propóstivo de InnoSpace es ser el puente entre el mundo académico y el empresarial en el Perú.
 
@@ -579,7 +617,12 @@ Y ante esta problemática nos surge la siguiente pregunta: ¿Cómo podríamos ha
 
 ##### 1.2.2.2. Lean UX Assumptions
 
-##### Business Assumptions<br/><br/>
+<br>
+
+##### Business Assumptions
+
+<br/><br/>
+
 1. **Creo en que nuestros usuarios,** ya sean estudiantes o profesores universitarios, puedan dar el gran paso desde la Universidad a un centro laboral.
 
 2. **Estas necesidades se pueden satisfacer** una plataforma web que conecte a estudiantes y profesores lanzando sus materiales importantes a personas que quieran sobresalir.
@@ -605,7 +648,11 @@ Y ante esta problemática nos surge la siguiente pregunta: ¿Cómo podríamos ha
 12. **Otro riesgo que debemos considerar es que** los estudiantes y los profesores no tengan el tiempo, ni la motivación para postularse para otros centros laborales durante su carrera.
 
 
-##### User Assumptions<br/><br/>
+##### User Assumptions
+
+<br/><br/>
+
+
 1. <b>¿Quién es el usuario?</b>
 
 Estudiantes y profesores universitarios, con habilidades en los centros laborales, que apuntan a un futuro mejor y además, de contar con un trabajo en una empresa mostrando sus trabajos, tesis y demás.
@@ -634,7 +681,10 @@ En el tiempo libre de los estudiantes y profesores, acceden a la aplicación, cr
 
 Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y una experiencia clara e intuitiva que no distraiga ni complique al usuario.
 
-##### Feature Assumptions<br/><br/>
+##### Feature Assumptions
+
+<br/><br/>
+
 - **Creemos que** la aplicación debe contar una interfaz de usuario clara, responsiva y fácil de navegar que permitirá a estudiantes y empleadores a utilizar la plataforma sin necesidad de capacitación previa ni conocimientos técnicos avanzados.
 
 - **Creemos que** la plataforma debe proporcionar notificaciones automáticas y personalizables que mantendrán informados a los usuarios sobre contrataciones recibidas, nuevas oportunidades, mensajes o estados de contratación.
@@ -644,7 +694,10 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 - **Creemos que** la aplicación debe ofrecer una sección de perfil personal con un historial digital, donde los estudiantes puedan mostrar trabajos y tesis previas, habilidades destacadas y contar con una base preparada dentro y fuera de la plataforma.
 
 - Creemos que la aplicación debe permitir la publicación rápida y sencilla de proyectos por parte de las empresas o clientes, incluendo la posibilidad de establecer plazos, presupuestos y requerimientos específicos.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+<br>
 
 - **Hypothesis Statement 01:**
 
@@ -689,6 +742,8 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 ##### 1.2.2.4. Lean UX Canvas
 
+<br>
+
 <p align="center">
   <img src="images/LeanUXCanvas-UniPafi.jpg" alt="UPC logo" width="1000">
 </p>
@@ -699,7 +754,11 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 ### 1.3. Segmentos Objetivo
 
+<br>
+
 ### Estudiantes Universitarios Innovadores
+
+<br>
 
 **Descripción:**
 Jóvenes estudiantes, entre 18 y 27 años, que se encuentran cursando estudios en carreras STEM (Ciencia, Tecnología, Ingeniería y Matemáticas). Son personas motivadas por la innovación, el desarrollo tecnológico y buscan visibilizar sus talentos para acceder a mejores oportunidades profesionales.
@@ -720,6 +779,8 @@ Jóvenes estudiantes, entre 18 y 27 años, que se encuentran cursando estudios e
 
 ### Gerentes de Empresas en Innovación y Talento
 
+<br>
+
 **Descripción:**
 Gerentes o profesionales con experiencia en la gestión de equipos de innovación, recursos humanos o talento. Buscan detectar talento emergente, especialmente en áreas relacionadas con la tecnología, la digitalización y la innovación, para incorporarlos a sus organizaciones.
 
@@ -735,12 +796,19 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 * Según el Ministerio de la Producción de Perú (Produce), el 72% de las medianas y grandes empresas están implementando proyectos de transformación digital, lo que implica una creciente demanda de profesionales jóvenes con habilidades tecnológicas.
 * El 55% de los gerentes en empresas tecnológicas en Perú buscan constantemente incorporar talento especializado a sus equipos, y prefieren contratar freelancers o nuevos egresados con un perfil innovador para cubrir necesidades puntuales.
 
+<br>
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
+<br>
+
 ### 2.1. Competidores
 
+<br>
+
 #### 2.1.1. Análisis competitivo
+
+<br>
 
 <table border="1">
   <thead>
@@ -862,7 +930,11 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+<br>
+
 ## Afrontando las fortalezas de nuestros competidores:
+
+<br>
 
 **Fortalezas de competidores:**
 - LinkedIn: base de usuarios masiva y marca consolidada.  
@@ -889,21 +961,27 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 ## Afrontando las debilidades de nuestros competidores:
 
+<br>
+
 **Debilidades de competidores:**
+
 - LinkedIn: saturación, competencia interna.  
 - AngelList: limitado fuera del ecosistema startup.  
 - Behance: no cubre sectores fuera de lo creativo.  
 - InnoSpace: aún sin masa crítica de usuarios.  
 
 ## Comprendemos que nuestras debilidades son:
+
 - Startup nueva con poca base de usuarios.  
 - Recursos limitados frente a grandes plataformas.  
 
 ## Estrategias:
+
 - Crecer a través de **nichos específicos** antes de expandir.  
 - Apoyarnos en **alianzas institucionales** para atraer usuarios sin grandes inversiones.  
 
 ## Tácticas:
+
 - Campañas de captación en universidades.  
 - Programas de referidos entre estudiantes y empresas.  
 - Construir una primera comunidad sólida en un sector (ej. ingeniería, innovación tecnológica).  
@@ -911,6 +989,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 ---
 
 ## Afrontando las oportunidades de nuestros competidores:
+
+<br>
 
 **Oportunidades de competidores:**
 - Expansión de la educación digital (LinkedIn).  
@@ -936,6 +1016,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 ## Afrontando las amenazas de nuestros competidores:
 
+<br>
+
 **Amenazas de competidores:**
 - Recursos y posicionamiento de grandes plataformas (LinkedIn, Behance).  
 - Alta competencia en redes profesionales y creativas.  
@@ -958,13 +1040,19 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 ### 2.2. Entrevistas
 
+<br>
+
 #### 2.2.1. Diseño de entrevistas
+
+<br>
 
 *Preguntas Estudiantes universitarios innovadores*
 
 ---
 
 **Preguntas Directas:**
+
+<br>
 
 1. ¿Podrías proporcionarnos tu nombre completo, tu edad y qué carrera estás estudiando actualmente?
 
@@ -988,6 +1076,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 **Preguntas Complementarias:**
 
+<br>
+
 11. ¿Qué tan importante es para ti que una plataforma valide o certifique tu participación en proyectos reales?
 
 12. ¿Qué te gustaría aprender o reforzar al colaborar con empresas en proyectos de innovación? <br><br>
@@ -995,6 +1085,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 *Preguntas Gerentes/profesionales de innovación y talento*
 
 **Preguntas Directas:**
+
+<br>
 
 1. ¿Podrías darnos tu nombre completo, edad y cargo actual en la empresa?
 
@@ -1018,12 +1110,15 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 **Preguntas Complementarias:**
 
+<br>
+
 11. ¿Qué tan importante sería para tu empresa contar con métricas de impacto o informes sobre la colaboración con estudiantes?
 
 12. ¿Qué expectativas tendrías de la relación con los estudiantes a través de una plataforma como esta (ideas, prototipos, contratación futura, etc.)? <br><br>
 
 #### 2.2.2. Registro de entrevistas
 
+<br>
 
 *Entrevistas a Estudiantes*
 ---
@@ -1288,6 +1383,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 #### 2.2.3. Análisis de entrevistas
 
+<br>
+
 *Segmento Estudiantes*
 
 <table>
@@ -1335,6 +1432,8 @@ Gerentes o profesionales con experiencia en la gestión de equipos de innovació
 
 **Resumen del analisis de entrevistas de estudiantes:**
 
+<br>
+
 Los estudiantes tienen entre 20 y 24 años, con perfiles en Ingeniería de Software y Marketing. Comparten experiencia en concursos, hackatones y trabajos con pymes, pero sienten que fuera de la universidad los espacios son reducidos. Valoran mucho la mentoría y certificación en proyectos reales como puerta hacia la empleabilidad. Usan LinkedIn/GitHub/redes sociales, aunque existe preocupación por la seguridad y la propiedad intelectual. Buscan fortalecer habilidades de gestión, negociación y trabajo en equipos multidisciplinarios.
 
 *Segmento Gerentes*
@@ -1374,9 +1473,13 @@ Los estudiantes tienen entre 20 y 24 años, con perfiles en Ingeniería de Softw
 
 **Resumen del analisis de entrevistas de gerentes:**
 
+<br>
+
 Los gerentes van desde 31 a 68 años y pertenecen a sectores diversos (inmobiliario, manufactura y construcción). Coinciden en la necesidad de innovación y en valorar la actitud, proactividad y capacidad de aprendizaje de los jóvenes más que la experiencia. Tienen interés en plataformas digitales como InnoSpace, pero expresan preocupación por la seguridad de datos y la seriedad de los participantes. Ven en los estudiantes una fuente de creatividad, aunque notan la falta de visibilidad y experiencia como una barrera.
 
 **Puntos relevantes**
+
+<br>
 
 - Ambos valoran la mentoría y los espacios de conexión real entre estudiantes y empresas.
 - Estudiantes priorizan el aprendizaje y la visibilidad de sus proyectos.
@@ -1386,9 +1489,13 @@ Los gerentes van desde 31 a 68 años y pertenecen a sectores diversos (inmobilia
 
 ### 2.3. Needfinding
 
+<br>
+
 En esta sección, se crearán las User Personas basándonos en la información obtenida de las entrevistas con nuestros usuarios potenciales. Consideraremos aspectos fundamentales como la edad, la ocupación, las preocupaciones y las metas de los entrevistados para entender mejor sus necesidades, comportamientos y expectativas. Además, se examinarán las características y preferencias de los usuarios a través del análisis de nuestros competidores, lo que nos ayudará a identificar áreas de oportunidad para mejorar.
 
 #### 2.3.1. User Personas
+
+<br>
 
 - #### User Persona Estudiante Universitario
 
@@ -1414,6 +1521,8 @@ En esta sección, se crearán las User Personas basándonos en la información o
 
 
 #### 2.3.2. User Task Matrix
+
+<br>
 
 En este apartado se presenta la User Task Matrix, que refleja las tareas de los dos segmentos principales: estudiantes universitarios que buscan financiar sus proyectos innovadores y participar en proyectos de empresas, y gerentes que buscan contratar talento joven para el desarrollo de sus proyectos.
 
@@ -1540,6 +1649,8 @@ En este apartado se presenta la User Task Matrix, que refleja las tareas de los 
 
 ### 2.3.3. User Journey Mapping
 
+<br>
+
 Esta sección muestra un Journey Map por cada segmento objetivo, detallando el proceso en el que descubren e interactuan con la aplicación.
 
   - User Journey Map Jeremy Vega:
@@ -1564,6 +1675,8 @@ Este Journey map detalla la experiencia de Carlos Fernández, un ingeniero dirig
 
 ### 2.3.4. Empathy Mapping
 
+<br>
+
 Empathy Map Segmento 1:
 
 
@@ -1583,6 +1696,8 @@ Empathy Map Segmento 2:
 
 ### 2.3.5. Ubiquitous Language
 
+<br>
+
 | Término (Inglés)         | Término (Español)          | Definición                                                                                                       |
 | ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Student                  | Estudiante                 | Usuario que busca oportunidades para postular, compartir ideas y participar en proyectos innovadores.            |
@@ -1597,7 +1712,11 @@ Empathy Map Segmento 2:
 
 ## 2.4. Requirements specification
 
+<br>
+
 ### 2.4.1. User Stories
+
+<br>
 
 <table border ="1" >
   <tbody>
@@ -2227,6 +2346,8 @@ Empathy Map Segmento 2:
 
 ### 2.4.2. Impact Mapping
 
+<br>
+
 <img src="images/immp1.png" alt = "impact mapping" width="80%">
 <img src="images/immp2.png" alt = "impact mapping" width="80%">
 
@@ -2242,6 +2363,8 @@ Empathy Map Segmento 2:
 </p>
 
 ### 2.4.3. Product Backlog
+
+<br>
 
 <table border="1">
   <thead>
@@ -2591,7 +2714,11 @@ Link del Trello: https://trello.com/invite/b/68cb965276edf7d589375471/ATTI3f30e2
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
+<br>
+
 ### 2.5.1. EventStorming
+
+<br>
 
 Como equipo realizamos una sesión de EventStorming con el objetivo de comprender el dominio del problema y plantear una primera aproximación al modelado general de Innospace. La actividad tuvo una duración de alrededor de 1-2 horas, donde identificamos los principales eventos, actores y reglas que definen las interacciones entre estudiantes y empresas.
 
@@ -2611,7 +2738,7 @@ Durante la sesión usamos una herramienta colaborativa para organizar y visualiz
 
 #### 2.5.1.1. Candidate Context Discovery
 
-
+<br>
 
 Tras concluir la sesión de Event Storming con la herramienta Miro, se llevó a cabo un análisis detallado de los eventos detectados con el fin de identificar los contextos candidatos más relevantes para el dominio. Este trabajo incluyó reconocer patrones y vínculos entre los eventos y creando flujos a partir de ellos. Como resultado, se organizaron conjuntos de eventos que correspondían a un mismo proceso dentro de la aplicación.
 
@@ -2711,6 +2838,9 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 
 ### Student Projects:
+
+<br>
+
 <p align="center">
   <img src="images/chapterii/studentprojectsmiro.png" alt = "updated diagram" width="100%">
 </p>
@@ -2752,6 +2882,8 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 
 #### 2.5.1.2. Domain Message Flows Modeling
+
+<br>
 
 Ahora se mostrarán los eventos en los cuales se comunican los bounded contexts hallados previamente.
 
@@ -2823,6 +2955,8 @@ Enlace al Miro Board: https://miro.com/app/board/uXjVJKRuXIw=/?share_link_id=238
 
 #### 2.5.1.3. Bounded Context Canvases
 
+<br>
+
 En esta parte se lleva a cabo la descomposición estratégica del dominio a través de la construcción de Bounded Context Canvases, con el propósito de reconocer y delimitar áreas funcionales claras dentro del sistema. Esta actividad es clave en el enfoque de Domain-Driven Design (DDD), ya que ayuda a definir con precisión los límites semánticos y técnicos entre los distintos módulos, reduciendo la complejidad y permitiendo que cada componente pueda evolucionar de manera independiente.
 
 
@@ -2871,6 +3005,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### 2.5.2. Context Mapping
 
+<br>
 
 Esta sección documenta el proceso de análisis y diseño estructural de la aplicación, centrándose en la identificación y relación de los bounded contexts. Utilizando la metodología de Context Mapping de Domain-Driven Design, se evaluaron diversas alternativas para definir los límites de cada contexto y los patrones de interacción entre ellos. 
 
@@ -2918,7 +3053,12 @@ A continuación se muestran los escenarios planteados:
 
 ### 2.5.3. Software Architecture
 
-#### 2.5.3.1.Software Architecture Context Level Diagrams <br>
+<br>
+
+#### 2.5.3.1.Software Architecture Context Level Diagrams 
+
+<br>
+
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.
 
 ![InnoSpace-diagram-context](./images/Context-Diagrams.png)
@@ -2927,7 +3067,10 @@ Este diagrama representa la visión de más alto nivel del sistema InnoSpace Pla
   Elaboración propia
 </p>
 
-#### 2.5.3.2.Software Architecture Container Level Diagrams <br>
+#### 2.5.3.2.Software Architecture Container Level Diagrams 
+
+<br>
+
 En este nivel la arquitectura se organiza en tres contenedores principales: la Mobile App, que ofrece el acceso de los usuarios; la API Application, que gestiona la lógica de negocio y comunica la app con el sistema; y la Database, donde se almacenan usuarios, proyectos y postulaciones.
 
 ![InnoSpace-diagram-containers](./images/Container-Diagramss.png)
@@ -2936,7 +3079,10 @@ En este nivel la arquitectura se organiza en tres contenedores principales: la M
   Elaboración propia
 </p>
 
-#### 2.5.3.3. Software Architecture Deployment Diagrams <br>
+#### 2.5.3.3. Software Architecture Deployment Diagrams 
+
+<br>
+
 El diagrama de despliegue muestra que la Mobile App, la API Application se aloja en un servidor cloud para asegurar disponibilidad y escalabilidad, y la Database se despliega en un servidor independiente dentro de la misma nube, garantizando integridad y persistencia de los datos.
 
 ![InnoSpace-diagram-deployment](./images/Deployment-Diagrams.png)
@@ -2947,10 +3093,15 @@ El diagrama de despliegue muestra que la Mobile App, la API Application se aloja
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
+<br>
+
 ### 2.6.1. Bounded Context: Student Projects
+
+<br>
 
 #### 2.6.1.1. Domain Layer
 
+<br>
 
 El agregado Project encapsula el ciclo de vida de un proyecto estudiantil, permitiendo crearlo, actualizarlo, publicarlo y marcarlo como completado, asegurando que el estado (Draft, Published, Completed) y los contenidos asociados se mantengan consistentes y válidos.
 
@@ -3026,6 +3177,8 @@ El agregado Project encapsula el ciclo de vida de un proyecto estudiantil, permi
 
 #### 2.6.1.2. Interface Layer
 
+<br>
+
 El ProjectController expone endpoints REST que permiten a los estudiantes gestionar sus proyectos, desde la creación hasta el cierre, utilizando assemblers para mapear recursos REST a comandos de dominio y conectando las solicitudes del cliente con los servicios de aplicación.
 
 ### Controlador: `ProjectController`
@@ -3059,6 +3212,7 @@ El ProjectController expone endpoints REST que permiten a los estudiantes gestio
 
 #### 2.6.1.3. Application Layer
 
+<br>
 
 Los servicios ProjectCommandServiceImpl y ProjectQueryServiceImpl implementan los casos de uso definidos en el dominio, coordinando la creación, actualización, publicación, finalización y consulta de proyectos, sin exponer detalles de persistencia ni de transporte.
 
@@ -3094,6 +3248,7 @@ Los servicios ProjectCommandServiceImpl y ProjectQueryServiceImpl implementan lo
 
 #### 2.6.1.4 Infrastructure Layer
 
+<br>
 
 El ProjectRepository provee los mecanismos de persistencia para proyectos, con operaciones CRUD y consultas específicas (por ID o por estudiante), integrando las entidades de dominio con representaciones en la base de datos mediante ProjectEntity.
 
@@ -3137,7 +3292,11 @@ Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia me
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
+<br>
+
 #### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<br>
 
 <p align="center">
   <img src="images/StudentProjectsUML.png" alt = "updated class diagram" width="80%">
@@ -3159,7 +3318,11 @@ Ambos servicios utilizan el `ProjectRepository`, que gestiona la persistencia me
 
 ### 2.6.2. Bounded Context: Company Opportunities
 
+<br>
+
 #### 2.6.2.1. Domain Layer
+
+<br>
 
 El agregado Opportunity encapsula la lógica de negocio de una convocatoria publicada por una empresa, controlando su ciclo de vida (Draft, Published, Closed), validando criterios y actualizaciones, y garantizando consistencia mediante Value Objects como OpportunityStatus y OpportunityRequirements.
 
@@ -3240,6 +3403,7 @@ El agregado Opportunity encapsula la lógica de negocio de una convocatoria publ
 
 #### 2.6.2.2. Interface Layer
 
+<br>
 
 El OpportunityController expone endpoints REST que permiten a clientes externos crear, actualizar, publicar, cerrar y consultar convocatorias, utilizando assemblers para mapear recursos REST a comandos y entidades de dominio, y conectándose a los servicios de aplicación para ejecutar la lógica correspondiente.
 
@@ -3272,6 +3436,8 @@ El OpportunityController expone endpoints REST que permiten a clientes externos 
 | OpportunityResourceFromEntityAssembler   | Convierte entidades de oportunidad en recursos REST para la respuesta     |
 
 #### 2.6.2.3. Application Layer
+
+<br>
 
 Los servicios OpportunityCommandServiceImpl y OpportunityQueryServiceImpl implementan los casos de uso de creación, actualización, publicación, cierre y consulta de oportunidades, actuando como orquestadores entre el dominio y la infraestructura, sin exponer detalles técnicos.
 
@@ -3308,6 +3474,8 @@ Los servicios OpportunityCommandServiceImpl y OpportunityQueryServiceImpl implem
 
 #### 2.6.2.4. Infrastructure Layer
 
+<br>
+
 La clase OpportunityRepository gestiona la persistencia y recuperación de oportunidades en la base de datos, con operaciones CRUD y consultas específicas por empresa, asegurando la integración del dominio con entidades como Company y OpportunityEntity.
 
 
@@ -3335,6 +3503,8 @@ La clase OpportunityRepository gestiona la persistencia y recuperación de oport
 
 #### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams
 
+<br>
+
 Este diagrama de componentes representa un sistema monolítico que gestiona oportunidades empresariales dentro de la plataforma. Una aplicación Movil interactúa con el `OpportunityController`..
 
 El controlador delega la lógica en dos servicios principales: `OpportunityQueryService`, para consultas y validaciones, y `OpportunityCommandService`, para creación, actualización, publicación y cierre de oportunidades.
@@ -3351,7 +3521,11 @@ Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia 
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
+<br>
+
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<br>
 
 <p align="center">
   <img src="images/CompanyOpportunitiesUML.png" alt = "updated class diagram" width="80%">
@@ -3363,6 +3537,8 @@ Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia 
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagrams
 
+<br>
+
 <p align="center">
   <img src="images/dbd2.png" alt = "database diagram" width="80%">
 </p>
@@ -3373,7 +3549,11 @@ Ambos servicios utilizan el `OpportunityRepository`, que maneja la persistencia 
 
 ### 2.6.3. Bounded Context: Project Collaboration
 
+<br>
+
 #### 2.6.3.1. Domain Layer
+
+<br>
 
 Contiene la lógica principal sobre cómo las empresas (gerentes) toman decisiones respecto a proyectos estudiantiles. Incluye el agregado CollaborationDecision, con atributos como projectId, companyId, decisionStatus (interesado, aceptado, rechazado) y feedback. También maneja entidades de soporte como Manager y StudentProject.
 
@@ -3461,6 +3641,8 @@ Contiene la lógica principal sobre cómo las empresas (gerentes) toman decision
 
 #### 2.6.3.2. Interface Layer
 
+<br>
+
 Se refleja en la aplicación móvil, mediante los formularios que puede enviar el gerente para colaborar con un proyecto. Los gerentes envían propuestas de colaboración a proyectos específicos, y los estudiantes pueden revisarlas y responder (aceptar o rechazar).
 
 
@@ -3495,6 +3677,8 @@ Se refleja en la aplicación móvil, mediante los formularios que puede enviar e
 
 
 #### 2.6.3.3. Application Layer
+
+<br>
 
 Orquesta los casos de uso para enviar, aceptar o rechazar decisiones de colaboración. Expone servicios de comandos (CollaborationDecisionCommandService) para procesar acciones y servicios de consulta (CollaborationDecisionQueryService) para obtener el estado de las decisiones.
 
@@ -3534,6 +3718,8 @@ Orquesta los casos de uso para enviar, aceptar o rechazar decisiones de colabora
 
 #### 2.6.3.4. Infrastructure Layer
 
+<br>
+
 Implementa la persistencia de las decisiones de colaboración y la integración con servicios externos. Incluye repositorios como CollaborationDecisionRepository y adaptadores para acceder a datos de proyectos y empresas.
 
 
@@ -3565,6 +3751,8 @@ Implementa la persistencia de las decisiones de colaboración y la integración 
 
 #### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams
 
+<br>
+
 Este diagrama de componentes representa un sistema monolítico que gestiona decisiones de colaboración entre empresas y proyectos estudiantiles. Una aplicación Movil interactúa con el `CollaborationDecisionController`.
 
 El controlador conecta con `CollaborationDecisionQueryService` para consultas y con `CollaborationDecisionCommandService` para registrar decisiones, añadir notas y gestionar respuestas de estudiantes.
@@ -3581,7 +3769,11 @@ Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la pe
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
+<br>
+
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+<br>
 
 <p align="center">
   <img src="images/ProjectCollaborationUML.png" alt = "updated class diagram" width="80%">
@@ -3593,6 +3785,8 @@ Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la pe
 
 #### 2.6.3.6.2. Bounded Context Database Design Diagrams
 
+<br>
+
 <p align="center">
   <img src="images/dbd3.png" alt = "database diagram" width="80%">
 </p>
@@ -3603,7 +3797,11 @@ Ambos servicios acceden al `CollaborationDecisionRepository`, encargado de la pe
 
 ### 2.6.4. Bounded Context: Student Applications
 
+<br>
+
 #### 2.6.4.1. Domain Layer
+
+<br>
 
 Define el agregado Application, que encapsula los datos y reglas de negocio de una postulación (estado, fechas, vínculos a estudiante, proyecto y oportunidad), asegurando consistencia a través de Value Objects como ApplicationStatus y métodos de negocio (submit, accept, reject).
 
@@ -3685,6 +3883,7 @@ Define el agregado Application, que encapsula los datos y reglas de negocio de u
 
 #### 2.6.4.2. Interface Layer
 
+<br>
 
 Expone un controlador REST (ApplicationController) que traduce las operaciones del dominio en endpoints accesibles al cliente, manejando rutas para crear, aceptar, rechazar o listar postulaciones, y apoyándose en assemblers para transformar entidades y comandos entre el mundo REST y el dominio.
 
@@ -3718,6 +3917,8 @@ Expone un controlador REST (ApplicationController) que traduce las operaciones d
 | ApplicationResourceFromEntityAssembler  | Convierte entidades de postulación en recursos REST para la respuesta     |
 
 #### 2.6.4.3. Application Layer
+
+<br>
 
 Implementa los casos de uso a través de ApplicationCommandServiceImpl y ApplicationQueryServiceImpl, orquestando las operaciones sobre el dominio y gestionando el flujo entre la lógica de negocio y las dependencias externas.
 
@@ -3754,6 +3955,8 @@ Implementa los casos de uso a través de ApplicationCommandServiceImpl y Applica
 
 #### 2.6.4.4. Infrastructure Layer
 
+<br>
+
 Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y consultas específicas por estudiante u oportunidad, conectando las entidades del dominio con la base de datos y gestionando la interacción con clases externas como Student, Project y Opportunity.
 
 
@@ -3784,6 +3987,8 @@ Provee la persistencia mediante ApplicationRepository, con operaciones CRUD y co
 
 #### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams
 
+<br>
+
 Este diagrama de componentes representa un sistema monolítico que gestiona postulaciones de estudiantes a oportunidades de empresas. Una aplicación Movil interactúa con el `ApplicationController`.
 
 El controlador conecta con `ApplicationQueryService` para consultas y con `ApplicationCommandService` para registrar, aceptar, rechazar o eliminar postulaciones.
@@ -3800,7 +4005,11 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
+<br>
+
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+<br>
 
 <p align="center">
   <img src="images/StudentApplicationsUML.png" alt = "updated class diagram" width="80%">
@@ -3812,6 +4021,7 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagrams
 
+<br>
 
 <p align="center">
   <img src="images/dbd4.png" alt = "database diagram" width="80%">
@@ -3826,9 +4036,15 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 ## Capítulo III: Solution UI/UX Design
 
+<br>
+
 ### 3.1. Product design
 
+<br>
+
 #### 3.1.1. Style Guidelines
+
+<br>
 
 - _Branding:_    
     - La identidad visual de Innospace es moderna, innovadora y con un toque futurista, reflejando su enfoque en la tecnología y el espacio. El logo, con la figura de un cohete, transmite dinamismo y la idea de exploración y crecimiento. El color morado aporta sofisticación, mientras que los tonos de azul y blanco refuerzan la confiabilidad y accesibilidad.
@@ -3910,6 +4126,8 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
     | 1. Amigable y claro <br> 2. Sin tecnicismos innecesarios <br> 3. Verbos en voz activa <br> 4. Enfocado en beneficios (“Descubre experiencias únicas”, “Reserva en segundos”)| 1. Formal-casual: Respetuoso, pero no rígido. <br> 2. Entusiasta: Inspirador, motivador, acogedor. <br> 3. Directo: Frases cortas y llamadas a la acción claras. |
 
 ### 3.1.2. Information Architecture
+
+<br>
 
 La arquitectura de información de InnoSpace define cómo se organizará, etiquetará, navegará y buscará el contenido dentro de la aplicación móvil y su Landing Page. El objetivo es permitir que los usuarios interactúen de manera fluida con la plataforma, accedan fácilmente a los recursos clave y logren sus objetivos con el mínimo esfuerzo cognitivo.
 
@@ -4080,7 +4298,11 @@ La aplicación integra un sistema de navegación dual que combina flujos guiados
 
 ### 3.1.3. Landing Page UI Desing
 
+<br>
+
 #### 3.1.3.1 Landing Page Wireframe
+
+<br>
 
 <p align="center">
   <img src="images/desing/landingpage-wireframe.jpg" alt="wireframe" width="1000">
@@ -4094,7 +4316,11 @@ La aplicación integra un sistema de navegación dual que combina flujos guiados
 
 ### 3.1.4 Mobile Applications UX/UI Design
 
+<br>
+
 #### 3.1.4.1 Mobile Applications Wireframes
+
+<br>
 
 Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Cada vista presenta una navegación intuitiva mediante una barra inferior fija y el uso consistente de tarjetas, íconos y botones de acción, facilitando tareas como explorar proyectos, crear convocatorias y gestionar solicitudes. 
 
@@ -4125,6 +4351,8 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 </p>
 
 #### 3.1.4.2 Mobile Applications Wireflows Diagrams
+
+<br>
 
 **Wireflow 1: Login / Registrarse**
 
@@ -4205,6 +4433,7 @@ Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrad
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+<br>
 
 Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Las vistas mantienen una navegación intuitiva con barra inferior fija y uso consistente de tarjetas, íconos y botones, facilitando la interacción y gestión dentro de la plataforma.
 
@@ -4240,6 +4469,8 @@ Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario,
 
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+<br>
 
 **User Flow 1: Login / Registrarse**
 
@@ -4324,6 +4555,8 @@ Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario,
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+<br>
+
 Se realizo un video del prototipo de nuestro Applications Mobile para quese pueda visualizar el flujo de nuestra aplicación para los usuarios que son estudiantes
 
 <p align="center">
@@ -4335,13 +4568,21 @@ Link del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc
 
 ## Capitulo IV: Product Implementation & Validation
 
+<br> <br>
+
 ### 4. Product Implementation & Validation
 
+<br>
+
 #### 4.1 Software Configuration Management
+
+<br>
 
 En este ítem se detallan las reglas, lineamientos y procesos establecidos durante el desarrollo de InnoSpace, la aplicación móvil de la startup UniPafi. El propósito de estas directrices es asegurar la integridad, trazabilidad y consistencia del software a lo largo de todo su ciclo de vida; desde la fase inicial de desarrollo, pasando por la integración y las pruebas, hasta el despliegue y mantenimiento en producción.
 
 #### 4.1.1 Software Development Environment Configuration
+
+<br>
 
 Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST. Para el desarrollo de la landing page utilizamos HTML, CSS y JavaScript.
 
@@ -4373,6 +4614,8 @@ Para la documentación del software utilizamos Markdown, y para el trabajo colab
 
 #### 4.1.2 Source Code Management
 
+<br>
+
 Para la gestión del código fuente, utilizamos los siguientes repositorios:
 
 
@@ -4403,6 +4646,8 @@ Teniendo en cuenta la información anterior nos inclinamos por este tipo de orga
 
 
 ### 4.1.3 Source Code Style Guide & Conventions
+
+<br>
 
 Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
 La aplicación de estas directrices garantiza la uniformidad del código en toda la plataforma, facilita el trabajo colaborativo entre los desarrolladores y mejora la comprensión del sistema.
@@ -4447,6 +4692,8 @@ Estas convenciones permitieron mantener un código Android idiomático, alineado
 
 ### 4.1.4 Software Deployment Configuration
 
+<br>
+
 Para el despliegue de la Landing Page del presente proyecto, perteneciente a la plataforma UniPafi (InnoSpace), se empleó una arquitectura distribuida basada en contenedores y servicios independientes, garantizando la escalabilidad, disponibilidad y mantenimiento modular del sistema. De tal manera, el proceso de despliegue se llevó a cabo siguiendo los pasos principales recomendados por la guía de GitHub Pages:
 
 * Se creó un repositorio en GitHub con todos los archivos fuente del sitio (HTML, CSS, JavaScript, imágenes y recursos).
@@ -4479,13 +4726,20 @@ El despliegue nos proveyó de una página funcional desde el inicio del proyecto
 
 ## 4.2. Landing Page & Mobile Application Implementation
 
+<br>
+
 Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones. A partir del Product Backlog, se organizan los avances en secciones internas por cada Sprint, donde se registran las evidencias de desarrollo, ejecución y trabajo colaborativo del equipo.
 
 ### 4.2.1. Sprint 1
 
+<br>
+
 Durante el Sprint 1 del proyecto, el equipo se enfocó en el diseño y desarrollo de la Landing Page. Además, se avanzó en el desarrollo de los componentes en Kotlin y en la implementación del backend, junto con la definición de requisitos mediante historias de usuario funcionales y técnicas, así como la elaboración de artefactos esenciales del sistema. El objetivo principal fue construir una base sólida que facilitara la comunicación entre los miembros del equipo y permitiera visualizar los requerimientos iniciales del proyecto, asegurando coherencia entre la planificación y la implementación inicial.
 
 #### 4.2.1.1. Sprint Planning 1
+
+<br>
+
 En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 1. Este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante el sprint. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
 
 <table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
@@ -4551,6 +4805,8 @@ This will be confirmed when users can access the published Landing Page, navigat
 </table>
 
 #### 4.2.1.2. Sprint Backlog 1
+
+<br>
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
 
@@ -4868,6 +5124,7 @@ Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab6
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 
+<br>
 
 <table align="center">
   <tr>
@@ -4977,12 +5234,19 @@ Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab6
   </tr>
 <table>
 
+<br>
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+<br>
 
 No se implementaron pruebas unitarias debido a que, en su estado actual, la aplicación en Kotlin solo cuenta con navegación y una funcionalidad básica de crear proyectos en el Dashboard del Estudiante.
 
+<br>
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
+<br>
 
 En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despliegue del landing page. Además tambien se logro avanzar el desarrollo del backend y las pantallas principales de la aplicación móvil.
 
@@ -5087,6 +5351,8 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+<br>
+
 <h3>Endpoints implementados</h3>
 
 <table>
@@ -5132,6 +5398,8 @@ En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despl
 </table>
 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+<br>
 
 Durante este Sprint se realizó el deployment de la landing page y del 70% del backend de Innospace en Azure. El backend fue desplegado mediante Azure App Service, conectado a su base de datos MySQL en Azure, asegurando disponibilidad, escalabilidad y persistencia de datos. 
 
@@ -5207,6 +5475,8 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+<br>
+
 Se podra visualizar los commit y contribuciones hechas por los integrantes.
 
 <p align="center">
@@ -5242,7 +5512,11 @@ Se podra visualizar los commit y contribuciones hechas por los integrantes.
 
 ## 4.3. Validation Interviews
 
+<br>
+
 ### 4.3.1. Diseño de Entrevistas
+
+<br>
 
 Segmentos encontrados:
 
@@ -5323,6 +5597,8 @@ Interés y adopción potencial
 9. ¿Qué barreras internas o externas cree que podría encontrar al proponer una herramienta como esta dentro de su organización?
 
 ### 4.3.2. Registro de Entrevistas
+
+<br>
 
 *Entrevistas a Estudiantes*
 ---
@@ -5415,7 +5691,11 @@ Interés y adopción potencial
   </tr>
 </table>
 
+<br>
+
 ### 4.3.3. Evaluaciones según heurísticas
+
+<br>
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información y diseño de experiencia de usuario.
 
@@ -5540,9 +5820,16 @@ Incluir una sección que destaque la calidad del talento universitario, procesos
 
 Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevistados valoraron positivamente el diseño moderno, la claridad del mensaje y la propuesta de valor general de la plataforma, mostrando interés en utilizarla y recomendarla.
 
+<br>
+
 ## Conclusiones
 
+<br>
+
 **TB1**
+
+<br>
+
 - La aplicación InnoSpace responde a una necesidad real: la falta de conexión entre estudiantes con ideas innovadoras y empresas que buscan talento joven y proyectos disruptivos.
 
 - A partir de las entrevistas a estudiantes y gerentes, se confirma que existe interés en una plataforma que ofrezca visibilidad, mentoría, certificaciones y oportunidades de colaboración, aunque persisten preocupaciones sobre la seguridad y la propiedad intelectual.
@@ -5553,8 +5840,11 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 - El proyecto no solo tiene potencial de impacto económico, sino también formativo y social, al fortalecer la empleabilidad, la innovación abierta y la colaboración universidad–empresa.
 
+<br>
 
 **TP1**
+
+<br>
 
 - El desarrollo de InnoSpace en Kotlin presentó el desafío inicial de diseñar una arquitectura modular escalable que permitiera la integración fluida entre los módulos de autenticación, estudiantes y empresas, requiriendo una cuidadosa planificación de dependencias y comunicación entre componentes.
 
@@ -5562,7 +5852,11 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 - La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
 
+<br>
+
 ## Bibliografia
+
+<br>
 
 - UNESCO. (2021). La educación superior en América Latina y el Caribe: avances y retos. UNESCO IESALC. https://unesdoc.unesco.org/ark:/48223/pf0000392578.locale=en
 
@@ -5572,14 +5866,28 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
+<br>
+
 ## Anexos
 
-
-
-
-
-
+<br>
 
 **Link del repositorio en Github:**
 
 https://github.com/UniPafi/project-report-InnoSpace
+
+**Link del repositorio del backend**
+
+https://github.com/UniPafi/backend-InnoSpace
+
+**Link del repositorio del Kotlin**
+
+https://github.com/UniPafi/kotlin_app_InnoSpace
+
+**Link del repositorio del landing page**
+
+https://github.com/UniPafi/landing-page-InnoSpace 
+
+**Link del video TP1**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/EUHAlsLtptRPg1xziieQTaYBBDjPHlcAW3V2-afIvUNiPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EC632T 
