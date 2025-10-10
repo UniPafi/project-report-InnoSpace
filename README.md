@@ -4311,6 +4311,8 @@ Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario,
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+Se realizo un video del prototipo de nuestro Applications Mobile para quese pueda visualizar el flujo de nuestra aplicación para los usuarios que son estudiantes
+
 <p align="center">
   <img src="images/prototipado.jpg" alt="Prototyping" width="500">
 </p>
