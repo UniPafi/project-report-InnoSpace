@@ -279,63 +279,65 @@
 ---
 ## Student Outcome
 
+<table align="center">
+  <tr>
+    <td><strong>Criterio</strong></td>
+    <td><strong>Acciones Realizadas</strong></td>
+    <td><strong>Conclusiones</strong></td>
+  </tr>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left;">Criterio específico</th>
-      <th style="text-align: left;">Acciones realizadas</th>
-      <th style="text-align: left;">Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-      <td>
-        <br> TB1:Santur Tello, Andrea Elizabeth:
-Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto.
-<br> 
-
-Palomino Fiestas, Erick Leonardo:
-Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
-
-Rivera Ratachi, Renzo Sebastián:
-Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
-
-Coca Lavado, Carlos Andrés:
-Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
- <br>
-Cabrera Buitrón, Diego Iván:
-Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema.<br><br><br>
-      </td>
-      <td>
-        TB1: Como grupo, actualizamos conceptos clave de ingeniería de software y los aplicamos de manera efectiva en el proyecto. La investigación previa, el análisis de problemas y el uso de metodologías como Eventstorming y Lean UX nos permitieron adquirir nuevos conocimientos y reforzar habilidades necesarias para el desarrollo profesional, garantizando que cada integrante ampliara su dominio en áreas específicas del proyecto.
-      </td>
-    </tr>
-    <tr>
-      <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-      <td>
-        <br>TB1: Santur Tello, Andrea Elizabeth:
-Participó en Eventstorming para identificar eventos del sistema. Realizó entrevistas a usuarios y definió la arquitectura de software (Context, Container y Deployment). Desarrolló Problem Statements y Assumptions con Lean UX, y trabajó en un lenguaje ubicuo para unificar la comunicación del proyecto. <br>
-
-Palomino Fiestas, Erick Leonardo:
-Colaboró en Eventstorming y documentó antecedentes y problemáticas. Hizo un análisis de competidores y entrevistas a segmentos objetivos. Elaboró diagramas de componentes en Bounded Context y definió User Stories que orientaron el desarrollo. <br>
-
-Rivera Ratachi, Renzo Sebastián:
-Elaboró el Solution Profile y el Startup Profile. Desarrolló User Journey Mapping y User Empathy Mapping para comprender mejor al usuario. Participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure). <br>
-
-Coca Lavado, Carlos Andrés:
-Realizó entrevistas a usuarios y ayudó a definir User Stories. Organizó y priorizó el Product Backlog y creó User Personas que guiaron el diseño del proyecto.
- <br>
-Cabrera Buitrón, Diego Iván:
-Apoyó en Eventstorming y en la definición de antecedentes y problemáticas. Además, diseñó los diagramas de base de datos para estructurar la información del sistema. <br><br> 
-<br>
-      </td>
-      <td>
-        TB1:El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La constante búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente. Este enfoque nos permitió responder de forma más eficiente a los retos del proyecto y prepararnos mejor para futuros escenarios en el ámbito de la ingeniería de software.<br><br>
-      </td>
-    </tr>
-  </tbody>
+  <tr>
+    <td>
+      Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
+    </td>
+    <td>
+      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
+      TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br>
+      TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br>
+      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+      TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
+      TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
+      <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
+      TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
+      TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
+      <strong>Coca Lavado, Carlos Andrés:</strong><br>
+      TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
+      TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
+      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+      TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
+      TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
+    </td>
+    <td>
+      TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
+      TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
+    </td>
+    <td>
+      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
+      TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br>
+      TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br>
+      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+      TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
+      TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
+      <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
+      TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
+      TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
+      <strong>Coca Lavado, Carlos Andrés:</strong><br>
+      TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
+      TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
+      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+      TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
+      TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
+    </td>
+    <td>
+      TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
+      TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.
+    </td>
+  </tr>
 </table>
 
 
@@ -4521,7 +4523,7 @@ Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab6
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
-En el contexto actual de nuestro desarrollo en Kotlin, se adoptó una estrategia consciente de postergar la implementación exhaustiva de pruebas unitarias basándonos en un análisis técnico de complejidad y retorno de inversión. Nuestra aplicación, diseñada bajo principios de arquitectura modular y clean architecture, presenta una estructura intencionalmente simplificada donde los componentes exhiben alta cohesión y bajo acoplamiento, con operaciones predominantemente síncronas y mínima lógica condicional compleja. Sin embargo, hemos establecido los cimientos para una futura implementación mediante la abstracción de dependencias mediante interfaces, la separación clara de responsabilidades y el diseño test-ready de nuestros módulos, manteniendo mientras tanto calidad mediante code reviews exhaustivas, análisis y testing manual exploratorio.
+No se implementaron pruebas unitarias debido a que, en su estado actual, la aplicación en Kotlin solo cuenta con navegación y una funcionalidad básica de crear proyectos en el Dashboard del Estudiante.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
