@@ -431,7 +431,7 @@ Objetivo 2: Fortalecer mis competencias técnicas en arquitectura de software ba
 
 #### 1.1.1. Descripción de la Startup
 
-Unipafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
+UniPafi es una startup tecnológica que busca convertirse en un referente en la vinculación entre el talento joven y el ecosistema empresarial. Nacemos con la convicción de que la innovación no surge únicamente en los laboratorios corporativos, sino también en las aulas, los proyectos académicos y las ideas emergentes de estudiantes con visión de futuro. Desde Unipafi impulsamos un modelo de colaboración que une creatividad, impacto social y desarrollo profesional, construyendo un espacio en el que la innovación y el talento se encuentren para transformar realidades.
 
 **Visión:**
 
@@ -457,7 +457,7 @@ Promover el desarrollo profesional de estudiantes universitarios y recién egres
       <td><img src="images/fotointegrante-erick-palomino.jpeg" alt="foto-erick" width="500"></td>
       <td>Palomino Fiestas, Erick Leonardo</td>
       <td>U20231A500</td>
-      <td>Hola, Soy Erick Leonardo Palomino Fiestas, un estudiante entusiasta de quinto ciclo en Ingeniería de Software. Mi conjunto de habilidades técnicas incluye C++, HTML, CSS, fundamentos de JavaScript y experiencia con bases de datos SQL y MongoDB. Me considero una persona responsable, con sólidas habilidades de comunicación para trabajar en equipo y una perspectiva optimista. También tengo un nivel básico de inglés. </td>
+      <td>Hola, Soy Erick Leonardo Palomino Fiestas, un estudiante entusiasta de sexto ciclo en Ingeniería de Software. Mi conjunto de habilidades técnicas incluye C++, HTML, CSS, fundamentos de JavaScript y experiencia con bases de datos SQL y MongoDB. Me considero una persona responsable, con sólidas habilidades de comunicación para trabajar en equipo y una perspectiva optimista. También tengo un nivel básico de inglés. </td>
     </tr>
       <tr>
       <td><img src="images/fotointegrante-renzo.jpg" alt="foto-renzo" width="500"></td>
@@ -635,7 +635,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 - **Hypothesis Statement 01:**
 
-  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoBridge para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
+  *Creemos que* los estudiantes universitarios estarán dispuestos a adoptar la plataforma InnoSpace para compartir sus trabajos, tesis y proyectos, con el fin de obtener experiencia laboral y aumentar su visibilidad profesional.
 
   *Sabremos que hemos tenido éxito:*
 
@@ -643,7 +643,7 @@ Debe ser moderno, amigable, accesible, con diseño responsivo, colores neutros y
 
 - **Hypothesis Statement 02:**
 
-  *Creemos que* InnoBridge facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
+  *Creemos que* InnoSpace facilitará la conexión entre pequeñas y medianas empresas con talento universitario al ofrecer un entorno accesible, flexible y confiable, sin las barreras de experiencia previa exigidas por otras plataformas.
 
   *Sabremos que hemos tenido éxito:*
 
@@ -2359,7 +2359,7 @@ Empathy Map Segmento 2:
       <td>Como gerente, quiero explorar una lista de ideas innovadoras publicadas por estudiantes, para encontrar oportunidades potenciales en las que mi empresa pueda invertir.</td>
       <td>3</td>
     </tr>
-    </tr>
+    <tr>
     <td>18</td>
       <td>US14</td>
       <td>Construcción de portafolio</td>
@@ -5566,3 +5566,6 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 
+**Link del repositorio en Github:**
+
+https://github.com/UniPafi/project-report-InnoSpace
