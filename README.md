@@ -8,7 +8,7 @@
 
 **Ingeniería de Software**
 
-**6to Ciclo**
+**Ciclo 2025-02**
 
 **Código del curso:** 1ACC0238
 
@@ -26,17 +26,20 @@
 
 | **Código** | **Apellidos y Nombres**             |
 | ---------- | ----------------------------------- |
-| U20211B293 | Cabrera Buitron, Diego Ivan |
-| U202313172 | Coca Lavado, Carlos Andres |
-| U20231A500 | Palomino Fiestas, Erick Leonardo    |
-| U20231D974 | Rivera Ratachi, Renzo Sebastian     |
-| U202310988 | Santur Tello, Andrea Elizabeth     |
+| U202310988 | Andrea Elizabeth, Santur Tello     |
+| U202313172 | Carlos Andres, Coca Lavado |
+| U20211B293 | Diego Ivan, Cabrera Buitron, |
+| U20231A500 | Erick Leonardo, Palomino Fiestas    |
+| U20231D974 | Renzo Sebastian, Rivera Ratachi     |
+
 
 **Agosto 2025**
 
----
+<br>
 
 **Registro de Versiones del Informe**
+
+<br>
 
 <table align="center">
   <tr>
@@ -97,10 +100,55 @@
     </td>
     <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
   </tr>
+  <tr>
+    <td>2.00</td>
+    <td>24/09/25</td>
+    <td>
+    Rivera
+    </td>
+    <td>Creacion de la plantilla a utilizar para completar el documento</td>
+  </tr>
+  <tr>
+    <td>2.01</td>
+    <td>29/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca
+    </td>
+    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Desing</td>
+  </tr>
+  <tr>
+    <td>2.02</td>
+    <td>03/10/25</td>
+    <td>
+    Rivera,<br>
+    Cabrera, Santur
+    </td>
+    <td>Realizacion de los Wireframes y Mockups de la aplicación mobile con su respectivo flujo. Ademas de la grabacion del prototipado</td>
+  </tr>
+  <tr>
+    <td>2.03</td>
+    <td>06/10/25</td>
+    <td>
+    Cabrera,<br>
+    Santur
+    </td>
+    <td>Se realizo el apartado de Software Configuration Management y correcciones de versiones anteriores</td>
+  </tr>
+  <tr>
+    <td>2.04</td>
+    <td>09/10/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca
+    </td>
+    <td>Realización del Sprint 1 y las entrevistas de validacion con su evaluación segun heuristicas</td>
+  </tr>
 </table>
 
-
----
+<br>
 
 ## Project Report Collaboration Insights
 
@@ -224,6 +272,52 @@
         - [2.6.4.6.1. Bounded Context Domain Layer Class Diagrams](#26461-bounded-context-domain-layer-class-diagrams)
         - [2.6.4.6.2. Bounded Context Database Design Diagram](#26462-bounded-context-database-design-diagrams)
 
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+
+  - [3.1. Product Design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
+
+- [Capítulo IV: Product Implementation & Validation](#capítulo-iv-product-implementation--validation)
+
+  - [4.1. Software Configuration Management](#41-software-configuration-management)
+    - [4.1.1. Software Development Environment Configuration](#411-software-development-environment-configuration)
+    - [4.1.2. Source Code Management](#412-source-code-management)
+    - [4.1.3. Source Code Style Guide & Conventions](#413-source-code-style-guide--conventions)
+    - [4.1.4. Software Deployment Configuration](#414-software-deployment-configuration)
+
+  - [4.2. Landing Page & Mobile Application Implementation](#42-landing-page--mobile-application-implementation)
+    - [4.2.1. Sprint 1](#421-sprint-1)
+      - [4.2.1.1. Sprint Planning 1](#4211-sprint-planning-1)
+      - [4.2.1.2. Sprint Backlog 1](#4212-sprint-backlog-1)
+      - [4.2.1.3. Development Evidence for Sprint Review](#4213-development-evidence-for-sprint-review)
+      - [4.2.1.4. Testing Suite Evidence for Sprint Review](#4214-testing-suite-evidence-for-sprint-review)
+      - [4.2.1.5. Execution Evidence for Sprint Review](#4215-execution-evidence-for-sprint-review)
+      - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
+      - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
+      - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
+
+  - [4.3. Validation Interviews](#43-validation-interviews)
+    - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
+    - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
+    - [4.3.3. Evaluaciones según heurísticas](#433-evaluaciones-según-heurísticas)
+
+
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -231,48 +325,65 @@
 ---
 ## Student Outcome
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left;">Criterio específico</th>
-      <th style="text-align: left;">Acciones realizadas</th>
-      <th style="text-align: left;">Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-      <td>
-        <strong>TB1:</strong>
-        <ul>
-          <li><strong>Santur Tello, Andrea Elizabeth:</strong> Participó en Eventstorming, realizó entrevistas, definió la arquitectura de software (Context, Container y Deployment), trabajó en Problem Statements y Assumptions con Lean UX, y en el Ubiquitous Language.</li>
-          <li><strong>Palomino Fiestas, Erick Leonardo:</strong> Colaboró en Eventstorming, documentó antecedentes y problemáticas, hizo un análisis de competidores y entrevistas, elaboró diagramas de componentes en Bounded Context y definió User Stories.</li>
-          <li><strong>Rivera Ratachi, Renzo Sebastián:</strong> Elaboró Solution Profile y Startup Profile, desarrolló User Journey Mapping y User Empathy Mapping, participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure).</li>
-          <li><strong>Coca Lavado, Carlos Andrés:</strong> Realizó entrevistas, definió User Stories, organizó y priorizó el Product Backlog, y creó User Personas.</li>
-          <li><strong>Cabrera Buitrón, Diego Iván:</strong> Apoyó en Eventstorming, definió antecedentes y problemáticas, y diseñó diagramas de base de datos.</li>
-        </ul>
-      </td>
-      <td>
-        <strong>TB1:</strong> Como grupo, actualizamos conceptos clave de ingeniería de software y los aplicamos en el proyecto. La investigación previa, el análisis de problemas y el uso de metodologías como Eventstorming y Lean UX nos permitieron adquirir nuevos conocimientos y reforzar habilidades necesarias para el desarrollo profesional.
-      </td>
-    </tr>
-    <tr>
-      <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-      <td>
-        <strong>TB1:</strong>
-        <ul>
-          <li><strong>Santur Tello, Andrea Elizabeth:</strong> Participó en Eventstorming, realizó entrevistas, definió la arquitectura de software (Context, Container y Deployment), trabajó en Problem Statements y Assumptions con Lean UX, y en el Ubiquitous Language.</li>
-          <li><strong>Palomino Fiestas, Erick Leonardo:</strong> Colaboró en Eventstorming, documentó antecedentes y problemáticas, hizo un análisis de competidores y entrevistas, elaboró diagramas de componentes en Bounded Context y definió User Stories.</li>
-          <li><strong>Rivera Ratachi, Renzo Sebastián:</strong> Elaboró Solution Profile y Startup Profile, desarrolló User Journey Mapping y User Empathy Mapping, participó en Eventstorming, diseñó Bounded Context Canvases y definió capas de la aplicación (Application, Interface, Domain, Infrastructure).</li>
-          <li><strong>Coca Lavado, Carlos Andrés:</strong> Realizó entrevistas, definió User Stories, organizó y priorizó el Product Backlog, y creó User Personas.</li>
-          <li><strong>Cabrera Buitrón, Diego Iván:</strong> Apoyó en Eventstorming, definió antecedentes y problemáticas, y diseñó diagramas de base de datos.</li>
-        </ul>
-      </td>
-      <td>
-        <strong>TB1:</strong> El equipo reconoció la importancia del aprendizaje continuo en cada fase del proyecto. La búsqueda de nuevas técnicas, la adaptación a distintos enfoques de diseño y el uso de herramientas actuales reflejaron nuestro compromiso con el crecimiento profesional permanente y nos prepararon mejor para futuros escenarios en ingeniería de software.
-      </td>
-    </tr>
-  </tbody>
+<table align="center">
+  <tr>
+    <td><strong>Criterio</strong></td>
+    <td><strong>Acciones Realizadas</strong></td>
+    <td><strong>Conclusiones</strong></td>
+  </tr>
+
+  <tr>
+    <td>
+      Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
+    </td>
+    <td>
+      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
+      TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br>
+      TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br>
+      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+      TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
+      TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
+      <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
+      TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
+      TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
+      <strong>Coca Lavado, Carlos Andrés:</strong><br>
+      TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
+      TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
+      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+      TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
+      TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
+    </td>
+    <td>
+      TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
+      TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
+    </td>
+    <td>
+      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
+      TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br>
+      TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br>
+      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+      TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
+      TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
+      <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
+      TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
+      TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
+      <strong>Coca Lavado, Carlos Andrés:</strong><br>
+      TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
+      TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
+      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+      TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
+      TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
+    </td>
+    <td>
+      TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
+      TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.
+    </td>
+  </tr>
 </table>
 
 
@@ -1795,6 +1906,307 @@ Empathy Map Segmento 2:
         <strong>Dado</strong> que estoy navegando por secciones como “¿Cómo funciona?” o “Casos de éxito”, <strong>cuando</strong> llego al final de una sección, <strong>entonces</strong> encuentro un botón como “Regístrate ahora” o “Publica tu primer proyecto” de forma clara y destacada.
       <td>EP01</td>
     </tr>
+    <tr>
+      <td>TS01</td>
+      <td>Configuración de autenticación y roles</td>
+      <td>
+        Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.
+      </td>
+      <td>
+        Escenario 1: Registro de nuevo estudiante.
+        Dado que un usuario nuevo ingresa al formulario de registro, Cuando completa sus datos personales y selecciona el rol Estudiante, Entonces el sistema crea su cuenta, asigna el rol correspondiente y lo redirige al dashboard de estudiante. Escenario 2: Inicio de sesión de gerente Dado que un gerente registrado accede a la pantalla de inicio de sesión, Cuando introduce su correo y contraseña válidos, Entonces el sistema autentica al usuario y muestra el dashboard del rol gerente, ocultando las funciones del perfil estudiante.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+      <td>
+        Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.
+      </td>
+      <td>
+        Escenario 1: Registro de convocatoria por gerente Dado que un gerente completa el formulario “Nueva convocatoria”, Cuando presiona el botón Publicar, Entonces el sistema guarda los datos en la colección “Convocatorias” y los asocia al ID del gerente creador. Escenario 2: Publicación de proyecto por estudiante Dado que un estudiante finaliza el registro de un nuevo proyecto, Cuando guarda los cambios, Entonces la información se almacena en la colección “Proyectos” y se vincula automáticamente con el portafolio del estudiante.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td>Bottom Navigation Bar</td>
+      <td>
+        Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.
+      </td>
+      <td>
+        Escenario 1: Cambio de secciones por parte del estudiante Dado que el estudiante se encuentra en la pantalla “Explorar”, Cuando selecciona el ícono Portafolio en la barra inferior, Entonces el sistema muestra la vista “Mi Portafolio” sin pérdida de navegación. Escenario 2: Retorno al inicio del gerente Dado que el gerente está revisando sus convocatorias, Cuando toca el ícono Explorar de la barra inferior, Entonces la aplicación lo redirige correctamente a la vista de exploración de proyectos estudiantiles.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td>Registrarse</td>
+      <td>
+        Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.
+      </td>
+      <td>
+        Escenario 1: Registro exitoso Dado que un nuevo usuario completa correctamente el formulario de registro, Cuando presiona el botón Crear cuenta, Entonces el sistema crea su usuario, asigna el rol correspondiente y redirige al dashboard de bienvenida. Escenario 2: Registro con correo duplicado Dado que un usuario intenta registrarse con un correo ya existente, Cuando envía el formulario, Entonces el sistema muestra un mensaje de error indicando que el correo ya está en uso.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td>Iniciar Sesión</td>
+      <td>
+        Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.
+      </td>
+      <td>
+        Escenario 1: Inicio de sesión exitoso Dado que el usuario tiene una cuenta registrada, Cuando introduce su correo y contraseña correctos, Entonces el sistema autentica su identidad y muestra el panel correspondiente a su rol. Escenario 2: Inicio de sesión fallido Dado que un usuario introduce credenciales incorrectas, Cuando intenta iniciar sesión, Entonces el sistema muestra un mensaje de error y no permite el acceso.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Actualizar Usuario</td>
+      <td>
+        Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.
+      </td>
+      <td>
+        Escenario 1: Actualización exitosa Dado que un usuario autenticado accede a su perfil, Cuando edita sus datos y guarda los cambios, Entonces el sistema actualiza la información en la base de datos. Escenario 2: Intento sin permisos Dado que un usuario intenta modificar los datos de otro usuario, Cuando realiza una solicitud de actualización, Entonces el sistema rechaza la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Obtener todos los usuarios</td>
+      <td>
+        Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.
+      </td>
+      <td>
+        Escenario 1: Solicitud válida Dado que un administrador solicita la lista de usuarios, Cuando el sistema procesa la solicitud, Entonces devuelve un listado con todos los usuarios y sus roles. Escenario 2: Solicitud sin permisos Dado que un usuario sin rol de administrador intenta obtener todos los usuarios, Cuando ejecuta la solicitud, Entonces el sistema responde con un error de autorización.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Obtener usuario por Id</td>
+      <td>
+        Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que se solicita un usuario existente por su ID, Cuando el sistema consulta la base de datos, Entonces devuelve los datos completos del usuario. Escenario 2: ID no encontrado Dado que se ingresa un ID inexistente, Cuando el sistema intenta recuperarlo, Entonces devuelve un mensaje indicando que el usuario no existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Crear perfil de estudiante</td>
+      <td>
+        Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un estudiante recién registrado accede a la opción “Crear perfil”, Cuando completa el formulario y guarda, Entonces el sistema genera su perfil y lo asocia a su usuario. Escenario 2: Perfil duplicado Dado que un estudiante intenta crear otro perfil, Cuando ya tiene uno asociado, Entonces el sistema bloquea la acción y muestra un mensaje indicando que el perfil ya existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Actualizar perfil de estudiante por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.
+      </td>
+      <td>
+        Escenario 1: Actualización correcta Dado que un estudiante accede a su perfil, Cuando modifica su descripción y habilidades, Entonces el sistema guarda los cambios exitosamente. Escenario 2: Actualización fallida Dado que el estudiante intenta actualizar un campo no permitido, Cuando envía los cambios, Entonces el sistema muestra un mensaje de error y no aplica la modificación.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Obtener perfil de estudiante por Id</td>
+      <td>
+        Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un gerente busca el perfil de un estudiante, Cuando se envía la solicitud con un ID existente, Entonces el sistema muestra los datos del perfil solicitado. Escenario 2: ID inexistente Dado que se consulta un ID no registrado, Cuando el sistema intenta obtener los datos, Entonces devuelve un mensaje indicando que no se encontró el perfil.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Obtener perfiles de estudiante</td>
+      <td>
+        Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un gerente accede a la sección “Explorar estudiantes”, Cuando el sistema obtiene los perfiles, Entonces muestra una lista con nombre, carrera y habilidades. Escenario 2: Filtro aplicado Dado que el gerente busca perfiles por categoría, Cuando aplica un filtro (por carrera o habilidad), Entonces el sistema muestra solo los perfiles que coinciden.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Crear perfil de manager</td>
+      <td>
+        Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un gerente ha completado su registro de usuario, Cuando ingresa a la opción Crear perfil de empresa y llena todos los campos requeridos, Entonces el sistema crea el perfil y lo vincula correctamente al ID del usuario. Escenario 2: Perfil ya existente Dado que el gerente intenta crear un nuevo perfil teniendo uno activo, Cuando presiona Guardar, Entonces el sistema muestra un mensaje indicando que el perfil ya ha sido creado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un gerente autenticado accede a su perfil, Cuando modifica su cargo o descripción empresarial, Entonces el sistema guarda los cambios en la base de datos. Escenario 2: Actualización no autorizada Dado que un usuario intenta modificar el perfil de otro gerente, Cuando envía la solicitud, Entonces el sistema bloquea la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un gerente autenticado accede a su perfil, Cuando modifica su cargo o descripción empresarial, Entonces el sistema guarda los cambios en la base de datos. Escenario 2: Actualización no autorizada Dado que un usuario intenta modificar el perfil de otro gerente, Cuando envía la solicitud, Entonces el sistema bloquea la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Obtener perfil de manager por Id</td>
+      <td>
+        Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un estudiante consulta el perfil de un gerente específico, Cuando se envía el ID correspondiente, Entonces el sistema devuelve los datos completos del perfil empresarial. Escenario 2: ID inexistente Dado que se solicita un ID no registrado, Cuando el sistema intenta obtener los datos, Entonces muestra un mensaje informando que el perfil no existe.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Obtener perfiles de manager</td>
+      <td>
+        Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un estudiante accede a la sección Explorar empresas, Cuando el sistema carga los datos, Entonces muestra una lista de gerentes con su empresa y área de especialización. Escenario 2: Filtrado por rubro Dado que el estudiante busca empresas de un sector específico, Cuando aplica un filtro por rubro o categoría, Entonces el sistema muestra únicamente los perfiles que cumplen con ese criterio.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Crear convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un gerente autenticado completa el formulario de nueva convocatoria, Cuando presiona el botón Publicar, Entonces el sistema guarda la convocatoria y la asocia a su perfil. Escenario 2: Campos incompletos Dado que el gerente deja campos obligatorios sin llenar, Cuando intenta guardar la convocatoria, Entonces el sistema muestra un mensaje indicando los campos faltantes.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Actualizar convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.
+      </td>
+      <td>
+        Escenario 1: Edición correcta Dado que el gerente desea modificar la descripción o requisitos, Cuando guarda los cambios, Entonces el sistema actualiza los datos y mantiene la convocatoria activa. Escenario 2: Edición no permitida Dado que la convocatoria ya está cerrada, Cuando el gerente intenta modificarla, Entonces el sistema rechaza la edición y muestra un aviso informativo.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS19</td>
+      <td>Cambiar estado de convocatoria a publicado</td>
+      <td>
+        Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.
+      </td>
+      <td>
+        Escenario 1: Publicación válida Dado que la convocatoria está en estado borrador, Cuando el gerente presiona Publicar, Entonces el sistema cambia el estado a Publicado y la muestra en el listado de exploración. Escenario 2: Publicación fallida Dado que la convocatoria tiene información incompleta, Cuando el gerente intenta publicarla, Entonces el sistema muestra un error indicando que no cumple con los requisitos mínimos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS20</td>
+      <td>Cambiar estado de convocatoria a cerrado</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.
+      </td>
+      <td>
+        Escenario 1: Cierre exitoso Dado que la fecha límite de la convocatoria ha vencido, Cuando el gerente la marca como Cerrada, Entonces el sistema actualiza su estado y la retira de la vista pública. Escenario 2: Intento de cierre prematuro Dado que la convocatoria aún se encuentra activa, Cuando el gerente intenta cerrarla antes de la fecha, Entonces el sistema solicita confirmación antes de proceder.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS21</td>
+      <td>Borrar convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.
+      </td>
+      <td>
+        Escenario 1: Eliminación válida Dado que el gerente desea eliminar una convocatoria inactiva, Cuando confirma la acción, Entonces el sistema elimina el registro y muestra un mensaje de éxito. Escenario 2: Eliminación no autorizada Dado que un usuario intenta borrar una convocatoria que no creó, Cuando envía la solicitud, Entonces el sistema rechaza la acción y notifica falta de permisos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS22</td>
+      <td>Obtener convocatoria por Id</td>
+      <td>
+        Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.
+      </td>
+      <td>
+        Escenario 1: ID válido Dado que un estudiante selecciona una convocatoria, Cuando el sistema consulta la base de datos, Entonces devuelve el detalle completo de la convocatoria seleccionada. Escenario 2: ID inválido Dado que el sistema recibe un ID que no existe, Cuando intenta recuperar la información, Entonces muestra un mensaje indicando que la convocatoria no fue encontrada.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS23</td>
+      <td>Obtener todas las convocatorias</td>
+      <td>
+        Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.
+      </td>
+      <td>
+        Escenario 1: Listado general Dado que un estudiante ingresa a Explorar Convocatorias, Cuando el sistema solicita los registros activos, Entonces muestra una lista con las convocatorias publicadas. Escenario 2: Búsqueda filtrada Dado que el estudiante aplica un filtro por categoría o empresa, Cuando el sistema procesa la búsqueda, Entonces muestra solo las convocatorias que coinciden con el criterio.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS24</td>
+      <td>Crear Proyecto</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.
+      </td>
+      <td>
+        Escenario 1: Creación exitosa Dado que un estudiante autenticado completa el formulario de creación de proyecto, Cuando presiona el botón Guardar, Entonces el sistema crea el registro del proyecto y lo asocia al ID del estudiante. Escenario 2: Campos incompletos Dado que el estudiante deja vacíos campos obligatorios (como título o descripción), Cuando intenta guardar el proyecto, Entonces el sistema muestra un mensaje indicando que debe completar los campos requeridos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS25</td>
+      <td>Actualizar Proyecto</td>
+      <td>
+        Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.
+      </td>
+      <td>
+        Escenario 1: Actualización válida Dado que un estudiante accede a su proyecto, Cuando modifica el contenido y guarda los cambios, Entonces el sistema actualiza la información correctamente en la base de datos. Escenario 2: Actualización no permitida Dado que un usuario intenta editar un proyecto que no le pertenece, Cuando realiza la solicitud, Entonces el sistema rechaza la acción y muestra un mensaje de acceso denegado.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS26</td>
+      <td>Cambiar estado de proyecto a publicado</td>
+      <td>
+        Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.
+      </td>
+      <td>
+        Escenario 1: Publicación exitosa Dado que un estudiante ha completado todos los datos del proyecto, Cuando selecciona la opción Publicar, Entonces el sistema cambia el estado del proyecto a Publicado y lo muestra en la sección de exploración. Escenario 2: Publicación rechazada Dado que el proyecto está incompleto, Cuando el estudiante intenta publicarlo, Entonces el sistema muestra un mensaje de error indicando que faltan datos requeridos.
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS27</td>
+      <td>Cambiar estado de proyecto a cerrado</td>
+      <td>
+        Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.
+      </td>
+      <td>
+        Escenario 1: Cierre exitoso Dado que el proyecto está actualmente publicado, Cuando el estudiante selecciona la opción Cerrar proyecto, Entonces el sistema cambia el estado a Cerrado y lo retira de la lista pública. Escenario 2: Cierre inválido Dado que el proyecto ya está en estado Cerrado, Cuando el usuario intenta cerrarlo nuevamente, Entonces el sistema muestra un aviso indicando que ya no es posible la acción.
+      <td></td>
+    </tr>
+    <tr>
+      <td>SP01</td>
+      <td>Evaluar frameworks móviles para el desarrollo</td>
+      <td>
+        Como equipo de desarrollo, queremos analizar diferentes frameworks móviles (Flutter, React Native, Ionic) para determinar cuál ofrece mejor rendimiento y compatibilidad con la infraestructura del proyecto.
+      </td>
+      <td>
+        Escenario 1: Prueba de rendimiento en Flutter Dado que se desarrolla un prototipo base de la aplicación en Flutter, Cuando se ejecuta en distintos dispositivos Android, Entonces se registran los tiempos de carga, consumo de recursos y estabilidad general. Escenario 2: Comparación con React Native Dado que se replica el mismo prototipo en React Native, Cuando se evalúan las integraciones con Firebase y la fluidez de la interfaz, Entonces se documentan los resultados y se selecciona el framework más eficiente.
+      <td></td>
+    </tr>
+    <tr>
+      <td>SP02</td>
+      <td>Validar integración de Firebase Authentication y Firestore</td>
+      <td>
+        Como desarrollador, quiero realizar pruebas de integración entre Firebase Authentication y Firestore, para confirmar que ambos servicios permiten gestionar usuarios, roles y datos de forma segura y sincronizada.
+      </td>
+      <td>
+        Escenario 1: Creación de usuario y registro en Firestore Dado que un nuevo usuario completa su registro, Cuando se autentica mediante Firebase Authentication, Entonces sus datos se guardan automáticamente en la colección correspondiente dentro de Firestore. Escenario 2: Verificación de roles en autenticación Dado que un usuario autenticado intenta acceder a funciones restringidas, Cuando su rol no corresponde a la acción solicitada, Entonces el sistema bloquea el acceso y muestra un mensaje de restricción.
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
@@ -1954,6 +2366,195 @@ Empathy Map Segmento 2:
       <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
       <td>8</td>
     </tr>
+    <tr>
+<td>19</td>
+<td>TS01</td>
+<td>Configuración de autenticación y roles</td>
+<td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>20</td>
+<td>TS02</td>
+<td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+<td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>21</td>
+<td>TS03</td>
+<td>Bottom Navigation Bar</td>
+<td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>22</td>
+<td>TS04</td>
+<td>Registrarse</td>
+<td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>23</td>
+<td>TS05</td>
+<td>Iniciar Sesión</td>
+<td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>24</td>
+<td>TS06</td>
+<td>Actualizar Usuario</td>
+<td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>25</td>
+<td>TS07</td>
+<td>Obtener todos los usuarios</td>
+<td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>26</td>
+<td>TS08</td>
+<td>Obtener usuario por Id</td>
+<td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>27</td>
+<td>TS09</td>
+<td>Crear perfil de estudiante</td>
+<td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>28</td>
+<td>TS10</td>
+<td>Actualizar perfil de estudiante por Id</td>
+<td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>29</td>
+<td>TS11</td>
+<td>Obtener perfil de estudiante por Id</td>
+<td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>30</td>
+<td>TS12</td>
+<td>Obtener perfiles de estudiante</td>
+<td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>31</td>
+<td>TS13</td>
+<td>Crear perfil de manager</td>
+<td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>32</td>
+<td>TS14</td>
+<td>Actualizar perfil de manager por Id</td>
+<td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>33</td>
+<td>TS15</td>
+<td>Obtener perfil de manager por Id</td>
+<td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>34</td>
+<td>TS16</td>
+<td>Obtener perfiles de manager</td>
+<td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>35</td>
+<td>TS17</td>
+<td>Crear convocatoria</td>
+<td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>36</td>
+<td>TS18</td>
+<td>Actualizar convocatoria</td>
+<td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>37</td>
+<td>TS19</td>
+<td>Cambiar estado de convocatoria a publicado</td>
+<td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>38</td>
+<td>TS20</td>
+<td>Cambiar estado de convocatoria a cerrado</td>
+<td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>39</td>
+<td>TS21</td>
+<td>Borrar convocatoria</td>
+<td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>40</td>
+<td>TS22</td>
+<td>Obtener convocatoria por Id</td>
+<td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>41</td>
+<td>TS23</td>
+<td>Obtener todas las convocatorias</td>
+<td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>42</td>
+<td>TS24</td>
+<td>Crear Proyecto</td>
+<td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>43</td>
+<td>TS25</td>
+<td>Actualizar Proyecto</td>
+<td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>44</td>
+<td>TS26</td>
+<td>Cambiar estado de proyecto a publicado</td>
+<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>45</td>
+<td>TS27</td>
+<td>Cambiar estado de proyecto a cerrado</td>
+<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
+<td>1</td>
+</tr>
   </tbody>
 </table>
 
@@ -2307,7 +2908,7 @@ A continuación se muestran los escenarios planteados:
 #### 2.5.3.1.Software Architecture Context Level Diagrams <br>
 Este diagrama representa la visión de más alto nivel del sistema InnoSpace Platform, mostrando las interacciones externas que mantienen los actores con la plataforma.
 
-![InnoSpace-diagram-context](./images/Context-Diagram.png)
+![InnoSpace-diagram-context](./images/Context-Diagrams.png)
 
 <p align="center">
   Elaboración propia
@@ -2316,7 +2917,7 @@ Este diagrama representa la visión de más alto nivel del sistema InnoSpace Pla
 #### 2.5.3.2.Software Architecture Container Level Diagrams <br>
 En este nivel la arquitectura se organiza en tres contenedores principales: la Mobile App, que ofrece el acceso de los usuarios; la API Application, que gestiona la lógica de negocio y comunica la app con el sistema; y la Database, donde se almacenan usuarios, proyectos y postulaciones.
 
-![InnoSpace-diagram-containers](./images/Container-Diagrams.png)
+![InnoSpace-diagram-containers](./images/Container-Diagramss.png)
 
 <p align="center">
   Elaboración propia
@@ -3208,6 +3809,1723 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
   Elaboración propia
 </p>
 
+---
+
+## Capítulo III: Solution UI/UX Design
+
+### 3.1. Product design
+
+#### 3.1.1. Style Guidelines
+
+- _Branding:_    
+    - La identidad visual de Innospace es moderna, innovadora y con un toque futurista, reflejando su enfoque en la tecnología y el espacio. El logo, con la figura de un cohete, transmite dinamismo y la idea de exploración y crecimiento. El color morado aporta sofisticación, mientras que los tonos de azul y blanco refuerzan la confiabilidad y accesibilidad.
+    - Uso del logotipo: El logotipo de Innospace debe emplearse preferentemente sobre fondos claros, como blanco, gris claro o tonos pastel neutros, lo que permitirá que los colores del logo resalten. Si se utiliza sobre fondos oscuros, se recomienda emplear la versión en blanco del logo para mantener su visibilidad y claridad.
+    - No se permite:
+        - Rotar el logotipo.
+        - Aplicar sombras, contornos o degradados, ya que esto puede restar claridad a la imagen del logo.
+        - Modificar la tipografía original del nombre "Innospace", para mantener la consistencia de la identidad de marca.
+
+<br>
+
+<p align="center">
+  <img src="images/chapteriii/logoInnoscape.jpg"/ width=70%>
+</p>
+
+<p align="center">
+  Logo Innospace - Elaboración propia
+</p>
+
+<br>
+
+
+- _Typography:_
+    - La tipografía utilizada en el logotipo es una fuente sans-serif geométrica, moderna y legible. Para mantener coherencia, se adoptará un sistema tipográfico similar en toda la aplicación.
+
+    - Fuente primaria: Nunito Sans
+        - Uso: Títulos, botones, navegación.
+        - Estilos permitidos: Regular, SemiBold, Bold.
+
+    - Fuente secundaria: Inter
+        - Uso: Cuerpos de texto largos, formularios.
+
+    - Tamaños recomendados:
+        - Título principal (H1): 32px / 700
+        - Subtítulo (H2): 24px / 600
+        - Texto normal: 16px / 400
+        - Nota o ayuda: 12px / 400
+    
+        | Nombre de fuente | Tipografia |
+        |:----------------:|:----------:|
+        | Nunito Sans | <img src="images/chapteriii/tipografiaUniPafi.png" alt="nunito-sans-font" width=200px/> |
+        | Inter | <img src="images/chapteriii/tipografiaUniPafi2.png" alt="inter-font" width=200px/> |        
+              
+- _Colors:_
+    - La paleta de colores de Innospace se basa en una combinación de tonos vibrantes y suaves, que ayudan a transmitir innovación, confianza y profesionalismo. El morado es el color protagonista, con el azul y blanco complementando la identidad visual. Además, se incluye un acento en amarillo cálido para las llamadas a la acción<br><br>
+    
+    | Color | Hex | Uso Principal | 
+    |:-----:|:---:|:-------------:|
+    |Morado| #6A1B9A | Logotipo, títulos destacados, secciones clave|
+    |Azul| #1E3A8A | Texto principal, botones, enlaces, secciones de confianza|
+    |Blanco| #FFFFFF | Fondo base, formularios, claridad visual|
+    |Gris Claro| #B0BEC5 | Bordes, textos secundarios, fondos suaves|
+    |Azul Claro| #3F82D4| Botones secundarios, enlaces, etiquetas |
+    |Amarillo Cálido| #FFD400|Llamadas a la acción, alertas, iconos destacados|
+<br>
+
+<p align="center">
+    <img src="images/chapteriii/ColoresInnoSpace.png"/ width=70%>
+</p>
+
+<p align="center">
+    System Colors InnoSpace - Elaboración propia
+</p>
+
+<br>
+
+- _Spacing:_
+    - La coherencia en el espaciado es clave para una interfaz limpia y clara.
+        - Espaciado entre secciones principales: 32px
+        - Margen interno de botones y campos: 12px vertical / 20px horizontal
+        - Separación entre elementos repetitivos (cards, ítems): 16px
+        - Padding general de contenedores: 24px
+
+- _Tono de comunicación y lenguaje:_
+    - El tono de InnoSpace es cercano, entusiasta y profesional.
+    
+    | Estilo de redacción | Tono predominante |
+    |---------------------|-------------------|
+    | 1. Amigable y claro <br> 2. Sin tecnicismos innecesarios <br> 3. Verbos en voz activa <br> 4. Enfocado en beneficios (“Descubre experiencias únicas”, “Reserva en segundos”)| 1. Formal-casual: Respetuoso, pero no rígido. <br> 2. Entusiasta: Inspirador, motivador, acogedor. <br> 3. Directo: Frases cortas y llamadas a la acción claras. |
+
+### 3.1.2. Information Architecture
+
+La arquitectura de información de InnoSpace define cómo se organizará, etiquetará, navegará y buscará el contenido dentro de la aplicación móvil y su Landing Page. El objetivo es permitir que los usuarios interactúen de manera fluida con la plataforma, accedan fácilmente a los recursos clave y logren sus objetivos con el mínimo esfuerzo cognitivo.
+
+#### 3.1.2.1. Organization Systems 
+
+<br><br>
+
+InnoSpace utilizará una combinación de organización jerárquica, secuencial y matricial, aplicada estratégicamente tanto en la Landing Page como en las secciones funcionales de la aplicación móvil. Se aplicarán también diferentes esquemas de categorización.
+
++ Jerarquía visual:
+
+La jerarquía visual en InnoSpace se aplicará en vistas clave de la aplicación móvil. En la Landing Page, el contenido se organizará en secciones jerárquicas que priorizan el título, los beneficios clave y llamados a la acción como "Explora tu próximo proyecto" o "Únete a InnoSpace ahora". En el dashboard del usuario, las oportunidades recomendadas, las notificaciones y los próximos pasos estarán destacados visualmente con tarjetas y gráficos resaltados. En el dashboard del gerente, se destacarán las vistas de los proyectos activos, las notificaciones de validación y los próximos pasos a seguir, optimizando la gestión desde el primer acceso.<br><br>
+
++ Organización secuencial:
+
+La organización secuencial en InnoSpace se aplicará en los procesos clave que requieran un acompañamiento paso a paso. En el onboarding del usuario, el flujo estará compuesto por etapas guiadas que incluyen el registro, la carga del perfil, publicación del portafolio y la vinculación con proyectos. Para los gerentes, la publicación de proyectos se estructurará como un formulario inteligente que guiará al usuario desde los datos generales hasta los filtros específicos para encontrar el candidato ideal.<br><br>
+
++ Organización matricial:
+
+La organización matricial en InnoSpace facilitará la exploración libre de contenidos mediante el uso de cuadrículas y tarjetas visuales. En la vista de proyectos, las oportunidades se organizarán en una grilla que podrá filtrarse dinámicamente por criterios relevantes. Para los gerentes, la vista de postulantes mostrará tarjetas con información clave como nombre, carrera, portafolio, puntuación y habilidades, permitiendo comparaciones rápidas entre los candidatos.<br><br>
+
++ Esquemas de categorización:
+
+  + **Por audiencia:** El contenido se adaptará a si el usuario es un estudiante o un gerente, con rutas diferenciadas y menús personalizados.
+
+  + **Alfabético:** Para búsquedas de proyectos, habilidades y empresas.
+
+  + **Cronológico:** En el historial de entregas, postulaciones y validaciones.<br><br>
+
+#### 3.1.2.2. Labeling Systems  
+
+<br><br>
+
+El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consistente en la interfaz de la Landing Page. Se emplearán términos cortos y precisos que permitan a los usuarios tener una mejor experiencia con la plataforma
+
++ Landing Page:
+
+  + Inicio (logo)
+
+  + ¿Cómo funciona?
+
+  + Proyectos exitosos
+
+  + Nosotros
+
+  + Iniciar Sesión
+
+<br>
+
+<p align="center">
+  <img src="images/chapteriii/Labeling-System.png" alt="wireframe" width="1000">
+</p>
+
+<p align="center">
+    Labeling System - Elaboración propia
+</p>
+
+#### 3.1.2.3. SEO Tags and Meta Tags  
+
+<br><br>
+
+Las meta etiquetas permitirán estructurar adecuadamente la información que los buscadores necesitan para indexar y posicionar el contenido del sitio. Serán definidas de forma diferenciada para la Landing Page y la Aplicación Móvil.
+
++ Landing Page:
+
+  + Título<br><br>
+
+  ```html
+  <title>InnoSpace</title>
+  ```
+
+  + Codificación de caracteres<br><br>
+
+  ```html
+  <meta charset="utf-8">
+  ```
+
+  + Meta Description<br><br>
+
+  ```html
+  <meta name="description" content="El puente directo entre el talento universitario y los desafios de la industria"/>
+  ```
+
+  + Keywords<br><br>
+
+  ```html
+  <meta name="keywords" content="innovación, proyectos innovadores, postular"/>
+  ```
+
+  + Autor y Derechos de Autor<br><br>
+
+  ```html
+  <meta name="author" content="InnoSpace Team"/>
+  <meta name="copyright" content="© 2025 InnoSpace. Todos los derechos reservados." />
+  ```
+
+<br>
+
+#### 3.1.2.4. Searching Systems  
+
+<br><br>
+
+Dado que InnoSpace concentrará gran volumen de información (proyectos publicados por empresas, ideas innovadoras de estudiantes, perfiles académicos y portafolios), la app contará con un buscador centralizado y filtros contextuales, optimizados para pantallas móviles
+
+Opciones de búsqueda:
+
+- Buscar proyectos de empresas.
+
+- Buscar ideas innovadoras de estudiantes.
+
+- Buscar estudiantes por habilidades y nivel académico.
+
+- Buscar convocatorias disponibles con filtros avanzados.
+
+- Buscar proyectos guardados en favoritos.
+
+Filtros disponibles:
+
+Para estudiantes:
+
+- Modalidad: Presencial / Remoto / Híbrido.
+
+- Habilidades requeridas (Ej: programación, marketing, diseño).
+
+- Nivel académico: Pregrado, Posgrado, Técnico.
+
+- Área académica: Ingeniería, Negocios, Salud, etc.
+
+- Duración del proyecto: Corto plazo, Mediano, Largo plazo.
+
+Para gerentes:
+
+- Área académica: Ingeniería, Negocios, Salud, etc.
+
+- Estado del proyecto: En busca de Inversion y Contratación
+
+Visualización de resultados:
+
+Lista interactiva con tarjetas que muestran:
+
+- Título del proyecto o idea.
+
+- Descripción corta.
+
+- Habilidades requeridas.
+
+- Universidad/empresa asociada.
+
+- Estado (vigente o cerrado).
+
+- Botones de acción: Ver más, Guardar en favoritos, Postular/Contactar.
+
+- En caso de no encontrar resultados, se mostrará un mensaje: “No se encontraron coincidencias.”.
+
+#### 3.1.2.5. Navigation Systems  
+
+<br><br>
+
+La navegación en InnoSpace está diseñada para ser clara, intuitiva y responsiva, guiando a los usuarios a través del landing page y la aplicación mobile, de forma que logren cumplir sus objetivos sin fricción.
+
+Landing Page:
+
+El sitio web implementa un diseño de una sola página con scroll (one-page scroll), donde el usuario navega desplazándose verticalmente por las secciones de Inicio, ¿Cómo funciona?, Proyectos exitosos y Nosotros. Esta experiencia está complementada por un encabezado fijo que permanece visible en todo momento y ofrece accesos directos a cada sección junto con el botón de Iniciar sesión. Para impulsar la interacción, al final de cada bloque se integran llamadas a la acción (CTAs) relevantes como "Regístrate ahora" (para estudiantes y gerentes) y "Publica tu primer proyecto". Este acceso directo desde la página de inicio hacia los formularios de registro está específicamente diseñado para garantizar un flujo de registro ágil y una experiencia de usuario optimizada.
+
+Mobile App:
+
+La aplicación integra un sistema de navegación dual que combina flujos guiados para procesos críticos con exploración libre para descubrimiento. Para acciones esenciales como registro y perfil, publicación de proyectos, propuesta de ideas innovadoras y postulaciones, se implementa una navegación secuencial que divide cada proceso en pantallas consecutivas con retroalimentación visual. Paralelamente, un menú inferior fijo ofrece acceso inmediato a diferentes secciones clave: Proyectos, Ideas Innovadoras, Portafolio, Postulaciones y Perfil. El sistema se complementa con indicadores de estado claros que incluyen etiquetas de postulación, botones de postulación contextuales, íconos de favoritos resaltados y diferenciación visual entre elementos validados y pendientes en el portafolio, creando un ecosistema de navegación intuitivo y transparente.
+
+### 3.1.3. Landing Page UI Desing
+
+#### 3.1.3.1 Landing Page Wireframe
+
+<p align="center">
+  <img src="images/desing/landingpage-wireframe.jpg" alt="wireframe" width="1000">
+</p>
+
+#### 3.1.3.2 Landing Page Mock-up
+
+<p align="center">
+  <img src="images/desing/landingpage-mockup.jpg" alt="mockup" width="1000">
+</p>
+
+### 3.1.4 Mobile Applications UX/UI Design
+
+#### 3.1.4.1 Mobile Applications Wireframes
+
+Los wireframes de InnoSpace fueron diseñados bajo un enfoque de diseño centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Cada vista presenta una navegación intuitiva mediante una barra inferior fija y el uso consistente de tarjetas, íconos y botones de acción, facilitando tareas como explorar proyectos, crear convocatorias y gestionar solicitudes. 
+
+[https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3](https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3)
+
+- Iniciar sesión / Registrarse:
+
+<p align="center">
+  <img src="images/wirelogin.png" alt="mockup" width="500">
+</p>
+
+- Dashboard
+
+<p align="center">
+  <img src="images/wiredashboard.png" alt="mockup" width="200">
+</p>
+
+- Proyectos
+
+<p align="center">
+  <img src="images/wireproj.png" alt="mockup" width="200">
+</p>
+
+- Evaluaciones
+
+<p align="center">
+  <img src="images/wireeval.png" alt="mockup" width="400">
+</p>
+
+#### 3.1.4.2 Mobile Applications Wireflows Diagrams
+
+**Wireflow 1: Login / Registrarse**
+
+- **User Goal:**  
+  Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma según mi rol.
+
+- **User Persona:**  
+  Estudiante y Gerente de empresa  
+
+- **Flujo:**  
+  - El usuario accede a la pantalla inicial y selecciona **“Acceder”**.  
+  - Elige su rol mediante un botón conmutador (**Estudiante / Gerente**).  
+  - Si ya posee cuenta, introduce su **correo y contraseña** para iniciar sesión.  
+  - Si es nuevo, selecciona **“Crear cuenta”** y completa el formulario con nombre, correo, contraseña y datos adicionales (carrera o empresa).  
+  - Al finalizar, el sistema lo redirige automáticamente a su **dashboard** correspondiente.
+
+<p align="center">
+  <img src="images/dwirelogin.png" alt="mockup" width="400">
+</p>
+
+**Wireflow 2: Publicar convocatoria (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero crear una nueva convocatoria para atraer estudiantes interesados en participar en proyectos de innovación.
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde el dashboard, el gerente selecciona la sección **“Mis Convocatorias”**.  
+  - Presiona el botón **“+ Crear convocatoria”**.  
+  - Completa el formulario con **título, descripción, habilidades requeridas, categoría** y **fecha límite**.  
+  - Elige entre **“Guardar como borrador”** o **“Publicar”**.  
+  - La convocatoria aparece listada en la vista principal con estado **“Activa”**.  
+  - Puede **editarla** o **cerrarla** posteriormente.
+
+<p align="center">
+  <img src="images/dwireconv.png" alt="mockup" width="500">
+</p>
+
+**Wireflow 3: Explorar proyectos (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero explorar proyectos creados por estudiantes para identificar ideas innovadoras y posibles colaboradores.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde la barra inferior, selecciona la opción **“Explorar”**.  
+  - Visualiza una lista de proyectos de estudiantes con barra de **búsqueda y filtros**.  
+  - Al seleccionar un proyecto, accede a su **detalle completo** con descripción, autores y categoría.  
+  - Puede presionar **“Enviar solicitud”** para contactar al estudiante.  
+  - El sistema registra la solicitud en la sección **“Solicitudes”**.
+
+<p align="center">
+  <img src="images/dwirexplo.png" alt="mockup" width="500">
+</p>
+
+**Wireflow 4: Solicitudes enviadas (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero revisar el estado de las solicitudes que he enviado a los estudiantes.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Accede a la pestaña **“Solicitudes”** desde la barra inferior.  
+  - Revisa la lista de solicitudes enviadas, con estado **Pendiente**, **Aceptada** o **Rechazada**.  
+  - Al seleccionar una solicitud, se muestra el **detalle del proyecto y mensaje enviado**.  
+  - Puede **enviar un nuevo mensaje**, **cancelar la solicitud** o **ver el portafolio del estudiante**.  
+  - El estado se actualiza según la respuesta del estudiante.
+
+<p align="center">
+  <img src="images/dwiresoli.png" alt="mockup" width="500">
+</p>
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+
+
+Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y coherencia visual entre los perfiles de estudiante y gerente. Las vistas mantienen una navegación intuitiva con barra inferior fija y uso consistente de tarjetas, íconos y botones, facilitando la interacción y gestión dentro de la plataforma.
+
+[https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3](https://www.figma.com/design/2HTewxO6N3TGfTdiep11O3/InnoSpace?node-id=1-3)
+
+- Iniciar sesión / Registrarse:
+
+<p align="center">
+  <img src="images/chapter4-sprint1/mockuplogin.png" alt="mockup" width="500">
+</p>
+
+- Dashboards
+
+<p align="center">
+  <img src="images/chapter4-sprint1/dashboards.png" alt="mockup" width="400">
+</p>
+
+
+- Perfil y Proyectos
+
+<p align="center">
+  <img src="images/chapter4-sprint1/perfil_proyects.png" alt="mockup" width="200">
+</p>
+
+- Evaluaciones
+
+<p align="center">
+  <img src="images/chapter4-sprint1/evaluacioens.png" alt="mockup" width="400">
+</p>
+
+
+
+
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+**User Flow 1: Login / Registrarse**
+
+- **User Goal:**  
+  Como nuevo usuario, quiero ingresar o crear una cuenta, para acceder a la plataforma según mi rol.
+
+- **User Persona:**  
+  Estudiante y Gerente de empresa  
+
+- **Flujo:**  
+  - El usuario accede a la pantalla inicial y selecciona **“Acceder”**.  
+  - Elige su rol mediante un botón conmutador (**Estudiante / Gerente**).  
+  - Si ya posee cuenta, introduce su **correo y contraseña** para iniciar sesión.  
+  - Si es nuevo, selecciona **“Crear cuenta”** y completa el formulario con nombre, correo, contraseña y datos adicionales (carrera o empresa).  
+  - Al finalizar, el sistema lo redirige automáticamente a su **dashboard** correspondiente.
+
+<p align="center">
+  <img src="images/chapteriii/loginregisdter.png" alt="mockup" width="400">
+</p>
+
+**User Flow 2: Publicar convocatoria (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero crear una nueva convocatoria para atraer estudiantes interesados en participar en proyectos de innovación.
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde el dashboard, el gerente selecciona la sección **“Mis Convocatorias”**.  
+  - Presiona el botón **“+ Crear convocatoria”**.  
+  - Completa el formulario con **título, descripción, habilidades requeridas, categoría** y **fecha límite**.  
+  - Elige entre **“Guardar como borrador”** o **“Publicar”**.  
+  - La convocatoria aparece listada en la vista principal con estado **“Activa”**.  
+  - Puede **editarla** o **cerrarla** posteriormente.
+
+<p align="center">
+  <img src="images/chapteriii/usereflow2.png" alt="mockup" width="500">
+</p>
+
+**User Flow 3: Explorar proyectos (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero explorar proyectos creados por estudiantes para identificar ideas innovadoras y posibles colaboradores.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Desde la barra inferior, selecciona la opción **“Explorar”**.  
+  - Visualiza una lista de proyectos de estudiantes con barra de **búsqueda y filtros**.  
+  - Al seleccionar un proyecto, accede a su **detalle completo** con descripción, autores y categoría.  
+  - Puede presionar **“Enviar solicitud”** para contactar al estudiante.  
+  - El sistema registra la solicitud en la sección **“Solicitudes”**.
+
+<p align="center">
+  <img src="images/chapteriii/userflow3.png" alt="mockup" width="500">
+</p>
+
+**User Flow 4: Solicitudes enviadas (Gerente)**
+
+- **User Goal:**  
+  Como gerente, quiero revisar el estado de las solicitudes que he enviado a los estudiantes.  
+
+- **User Persona:**  
+  Gerente de empresa  
+
+- **Flujo:**  
+  - Accede a la pestaña **“Solicitudes”** desde la barra inferior.  
+  - Revisa la lista de solicitudes enviadas, con estado **Pendiente**, **Aceptada** o **Rechazada**.  
+  - Al seleccionar una solicitud, se muestra el **detalle del proyecto y mensaje enviado**.  
+  - Puede **enviar un nuevo mensaje**, **cancelar la solicitud** o **ver el portafolio del estudiante**.  
+  - El estado se actualiza según la respuesta del estudiante.
+
+<p align="center">
+  <img src="images/chapteriii/solictudesenviadas4.png" alt="mockup" width="500">
+</p>
+
+
+
+
+
+#### 3.1.4.5. Mobile Applications Prototyping
+
+Se realizo un video del prototipo de nuestro Applications Mobile para quese pueda visualizar el flujo de nuestra aplicación para los usuarios que son estudiantes
+
+<p align="center">
+  <img src="images/prototipado.jpg" alt="Prototyping" width="500">
+</p>
+
+Link del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/EfY-3bWKxx9DhxT1rwk5iCgBIA8mULaSjl5grD_KoIsf1g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MAILrq 
+
+
+## Capitulo IV: Product Implementation & Validation
+
+### 4. Product Implementation & Validation
+
+#### 4.1 Software Configuration Management
+
+En este ítem se detallan las reglas, lineamientos y procesos establecidos durante el desarrollo de InnoSpace, la aplicación móvil de la startup UniPafi. El propósito de estas directrices es asegurar la integridad, trazabilidad y consistencia del software a lo largo de todo su ciclo de vida; desde la fase inicial de desarrollo, pasando por la integración y las pruebas, hasta el despliegue y mantenimiento en producción.
+
+#### 4.1.1 Software Development Environment Configuration
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST. Para el desarrollo de la landing page utilizamos HTML, CSS y JavaScript.
+
+| Herramienta     | Descripción                                                                   | Enlace                                 |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| Android         | Lenguaje de programación utilizado para la creación de la mobile application | https://developer.android.com/         |
+| Jetpack Compose | Framework utilizado para la creación de la mobile application                 | https://developer.android.com/compose  |
+| Spring Boot     | Framework utilizado para la creación de la API REST                           | https://spring.io/projects/spring-boot |
+| Tailwind CSS    | Framework utilizado para la creación de la landing page                       | https://tailwindcss.com/               |
+
+**Software Deployment**
+
+Se empleó los siguientes software para desplegar los servicios del proyecto. Base de datos: Railway, API y Landing Page: Render, Mobile Application: Android Studio.
+
+| Herramienta    | Descripción                                                     | Enlace                               |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------ |
+| MySQL      | Base de datos utilizada para el proyecto                         | https://www.mysql.com/                 |
+| Azure Cloud Services         | API y Landing Page utilizada para el proyecto                    | https://azure.microsoft.com/                  |
+| Android Studio | Herramienta utilizada para la creación de la mobile application | https://developer.android.com/studio |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos Markdown, y para el trabajo colaborativo Github.
+
+| Herramienta | Descripción                                                      | Enlace                          |
+| ----------- | ----------------------------------------------------------------- | ------------------------------- |
+| Markdown    | Lenguaje de marcado utilizado para la documentación del proyecto | https://www.markdownguide.org/  |
+| Github      | Para gestionar la documentación del proyecto                     | https://github.com/UniPafi/project-report-InnoSpace |
+
+#### 4.1.2 Source Code Management
+
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+
+| Producto           | Repositorio       | Enlace                                     |
+| ------------------ | ----------------- | ------------------------------------------ |
+| Mobile Application | kotlin-app-innospace | https://github.com/UniPafi/kotlin_app_InnoSpace |
+| Backend            | backend-innospace    | https://github.com/UniPafi/backend-InnoSpace    |
+| Landing Page       | landingpage-innospace| https://github.com/UniPafi/landing-page-InnoSpace    |
+
+**Flujo de trabajo GitFlow**
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+
+
+### 4.1.3 Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código claro, coherente y fácil de mantener, el proyecto InnoSpace adopta las convenciones de estilo propuestas por Google para HTML/CSS, JavaScript y Kotlin.
+La aplicación de estas directrices garantiza la uniformidad del código en toda la plataforma, facilita el trabajo colaborativo entre los desarrolladores y mejora la comprensión del sistema.
+Además, estas prácticas contribuyen a reducir errores durante las etapas de desarrollo, prueba y mantenimiento, asegurando la calidad y escalabilidad del software de InnoSpace.
+
+#### Convenciones para HTML/CSS (Google HTML/CSS Style Guide)
+
+Durante el desarrollo de la **Landing Page de UniPafi (InnoSpace)**, se aplicaron las buenas prácticas recomendadas por la **guía de estilo de Google para HTML y CSS**, con el fin de mantener un código limpio, semántico y accesible:
+
+* Declarar siempre el tipo de documento (`<!DOCTYPE html>`) al inicio del archivo.
+* Utilizar minúsculas en los nombres de las etiquetas HTML (`<p>`, `<h1>`, `<section>`, etc.).
+* Asegurar el cierre correcto de todos los elementos HTML (por ejemplo, `<p></p>`).
+* Colocar entre comillas los valores de los atributos (por ejemplo, `<div class="container">`).
+* Incluir los atributos **alt**, **width** y **height** en las imágenes para optimizar la accesibilidad y el rendimiento.
+* Mantener las líneas de código cortas y ordenadas para facilitar la lectura y el mantenimiento.
+* No omitir el elemento `<title>` dentro del `<head>`, garantizando la correcta identificación de la página.
+
+#### Convenciones para JavaScript (Google JavaScript Style Guide)
+Para el desarrollo de las funcionalidades interactivas de la Landing Page, se siguieron las convenciones de la Google JavaScript Style Guide:
+
+* Utilizar camelCase para nombres de variables y funciones (calculateSum(), userDataList).
+* Usar comillas simples para definir cadenas de texto ('mensaje').
+* Finalizar todas las sentencias con punto y coma ;.
+* Evitar var, priorizando let o const según el caso.
+* Usar nombres descriptivos y evitar abreviaturas innecesarias.
+* Incluir comentarios claros para funciones y bloques complejos.
+  
+Estas prácticas favorecen la uniformidad, previenen errores de interpretación y facilitan la colaboración entre desarrolladores.
+
+#### Convenciones para Kotlin (Google Kotlin Style Guide)
+En el desarrollo de la aplicación móvil Android, se aplicaron las guías oficiales de Google Kotlin Style Guide, promoviendo un código expresivo, seguro y fácil de mantener:
+
+* Usar camelCase para variables, funciones y métodos (getUserData(), userName).
+* Declarar constantes con val y variables mutables con var solo cuando sea necesario.
+* Omitir el punto y coma al final de las sentencias.
+* Aplicar sangría de 4 espacios y bloques bien estructurados.
+* Utilizar funciones de extensión, lambdas y expresiones funcionales donde sea apropiado.
+* Nombrar las clases y funciones con claridad y precisión.
+* Dividir clases largas en archivos separados para mejorar la legibilidad.
+
+Estas convenciones permitieron mantener un código Android idiomático, alineado con las prácticas modernas del ecosistema Kotlin.
+
+### 4.1.4 Software Deployment Configuration
+
+Para el despliegue de la Landing Page del presente proyecto, perteneciente a la plataforma UniPafi (InnoSpace), se empleó una arquitectura distribuida basada en contenedores y servicios independientes, garantizando la escalabilidad, disponibilidad y mantenimiento modular del sistema. De tal manera, el proceso de despliegue se llevó a cabo siguiendo los pasos principales recomendados por la guía de GitHub Pages:
+
+* Se creó un repositorio en GitHub con todos los archivos fuente del sitio (HTML, CSS, JavaScript, imágenes y recursos).
+
+* Se aseguró que el archivo principal se denomine index.html y que los recursos estén organizados en carpetas como /css, /js e /img.
+
+* En la configuración del repositorio, se accedió a Settings → Pages, seleccionando la rama main y la carpeta raíz (root) como fuente de publicación.
+
+* GitHub generó automáticamente la URL pública donde la Landing Page quedó disponible.
+
+* Finalmente, se verificó la correcta carga de estilos, scripts e imágenes desde distintos dispositivos, garantizando una experiencia responsiva y fluida.
+
+[Enlace a la Landing Page desplegada](https://unipafi.github.io/landing-page-InnoSpace/)
+
+Este enlace dirige a la versión en vivo de la Lading Page, la cual es accesible globalmente desde cualquier dispositivo. Esto te permite validar su funcionalidad y evaluar la apariencia visual.
+
+#### Proceso del Despliegue 
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/deploy_github.png" alt="Github Pages Configuration" style="width:70%;"/>
+</div>
+
+#### Resultado del Despliegue
+
+<div style="text-align: center;">
+  <img src="images/chapter4-sprint1/landing_page.png" alt="Evidencia del Deploy" style="width:70%;"/>
+</div>
+
+El despliegue nos proveyó de una página funcional desde el inicio del proyecto, haciendo más sencillo que usuarios, stakeholders y evaluadores pudieran revisarla y aprobarla oportunamente
+
+## 4.2. Landing Page & Mobile Application Implementation
+
+Esta sección detalla todas las etapas para poner en marcha la Landing Page, Web Services y Aplicaciones Móviles. Esto incluye el proceso exhaustivo de implementación, testing, documentación y liberación (deployment). El objetivo es asegurar que todos los componentes, desde la fase de planificación, sean entregados cumpliendo correctamente con las especificaciones. A partir del Product Backlog, se organizan los avances en secciones internas por cada Sprint, donde se registran las evidencias de desarrollo, ejecución y trabajo colaborativo del equipo.
+
+### 4.2.1. Sprint 1
+
+Durante el Sprint 1 del proyecto, el equipo se enfocó en el diseño y desarrollo de la Landing Page. Además, se avanzó en el desarrollo de los componentes en Kotlin y en la implementación del backend, junto con la definición de requisitos mediante historias de usuario funcionales y técnicas, así como la elaboración de artefactos esenciales del sistema. El objetivo principal fue construir una base sólida que facilitara la comunicación entre los miembros del equipo y permitiera visualizar los requerimientos iniciales del proyecto, asegurando coherencia entre la planificación y la implementación inicial.
+
+#### 4.2.1.1. Sprint Planning 1
+En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 1. Este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante el sprint. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 1</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-09-30</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>05:50 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Santur Tello, Andrea Elizabeth</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Rivera Ratachi, Renzo Sebastian
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Review Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint n – 1 Retrospective Summary</b></td>
+      <td>Al ser el primer sprint, no se realizo..</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Goal</b></td>
+      <td>Our focus is on building an informative and responsive Landing Page for the UniPafi platform, supported by initial backend and Kotlin component development.
+We believe it delivers a clear understanding of the platform’s purpose and value to students and company managers, increasing their interest and trust in the application.
+This will be confirmed when users can access the published Landing Page, navigate its sections smoothly, and comprehend the benefits and features of UniPafi across different devices.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Velocity</b></td>
+      <td>60 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>5 + 5 + 2 + 3 + 2 + 3 + 2 + 1 + 3 + 2 + 1 + 3 + 3 + 2 + 1 + 3 + 3 + 2 + 1 + 1 + 1 + 1 + 3 + 3 + 2 + 1 + 1 = 60 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.1.2. Sprint Backlog 1
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/spritnbacklog1.png" alt="execution" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 1 - Elaboración propia
+</p>
+
+
+Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab62d0a5c5a2ec8cd4630bcadfa4FB379D9A/sprint-backlog-1-unipafi 
+
+
+
+
+
+
+
+<h3>Sprint Backlog – Sprint 1</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 1</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS01</td>
+<td>Configuración de autenticación y roles</td>
+<td>WI001</td>
+<td>Implementar sistema de autenticación</td>
+<td>Desarrollar un sistema que distinga entre roles de estudiante y gerente para garantizar acceso seguro y personalizado.</td>
+<td>6</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS02</td>
+<td>Estructura de base de datos para gestión</td>
+<td>WI002</td>
+<td>Diseñar y configurar base de datos</td>
+<td>Establecer la estructura de la base de datos para almacenar usuarios, proyectos, convocatorias y solicitudes.</td>
+<td>8</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS03</td>
+<td>Bottom Navigation Bar</td>
+<td>WI003</td>
+<td>Implementar barra de navegación inferior</td>
+<td>Crear una barra de navegación inferior que conecte las secciones principales del sistema para mejorar la usabilidad.</td>
+<td>4</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS04</td>
+<td>Registrarse</td>
+<td>WI004</td>
+<td>Implementar registro de nuevos usuarios</td>
+<td>Desarrollar la funcionalidad de registro para permitir el acceso inicial de estudiantes y gerentes a la plataforma.</td>
+<td>5</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS05</td>
+<td>Iniciar Sesión</td>
+<td>WI005</td>
+<td>Desarrollar funcionalidad de inicio de sesión</td>
+<td>Permitir que los usuarios inicien sesión con sus credenciales para acceder de forma segura según su rol.</td>
+<td>4</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS06</td>
+<td>Actualizar Usuario</td>
+<td>WI006</td>
+<td>Permitir actualización de datos de usuario</td>
+<td>Implementar la funcionalidad para que los usuarios puedan mantener su información personal actualizada.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS07</td>
+<td>Obtener todos los usuarios</td>
+<td>WI007</td>
+<td>Crear endpoint para listar usuarios</td>
+<td>Desarrollar un endpoint para listar todos los usuarios registrados con fines administrativos.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS08</td>
+<td>Obtener usuario por Id</td>
+<td>WI008</td>
+<td>Desarrollar obtención de usuario por ID</td>
+<td>Implementar la funcionalidad para obtener la información de un usuario específico a través de su ID.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS09</td>
+<td>Crear perfil de estudiante</td>
+<td>WI009</td>
+<td>Implementar creación de perfil de estudiante</td>
+<td>Desarrollar la funcionalidad para que un estudiante pueda crear un perfil que muestre sus habilidades y estudios.</td>
+<td>5</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS10</td>
+<td>Actualizar perfil de estudiante por Id</td>
+<td>WI010</td>
+<td>Permitir actualización de perfil de estudiante</td>
+<td>Implementar la capacidad para que un estudiante pueda actualizar la información de su perfil.</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS11</td>
+<td>Obtener perfil de estudiante por Id</td>
+<td>WI011</td>
+<td>Desarrollar obtención de perfil por ID</td>
+<td>Crear la funcionalidad para obtener el perfil de un estudiante específico para mostrarlo en detalle.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS12</td>
+<td>Obtener perfiles de estudiante</td>
+<td>WI012</td>
+<td>Listar perfiles de estudiantes</td>
+<td>Implementar la funcionalidad para listar los perfiles de los estudiantes para la visualización de los gerentes.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS13</td>
+<td>Crear perfil de manager</td>
+<td>WI013</td>
+<td>Implementar creación de perfil de gerente</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda crear un perfil con la información de su empresa.</td>
+<td>5</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS14</td>
+<td>Actualizar perfil de manager por Id</td>
+<td>WI014</td>
+<td>Permitir actualización de perfil de gerente</td>
+<td>Implementar la capacidad para que un gerente actualice la información de su perfil empresarial.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS15</td>
+<td>Obtener perfil de manager por Id</td>
+<td>WI015</td>
+<td>Desarrollar obtención de perfil de gerente</td>
+<td>Crear la funcionalidad para obtener el perfil de un gerente específico para mostrar a los estudiantes.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS16</td>
+<td>Obtener perfiles de manager</td>
+<td>WI016</td>
+<td>Listar perfiles de gerentes</td>
+<td>Implementar la funcionalidad para listar todos los perfiles de gerentes para que los estudiantes los conozcan.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS17</td>
+<td>Crear convocatoria</td>
+<td>WI017</td>
+<td>Implementar creación de convocatorias</td>
+<td>Permitir a los gerentes crear convocatorias para que los estudiantes puedan postular a proyectos.</td>
+<td>6</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS18</td>
+<td>Actualizar convocatoria</td>
+<td>WI018</td>
+<td>Permitir edición de convocatorias activas</td>
+<td>Implementar la funcionalidad para que un gerente pueda editar una convocatoria activa.</td>
+<td>4</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS19</td>
+<td>Cambiar estado de convocatoria a publicado</td>
+<td>WI019</td>
+<td>Implementar publicación de convocatorias</td>
+<td>Permitir que el gerente publique una convocatoria para hacerla visible a los estudiantes.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS20</td>
+<td>Cambiar estado de convocatoria a cerrado</td>
+<td>WI020</td>
+<td>Implementar cierre de convocatorias</td>
+<td>Permitir que un gerente cierre una convocatoria para finalizar el periodo de postulaciones.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS21</td>
+<td>Borrar convocatoria</td>
+<td>WI021</td>
+<td>Permitir eliminación de convocatorias</td>
+<td>Implementar la funcionalidad para eliminar una convocatoria existente.</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS22</td>
+<td>Obtener convocatoria por Id</td>
+<td>WI022</td>
+<td>Desarrollar obtención de convocatoria por ID</td>
+<td>Obtener la información completa de una convocatoria específica mediante su ID.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS23</td>
+<td>Obtener todas las convocatorias</td>
+<td>WI023</td>
+<td>Listar todas las convocatorias activas</td>
+<td>Obtener y mostrar todas las convocatorias activas para que los estudiantes puedan explorarlas.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS24</td>
+<td>Crear Proyecto</td>
+<td>WI024</td>
+<td>Implementar creación de proyectos</td>
+<td>Permitir que un estudiante cree un nuevo proyecto para su portafolio.</td>
+<td>5</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS25</td>
+<td>Actualizar Proyecto</td>
+<td>WI025</td>
+<td>Permitir actualización de proyectos</td>
+<td>Implementar la funcionalidad para que un estudiante actualice la información de su proyecto.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS26</td>
+<td>Cambiar estado de proyecto a publicado</td>
+<td>WI026</td>
+<td>Implementar publicación de proyectos</td>
+<td>Permitir que los estudiantes cambien el estado de su proyecto a "Publicado".</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS27</td>
+<td>Cambiar estado de proyecto a cerrado</td>
+<td>WI027</td>
+<td>Implementar cierre de proyectos</td>
+<td>Permitir que los estudiantes cambien el estado de sus proyectos a "Cerrado".</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+
+#### 4.2.1.3. Development Evidence for Sprint Review
+
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>main</td>
+    <td>3e7507e</td>
+    <td>Initial commit</td>
+    <td>initial commit: android project setup</td>
+    <td>06/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>925143d</td>
+    <td>feat: Distribution added</td>
+    <td>Added the correctly Distribution</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>6e4c96f</td>
+    <td>feat: add navigations</td>
+    <td>Added the navigation in the app mobile</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>718443d</td>
+    <td>feat: add fix</td>
+    <td>added fix</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>604cc56</td>
+    <td>feat: add top login bar</td>
+    <td>Refactored the Login screen to add a colored top bar and improved layout using Box and Column</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>7265e10</td>
+    <td>feat: update register component</td>
+    <td>update to a new interface of Register</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>a2b1546</td>
+    <td>Create README.md</td>
+    <td>-</td>
+    <td>06/10/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>c6dbd58</td>
+    <td>feat: add landing page</td>
+    <td>Added landing page</td>
+    <td>06/10/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/profiles-bounded-context</td>
+    <td>49f2fd1</td>
+    <td>feat: add manager and student profile domain and REST API</td>
+    <td>Introduces domain models, commands, queries, services, repositories, and REST controllers for manager and student profiles. Enables creation, retrieval, and listing of profiles, with JPA auditing support and updated datasource configuration.</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/company-opportunities-bounded-context</td>
+    <td>314ef27</td>
+    <td>feat: add REST API for managing company opportunities</td>
+    <td>Introduces OpportunityController and related resource and assembler classes to provide REST endpoints for creating, updating, publishing, closing, deleting, and retrieving company opportunities. This establishes the API layer for opportunity management in the application.</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/student-projects-bounded-context</td>
+    <td>70e83e1</td>
+    <td>feat: add REST API for student project management</td>
+    <td>Introduces ProjectController and related resource and assembler classes to provide REST endpoints for creating, updating, retrieving, publishing, finalizing, and deleting student projects.</td>
+    <td>07/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/iam-bounded-context</td>
+    <td>56b2668</td>
+    <td>feat: add user authentication and query REST API endpoints</td>
+    <td>Introduces AuthenticationController and UsersController for user sign-in, sign-up, retrieval, and update operations. Adds query objects, resource records, and assemblers for REST API. Updates security configuration to support new endpoints and refines Bearer token filter logic.</td>
+    <td>06/10/25</td>
+  </tr>
+<table>
+
+#### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+No se implementaron pruebas unitarias debido a que, en su estado actual, la aplicación en Kotlin solo cuenta con navegación y una funcionalidad básica de crear proyectos en el Dashboard del Estudiante.
+
+#### 4.2.1.5. Execution Evidence for Sprint Review
+
+
+En el Sprint 2 se alcanzo un desarrollo completo en la implementación del despliegue del landing page. Además tambien se logro avanzar el desarrollo del backend y las pantallas principales de la aplicación móvil.
+
+
++ TS01 Configuración de autenticación y roles
+
+<br>
+<p align="center">
+  <img src="images/authorization.png" alt="execution" width="650">
+</p>
+
+<br>
+
+
++ TS02 Estructura de base de datos para gestión de proyectos y convocatorias
+
+
+<br>
+<p align="center">
+  <img src="images/dtbase.png" alt="execution" width="450">
+</p>
+
+<br>
+
+
+
++ TS03 Bottom Navigation Bar
+
+<br>
+<p align="center">
+  <img src="images/bottombar.jpeg" alt="execution" width="150">
+</p>
+
+<br>
+
++ TS04 Registrarse 
++ TS05 Iniciar Sesion
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/authentication.png" alt="execution" width="1000">
+</p>
+
+<br>
+
++ TS06 Actualizar Usuario
++ TS07 Obtener todos los usuarios
++ TS08 Obtener usuario por Id
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/users.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS09 Crear perfil de estudiante
++ TS10 Actualizar perfil de estudiante por Id
++ TS11 Obtener perfil de estudiante por Id
++ TS12 Obtener perfiles de estudiante
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/studnetproifesl.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS13 Crear perfil de manager
++ TS14 Actualizar perfil de manager por Id
++ TS15 Obtener perfil de manager por Id
++ TS16 Obtener perfiles de manager
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS17 Crear Convocatoria
++ TS18 Actualizar Convocatoria
++ TS19 Cambiar estado de convocatoria a publicado
++ TS20 Cambiar estado de convocatoria a cerrado
++ TS21 Borrar convocatoria
++ TS22 Obtener convocatoria por Id
++ TS23 Obtener todas las convocatorias
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="execution" width="1000">
+</p>
+<br>
+
++ TS24 Crear Proyecto
++ TS25 Actualizar Proyecto
++ TS26 Cambiar estado de Proyecto publicado
++ TS27 Cambiar estado de Proyecto cerrado
++ TS28 Borrar Proyecto
++ TS29 Obtener Proyectopor Id
++ TS30 Obtener todas los Proyectos
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot_1.png" alt="execution" width="1000">
+</p>
+<br>
+
+
+#### 4.2.1.6. Services Documentation Evidence for Sprint Review
+
+<h3>Endpoints implementados</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint URL (local)</th>
+      <th>Recurso</th>
+      <th>Verbo HTTP</th>
+      <th>Acción / Sintaxis</th>
+      <th>Parámetros</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>GET</td><td>Obtener todos los perfiles de managers</td><td>Ninguno</td><td>[ { "id": 1, "name": "John Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/manager-profiles</td><td>Manager Profiles</td><td>POST</td><td>Crear un nuevo perfil de manager</td><td>Body: fullName, position, etc.</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{id}</td><td>Manager Profiles</td><td>PUT</td><td>Actualizar un perfil de manager por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Jane Doe" }</td></tr>
+    <tr><td>/api/v1/manager-profiles/{profileId}</td><td>Manager Profiles</td><td>GET</td><td>Obtener perfil de manager por ID</td><td>profileId</td><td>{ "id": 1, "name": "John Doe" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidad por ID</td><td>id</td><td>{ "id": 1, "title": "Internship Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>PUT</td><td>Actualizar oportunidad</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "title": "Updated Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}</td><td>Opportunities</td><td>DELETE</td><td>Eliminar oportunidad</td><td>id</td><td>{ "message": "Opportunity deleted" }</td></tr>
+    <tr><td>/api/v1/opportunities</td><td>Opportunities</td><td>POST</td><td>Crear una nueva oportunidad</td><td>Body: title, description, etc.</td><td>{ "id": 1, "title": "New Opportunity" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/publish</td><td>Opportunities</td><td>POST</td><td>Publicar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/opportunities/{id}/close</td><td>Opportunities</td><td>POST</td><td>Cerrar una oportunidad</td><td>id</td><td>{ "id": 1, "status": "Closed" }</td></tr>
+    <tr><td>/api/v1/opportunities/company/{companyId}</td><td>Opportunities</td><td>GET</td><td>Obtener oportunidades de una compañía</td><td>companyId</td><td>[ { "id": 1, "title": "Opportunity A" }, ... ]</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>GET</td><td>Obtener proyecto por ID</td><td>id</td><td>{ "id": 1, "name": "AI Research Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>PUT</td><td>Actualizar proyecto</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "name": "Updated Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}</td><td>Projects</td><td>DELETE</td><td>Eliminar proyecto</td><td>id</td><td>{ "message": "Project deleted" }</td></tr>
+    <tr><td>/api/v1/projects</td><td>Projects</td><td>POST</td><td>Crear un nuevo proyecto</td><td>Body: name, description, etc.</td><td>{ "id": 1, "name": "New Project" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/publish</td><td>Projects</td><td>POST</td><td>Publicar proyecto</td><td>id</td><td>{ "id": 1, "status": "Published" }</td></tr>
+    <tr><td>/api/v1/projects/{id}/finalize</td><td>Projects</td><td>POST</td><td>Finalizar proyecto</td><td>id</td><td>{ "id": 1, "status": "Finalized" }</td></tr>
+    <tr><td>/api/v1/projects/student/{studentId}</td><td>Projects</td><td>GET</td><td>Obtener proyectos por ID de estudiante</td><td>studentId</td><td>[ { "id": 1, "name": "Capstone Project" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>GET</td><td>Obtener todos los perfiles de estudiantes</td><td>Ninguno</td><td>[ { "id": 1, "fullName": "Alice Doe" }, ... ]</td></tr>
+    <tr><td>/api/v1/student-profiles</td><td>Student Profiles</td><td>POST</td><td>Crear un nuevo perfil de estudiante</td><td>Body: fullName, major, etc.</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{id}</td><td>Student Profiles</td><td>PUT</td><td>Actualizar perfil de estudiante</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "fullName": "Alice Updated" }</td></tr>
+    <tr><td>/api/v1/student-profiles/{profileId}</td><td>Student Profiles</td><td>GET</td><td>Obtener perfil de estudiante por ID</td><td>profileId</td><td>{ "id": 1, "fullName": "Alice Doe" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-up</td><td>Authentication</td><td>POST</td><td>Registro de usuario</td><td>Body: email, password, role, etc.</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+    <tr><td>/api/v1/authentication/sign-in</td><td>Authentication</td><td>POST</td><td>Inicio de sesión</td><td>Body: email, password</td><td>{ "token": "jwt-token", "userId": 1 }</td></tr>
+    <tr><td>/api/v1/users</td><td>Users</td><td>GET</td><td>Obtener todos los usuarios</td><td>Ninguno</td><td>[ { "id": 1, "email": "user@example.com" }, ... ]</td></tr>
+    <tr><td>/api/v1/users/{id}</td><td>Users</td><td>PUT</td><td>Actualizar usuario por ID</td><td>id + Body: fields a actualizar</td><td>{ "id": 1, "email": "updated@example.com" }</td></tr>
+    <tr><td>/api/v1/users/{userId}</td><td>Users</td><td>GET</td><td>Obtener usuario por ID</td><td>userId</td><td>{ "id": 1, "email": "user@example.com" }</td></tr>
+  </tbody>
+</table>
+
+#### 4.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó el deployment de la landing page y del 70% del backend de Innospace en Azure. El backend fue desplegado mediante Azure App Service, conectado a su base de datos MySQL en Azure, asegurando disponibilidad, escalabilidad y persistencia de datos. 
+
+### Landing Page:
+
+#### Configuracion de Github Pages
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/landingpage.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+#### Visualizacion de Landing Page desplegada con Github Pages
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/visualizacionlanding.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+### Base de datos:
+
+#### Creación de base de datos con Azure Database for MySql Flexible Servers
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/databaseazure.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+### Backend:
+
+#### Imagen del proyecto subida a Docker
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/imagendokcer.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+#### Imagen Docker subida a Container Registry en Azure
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/cotnaienrregistry.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+#### Creacion de Web App utilizando el Container Registry
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+#### Vista del Backend desplegado a traves de Swagger UI
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy.png" alt="execution" width="1000">
+</p>
+
+<br>
+
+
+
+
+
+
+#### 4.2.1.8. Team Collaboration Insights during Sprint
+
+
+<p align="center">
+  <img src="images/chapter4-sprint1/Report-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 1 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/chapter4-sprint1/BackEnd-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 2 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/chapter4-sprint1/Kotlin-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 3 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
+
+## 4.3. Validation Interviews
+
+### 4.3.1. Diseño de Entrevistas
+
+Segmentos encontrados:
+
+- Estudiantes universitarios innovadores (Talento joven)
+
+- Gerentes/Profesionales de Innovación y Talento (Ecosistema empresarial)
+
+Antes de realizar las entrevistas respectivas, consideramos sumamente necesario realizar un análisis previo que nos permita entender mejor a nuestros públicos objetivo. Por ende, se diseñaron preguntas específicas para cada segmento, con el fin de orientar nuestras entrevistas de manera más eficiente y alineada a sus realidades.
+
+Para esta fase inicial de validación, queremos conocer la experiencia de nuestros usuarios al navegar por nuestra Landing Page que comunica el valor de Innospace. Con este contexto, proponemos estas preguntas cualitativas orientadas a validar la claridad de nuestro mensaje, el atractivo de nuestra propuesta de valor y la efectividad de la página para generar el interés y la acción deseados.
+
+Las siguientes preguntas están organizadas según los dos segmentos clave de la startup Unipafi y asi nos permitirán recoger percepciones reales sobre la comunicación y la propuesta inicial.
+
+**Preguntas para Estudiantes Universitarios Innovadores (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al abrir la página por primera vez, ¿cuál es tu impresión general en estos primeros momentos de interacción?
+
+2. Después de leer el encabezado principal, ¿puedes explicarme con tus propias palabras qué crees que hace una aplicación como InnoSpace?
+
+3. ¿El mensaje te resulta atractivo? ¿Por qué sí o por qué no?
+
+Claridad de la propuesta de valor
+
+4. ¿Qué beneficios específicos para un estudiante como tú logras identificar en la página?
+
+5. ¿La información te hace sentir que InnoSpace entiende tus necesidades y aspiraciones?
+
+6. ¿Hay algo que esperabas encontrar o que te gustaría saber, pero que no está mencionado en la página?
+
+Navegación y llamado a la acción (Call to Action)
+
+7. ¿El propósito de la página te parece claro?
+
+Confianza y credibilidad
+
+8. ¿Qué elementos de la página te generan confianza en Unipafi?
+
+9. Por el contrario, ¿hay algo en la página que te genere dudas o desconfianza?
+
+Interés y disposición futura
+
+10. Basándote solo en lo que ves en esta página, ¿estarías interesado en registrarte en una plataforma como Unipafi cuando esté disponible? ¿Por qué?
+
+11. ¿Compartirías esta página con algún compañero o amigo que esté buscando oportunidades? ¿Qué le dirías?
+
+
+
+**Preguntas para Gerentes/Profesionales de Innovación y Talento (fase de testeo de la Landing Page)**
+
+Primera impresión y mensaje central
+
+1. Al aterrizar en la página, ¿la presentación le parece profesional y acorde a lo que esperaría una empresa?
+
+2. Tras una lectura rápida, ¿puede resumir cuál cree que es la propuesta de valor de InnoSpace para una organización como la suya?
+
+Claridad del modelo de colaboración
+
+3. Desde su perspectiva, ¿qué beneficios concretos para una empresa identifica en la página?
+
+4. ¿Falta algún argumento o información crítica que necesitaría para considerar a InnoSpace como un socio potencial?
+
+Navegación y llamado a la acción para empresas
+
+5. ¿El lenguaje y el diseño están orientados correctamente a un tomador de decisiones empresarial?
+
+6. Si quisiera entender el impacto de InnoSpace, ¿encontró fácilmente casos de éxito, o testimonios relevantes?
+
+Confianza y viabilidad
+
+7. ¿La Landing Page transmite la seriedad y solidez necesarias para que una empresa considere una colaboración?
+
+8. ¿Qué le daría mayor seguridad sobre el potencial del talento que InnoSpace puede ofrecer?
+
+Interés y adopción potencial
+
+9. ¿Qué barreras internas o externas cree que podría encontrar al proponer una herramienta como esta dentro de su organización?
+
+### 4.3.2. Registro de Entrevistas
+
+*Entrevistas a Estudiantes*
+---
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Estafano Solis</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Pueblo Libre</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:08 - 8:17</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/EZVEpcfMJzxJrRd3kD6-o94BBHWvBdKvE1ETwTlTQBf4hA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo4LCJ0aW1lc3RhbXBlZExpbmtSZWZlcnJlckluZm8iOnsic2NlbmFyaW8iOiJDaGFwdGVyU2hhcmUiLCJhZGRpdGlvbmFsSW5mbyI6eyJpc1NoYXJlZENoYXB0ZXJBdXRvIjpmYWxzZX19fSwicmVmZXJyYWxJbmZvIjp7InJlZmVycmFsQXBwIjoiU3RyZWFtV2ViQXBwIiwicmVmZXJyYWxWaWV3IjoiU2hhcmVDaGFwdGVyTGluayIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=jW9ozx`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Estefano Solis considera que lo que han visto de la Landing Page es claro y está bien estructurado. Resalta la forma en que se comunica la propuesta del startup, de manera comprensible. La sección de postulaciones le parece fácil de entender y le transmite confianza al mostrar con claridad el estado de cada proceso. . Además, opina que el diseño visual de la aplicación es moderno, intuitivo y limpio.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/chapter4-sprint1/Validacion-Estudiante.png" alt="entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+*Entrevistas a Gerentes*
+---
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel David Niño Torres Grandez</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>8:17 - 27:06</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202313172_upc_edu_pe/EZVEpcfMJzxJrRd3kD6-o94BBHWvBdKvE1ETwTlTQBf4hA?nav=eyJwbGF5YmFja09wdGlvbnMiOnsic3RhcnRUaW1lSW5TZWNvbmRzIjo0OTcsInRpbWVzdGFtcGVkTGlua1JlZmVycmVySW5mbyI6eyJzY2VuYXJpbyI6IkNoYXB0ZXJTaGFyZSIsImFkZGl0aW9uYWxJbmZvIjp7ImlzU2hhcmVkQ2hhcHRlckF1dG8iOmZhbHNlfX19LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZUNoYXB0ZXJMaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=9a9BTg` 
+
+
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+      Resumen: <br>
+       Manuel David participó en la prueba de la Landing Page de InnoSpace y comentó que la navegación fue fluida y sin dificultades. Destacó  especialmente la claridad y simplicidad de la interfaz, la cual percibió como profesional y confiable. Por último, propuso enriquecer el diseño visual con más detalles de estilo y complementar ciertas secciones con campos adicionales para mejorar la presentación de la información.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/chapter4-sprint1/Validacion-Gerentes.png" alt="entrevistado" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+### 4.3.3. Evaluaciones según heurísticas
+
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información y diseño de experiencia de usuario.
+
+# TABLA RESUMEN
+
+| #  | Problema                                                                                         | Escala de severidad | Heurística/Principio violado                                  |
+|----|--------------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------------|
+| 1  | 	Falta de información específica sobre protección de propiedad intelectual                                                    | 3                   | Confianza y seguridad                  |
+| 2  | No se muestran las empresas participantes en la plataforma                           | 2                   | Transparencia y credibilidad                  |
+| 3  | 	Ausencia de detalles sobre el sistema de mentoría                                           | 2                   | Valor percibido / Completitud de información     |
+| 4  | No hay opciones para que empresas revisen currículums de candidatos                                            | 2                   | Flexibilidad y eficiencia de uso    |
+| 5  | Falta de mecanismos para que empresas se promocionen ante usuarios                        | 2                   | 	Funcionalidad bidireccional                    |
+| 6  | 	No se presenta suficiente evidencia de casos de éxito concretos                                                  | 2                   | Pruebas sociales y validación     |
+| 7  | Ausencia de switch de internacionalización     | 1                   |	Accesibilidad y alcance global      |
+| 8   | No se abordan explícitamente las barreras de desconfianza hacia talento inexperto                       | 2                   | 	Gestión de objeciones |
+
+# DESCRIPCIÓN DE PROBLEMAS
+
+## PROBLEMA #1: Falta de información específica sobre protección de propiedad intelectual
+**Severidad:** 3
+
+**Heurística violada:** Confianza y seguridad
+
+**Problema:**
+
+Los entrevistados expresaron preocupación sobre la protección de la propiedad intelectual y confidencialidad de los proyectos. Esta duda puede ser una barrera significativa para la adopción de la plataforma.
+
+**Recomendación:**
+
+Incluir una sección específica que detalle las políticas de protección de propiedad intelectual, confidencialidad y derechos de autor, con lenguaje claro y accesible.
+
+## PROBLEMA #2: No se muestran las empresas participantes en la plataforma
+**Severidad:** 2
+
+**Heurística violada:** Transparencia y credibilidad
+
+**Problema:**
+
+La landing page no muestra qué empresas están participando activamente en la plataforma, lo que limita la capacidad de los usuarios para evaluar oportunidades concretas.
+
+**Recomendación:**
+
+Incorporar un listado o logos de empresas colaboradoras, ideally con filtros por industria o tipo de proyecto.
+
+## PROBLEMA #3: Ausencia de detalles sobre el sistema de mentoría
+**Severidad:** 2
+
+**Heurística violada:** Valor percibido / Completitud de información
+
+**Problema:**
+
+Aunque se menciona la mentoría como parte del valor de la plataforma, no se especifica cómo funciona, quiénes son los mentores ni qué nivel de acompañamiento se ofrece.
+
+**Recomendación:**
+
+Desarrollar una sección dedicada al programa de mentoría, incluyendo perfiles de mentores, metodología y beneficios específicos.
+
+## PROBLEMA #4: No hay opciones para que empresas revisen currículums de candidatos
+**Severidad:** 2
+
+**Heurística violada:** Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+Desde la perspectiva empresarial, falta la funcionalidad para revisar perfiles y currículums de candidatos potenciales de manera proactiva.
+
+**Recomendación:**
+
+Implementar un sistema de búsqueda y filtrado de candidatos para empresas, con acceso a portafolios y perfiles profesionales.
+
+## PROBLEMA #5: Falta de mecanismos para que empresas se promocionen ante usuarios
+**Severidad:** 2
+
+**Heurística violada:** Funcionalidad bidireccional
+
+**Problema:**
+
+Las empresas no tienen forma de promocionar sus vacantes o proyectos de manera destacada hacia los talentos universitarios.
+
+**Recomendación:**
+
+Crear un sistema de "empresas destacadas" o paquetes de promoción que permitan a las compañías aumentar su visibilidad en la plataforma.
+
+## PROBLEMA #6: No se presenta suficiente evidencia de casos de éxito concretos
+**Severidad:** 2
+
+**Heurística violada:** Pruebas sociales y validación
+
+**Problema:**
+
+Aunque se mencionan casos de éxito, los entrevistados sugieren incluir más testimonios específicos y resultados medibles que demuestren el impacto real de la plataforma.
+
+**Recomendación:**
+
+Incorporar estudios de caso detallados con métricas concretas (proyectos completados, contrataciones, etc.) y testimonios verificables.
+
+## PROBLEMA #7: Ausencia de switch de internacionalización
+**Severidad:** 1
+
+**Heurística violada:** Accesibilidad y alcance global
+
+**Problema:**
+
+La plataforma no cuenta con opciones de cambio de idioma, limitando su potencial expansión internacional y acceso a talento o empresas globales.
+
+**Recomendación:**
+
+Implementar un selector de idiomas (español/inglés como mínimo) y adaptar el contenido para audiencias internacionales.
+
+## PROBLEMA #8: No se abordan explícitamente las barreras de desconfianza hacia talento inexperto
+**Severidad:** 2
+
+**Heurística violada:** Gestión de objeciones
+
+**Problema:**
+
+Se identificó como barrera la desconfianza de empresas hacia talento sin experiencia, pero la landing page no aborda proactivamente esta objeción.
+
+**Recomendación:**
+
+Incluir una sección que destaque la calidad del talento universitario, procesos de selección rigurosos, y beneficios de contratar talento joven e innovador.
+
+Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevistados valoraron positivamente el diseño moderno, la claridad del mensaje y la propuesta de valor general de la plataforma, mostrando interés en utilizarla y recomendarla.
+
 ## Conclusiones
 
 **TB1**
@@ -3221,6 +5539,15 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 - El proyecto no solo tiene potencial de impacto económico, sino también formativo y social, al fortalecer la empleabilidad, la innovación abierta y la colaboración universidad–empresa.
 
+
+**TP1**
+
+- El desarrollo de InnoSpace en Kotlin presentó el desafío inicial de diseñar una arquitectura modular escalable que permitiera la integración fluida entre los módulos de autenticación, estudiantes y empresas, requiriendo una cuidadosa planificación de dependencias y comunicación entre componentes.
+
+- La sincronización con el backend requirio estrategias sofisticadas de manejo de caché y resolución de conflictos, evidenciando la importancia de diseñar una capa de datos robusta desde el inicio.
+
+- La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
+
 ## Bibliografia
 
 - UNESCO. (2021). La educación superior en América Latina y el Caribe: avances y retos. UNESCO IESALC. https://unesdoc.unesco.org/ark:/48223/pf0000392578.locale=en
@@ -3232,6 +5559,12 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 - Organización Internacional del Trabajo (OIT). (2022). Perspectivas Sociales y del Empleo en el Mundo: Tendencias 2022. OIT. https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40dgreports/%40dcomm/%40publ/documents/publication/wcms_848464.pdf
 
 ## Anexos
+
+
+
+
+
+
 
 **Link del repositorio en Github:**
 
