@@ -4393,6 +4393,9 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 
 #### 4.2.1.3. Development Evidence for Sprint Review
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
+
+En el contexto actual de nuestro desarrollo en Kotlin, se adoptó una estrategia consciente de postergar la implementación exhaustiva de pruebas unitarias basándonos en un análisis técnico de complejidad y retorno de inversión. Nuestra aplicación, diseñada bajo principios de arquitectura modular y clean architecture, presenta una estructura intencionalmente simplificada donde los componentes exhiben alta cohesión y bajo acoplamiento, con operaciones predominantemente síncronas y mínima lógica condicional compleja. Sin embargo, hemos establecido los cimientos para una futura implementación mediante la abstracción de dependencias mediante interfaces, la separación clara de responsabilidades y el diseño test-ready de nuestros módulos, manteniendo mientras tanto calidad mediante code reviews exhaustivas, análisis y testing manual exploratorio.
+
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
 
@@ -4618,6 +4621,38 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
+
+
+<p align="center">
+  <img src="images/chapter4-sprint1/Report-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 1 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/chapter4-sprint1/BackEnd-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 2 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
+<p align="center">
+  <img src="images/chapter4-sprint1/Kotlin-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+</p>
+
+<p align="center">
+  Insight 3 Sprint 1 - Elaboración propia
+</p>
+
+<br>
+
 
 ## 4.3. Validation Interviews
 
