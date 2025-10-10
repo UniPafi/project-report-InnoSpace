@@ -4285,6 +4285,23 @@ This will be confirmed when users can access the published Landing Page, navigat
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
 
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/spritnbacklog1.png" alt="execution" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 1 - Elaboración propia
+</p>
+
+
+Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab62d0a5c5a2ec8cd4630bcadfa4FB379D9A/sprint-backlog-1-unipafi 
+
+
+
+
+
+
+
 <h3>Sprint Backlog – Sprint 1</h3>
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -4392,6 +4409,11 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 </table>
 
 #### 4.2.1.3. Development Evidence for Sprint Review
+
+
+
+
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
 
