@@ -4411,8 +4411,113 @@ Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab6
 #### 4.2.1.3. Development Evidence for Sprint Review
 
 
-
-
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>main</td>
+    <td>3e7507e</td>
+    <td>Initial commit</td>
+    <td>initial commit: android project setup</td>
+    <td>06/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>925143d</td>
+    <td>feat: Distribution added</td>
+    <td>Added the correctly Distribution</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>6e4c96f</td>
+    <td>feat: add navigations</td>
+    <td>Added the navigation in the app mobile</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>718443d</td>
+    <td>feat: add fix</td>
+    <td>added fix</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>604cc56</td>
+    <td>feat: add top login bar</td>
+    <td>Refactored the Login screen to add a colored top bar and improved layout using Box and Column</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>7265e10</td>
+    <td>feat: update register component</td>
+    <td>update to a new interface of Register</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>a2b1546</td>
+    <td>Create README.md</td>
+    <td>-</td>
+    <td>06/10/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>c6dbd58</td>
+    <td>feat: add landing page</td>
+    <td>Added landing page</td>
+    <td>06/10/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/profiles-bounded-context</td>
+    <td>49f2fd1</td>
+    <td>feat: add manager and student profile domain and REST API</td>
+    <td>Introduces domain models, commands, queries, services, repositories, and REST controllers for manager and student profiles. Enables creation, retrieval, and listing of profiles, with JPA auditing support and updated datasource configuration.</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/company-opportunities-bounded-context</td>
+    <td>314ef27</td>
+    <td>feat: add REST API for managing company opportunities</td>
+    <td>Introduces OpportunityController and related resource and assembler classes to provide REST endpoints for creating, updating, publishing, closing, deleting, and retrieving company opportunities. This establishes the API layer for opportunity management in the application.</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/student-projects-bounded-context</td>
+    <td>70e83e1</td>
+    <td>feat: add REST API for student project management</td>
+    <td>Introduces ProjectController and related resource and assembler classes to provide REST endpoints for creating, updating, retrieving, publishing, finalizing, and deleting student projects.</td>
+    <td>07/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/iam-bounded-context</td>
+    <td>56b2668</td>
+    <td>feat: add user authentication and query REST API endpoints</td>
+    <td>Introduces AuthenticationController and UsersController for user sign-in, sign-up, retrieval, and update operations. Adds query objects, resource records, and assemblers for REST API. Updates security configuration to support new endpoints and refines Bearer token filter logic.</td>
+    <td>06/10/25</td>
+  </tr>
+<table>
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 #### 4.2.1.5. Execution Evidence for Sprint Review
