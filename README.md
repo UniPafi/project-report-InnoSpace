@@ -4311,6 +4311,13 @@ Los mockups de InnoSpace se desarrollaron con un enfoque centrado en el usuario,
 
 #### 3.1.4.5. Mobile Applications Prototyping
 
+<p align="center">
+  <img src="images/prototipado.jpg" alt="Prototyping" width="500">
+</p>
+
+Link del Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/EfY-3bWKxx9DhxT1rwk5iCgBIA8mULaSjl5grD_KoIsf1g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=MAILrq 
+
+
 ## Capitulo IV: Product Implementation & Validation
 
 ### 4. Product Implementation & Validation
