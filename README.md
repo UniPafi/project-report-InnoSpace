@@ -4285,6 +4285,23 @@ This will be confirmed when users can access the published Landing Page, navigat
 
 En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue diseñar y desarrollar la Landing Page de la plataforma.Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
 
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/spritnbacklog1.png" alt="execution" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 1 - Elaboración propia
+</p>
+
+
+Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab62d0a5c5a2ec8cd4630bcadfa4FB379D9A/sprint-backlog-1-unipafi 
+
+
+
+
+
+
+
 <h3>Sprint Backlog – Sprint 1</h3>
 <table border="1" cellspacing="0" cellpadding="5">
   <thead>
@@ -4392,6 +4409,116 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 </table>
 
 #### 4.2.1.3. Development Evidence for Sprint Review
+
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>main</td>
+    <td>3e7507e</td>
+    <td>Initial commit</td>
+    <td>initial commit: android project setup</td>
+    <td>06/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>925143d</td>
+    <td>feat: Distribution added</td>
+    <td>Added the correctly Distribution</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>6e4c96f</td>
+    <td>feat: add navigations</td>
+    <td>Added the navigation in the app mobile</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/navigation</td>
+    <td>718443d</td>
+    <td>feat: add fix</td>
+    <td>added fix</td>
+    <td>09/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>604cc56</td>
+    <td>feat: add top login bar</td>
+    <td>Refactored the Login screen to add a colored top bar and improved layout using Box and Column</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>7265e10</td>
+    <td>feat: update register component</td>
+    <td>update to a new interface of Register</td>
+    <td>09/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>a2b1546</td>
+    <td>Create README.md</td>
+    <td>-</td>
+    <td>06/10/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/landing-page-InnoSpace</td>
+    <td>develop</td>
+    <td>c6dbd58</td>
+    <td>feat: add landing page</td>
+    <td>Added landing page</td>
+    <td>06/10/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/profiles-bounded-context</td>
+    <td>49f2fd1</td>
+    <td>feat: add manager and student profile domain and REST API</td>
+    <td>Introduces domain models, commands, queries, services, repositories, and REST controllers for manager and student profiles. Enables creation, retrieval, and listing of profiles, with JPA auditing support and updated datasource configuration.</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/company-opportunities-bounded-context</td>
+    <td>314ef27</td>
+    <td>feat: add REST API for managing company opportunities</td>
+    <td>Introduces OpportunityController and related resource and assembler classes to provide REST endpoints for creating, updating, publishing, closing, deleting, and retrieving company opportunities. This establishes the API layer for opportunity management in the application.</td>
+    <td>07/10/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/student-projects-bounded-context</td>
+    <td>70e83e1</td>
+    <td>feat: add REST API for student project management</td>
+    <td>Introduces ProjectController and related resource and assembler classes to provide REST endpoints for creating, updating, retrieving, publishing, finalizing, and deleting student projects.</td>
+    <td>07/10/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feature/iam-bounded-context</td>
+    <td>56b2668</td>
+    <td>feat: add user authentication and query REST API endpoints</td>
+    <td>Introduces AuthenticationController and UsersController for user sign-in, sign-up, retrieval, and update operations. Adds query objects, resource records, and assemblers for REST API. Updates security configuration to support new endpoints and refines Bearer token filter logic.</td>
+    <td>06/10/25</td>
+  </tr>
+<table>
+
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review
 
 En el contexto actual de nuestro desarrollo en Kotlin, se adoptó una estrategia consciente de postergar la implementación exhaustiva de pruebas unitarias basándonos en un análisis técnico de complejidad y retorno de inversión. Nuestra aplicación, diseñada bajo principios de arquitectura modular y clean architecture, presenta una estructura intencionalmente simplificada donde los componentes exhiben alta cohesión y bajo acoplamiento, con operaciones predominantemente síncronas y mínima lógica condicional compleja. Sin embargo, hemos establecido los cimientos para una futura implementación mediante la abstracción de dependencias mediante interfaces, la separación clara de responsabilidades y el diseño test-ready de nuestros módulos, manteniendo mientras tanto calidad mediante code reviews exhaustivas, análisis y testing manual exploratorio.
