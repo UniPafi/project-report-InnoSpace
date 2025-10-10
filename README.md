@@ -4796,6 +4796,128 @@ Interés y adopción potencial
 
 ### 4.3.3. Evaluaciones según heurísticas
 
+Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información y diseño de experiencia de usuario.
+
+# TABLA RESUMEN
+
+| #  | Problema                                                                                         | Escala de severidad | Heurística/Principio violado                                  |
+|----|--------------------------------------------------------------------------------------------------|---------------------|---------------------------------------------------------------|
+| 1  | 	Falta de información específica sobre protección de propiedad intelectual                                                    | 3                   | Confianza y seguridad                  |
+| 2  | No se muestran las empresas participantes en la plataforma                           | 2                   | Transparencia y credibilidad                  |
+| 3  | 	Ausencia de detalles sobre el sistema de mentoría                                           | 2                   | Valor percibido / Completitud de información     |
+| 4  | No hay opciones para que empresas revisen currículums de candidatos                                            | 2                   | Flexibilidad y eficiencia de uso    |
+| 5  | Falta de mecanismos para que empresas se promocionen ante usuarios                        | 2                   | 	Funcionalidad bidireccional                    |
+| 6  | 	No se presenta suficiente evidencia de casos de éxito concretos                                                  | 2                   | Pruebas sociales y validación     |
+| 7  | Ausencia de switch de internacionalización     | 1                   |	Accesibilidad y alcance global      |
+| 8   | No se abordan explícitamente las barreras de desconfianza hacia talento inexperto                       | 2                   | 	Gestión de objeciones |
+
+# DESCRIPCIÓN DE PROBLEMAS
+
+## PROBLEMA #1: Falta de información específica sobre protección de propiedad intelectual
+**Severidad:** 3
+
+**Heurística violada:** Confianza y seguridad
+
+**Problema:**
+
+Los entrevistados expresaron preocupación sobre la protección de la propiedad intelectual y confidencialidad de los proyectos. Esta duda puede ser una barrera significativa para la adopción de la plataforma.
+
+**Recomendación:**
+
+Incluir una sección específica que detalle las políticas de protección de propiedad intelectual, confidencialidad y derechos de autor, con lenguaje claro y accesible.
+
+## PROBLEMA #2: No se muestran las empresas participantes en la plataforma
+**Severidad:** 2
+
+**Heurística violada:** Transparencia y credibilidad
+
+**Problema:**
+
+La landing page no muestra qué empresas están participando activamente en la plataforma, lo que limita la capacidad de los usuarios para evaluar oportunidades concretas.
+
+**Recomendación:**
+
+Incorporar un listado o logos de empresas colaboradoras, ideally con filtros por industria o tipo de proyecto.
+
+## PROBLEMA #3: Ausencia de detalles sobre el sistema de mentoría
+**Severidad:** 2
+
+**Heurística violada:** Valor percibido / Completitud de información
+
+**Problema:**
+
+Aunque se menciona la mentoría como parte del valor de la plataforma, no se especifica cómo funciona, quiénes son los mentores ni qué nivel de acompañamiento se ofrece.
+
+**Recomendación:**
+
+Desarrollar una sección dedicada al programa de mentoría, incluyendo perfiles de mentores, metodología y beneficios específicos.
+
+## PROBLEMA #4: No hay opciones para que empresas revisen currículums de candidatos
+**Severidad:** 2
+
+**Heurística violada:** Flexibilidad y eficiencia de uso
+
+**Problema:**
+
+Desde la perspectiva empresarial, falta la funcionalidad para revisar perfiles y currículums de candidatos potenciales de manera proactiva.
+
+**Recomendación:**
+
+Implementar un sistema de búsqueda y filtrado de candidatos para empresas, con acceso a portafolios y perfiles profesionales.
+
+## PROBLEMA #5: Falta de mecanismos para que empresas se promocionen ante usuarios
+**Severidad:** 2
+
+**Heurística violada:** Funcionalidad bidireccional
+
+**Problema:**
+
+Las empresas no tienen forma de promocionar sus vacantes o proyectos de manera destacada hacia los talentos universitarios.
+
+**Recomendación:**
+
+Crear un sistema de "empresas destacadas" o paquetes de promoción que permitan a las compañías aumentar su visibilidad en la plataforma.
+
+## PROBLEMA #6: No se presenta suficiente evidencia de casos de éxito concretos
+**Severidad:** 2
+
+**Heurística violada:** Pruebas sociales y validación
+
+**Problema:**
+
+Aunque se mencionan casos de éxito, los entrevistados sugieren incluir más testimonios específicos y resultados medibles que demuestren el impacto real de la plataforma.
+
+**Recomendación:**
+
+Incorporar estudios de caso detallados con métricas concretas (proyectos completados, contrataciones, etc.) y testimonios verificables.
+
+## PROBLEMA #7: Ausencia de switch de internacionalización
+**Severidad:** 1
+
+**Heurística violada:** Accesibilidad y alcance global
+
+**Problema:**
+
+La plataforma no cuenta con opciones de cambio de idioma, limitando su potencial expansión internacional y acceso a talento o empresas globales.
+
+**Recomendación:**
+
+Implementar un selector de idiomas (español/inglés como mínimo) y adaptar el contenido para audiencias internacionales.
+
+## PROBLEMA #8: No se abordan explícitamente las barreras de desconfianza hacia talento inexperto
+**Severidad:** 2
+
+**Heurística violada:** Gestión de objeciones
+
+**Problema:**
+
+Se identificó como barrera la desconfianza de empresas hacia talento sin experiencia, pero la landing page no aborda proactivamente esta objeción.
+
+**Recomendación:**
+
+Incluir una sección que destaque la calidad del talento universitario, procesos de selección rigurosos, y beneficios de contratar talento joven e innovador.
+
+Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevistados valoraron positivamente el diseño moderno, la claridad del mensaje y la propuesta de valor general de la plataforma, mostrando interés en utilizarla y recomendarla.
 
 ## Conclusiones
 
@@ -4809,6 +4931,15 @@ Interés y adopción potencial
 - El diseño de requerimientos (User Stories, Product Backlog, Journey Maps) y la arquitectura basada en Domain-Driven Design permiten una solución escalable y adaptable, centrada en los dos perfiles principales: estudiantes y gerentes de empresas.
 
 - El proyecto no solo tiene potencial de impacto económico, sino también formativo y social, al fortalecer la empleabilidad, la innovación abierta y la colaboración universidad–empresa.
+
+
+**TP1**
+
+- El desarrollo de InnoSpace en Kotlin presentó el desafío inicial de diseñar una arquitectura modular escalable que permitiera la integración fluida entre los módulos de autenticación, estudiantes y empresas, requiriendo una cuidadosa planificación de dependencias y comunicación entre componentes.
+
+- La sincronización con el backend requirio estrategias sofisticadas de manejo de caché y resolución de conflictos, evidenciando la importancia de diseñar una capa de datos robusta desde el inicio.
+
+- La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
 
 ## Bibliografia
 
