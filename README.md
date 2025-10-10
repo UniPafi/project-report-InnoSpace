@@ -179,7 +179,20 @@
   <img src="images/networkgraph.png" alt="network" width="80%">
 </p>
 
+## TP1
 
+<p align="center">
+  <img src="images/contibutors2.png" alt="contributors" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="images/pulse2.png" alt="contributors" width="80%">
+</p>
+
+<p align="center">
+  <img src="images/networkgraph2.png" alt="network" width="80%">
+</p>
 
 
 ---
@@ -5194,13 +5207,14 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint
 
+Se podra visualizar los commit y contribuciones hechas por los integrantes.
 
 <p align="center">
-  <img src="images/chapter4-sprint1/Report-Insight.png" alt="deployment-evidence-confirmation" width="1000">
+  <img src="images/contibutors3.png" alt="deployment-evidence-confirmation" width="1000">
 </p>
 
 <p align="center">
-  Insight 1 Sprint 1 - Elaboración propia
+  Insight 1 Sprint 1 Landing Page - Elaboración propia
 </p>
 
 <br>
@@ -5210,7 +5224,7 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 </p>
 
 <p align="center">
-  Insight 2 Sprint 1 - Elaboración propia
+  Insight 2 Sprint 1 Backend- Elaboración propia
 </p>
 
 <br>
@@ -5220,7 +5234,7 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 </p>
 
 <p align="center">
-  Insight 3 Sprint 1 - Elaboración propia
+  Insight 3 Sprint 1 Kotlin - Elaboración propia
 </p>
 
 <br>
