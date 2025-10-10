@@ -35,6 +35,8 @@
 
 **Agosto 2025**
 
+<div style="page-break-after: always;"></div>
+
 <br>
 
 **Registro de Versiones del Informe**
