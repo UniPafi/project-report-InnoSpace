@@ -100,6 +100,52 @@
     </td>
     <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
   </tr>
+  <tr>
+    <td>2.00</td>
+    <td>24/09/25</td>
+    <td>
+    Rivera
+    </td>
+    <td>Creacion de la plantilla a utilizar para completar el documento</td>
+  </tr>
+  <tr>
+    <td>2.01</td>
+    <td>29/09/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca
+    </td>
+    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Desing</td>
+  </tr>
+  <tr>
+    <td>2.02</td>
+    <td>03/10/25</td>
+    <td>
+    Rivera,<br>
+    Cabrera, Santur
+    </td>
+    <td>Realizacion de los Wireframes y Mockups de la aplicación mobile con su respectivo flujo. Ademas de la grabacion del prototipado</td>
+  </tr>
+  <tr>
+    <td>2.03</td>
+    <td>06/10/25</td>
+    <td>
+    Cabrera,<br>
+    Santur
+    </td>
+    <td>Se realizo el apartado de Software Configuration Management y correcciones de versiones anteriores</td>
+  </tr>
+  <tr>
+    <td>2.04</td>
+    <td>09/10/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    Coca
+    </td>
+    <td>Realización del Sprint 1 y las entrevistas de validacion con su evaluación segun heuristicas</td>
+  </tr>
 </table>
 
 <br>
@@ -2318,6 +2364,195 @@ Empathy Map Segmento 2:
       <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
       <td>8</td>
     </tr>
+    <tr>
+<td>19</td>
+<td>TS01</td>
+<td>Configuración de autenticación y roles</td>
+<td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>20</td>
+<td>TS02</td>
+<td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+<td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
+<td>5</td>
+</tr>
+<tr>
+<td>21</td>
+<td>TS03</td>
+<td>Bottom Navigation Bar</td>
+<td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>22</td>
+<td>TS04</td>
+<td>Registrarse</td>
+<td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>23</td>
+<td>TS05</td>
+<td>Iniciar Sesión</td>
+<td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>24</td>
+<td>TS06</td>
+<td>Actualizar Usuario</td>
+<td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>25</td>
+<td>TS07</td>
+<td>Obtener todos los usuarios</td>
+<td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>26</td>
+<td>TS08</td>
+<td>Obtener usuario por Id</td>
+<td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>27</td>
+<td>TS09</td>
+<td>Crear perfil de estudiante</td>
+<td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>28</td>
+<td>TS10</td>
+<td>Actualizar perfil de estudiante por Id</td>
+<td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>29</td>
+<td>TS11</td>
+<td>Obtener perfil de estudiante por Id</td>
+<td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>30</td>
+<td>TS12</td>
+<td>Obtener perfiles de estudiante</td>
+<td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>31</td>
+<td>TS13</td>
+<td>Crear perfil de manager</td>
+<td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>32</td>
+<td>TS14</td>
+<td>Actualizar perfil de manager por Id</td>
+<td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>33</td>
+<td>TS15</td>
+<td>Obtener perfil de manager por Id</td>
+<td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>34</td>
+<td>TS16</td>
+<td>Obtener perfiles de manager</td>
+<td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>35</td>
+<td>TS17</td>
+<td>Crear convocatoria</td>
+<td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>36</td>
+<td>TS18</td>
+<td>Actualizar convocatoria</td>
+<td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>37</td>
+<td>TS19</td>
+<td>Cambiar estado de convocatoria a publicado</td>
+<td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>38</td>
+<td>TS20</td>
+<td>Cambiar estado de convocatoria a cerrado</td>
+<td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>39</td>
+<td>TS21</td>
+<td>Borrar convocatoria</td>
+<td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>40</td>
+<td>TS22</td>
+<td>Obtener convocatoria por Id</td>
+<td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>41</td>
+<td>TS23</td>
+<td>Obtener todas las convocatorias</td>
+<td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>42</td>
+<td>TS24</td>
+<td>Crear Proyecto</td>
+<td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
+<td>3</td>
+</tr>
+<tr>
+<td>43</td>
+<td>TS25</td>
+<td>Actualizar Proyecto</td>
+<td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
+<td>2</td>
+</tr>
+<tr>
+<td>44</td>
+<td>TS26</td>
+<td>Cambiar estado de proyecto a publicado</td>
+<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
+<td>1</td>
+</tr>
+<tr>
+<td>45</td>
+<td>TS27</td>
+<td>Cambiar estado de proyecto a cerrado</td>
+<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
+<td>1</td>
+</tr>
   </tbody>
 </table>
 
@@ -3663,7 +3898,9 @@ Ambos servicios utilizan el `ApplicationRepository`, que gestiona la persistenci
 
 La arquitectura de información de InnoSpace define cómo se organizará, etiquetará, navegará y buscará el contenido dentro de la aplicación móvil y su Landing Page. El objetivo es permitir que los usuarios interactúen de manera fluida con la plataforma, accedan fácilmente a los recursos clave y logren sus objetivos con el mínimo esfuerzo cognitivo.
 
-#### 3.1.2.1. Organization Systems <br><br>
+#### 3.1.2.1. Organization Systems 
+
+<br><br>
 
 InnoSpace utilizará una combinación de organización jerárquica, secuencial y matricial, aplicada estratégicamente tanto en la Landing Page como en las secciones funcionales de la aplicación móvil. Se aplicarán también diferentes esquemas de categorización.
 
@@ -3687,7 +3924,9 @@ La organización matricial en InnoSpace facilitará la exploración libre de con
 
   + **Cronológico:** En el historial de entregas, postulaciones y validaciones.<br><br>
 
-#### 3.1.2.2. Labeling Systems  <br><br>
+#### 3.1.2.2. Labeling Systems  
+
+<br><br>
 
 El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consistente en la interfaz de la Landing Page. Se emplearán términos cortos y precisos que permitan a los usuarios tener una mejor experiencia con la plataforma
 
@@ -3713,7 +3952,9 @@ El sistema de etiquetado está diseñado para ser intuitivo, minimalista y consi
     Labeling System - Elaboración propia
 </p>
 
-#### 3.1.2.3. SEO Tags and Meta Tags  <br><br>
+#### 3.1.2.3. SEO Tags and Meta Tags  
+
+<br><br>
 
 Las meta etiquetas permitirán estructurar adecuadamente la información que los buscadores necesitan para indexar y posicionar el contenido del sitio. Serán definidas de forma diferenciada para la Landing Page y la Aplicación Móvil.
 
@@ -3752,7 +3993,9 @@ Las meta etiquetas permitirán estructurar adecuadamente la información que los
 
 <br>
 
-#### 3.1.2.4. Searching Systems  <br><br>
+#### 3.1.2.4. Searching Systems  
+
+<br><br>
 
 Dado que InnoSpace concentrará gran volumen de información (proyectos publicados por empresas, ideas innovadoras de estudiantes, perfiles académicos y portafolios), la app contará con un buscador centralizado y filtros contextuales, optimizados para pantallas móviles
 
@@ -3806,7 +4049,9 @@ Lista interactiva con tarjetas que muestran:
 
 - En caso de no encontrar resultados, se mostrará un mensaje: “No se encontraron coincidencias.”.
 
-#### 3.1.2.5. Navigation Systems  <br><br>
+#### 3.1.2.5. Navigation Systems  
+
+<br><br>
 
 La navegación en InnoSpace está diseñada para ser clara, intuitiva y responsiva, guiando a los usuarios a través del landing page y la aplicación mobile, de forma que logren cumplir sus objetivos sin fricción.
 
@@ -4272,11 +4517,11 @@ This will be confirmed when users can access the published Landing Page, navigat
     </tr>
     <tr>
       <td><b>Sprint 1 Velocity</b></td>
-      <td>9 Story Points</td>
+      <td>60 Story Points</td>
     </tr>
     <tr>
       <td><b>Sum of Story Points</b></td>
-      <td>9 Story Points</td>
+      <td>5 + 5 + 2 + 3 + 2 + 3 + 2 + 1 + 3 + 2 + 1 + 3 + 3 + 2 + 1 + 3 + 3 + 2 + 1 + 1 + 1 + 1 + 3 + 3 + 2 + 1 + 1 = 60 Story Points</td>
     </tr>
   </tbody>
 </table>
@@ -4304,108 +4549,297 @@ Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab6
 
 <h3>Sprint Backlog – Sprint 1</h3>
 <table border="1" cellspacing="0" cellpadding="5">
-  <thead>
-    <tr>
-      <th colspan="9">Sprint 1</th>
-    </tr>
-    <tr>
-      <th colspan="2">User Story</th>
-      <th colspan="2">WorkItem / Task</th>
-      <th>Description</th>
-      <th>Estimation (Hours)</th>
-      <th>Assigned To</th>
-      <th>Status (To-do / In-Process / To-Review / Done)</th>
-    </tr>
-    <tr>
-      <th>Id</th><th>Title</th>
-      <th>Id</th><th>Title</th>
-      <th></th><th></th><th></th><th></th>
-    </tr>
-  </thead>
-  <tbody>
-   <tr>
-      <td>EP01</td>
-      <td>Registro y Onboarding de Usuarios</td>
-      <td>WI001</td>
-      <td>Diseño de la estructura de Landing Page</td>
-      <td>Diseñar la estructura base de la Landing Page y definir secciones vinculadas al flujo de registro de usuarios.</td>
-      <td>2</td>
-      <td>Renzo Rivera</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP01</td>
-      <td>Registro y Onboarding de Usuarios</td>
-      <td>WI002</td>
-      <td>Implementación visual en HTML y CSS</td>
-      <td>Implementar el diseño de la Landing Page utilizando HTML5 y CSS3, asegurando coherencia con los mockups en Figma.</td>
-      <td>3</td>
-      <td>Andrea Santur</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP02</td>
-      <td>Gestión de Oportunidades y Proyectos</td>
-      <td>WI003</td>
-      <td>Configuración del Backend con Spring Boot</td>
-      <td>Configurar el entorno backend con Spring Boot, estableciendo endpoints iniciales para gestión de proyectos y conexión con MySQL.</td>
-      <td>5</td>
-      <td>Diego Cabrera</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP02</td>
-      <td>Gestión de Oportunidades y Proyectos</td>
-      <td>WI004</td>
-      <td>Creación de modelo de datos inicial</td>
-      <td>Definir entidades y relaciones principales en MySQL para representar proyectos, usuarios y postulaciones.</td>
-      <td>3</td>
-      <td>Diego Cabrera</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP03</td>
-      <td>Exploración y Postulación a Proyectos</td>
-      <td>WI005</td>
-      <td>Desarrollo de componentes en Kotlin</td>
-      <td>Programar los componentes iniciales en Kotlin para la aplicación móvil, permitiendo visualizar proyectos disponibles.</td>
-      <td>4</td>
-      <td>Erick Palomino</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP03</td>
-      <td>Exploración y Postulación a Proyectos</td>
-      <td>WI006</td>
-      <td>Integración con backend</td>
-      <td>Conectar los componentes móviles con los servicios del backend mediante llamadas API para la postulación a proyectos.</td>
-      <td>3</td>
-      <td>Erick Palomino</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP04</td>
-      <td>Evaluación y Retroalimentación</td>
-      <td>WI007</td>
-      <td>Diseño del módulo de evaluación</td>
-      <td>Diseñar la interfaz conceptual del módulo de evaluación para gerentes en Figma y documentar criterios de retroalimentación.</td>
-      <td>2</td>
-      <td>Carlos Coca</td>
-      <td>Done</td>
-    </tr>
-    <tr>
-      <td>EP05</td>
-      <td>Creación y Visualización de Portafolio</td>
-      <td>WI008</td>
-      <td>Diseño de la sección Portafolio</td>
-      <td>Definir la estructura visual del portafolio del estudiante dentro de la Landing Page y planificar futuras integraciones.</td>
-      <td>2</td>
-      <td>Renzo Rivera</td>
-      <td>Done</td>
-    </tr>
-  </tbody>
-</table>
-  </tbody>
+<thead>
+<tr>
+<th colspan="8">Sprint 1</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS01</td>
+<td>Configuración de autenticación y roles</td>
+<td>WI001</td>
+<td>Implementar sistema de autenticación</td>
+<td>Desarrollar un sistema que distinga entre roles de estudiante y gerente para garantizar acceso seguro y personalizado.</td>
+<td>6</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS02</td>
+<td>Estructura de base de datos para gestión</td>
+<td>WI002</td>
+<td>Diseñar y configurar base de datos</td>
+<td>Establecer la estructura de la base de datos para almacenar usuarios, proyectos, convocatorias y solicitudes.</td>
+<td>8</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS03</td>
+<td>Bottom Navigation Bar</td>
+<td>WI003</td>
+<td>Implementar barra de navegación inferior</td>
+<td>Crear una barra de navegación inferior que conecte las secciones principales del sistema para mejorar la usabilidad.</td>
+<td>4</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS04</td>
+<td>Registrarse</td>
+<td>WI004</td>
+<td>Implementar registro de nuevos usuarios</td>
+<td>Desarrollar la funcionalidad de registro para permitir el acceso inicial de estudiantes y gerentes a la plataforma.</td>
+<td>5</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS05</td>
+<td>Iniciar Sesión</td>
+<td>WI005</td>
+<td>Desarrollar funcionalidad de inicio de sesión</td>
+<td>Permitir que los usuarios inicien sesión con sus credenciales para acceder de forma segura según su rol.</td>
+<td>4</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS06</td>
+<td>Actualizar Usuario</td>
+<td>WI006</td>
+<td>Permitir actualización de datos de usuario</td>
+<td>Implementar la funcionalidad para que los usuarios puedan mantener su información personal actualizada.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS07</td>
+<td>Obtener todos los usuarios</td>
+<td>WI007</td>
+<td>Crear endpoint para listar usuarios</td>
+<td>Desarrollar un endpoint para listar todos los usuarios registrados con fines administrativos.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS08</td>
+<td>Obtener usuario por Id</td>
+<td>WI008</td>
+<td>Desarrollar obtención de usuario por ID</td>
+<td>Implementar la funcionalidad para obtener la información de un usuario específico a través de su ID.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS09</td>
+<td>Crear perfil de estudiante</td>
+<td>WI009</td>
+<td>Implementar creación de perfil de estudiante</td>
+<td>Desarrollar la funcionalidad para que un estudiante pueda crear un perfil que muestre sus habilidades y estudios.</td>
+<td>5</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS10</td>
+<td>Actualizar perfil de estudiante por Id</td>
+<td>WI010</td>
+<td>Permitir actualización de perfil de estudiante</td>
+<td>Implementar la capacidad para que un estudiante pueda actualizar la información de su perfil.</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS11</td>
+<td>Obtener perfil de estudiante por Id</td>
+<td>WI011</td>
+<td>Desarrollar obtención de perfil por ID</td>
+<td>Crear la funcionalidad para obtener el perfil de un estudiante específico para mostrarlo en detalle.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS12</td>
+<td>Obtener perfiles de estudiante</td>
+<td>WI012</td>
+<td>Listar perfiles de estudiantes</td>
+<td>Implementar la funcionalidad para listar los perfiles de los estudiantes para la visualización de los gerentes.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS13</td>
+<td>Crear perfil de manager</td>
+<td>WI013</td>
+<td>Implementar creación de perfil de gerente</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda crear un perfil con la información de su empresa.</td>
+<td>5</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS14</td>
+<td>Actualizar perfil de manager por Id</td>
+<td>WI014</td>
+<td>Permitir actualización de perfil de gerente</td>
+<td>Implementar la capacidad para que un gerente actualice la información de su perfil empresarial.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS15</td>
+<td>Obtener perfil de manager por Id</td>
+<td>WI015</td>
+<td>Desarrollar obtención de perfil de gerente</td>
+<td>Crear la funcionalidad para obtener el perfil de un gerente específico para mostrar a los estudiantes.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS16</td>
+<td>Obtener perfiles de manager</td>
+<td>WI016</td>
+<td>Listar perfiles de gerentes</td>
+<td>Implementar la funcionalidad para listar todos los perfiles de gerentes para que los estudiantes los conozcan.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS17</td>
+<td>Crear convocatoria</td>
+<td>WI017</td>
+<td>Implementar creación de convocatorias</td>
+<td>Permitir a los gerentes crear convocatorias para que los estudiantes puedan postular a proyectos.</td>
+<td>6</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS18</td>
+<td>Actualizar convocatoria</td>
+<td>WI018</td>
+<td>Permitir edición de convocatorias activas</td>
+<td>Implementar la funcionalidad para que un gerente pueda editar una convocatoria activa.</td>
+<td>4</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS19</td>
+<td>Cambiar estado de convocatoria a publicado</td>
+<td>WI019</td>
+<td>Implementar publicación de convocatorias</td>
+<td>Permitir que el gerente publique una convocatoria para hacerla visible a los estudiantes.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS20</td>
+<td>Cambiar estado de convocatoria a cerrado</td>
+<td>WI020</td>
+<td>Implementar cierre de convocatorias</td>
+<td>Permitir que un gerente cierre una convocatoria para finalizar el periodo de postulaciones.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS21</td>
+<td>Borrar convocatoria</td>
+<td>WI021</td>
+<td>Permitir eliminación de convocatorias</td>
+<td>Implementar la funcionalidad para eliminar una convocatoria existente.</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS22</td>
+<td>Obtener convocatoria por Id</td>
+<td>WI022</td>
+<td>Desarrollar obtención de convocatoria por ID</td>
+<td>Obtener la información completa de una convocatoria específica mediante su ID.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS23</td>
+<td>Obtener todas las convocatorias</td>
+<td>WI023</td>
+<td>Listar todas las convocatorias activas</td>
+<td>Obtener y mostrar todas las convocatorias activas para que los estudiantes puedan explorarlas.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS24</td>
+<td>Crear Proyecto</td>
+<td>WI024</td>
+<td>Implementar creación de proyectos</td>
+<td>Permitir que un estudiante cree un nuevo proyecto para su portafolio.</td>
+<td>5</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS25</td>
+<td>Actualizar Proyecto</td>
+<td>WI025</td>
+<td>Permitir actualización de proyectos</td>
+<td>Implementar la funcionalidad para que un estudiante actualice la información de su proyecto.</td>
+<td>3</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS26</td>
+<td>Cambiar estado de proyecto a publicado</td>
+<td>WI026</td>
+<td>Implementar publicación de proyectos</td>
+<td>Permitir que los estudiantes cambien el estado de su proyecto a "Publicado".</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS27</td>
+<td>Cambiar estado de proyecto a cerrado</td>
+<td>WI027</td>
+<td>Implementar cierre de proyectos</td>
+<td>Permitir que los estudiantes cambien el estado de sus proyectos a "Cerrado".</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+</tbody>
 </table>
 
 #### 4.2.1.3. Development Evidence for Sprint Review
