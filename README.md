@@ -2187,28 +2187,70 @@ Empathy Map Segmento 2:
         Escenario 1: Cierre exitoso Dado que el proyecto está actualmente publicado, Cuando el estudiante selecciona la opción Cerrar proyecto, Entonces el sistema cambia el estado a Cerrado y lo retira de la lista pública. Escenario 2: Cierre inválido Dado que el proyecto ya está en estado Cerrado, Cuando el usuario intenta cerrarlo nuevamente, Entonces el sistema muestra un aviso indicando que ya no es posible la acción.
       <td></td>
     </tr>
-    <tr>
-      <td>SP01</td>
-      <td>Evaluar frameworks móviles para el desarrollo</td>
-      <td>
-        Como equipo de desarrollo, queremos analizar diferentes frameworks móviles (Flutter, React Native, Ionic) para determinar cuál ofrece mejor rendimiento y compatibilidad con la infraestructura del proyecto.
-      </td>
-      <td>
-        Escenario 1: Prueba de rendimiento en Flutter Dado que se desarrolla un prototipo base de la aplicación en Flutter, Cuando se ejecuta en distintos dispositivos Android, Entonces se registran los tiempos de carga, consumo de recursos y estabilidad general. Escenario 2: Comparación con React Native Dado que se replica el mismo prototipo en React Native, Cuando se evalúan las integraciones con Firebase y la fluidez de la interfaz, Entonces se documentan los resultados y se selecciona el framework más eficiente.
-      <td></td>
-    </tr>
-    <tr>
-      <td>SP02</td>
-      <td>Validar integración de Firebase Authentication y Firestore</td>
-      <td>
-        Como desarrollador, quiero realizar pruebas de integración entre Firebase Authentication y Firestore, para confirmar que ambos servicios permiten gestionar usuarios, roles y datos de forma segura y sincronizada.
-      </td>
-      <td>
-        Escenario 1: Creación de usuario y registro en Firestore Dado que un nuevo usuario completa su registro, Cuando se autentica mediante Firebase Authentication, Entonces sus datos se guardan automáticamente en la colección correspondiente dentro de Firestore. Escenario 2: Verificación de roles en autenticación Dado que un usuario autenticado intenta acceder a funciones restringidas, Cuando su rol no corresponde a la acción solicitada, Entonces el sistema bloquea el acceso y muestra un mensaje de restricción.
-      <td></td>
-    </tr>
   </tbody>
 </table>
+
+<table>
+  <tr>
+    <th>Spike ID</th>
+    <th>Spike Story</th>
+  </tr>
+
+  <tr>
+    <td><b>SP01</b></td>
+    <td>
+      <b>Nombre:</b> Validar la Integración de Firebase Authentication y Firestore para el Módulo de Autenticación y Perfiles.<br><br>
+      <b>Contexto:</b>  
+      La aplicación móvil <i>InnoSpace</i> requiere autenticación segura y diferenciada por roles (Estudiante y Gerente), además de un almacenamiento eficiente para perfiles y proyectos.  
+      El equipo evaluará <b>Firebase Authentication</b> y <b>Firestore</b> como posibles servicios gestionados que permitan manejar usuarios, roles y escalabilidad sin infraestructura propia.<br><br>
+      <b>Objetivo:</b>  
+      Investigar la integración de Firebase Authentication y Firestore en la app móvil InnoSpace para validar viabilidad técnica, rendimiento y control de roles.<br><br>
+      <b>Criterios de Aceptación (Given–When–Then):</b><br>
+      1. <b>Dado</b> que el equipo necesita entender la gestión de usuarios en Firebase,  
+         <b>Cuando</b> el desarrollador revisa la documentación de autenticación y base de datos,  
+         <b>Entonces</b> documenta el flujo recomendado para registro, login y permisos.<br><br>
+      2. <b>Dado</b> que se requiere un flujo funcional,  
+         <b>Cuando</b> se implementa un prototipo de registro e inicio de sesión,  
+         <b>Entonces</b> el sistema autentica correctamente y crea usuarios en Firestore.<br><br>
+      3. <b>Dado</b> que InnoSpace distingue entre Estudiantes y Gerentes,  
+         <b>Cuando</b> el desarrollador configura roles y reglas de seguridad,  
+         <b>Entonces</b> las operaciones respetan las restricciones por rol.<br><br>
+      4. <b>Dado</b> que la app móvil requiere tiempos de respuesta bajos,  
+         <b>Cuando</b> se ejecutan pruebas de autenticación,  
+         <b>Entonces</b> se documentan métricas de rendimiento y estabilidad.<br><br>
+      <b>Definition of Done (DoD):</b><br>
+      • Se entrega un prototipo funcional de login/registro.<br>
+      • Se documentan configuraciones y tiempos de respuesta.<br>
+      • Se presenta un informe y se decide la adopción de Firebase.<br>
+    </td>
+  </tr>
+  <tr>
+    <td><b>SP02</b></td>
+    <td>
+      <b>Nombre:</b> Evaluar Alternativas de Almacenamiento para Portafolios Estudiantiles (Firebase Storage vs. Cloudinary).<br><br>
+      <b>Contexto:</b>  
+      Los portafolios de los estudiantes en <i>InnoSpace</i> incluyen imágenes, PDFs y enlaces externos.  
+      El equipo de desarrollo necesita definir la mejor solución para almacenamiento seguro y ágil, considerando tiempo de carga, seguridad y costos.<br><br>
+      <b>Objetivo:</b>  
+      Investigar y comparar <b>Firebase Storage</b> y <b>Cloudinary</b> como soluciones para almacenar archivos multimedia, determinando la opción más eficiente y económica.<br><br>
+      <b>Criterios de Aceptación (Given–When–Then):</b><br>
+      1. <b>Dado</b> que el equipo necesita conocer costos y límites de ambos servicios,  
+         <b>Cuando</b> el desarrollador revisa la documentación de precios y políticas,  
+         <b>Entonces</b> se documentan ventajas, costos y límites mensuales.<br><br>
+      2. <b>Dado</b> que los estudiantes subirán imágenes y PDFs,  
+         <b>Cuando</b> el desarrollador crea un prototipo de carga y descarga en ambos servicios,  
+         <b>Entonces</b> se comparan tiempos de carga, facilidad y rendimiento.<br><br>
+      3. <b>Dado</b> que los archivos deben estar protegidos,  
+         <b>Cuando</b> se evalúan las opciones de acceso privado y autenticado,  
+         <b>Entonces</b> se determina qué servicio ofrece mejor control de seguridad.<br><br>
+      <b>Definition of Done (DoD):</b><br>
+      • Informe comparativo con métricas de tiempo, costo y seguridad.<br>
+      • Prototipo de carga/descarga en la app móvil.<br>
+      • Decisión técnica documentada sobre la plataforma seleccionada.<br>
+    </td>
+  </tr>
+</table>
+
 
 <br>
 
