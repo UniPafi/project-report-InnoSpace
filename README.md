@@ -33,7 +33,7 @@
 | U20231D974 | Renzo Sebastian, Rivera Ratachi     |
 
 
-**Agosto 2025**
+**Noviembre 2025**
 
 <br>
 
@@ -2626,16 +2626,160 @@ Como equipo realizamos una sesión de EventStorming con el objetivo de comprende
 
 Durante la sesión usamos una herramienta colaborativa para organizar y visualizar los elementos, lo que nos permitió discutir, consensuar y delimitar los primeros bounded contexts del sistema. El resultado es un mapa inicial del dominio que servirá como base para el análisis y diseño detallado en las siguientes etapas.
 
+Paleta de Colores:
 
+Paleta de colores usados para los post-its utilizados
+
+- Naranja (Domain Event): Evento (pasado).
+
+- Azul (Command): Acción (imperativo).
+
+- Amarillo Claro (Role): Actor/Usuario.
+
+- Morado (Business Rule): Regla/Condición.
+
+- Verde (View): Pantalla/UI.
+
+- Amarillo Oscuro (Aggregate): Entidad/Estado.
+
+- Rosa (External System): Sistema Externo.
+
+Primer Paso
 
 <p align="center">
-  <img src="images/chapterii/eventstorming.png" alt="UPC logo" width="1000">
+  <img src="images/eventstorming/1.png" alt="UPC logo" width="1000">
 </p>
 <p align="center">
-    Event Storming - Elaboración propia
+    Event Storming 1- Elaboración propia
 </p>
 
+Segundo Paso:
 
+<p align="center">
+  <img src="images/eventstorming/2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 2- Elaboración propia
+</p>
+
+Tercer Paso:
+
+<p align="center">
+  <img src="images/eventstorming/3.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 3.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/3.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 3.2- Elaboración propia
+</p>
+
+Cuarto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/4.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 4.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/4.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 4.2- Elaboración propia
+</p>
+
+Quinto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/5.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 5- Elaboración propia
+</p>
+
+Sexto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/6.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 6.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/6.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 6.2- Elaboración propia
+</p>
+
+Septimo Paso:
+
+<p align="center">
+  <img src="images/eventstorming/7.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 7.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/7.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 7.2- Elaboración propia
+</p>
+
+Octavo Paso:
+
+<p align="center">
+  <img src="images/eventstorming/8.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/8.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.2- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/8.3.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.3- Elaboración propia
+</p>
+
+Noveno Paso:
+
+<p align="center">
+  <img src="images/eventstorming/9.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/9.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.2- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/9.3.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.3- Elaboración propia
+</p>
 
 
 #### 2.5.1.1. Candidate Context Discovery
