@@ -2926,63 +2926,54 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 #### 2.5.1.2. Domain Message Flows Modeling
 
-Ahora se mostrarán los eventos en los cuales se comunican los bounded contexts hallados previamente.
+Con los Bounded Contexts definidos en la etapa anterior, el equipo procedió a realizar una sesión de modelado de flujo de mensajes (Domain Message Flow Modeling) para definir cómo estos contextos colaboran entre sí para resolver los distintos escenarios del negocio.
 
+Esta técnica nos permitió visualizar de forma clara los flujos de comunicación entre contextos y entender mejor el comportamiento esperado del sistema desde la perspectiva de los usuarios: el Estudiante y el Gerente (Empresa).
 
-<strong>Company Opportunities y Student Applications:</strong> Cuando un estudiante postula a una convocatoria, se mostrará en la lista de postulantes del gerente, luego el gerente podrá revisar el perfil del postulante y validar su postulación
+Durante la sesión, se analizaron principalmente los dos casos de uso principales de la plataforma:
+
+Caso 1: Postulación de un Estudiante a una Oportunidad de Empresa
+Este flujo involucra a los Bounded Contexts Company Opportunities y Student Applications.
+
+El Gerente (Empresa) publica una nueva convocatoria. Esta acción se envía como un comando (PublishOpportunity) al Bounded Context Company Opportunities.
+
+Una vez procesado, Company Opportunities emite un evento (OpportunityPublished).
+
+El Bounded Context Student Applications "escucha" este evento para saber que la oportunidad está activa.
+
+El Estudiante explora las oportunidades y envía su postulación, asociando uno de sus proyectos. Esto se envía como un comando (SubmitApplication) al Bounded Context Student Applications.
+
+Student Applications recibe la postulación, actualiza su estado a "Pendiente" y emite un evento (ApplicationSubmitted) para notificar al Gerente.
+
+Finalmente, el Gerente revisa y acepta la postulación (comando AcceptApplication), lo que genera un evento final (ApplicationAccepted) para notificar al Estudiante.
+
+Caso 2: Colaboración iniciada por un Gerente sobre un Proyecto Estudiantil
+Este flujo involucra a los Bounded Contexts Student Projects y Project Collaboration.
+
+El Estudiante publica su proyecto innovador. Esta acción se envía como un comando (PublishProject) al Bounded Context Student Projects.
+
+Una vez procesado, Student Projects emite un evento (ProjectPublished).
+
+El Bounded Context Project Collaboration "escucha" este evento para mostrar el proyecto a las empresas.
+
+Un Gerente explora los proyectos y registra su interés en uno. Esto se envía como un comando (CreateCollaborationDecision) al Bounded Context Project Collaboration.
+
+Project Collaboration recibe la decisión y emite un evento (CollaborationInterestShown) para notificar al Estudiante.
+
+El Estudiante revisa el interés de la empresa y responde (ej. "Aceptar"), enviando un comando (SubmitStudentResponse) que actualiza el estado de la colaboración.
+
+Esta visualización permitió entender no solo los puntos de integración entre los contextos, sino también los límites de responsabilidad de cada uno, asegurando una arquitectura desacoplada pero coherente. El resultado fue un conjunto de diagramas de Domain Message Flow que reflejan claramente cómo fluyen los mensajes (Comandos y Eventos) entre usuarios y contextos del sistema.
 
 <p align="center">
-  <img src="images/chapterii/mesage3.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/DomainMessageFlow1.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
      Elaboración propia
 </p>
 
-
-<strong>Company Opportunities y Student Applications:</strong> Cuando una convocatoria acaba y el estudiante elegido participa en ella, entonces el perfil del estudiante se actualizará con la convocatoria en la que participó.
-
 <p align="center">
-  <img src="images/chapterii/mesage5.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
-
-<strong>Project Collaboration y Student Applications:</strong> Cuando el estudiante gana experiencia después de una convocatoria, el gerente puede corroborar su experiencia antes de colaborar en un proyecto del estudiante.
-
-<p align="center">
-  <img src="images/chapterii/mesage6.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
-<strong>Project Collaboration y Student Projects:</strong> Cuando el estudiante publica un proyecto, un gerente podrá verlo en la aplicación y enviar la decisión al estudiante, finalmente el estudiante aceptará si decidir la colaboración o no.
-
-<p align="center">
-  <img src="images/chapterii/mesage7.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-<br>
-
-Aca se muestra el diagrama completo que incluye los 4 Bounded Contexts: 
-
-
-
-<p align="center">
-  <img src="images/chapterii/fulldiagram.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/DomainMessageFlow2.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -3002,7 +2993,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Student Projects
 <p align="center">
-  <img src="images/chapterii/canvas1.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCStudentProjectsCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -3011,7 +3002,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Company Opportunities
 <p align="center">
-  <img src="images/chapterii/canvas2.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCCompanyOportunitiesCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -3020,7 +3011,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Student Applications
 <p align="center">
-  <img src="images/chapterii/canvas3.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCStudentApplicationsCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -3029,7 +3020,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Project Collaboration
 <p align="center">
-  <img src="images/chapterii/canvas4.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCProjectCollaborationCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
