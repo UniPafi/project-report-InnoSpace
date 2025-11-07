@@ -2187,6 +2187,95 @@ Empathy Map Segmento 2:
         Escenario 1: Cierre exitoso Dado que el proyecto está actualmente publicado, Cuando el estudiante selecciona la opción Cerrar proyecto, Entonces el sistema cambia el estado a Cerrado y lo retira de la lista pública. Escenario 2: Cierre inválido Dado que el proyecto ya está en estado Cerrado, Cuando el usuario intenta cerrarlo nuevamente, Entonces el sistema muestra un aviso indicando que ya no es posible la acción.
       <td></td>
     </tr>
+    <tr>
+      <td>TS28</td>
+      <td>Creación de Solicitud de Colaboración</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente envíe una solicitud de colaboración a un proyecto de un estudiante, para iniciar un posible trabajo conjunto y mentoría.
+      </td>
+      <td>
+        Escenario 1: Solicitud exitosa. 
+        Dado que un gerente está viendo un proyecto de un estudiante que le interesa, Cuando presiona el botón "Solicitar Colaboración", Entonces el sistema registra la solicitud con estado "pendiente".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS29</td>
+      <td>Rechazar solicitud de colaboración</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante rechace una solicitud de colaboración de un gerente, para gestionar sus solicitudes entrantes.
+      </td>
+      <td>
+        Escenario 1: Rechazo exitoso. 
+        Dado que un estudiante tiene una solicitud de colaboración pendiente de un gerente, Cuando presiona el botón "Rechazar", Entonces el sistema actualiza el estado de la solicitud a "Rechazada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS30</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante acepte una solicitud de colaboración de un gerente, para confirmar el interés en trabajar juntos.
+      </td>
+      <td>
+        Escenario 1: Aceptación exitosa. 
+        Dado que un estudiante tiene una solicitud de colaboración pendiente, Cuando presiona el botón "Aceptar", Entonces el sistema actualiza el estado de la solicitud a "Aceptada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS31</td>
+      <td>Obtener solicitudes de colaboración por proyecto</td>
+      <td>
+        Como desarrollador, quiero mostrar al estudiante todas las solicitudes de colaboración que ha recibido para un proyecto específico, para facilitar su revisión y gestión.
+      </td>
+      <td>
+        Escenario 1: Listado de solicitudes.
+        Dado que un estudiante accede a la vista de detalle de su proyecto publicado, Cuando selecciona la pestaña "Solicitudes de Colaboración", Entonces el sistema muestra una lista de todas las solicitudes de gerentes (pendientes, aceptadas, rechazadas) para ese proyecto.
+        Escenario 2: Proyecto sin solicitudes. Dado que un estudiante revisa un proyecto que no ha recibido solicitudes de colaboración, Cuando accede a la pestaña "Solicitudes de Colaboración", Entonces el sistema muestra un mensaje indicando que "Aún no hay solicitudes".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS32</td>
+      <td>Enviar postulación a convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante postule a una convocatoria de una empresa, para expresar su interés en participar.
+      </td>
+      <td>
+        Escenario 1: Postulación exitosa. 
+        Dado que un estudiante está viendo una convocatoria de su interés, Cuando presiona el botón "Postular", Entonces el sistema crea la postulación con estado "pendiente".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS33</td>
+      <td>Rechazar postulación de estudiante</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente rechace la postulación de un estudiante a una de sus convocatorias, para gestionar el proceso de selección.
+      </td>
+      <td>
+        Escenario 1: Rechazo exitoso. 
+        Dado que un gerente está revisando las postulaciones pendientes de una convocatoria, Cuando presiona "Rechazar" en la postulación de un estudiante, Entonces el sistema actualiza el estado de la postulación a "Rechazada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS34</td>
+      <td>Aceptar postulación de estudiante</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente acepte la postulación de un estudiante a una convocatoria, para avanzar en el proceso de selección.
+      </td>
+      <td>
+        Escenario 1: Aceptación exitosa. 
+        Dado que un gerente está revisando una postulación pendiente, Cuando presiona el botón "Aceptar", Entonces el sistema actualiza el estado de la postulación a "Aceptada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS35</td>
+      <td>Obtener detalle de postulación</td>
+      <td>
+        Como desarrollador, quiero obtener los detalles de una postulación específica, para mostrar el estado y la información relevante tanto al estudiante como al gerente.
+      </td>
+      <td>
+        Escenario 1: Consulta de gerente. 
+        Dado que un gerente selecciona una postulación de su lista, Cuando el sistema carga los datos, Entonces muestra el detalle de la postulación, incluyendo el perfil del estudiante y el estado actual.
+      <td></td>
+    </tr>
   </tbody>
 </table>
 
@@ -2395,6 +2484,7 @@ Empathy Map Segmento 2:
       <td>Como usuario, quiero publicar una descripción de mi idea o startup innovadora, para atraer la atención e inversión de empresas interesadas.</td>
       <td>4</td>
     </tr>
+    <tr>
     <td>17</td>
       <td>US09</td>
       <td>Explorar Ideas de estudiantes</td>
@@ -2409,194 +2499,250 @@ Empathy Map Segmento 2:
       <td>8</td>
     </tr>
     <tr>
-<td>19</td>
-<td>TS01</td>
-<td>Configuración de autenticación y roles</td>
-<td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
-<td>5</td>
-</tr>
-<tr>
-<td>20</td>
-<td>TS02</td>
-<td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
-<td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
-<td>5</td>
-</tr>
-<tr>
-<td>21</td>
-<td>TS03</td>
-<td>Bottom Navigation Bar</td>
-<td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>22</td>
-<td>TS04</td>
-<td>Registrarse</td>
-<td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>23</td>
-<td>TS05</td>
-<td>Iniciar Sesión</td>
-<td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>24</td>
-<td>TS06</td>
-<td>Actualizar Usuario</td>
-<td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>25</td>
-<td>TS07</td>
-<td>Obtener todos los usuarios</td>
-<td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>26</td>
-<td>TS08</td>
-<td>Obtener usuario por Id</td>
-<td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>27</td>
-<td>TS09</td>
-<td>Crear perfil de estudiante</td>
-<td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>28</td>
-<td>TS10</td>
-<td>Actualizar perfil de estudiante por Id</td>
-<td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>29</td>
-<td>TS11</td>
-<td>Obtener perfil de estudiante por Id</td>
-<td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>30</td>
-<td>TS12</td>
-<td>Obtener perfiles de estudiante</td>
-<td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>31</td>
-<td>TS13</td>
-<td>Crear perfil de manager</td>
-<td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>32</td>
-<td>TS14</td>
-<td>Actualizar perfil de manager por Id</td>
-<td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>33</td>
-<td>TS15</td>
-<td>Obtener perfil de manager por Id</td>
-<td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>34</td>
-<td>TS16</td>
-<td>Obtener perfiles de manager</td>
-<td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>35</td>
-<td>TS17</td>
-<td>Crear convocatoria</td>
-<td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>36</td>
-<td>TS18</td>
-<td>Actualizar convocatoria</td>
-<td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>37</td>
-<td>TS19</td>
-<td>Cambiar estado de convocatoria a publicado</td>
-<td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>38</td>
-<td>TS20</td>
-<td>Cambiar estado de convocatoria a cerrado</td>
-<td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>39</td>
-<td>TS21</td>
-<td>Borrar convocatoria</td>
-<td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>40</td>
-<td>TS22</td>
-<td>Obtener convocatoria por Id</td>
-<td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>41</td>
-<td>TS23</td>
-<td>Obtener todas las convocatorias</td>
-<td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>42</td>
-<td>TS24</td>
-<td>Crear Proyecto</td>
-<td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>43</td>
-<td>TS25</td>
-<td>Actualizar Proyecto</td>
-<td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>44</td>
-<td>TS26</td>
-<td>Cambiar estado de proyecto a publicado</td>
-<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>45</td>
-<td>TS27</td>
-<td>Cambiar estado de proyecto a cerrado</td>
-<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
-<td>1</td>
-</tr>
+    <td>19</td>
+      <td>TS01</td>
+      <td>Configuración de autenticación y roles</td>
+      <td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+    <td>20</td>
+      <td>TS02</td>
+      <td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+      <td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+    <td>21</td>
+      <td>TS03</td>
+      <td>Bottom Navigation Bar</td>
+      <td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>22</td>
+      <td>TS04</td>
+      <td>Registrarse</td>
+      <td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>23</td>
+      <td>TS05</td>
+      <td>Iniciar Sesión</td>
+      <td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>24</td>
+      <td>TS06</td>
+      <td>Actualizar Usuario</td>
+      <td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>25</td>
+      <td>TS07</td>
+      <td>Obtener todos los usuarios</td>
+      <td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>26</td>
+      <td>TS08</td>
+      <td>Obtener usuario por Id</td>
+      <td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>27</td>
+      <td>TS09</td>
+      <td>Crear perfil de estudiante</td>
+      <td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>28</td>
+      <td>TS10</td>
+      <td>Actualizar perfil de estudiante por Id</td>
+      <td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>29</td>
+      <td>TS11</td>
+      <td>Obtener perfil de estudiante por Id</td>
+      <td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>30</td>
+      <td>TS12</td>
+      <td>Obtener perfiles de estudiante</td>
+      <td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>31</td>
+      <td>TS13</td>
+      <td>Crear perfil de manager</td>
+      <td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>32</td>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>33</td>
+      <td>TS15</td>
+      <td>Obtener perfil de manager por Id</td>
+      <td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>34</td>
+      <td>TS16</td>
+      <td>Obtener perfiles de manager</td>
+      <td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>35</td>
+      <td>TS17</td>
+      <td>Crear convocatoria</td>
+      <td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>36</td>
+      <td>TS18</td>
+      <td>Actualizar convocatoria</td>
+      <td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>37</td>
+      <td>TS19</td>
+      <td>Cambiar estado de convocatoria a publicado</td>
+      <td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>38</td>
+      <td>TS20</td>
+      <td>Cambiar estado de convocatoria a cerrado</td>
+      <td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>39</td>
+      <td>TS21</td>
+      <td>Borrar convocatoria</td>
+      <td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>40</td>
+      <td>TS22</td>
+      <td>Obtener convocatoria por Id</td>
+      <td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>41</td>
+      <td>TS23</td>
+      <td>Obtener todas las convocatorias</td>
+      <td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>42</td>
+      <td>TS24</td>
+      <td>Crear Proyecto</td>
+      <td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>43</td>
+      <td>TS25</td>
+      <td>Actualizar Proyecto</td>
+      <td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>44</td>
+      <td>TS26</td>
+      <td>Cambiar estado de proyecto a publicado</td>
+      <td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>45</td>
+      <td>TS27</td>
+      <td>Cambiar estado de proyecto a cerrado</td>
+      <td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>46</td>
+      <td>TS28</td>
+      <td>Creación de Solicitud de Colaboración</td>
+      <td>Como desarrollador, quiero permitir que un gerente envíe una solicitud de colaboración a un proyecto de un estudiante, para iniciar un posible trabajo conjunto y mentoría.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>47</td>
+      <td>TS29</td>
+      <td>Rechazar solicitud de colaboración</td>
+      <td>Como desarrollador, quiero permitir que un estudiante rechace una solicitud de colaboración de un gerente, para gestionar sus solicitudes entrantes.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>48</td>
+      <td>TS30</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>Como desarrollador, quiero permitir que un estudiante acepte una solicitud de colaboración de un gerente, para confirmar el interés en trabajar juntos.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>49</td>
+      <td>TS31</td>
+      <td>Obtener solicitudes de colaboración por proyecto</td>
+      <td>Como desarrollador, quiero mostrar al estudiante todas las solicitudes de colaboración que ha recibido para un proyecto específico, para facilitar su revisión y gestión.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>50</td>
+      <td>TS32</td>
+      <td>Enviar postulación a convocatoria</td>
+      <td>Como desarrollador, quiero permitir que un estudiante postule a una convocatoria de una empresa, para expresar su interés en participar.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>51</td>
+      <td>TS33</td>
+      <td>Rechazar postulación de estudiante</td>
+      <td>Como desarrollador, quiero permitir que un gerente rechace la postulación de un estudiante a una de sus convocatorias, para gestionar el proceso de selección.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>52</td>
+      <td>TS34</td>
+      <td>Aceptar postulación de estudiante</td>
+      <td>Como desarrollador, quiero permitir que un gerente acepte la postulación de un estudiante a una convocatoria, para avanzar en el proceso de selección.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>53</td>
+      <td>TS35</td>
+      <td>Obtener detalle de postulación</td>
+      <td>Como desarrollador, quiero obtener los detalles de una postulación específica, para mostrar el estado y la información relevante tanto al estudiante como al gerente.</td>
+      <td>2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -4730,11 +4876,6 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab62d0a5c5a2ec8cd4630bcadfa4FB379D9A/sprint-backlog-1-unipafi 
 
 
-
-
-
-
-
 <h3>Sprint Backlog – Sprint 1</h3>
 <table border="1" cellspacing="0" cellpadding="5">
 <thead>
@@ -5402,6 +5543,197 @@ Durante este Sprint se realizó el deployment de la landing page y del 70% del b
 
 <br>
 
+### 4.2.2. Sprint 2
+
+Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 2. Dando continuidad al trabajo previo, este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante esta nueva iteración. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 2</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-10-28</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>08:00 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Rivera Ratachi, Renzo Sebastian</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Santur Tello, Andrea Elizabeth
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Review Summary</b></td>
+      <td>Al finalizar el Sprint 1, el equipo completó exitosamente el 100% del backlog planificado (60 Story Points). Los productos de software clave alcanzados incluyen el despliegue funcional de la Landing Page en GitHub Pages y el despliegue del núcleo del backend en Azure, con todos los servicios principales (perfiles, proyectos, oportunidades y autenticación) operativos y documentados en Swagger. Los miembros del equipo se mostraron satisfechos con la alta velocidad y la finalización de todas las tareas. El Product Owner validó los entregables, dando feedback positivo sobre la sólida infraestructura y el avance visual en la app.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Retrospective Summary</b></td>
+      <td>El equipo identificó como aciertos principales la alta colaboración entre los desarrolladores de backend y móvil (reflejado en los Insights) y la efectividad en la división de tareas, lo que permitió completar el 100% del backlog. El despliegue temprano de la infraestructura en Azure se consideró un gran éxito técnico.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Goal</b></td>
+      <td>Our focus is on implementing the complete interaction cycle between managers and students, enabling managers to request collaboration on projects and students to apply for opportunities.
+      We believe it delivers tangible connection tools for both user roles. For managers, it provides a direct channel to proactively recruit talent. For students, it provides a clear path to apply for opportunities and respond to collaboration offers.
+      This will be confirmed when a manager can view a project, send a collaboration request, and the student can successfully accept or reject that request; AND when a student can view an opportunity, send an application, and the manager can successfully accept or reject that application.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Velocity</b></td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 = 13 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.2. Sprint Backlog 2
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue implementar las funcionalidades centrales de interacción de la plataforma, incluyendo la gestión de solicitudes de colaboración y las postulaciones a convocatorias. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<br>
+<p align="center">
+  <img src="images/trelloSprint2.png" alt="Sprint Backlog 2 Trello" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 2 - Elaboración propia
+</p>
+
+
+Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bde2d8cc2dd9b1a1b6f2fa9033b197AB661/sprint-2
+
+<br>
+
+<h3>Sprint Backlog – Sprint 2</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS28</td>
+<td>Creación de Solicitud de Colaboración</td>
+<td>WI001</td>
+<td>Implementar envío de solicitud de colaboración</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda enviar una solicitud (con estado "pendiente") al proyecto de un estudiante.</td>
+<td>5</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS29</td>
+<td>Rechazar solicitud de colaboración</td>
+<td>WI002</td>
+<td>Implementar rechazo de colaboración</td>
+<td>Crear la lógica para que un estudiante pueda cambiar el estado de una solicitud de colaboración recibida a "Rechazada".</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS30</td>
+<td>Aceptar solicitud de colaboración</td>
+<td>WI003</td>
+<td>Implementar aceptación de colaboración</td>
+<td>Desarrollar la lógica para que un estudiante pueda actualizar el estado de una solicitud de colaboración recibida a "Aceptada".</td>
+<td>2</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS31</td>
+<td>Obtener solicitudes de colaboración por proyecto</td>
+<td>WI004</td>
+<td>Listar solicitudes por proyecto</td>
+<td>Crear la funcionalidad para mostrar al estudiante un listado de todas las solicitudes de colaboración asociadas a su proyecto.</td>
+<td>3</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS32</td>
+<td>Enviar postulación a convocatoria</td>
+<td>WI005</td>
+<td>Implementar envío de postulación</td>
+<td>Desarrollar la funcionalidad para que un estudiante pueda postular a una convocatoria, creando un registro en estado "pendiente".</td>
+<td>5</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS33</td>
+<td>Rechazar postulación de estudiante</td>
+<td>WI006</td>
+<td>Implementar rechazo de postulación</td>
+<td>Crear la lógica para que un gerente pueda cambiar el estado de una postulación de estudiante (que recibió en su convocatoria) a "Rechazada".</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS34</td>
+<td>Aceptar postulación de estudiante</td>
+<td>WI007</td>
+<td>Implementar aceptación de postulación</td>
+<td>Desarrollar la lógica para que un gerente pueda actualizar el estado de una postulación de estudiante (que recibió en su convocatoria) a "Aceptada".</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS35</td>
+<td>Obtener detalle de postulación</td>
+<td>WI008</td>
+<td>Desarrollar obtención de detalle de postulación</td>
+<td>Implementar la funcionalidad para obtener y mostrar la información detallada de una postulación específica.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
 
 ## 4.3. Validation Interviews
 
