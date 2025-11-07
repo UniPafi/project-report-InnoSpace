@@ -5735,6 +5735,27 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 </tbody>
 </table>
 
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>link</td>
+    <td>rama</td>
+    <td>abc</td>
+    <td>abc</td>
+    <td>abc</td>
+    <td>00/00/00</td>
+  </tr>
+<table>
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
