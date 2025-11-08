@@ -1687,21 +1687,21 @@ Empathy Map Segmento 2:
       </td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>
-        <strong>Como</strong> usuario, <strong>quiero</strong> recuperar mi contraseña, <strong>para</strong> poder acceder a mi cuenta si la olvido.</td>
-      <td>
-      <strong>Escenario 1: Usuario envía solicitud de recuperación
-      </strong><br>
-        <strong>Dado</strong> que el usuario está en la pantalla de inicio de sesión,
-        <strong>cuando</strong> haga clic en el enlace de “¿Olvidaste tu contraseña?”,
-        <strong>Y</strong> proporciona su correo electrónico registrado, 
-        <strong>entonces</strong> debe recibir un correo electrónico con un enlace para restablecer su contraseña.
-      </td>
-      <td>EP01</td>
-    </tr>
+   <tr>
+  <td>US04</td>
+  <td>Guardado de Proyectos Favoritos</td>
+  <td>
+    <strong>Como</strong> gerente, <strong>quiero</strong> guardar proyectos como favoritos, <strong>para</strong> consultar su información en un futuro.
+  </td>
+  <td>
+    <strong>Escenario 1: Marcar proyecto como favorito</strong><br>
+    <strong>Dado</strong> que un gerente visualiza el listado de proyectos, <strong>cuando</strong> haga clic en el ícono "Añadir a Favoritos" en un proyecto, <strong>entonces</strong> el proyecto debe guardarse en su lista de favoritos y el ícono debe cambiar de estado.
+    <br><br>
+    <strong>Escenario 2: Acceder a proyectos favoritos</strong><br>
+    <strong>Dado</strong> que el gerente necesita revisar proyectos importantes, <strong>cuando</strong> acceda a la sección "Mis Favoritos", <strong>entonces</strong> debe visualizar todos los proyectos marcados como favoritos con indicadores de estado y progreso.
+  </td>
+  <td>EP02</td>
+</tr>
     <tr>
       <td>US05</td>
       <td>Explorar proyectos de empresa</td>
@@ -1779,15 +1779,10 @@ Empathy Map Segmento 2:
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según palabras clave, <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
       <td>
         <strong>Escenario 1: Búsqueda con resultados disponibles</strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> aplica filtros por habilidades y área académica, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles, ordenados por relevancia, y el estudiante puede marcar algunos como favoritos.
-        <br><br>
-        <strong>Escenario 2: Búsqueda sin resultados     </strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y aplica filtros demasiado específicos, <strong>Y</strong> selecciona la opción “Registrarse como Gerente”, 
-        <strong>cuando</strong> se ejecuta la búsqueda,
-        <strong>entonces</strong> el sistema no muestra proyectos disponibles y presenta el mensaje “No se encontraron proyectos” con la sugerencia de ampliar los filtros.
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> coloca palabras clave en la barra de busqueda, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles y el estudiante puede marcar algunos como favoritos.
       </td>
       <td>EP03</td>
     </tr>
@@ -1838,18 +1833,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
+      <td>Registro de portafolio</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> que los proyectos en los que participé exitosamente se registren en mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> poder registrar mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
       </td>
       <td>
-        <strong>Escenario 1: Proyecto validado agregado al portafolio</strong><br>
-        <strong>Dado</strong> que el estudiante ha finalizado un proyecto y la empresa lo marcó como “Completado”, <strong>cuando</strong> crevisa su portafolio, <strong>entonces</strong> el sistema muestra automáticamente el proyecto con el rol desempeñado, duración y competencias aplicadas.
+        <strong>Escenario 1: Enlace agregado de portafolio</strong><br>
+        <strong>Dado</strong> que el estudiante accede a su perfil, <strong>cuando</strong> edita el enlace a su portafolio, <strong>entonces</strong> el sistema guarda el enlace en la base de datos.
         <br><br>
-        <strong>Escenario 2: Proyecto pendiente de validación</strong><br>
-        <strong>Dado</strong> que el estudiante finalizó un proyecto pero la empresa aún no confirma la finalización, 
-        <strong>cuando</strong> revisa su portafolio,
-        <strong>entonces</strong> el sistema no muestra el proyecto y aparece la nota “Pendiente de validación”.
       </td>
       <td>EP03</td>
     </tr>
@@ -1870,16 +1861,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US16</td>
-      <td>Filtrado de estudiantes</td>
+      <td>Filtrado de proyectos de estudiantes</td>
       <td>
-        <strong>Como</strong> gerente, <strong>quiero</strong>  filtrar estudiantes por habilidades y nivel académico, <strong>para</strong> para identificar candidatos adecuados más rápido.
+        <strong>Como</strong> gerente, <strong>quiero</strong>  buscar proyectos de  estudiantes por habilidades y tecnologias, <strong>para</strong> identificar proyectos adecuados más rápido.
       </td>
       <td>
-        <strong>Escenario 1: Filtrado exitoso por habilidades</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> selecciona habilidades específicas, <strong>entonces</strong> aparece la lista de estudiantes que cumplen.
+        <strong>Escenario 1: Busqueda exitosa por palabras clave</strong><br>
+        <strong>Dado</strong> que el gerente realiza una busqueda con palabras clave, <strong>cuando</strong> escribe  tecnologias específicas, <strong>entonces</strong> aparece la lista de proyectos de  estudiantes que cumplen.
         <br><br>
-        <strong>Escenario 2: Manejo de filtros sin resultados</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> cuando no hay coincidencias, <strong>entonces</strong> entonces el sistema muestra el mensaje “No se encontraron estudiantes con estos criterios”.
       </td>
       <td>EP03</td>
     </tr>
@@ -2403,9 +2392,9 @@ Empathy Map Segmento 2:
     <tr>
       <td>5</td>
       <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>Como usuario registrado, quiero recuperar mi contraseña, para poder acceder a mi cuenta si la olvido.</td>
-      <td>e</td>
+      <td>Guardado de proyectos Favoritos</td>
+      <td>Como gerente, quiero guardar proyectos como favoritos, para consultar su información en un futuro.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>6</td>
@@ -2432,7 +2421,8 @@ Empathy Map Segmento 2:
       <td>9</td>
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
-      <td>Como estudiante universitario, quiero buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), para identificar oportunidades que se ajusten a mi perfil.</td>
+      <td>Como estudiante universitario, quiero buscar proyectos según palabras clave, 
+para identificar oportunidades que se ajusten a mi perfil.</td>
       <td>5</td>
     </tr>
     <tr>
@@ -2494,8 +2484,10 @@ Empathy Map Segmento 2:
     <tr>
     <td>18</td>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
-      <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
+      <td>Registro de portafolio</td>
+      <td>Como estudiante universitario, 
+quiero poder registrar mi portafolio, 
+para demostrar mi experiencia a futuras empresas.</td>
       <td>8</td>
     </tr>
     <tr>
@@ -3026,47 +3018,6 @@ Al identificar estos pivotal points, se puede observar cómo los eventos se agru
 <br>
 
 Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir estos Bounded Contexts, detallando los agregados, eventos y entidades:
-
-
-
-### Student Projects:
-<p align="center">
-  <img src="images/chapterii/studentprojectsmiro.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Student Applications
-<p align="center">
-  <img src="images/chapterii/mirostud.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Project Collaboration:
-<p align="center">
-  <img src="images/chapterii/miro_projcollab.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Company Opportunities
-<p align="center">
-  <img src="images/chapterii/mirocomp.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
 
 
 
@@ -5755,6 +5706,20 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
     <td>00/00/00</td>
   </tr>
 <table>
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+
+
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
 
 ## 4.3. Validation Interviews
 
