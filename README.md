@@ -5709,7 +5709,32 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 
 #### 4.2.2.4. Testing Suite Evidence for Sprint Review
 
+#### Core Entities Unit Tests
 
+Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que garantizan la calidad y correcto funcionamiento de las entidades centrales. Estas pruebas verifican que la lógica interna y las reglas de negocio implementadas en los servicios y agregados funcionen de manera independiente y coherente, previniendo errores y facilitando el mantenimiento del código.
+
+ 
+
+
+ <img src="images/integration1.png" alt="entrevista1" width="800"><br>
+
+
+
+#### Core Integration Tests
+
+Los Core Integration Tests validan la comunicación entre las distintas capas de la aplicación, principalmente entre los controladores, servicios y repositorios. A través de estas pruebas se asegura que los endpoints respondan correctamente a las solicitudes, devuelvan los códigos de estado apropiados y mantengan la consistencia de los datos intercambiados. Son fundamentales para comprobar el correcto funcionamiento del sistema como un todo antes de las pruebas de aceptación.
+
+
+ <img src="images/integrationunittests.png" alt="entrevista1" width="800"><br>
+
+
+#### Features:
+
+
+ <img src="images/feature11.png" alt="" width="600"><br>
+
+
+  <img src="images/feature2.png" alt="" width="600"><br>
 
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
