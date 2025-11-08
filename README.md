@@ -5743,6 +5743,8 @@ En este Sprint 2 , los miembros del equipo de desarrollo de software de  han com
 
 - Una vez que el estudiante accede con credenciales válidas, es redirigido al panel principal donde se muestran las oportunidades disponible
 
+*1.1) Formulario sobre datos del apoderado
+
 *2) Exploración y Selección de Oportunidades
 
 - El estudiante puede visualizar las oportunidades activas, filtrarlas por categoría y seleccionar la que desee explorar en detalle.
@@ -6104,4 +6106,5 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
