@@ -5698,12 +5698,93 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
     <td><strong>Commited on (Date)</strong></td>
   </tr>
   <tr>
-    <td>link</td>
-    <td>rama</td>
-    <td>abc</td>
-    <td>abc</td>
-    <td>abc</td>
-    <td>00/00/00</td>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>develop</td>
+    <td>963b277</td>
+    <td>feat: add unit and integration tests for project and auth</td>
+    <td>Added ProjectCommandServiceImplTest to test project creation logic</td>
+    <td>06/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>deployment</td>
+    <td>92475a6</td>
+    <td>fix: switch base image to eclipse-temurin:24-jdk</td>
+    <td>Replaces the OpenJDK base image with Eclipse Temurin for building the container.</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/collaboration-applications</td>
+    <td>9b0875b</td>
+    <td>feat: add endpoints to query cards by manager and student</td>
+    <td>Introduced new REST endpoints and service methods to fetch collaboration cards by manager and student application cards by student.</td>
+    <td>04/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>bca1592</td>
+    <td>feat: update project card and top bar UI</td>
+    <td>Updated ProjectCard with improved styling, rounded corners, elevation, and better text handling including ellipsis for overflow.</td>
+    <td>05/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>21af86e</td>
+    <td>feat(profile): add new profile and update bio</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e7e65e9</td>
+    <td>feat: postulations</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>62df927</td>
+    <td>feat: update the styles</td>
+    <td>-</td>
+    <td>05/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e503886</td>
+    <td>feat: add collaborators</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/my-projects</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>03/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/explore-opportunities-section</td>
+    <td>3ad27a9</td>
+    <td>feat: add apply to opportunity feature for students</td>
+    <td>Introduced the ability for students to apply to opportunities from the OpportunityDetailScreen. Added ApplyToOpportunityUseCase, updated navigation to pass studentId, and extended the OpportunityDetailViewModel and UI to handle application logic and feedback.</td>
+    <td>03/11/25</td>
   </tr>
 <table>
 
