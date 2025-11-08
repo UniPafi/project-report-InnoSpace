@@ -5736,8 +5736,64 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 </table>
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
-En este Sprint 2 , los miembros del equipo de desarrollo de software de  han completado el bounded context Applications tanto por parte del frontend como backend
+
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+
+Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. La interfase fue diseñada siguiendo un estilo limpio y coherente con el propósito de seguir la guía UI/UX, así como anteponiendo las premisas de facilidad de uso y aprecio por la seguridad.
+
+<p align="center">
+  <img src="images/profile1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/profile2.png" alt="Sprint Backlog 2 Trello" width="
+  190">
+</p>
+
+Exploración: Esta opción posibilita a los usuarios realizar la búsqueda entre las diferentes oportunidades publicadas por parte de las empresas o los gerentes. Se llevó a cabo un listado dinámico que consume los endpoints del backend, en el cual se presenta la información correspondiente a cada convocatoria: título, empresa, fecha y estado.
+
+<p align="center">
+  <img src="images/explore1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando). Se implementó la funcionalidad de listar, crear y editar proyectos así como visualizar su estado de avance.
+
+<p align="center">
+  <img src="images/project1.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/project2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/project3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. Así mismo, permite al usuario acceder a la información del detalle del proyecto y poder interactuar con las personas responsables de este.
+
+<p align="center">
+  <img src="images/postulation1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/postulation2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos que están relacionados con su cuenta y su perfil, es decir, su nombre, correo, descripción, habilidades y foto de perfil. El diseño de esta vista tiene una estética sencilla pero responsiva, siguiendo la guía de estilos estipulada en el proceso de diseño UI/UX. Al mismo tiempo se creó la conexión con el backend para poder actualizar los datos de manera instantánea.
+
+<p align="center">
+  <img src="images/perfil1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/perfil2.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/perfil3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
 ## 4.3. Validation Interviews
