@@ -5737,6 +5737,26 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 En este Sprint 2 , los miembros del equipo de desarrollo de software de  han completado el bounded context Applications tanto por parte del frontend como backend
+
+**Tras haber iniciado sesión **
+*1) Inicio de Sesión del Estudiante
+
+- Una vez que el estudiante accede con credenciales válidas, es redirigido al panel principal donde se muestran las oportunidades disponible
+
+*2) Exploración y Selección de Oportunidades
+
+- El estudiante puede visualizar las oportunidades activas, filtrarlas por categoría y seleccionar la que desee explorar en detalle.
+
+*3) Formulario de Postulación
+
+- Al seleccionar una oportunidad, se muestra un formulario de postulación, donde el estudiante registra su información relevante, portafolio y mensaje de motivación.
+
+*4) Listado de Solicitudes de Colaboración por Proyecto
+
+- Vista donde el estudiante puede ver todas las solicitudes relacionadas con su proyecto.
+
+
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -6084,3 +6104,4 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
