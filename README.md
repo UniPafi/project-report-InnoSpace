@@ -5795,6 +5795,7 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
 
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
+El Sprint 2 tuvo como enfoque principal el desarrollo de la aplicación móvil en Android Studio, la cual, si bien aún no se encuentra al 100%, se encuentra en su etapa final de desarrollo. La documentación de los Endpoints con OpenAPI y los detalles técnicos complementarios serán presentados en la entrega final del proyecto.
 
 ## 4.3. Validation Interviews
 
@@ -6140,5 +6141,6 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
