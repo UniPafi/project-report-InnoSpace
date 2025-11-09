@@ -1687,21 +1687,21 @@ Empathy Map Segmento 2:
       </td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>
-        <strong>Como</strong> usuario, <strong>quiero</strong> recuperar mi contraseña, <strong>para</strong> poder acceder a mi cuenta si la olvido.</td>
-      <td>
-      <strong>Escenario 1: Usuario envía solicitud de recuperación
-      </strong><br>
-        <strong>Dado</strong> que el usuario está en la pantalla de inicio de sesión,
-        <strong>cuando</strong> haga clic en el enlace de “¿Olvidaste tu contraseña?”,
-        <strong>Y</strong> proporciona su correo electrónico registrado, 
-        <strong>entonces</strong> debe recibir un correo electrónico con un enlace para restablecer su contraseña.
-      </td>
-      <td>EP01</td>
-    </tr>
+   <tr>
+  <td>US04</td>
+  <td>Guardado de Proyectos Favoritos</td>
+  <td>
+    <strong>Como</strong> gerente, <strong>quiero</strong> guardar proyectos como favoritos, <strong>para</strong> consultar su información en un futuro.
+  </td>
+  <td>
+    <strong>Escenario 1: Marcar proyecto como favorito</strong><br>
+    <strong>Dado</strong> que un gerente visualiza el listado de proyectos, <strong>cuando</strong> haga clic en el ícono "Añadir a Favoritos" en un proyecto, <strong>entonces</strong> el proyecto debe guardarse en su lista de favoritos y el ícono debe cambiar de estado.
+    <br><br>
+    <strong>Escenario 2: Acceder a proyectos favoritos</strong><br>
+    <strong>Dado</strong> que el gerente necesita revisar proyectos importantes, <strong>cuando</strong> acceda a la sección "Mis Favoritos", <strong>entonces</strong> debe visualizar todos los proyectos marcados como favoritos con indicadores de estado y progreso.
+  </td>
+  <td>EP02</td>
+</tr>
     <tr>
       <td>US05</td>
       <td>Explorar proyectos de empresa</td>
@@ -1779,15 +1779,10 @@ Empathy Map Segmento 2:
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según palabras clave, <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
       <td>
         <strong>Escenario 1: Búsqueda con resultados disponibles</strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> aplica filtros por habilidades y área académica, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles, ordenados por relevancia, y el estudiante puede marcar algunos como favoritos.
-        <br><br>
-        <strong>Escenario 2: Búsqueda sin resultados     </strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y aplica filtros demasiado específicos, <strong>Y</strong> selecciona la opción “Registrarse como Gerente”, 
-        <strong>cuando</strong> se ejecuta la búsqueda,
-        <strong>entonces</strong> el sistema no muestra proyectos disponibles y presenta el mensaje “No se encontraron proyectos” con la sugerencia de ampliar los filtros.
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> coloca palabras clave en la barra de busqueda, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles y el estudiante puede marcar algunos como favoritos.
       </td>
       <td>EP03</td>
     </tr>
@@ -1838,18 +1833,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
+      <td>Registro de portafolio</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> que los proyectos en los que participé exitosamente se registren en mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> poder registrar mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
       </td>
       <td>
-        <strong>Escenario 1: Proyecto validado agregado al portafolio</strong><br>
-        <strong>Dado</strong> que el estudiante ha finalizado un proyecto y la empresa lo marcó como “Completado”, <strong>cuando</strong> crevisa su portafolio, <strong>entonces</strong> el sistema muestra automáticamente el proyecto con el rol desempeñado, duración y competencias aplicadas.
+        <strong>Escenario 1: Enlace agregado de portafolio</strong><br>
+        <strong>Dado</strong> que el estudiante accede a su perfil, <strong>cuando</strong> edita el enlace a su portafolio, <strong>entonces</strong> el sistema guarda el enlace en la base de datos.
         <br><br>
-        <strong>Escenario 2: Proyecto pendiente de validación</strong><br>
-        <strong>Dado</strong> que el estudiante finalizó un proyecto pero la empresa aún no confirma la finalización, 
-        <strong>cuando</strong> revisa su portafolio,
-        <strong>entonces</strong> el sistema no muestra el proyecto y aparece la nota “Pendiente de validación”.
       </td>
       <td>EP03</td>
     </tr>
@@ -1870,16 +1861,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US16</td>
-      <td>Filtrado de estudiantes</td>
+      <td>Filtrado de proyectos de estudiantes</td>
       <td>
-        <strong>Como</strong> gerente, <strong>quiero</strong>  filtrar estudiantes por habilidades y nivel académico, <strong>para</strong> para identificar candidatos adecuados más rápido.
+        <strong>Como</strong> gerente, <strong>quiero</strong>  buscar proyectos de  estudiantes por habilidades y tecnologias, <strong>para</strong> identificar proyectos adecuados más rápido.
       </td>
       <td>
-        <strong>Escenario 1: Filtrado exitoso por habilidades</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> selecciona habilidades específicas, <strong>entonces</strong> aparece la lista de estudiantes que cumplen.
+        <strong>Escenario 1: Busqueda exitosa por palabras clave</strong><br>
+        <strong>Dado</strong> que el gerente realiza una busqueda con palabras clave, <strong>cuando</strong> escribe  tecnologias específicas, <strong>entonces</strong> aparece la lista de proyectos de  estudiantes que cumplen.
         <br><br>
-        <strong>Escenario 2: Manejo de filtros sin resultados</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> cuando no hay coincidencias, <strong>entonces</strong> entonces el sistema muestra el mensaje “No se encontraron estudiantes con estos criterios”.
       </td>
       <td>EP03</td>
     </tr>
@@ -2403,9 +2392,9 @@ Empathy Map Segmento 2:
     <tr>
       <td>5</td>
       <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>Como usuario registrado, quiero recuperar mi contraseña, para poder acceder a mi cuenta si la olvido.</td>
-      <td>e</td>
+      <td>Guardado de proyectos Favoritos</td>
+      <td>Como gerente, quiero guardar proyectos como favoritos, para consultar su información en un futuro.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>6</td>
@@ -2432,7 +2421,8 @@ Empathy Map Segmento 2:
       <td>9</td>
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
-      <td>Como estudiante universitario, quiero buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), para identificar oportunidades que se ajusten a mi perfil.</td>
+      <td>Como estudiante universitario, quiero buscar proyectos según palabras clave, 
+para identificar oportunidades que se ajusten a mi perfil.</td>
       <td>5</td>
     </tr>
     <tr>
@@ -2494,8 +2484,10 @@ Empathy Map Segmento 2:
     <tr>
     <td>18</td>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
-      <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
+      <td>Registro de portafolio</td>
+      <td>Como estudiante universitario, 
+quiero poder registrar mi portafolio, 
+para demostrar mi experiencia a futuras empresas.</td>
       <td>8</td>
     </tr>
     <tr>
@@ -3026,47 +3018,6 @@ Al identificar estos pivotal points, se puede observar cómo los eventos se agru
 <br>
 
 Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir estos Bounded Contexts, detallando los agregados, eventos y entidades:
-
-
-
-### Student Projects:
-<p align="center">
-  <img src="images/chapterii/studentprojectsmiro.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Student Applications
-<p align="center">
-  <img src="images/chapterii/mirostud.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Project Collaboration:
-<p align="center">
-  <img src="images/chapterii/miro_projcollab.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Company Opportunities
-<p align="center">
-  <img src="images/chapterii/mirocomp.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
 
 
 
@@ -5735,6 +5686,138 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 </tbody>
 </table>
 
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>develop</td>
+    <td>963b277</td>
+    <td>feat: add unit and integration tests for project and auth</td>
+    <td>Added ProjectCommandServiceImplTest to test project creation logic</td>
+    <td>06/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>deployment</td>
+    <td>92475a6</td>
+    <td>fix: switch base image to eclipse-temurin:24-jdk</td>
+    <td>Replaces the OpenJDK base image with Eclipse Temurin for building the container.</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/collaboration-applications</td>
+    <td>9b0875b</td>
+    <td>feat: add endpoints to query cards by manager and student</td>
+    <td>Introduced new REST endpoints and service methods to fetch collaboration cards by manager and student application cards by student.</td>
+    <td>04/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>bca1592</td>
+    <td>feat: update project card and top bar UI</td>
+    <td>Updated ProjectCard with improved styling, rounded corners, elevation, and better text handling including ellipsis for overflow.</td>
+    <td>05/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>21af86e</td>
+    <td>feat(profile): add new profile and update bio</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e7e65e9</td>
+    <td>feat: postulations</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>62df927</td>
+    <td>feat: update the styles</td>
+    <td>-</td>
+    <td>05/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e503886</td>
+    <td>feat: add collaborators</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/my-projects</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>03/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/explore-opportunities-section</td>
+    <td>3ad27a9</td>
+    <td>feat: add apply to opportunity feature for students</td>
+    <td>Introduced the ability for students to apply to opportunities from the OpportunityDetailScreen. Added ApplyToOpportunityUseCase, updated navigation to pass studentId, and extended the OpportunityDetailViewModel and UI to handle application logic and feedback.</td>
+    <td>03/11/25</td>
+  </tr>
+<table>
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### Core Entities Unit Tests
+
+Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que garantizan la calidad y correcto funcionamiento de las entidades centrales. Estas pruebas verifican que la lógica interna y las reglas de negocio implementadas en los servicios y agregados funcionen de manera independiente y coherente, previniendo errores y facilitando el mantenimiento del código.
+
+ 
+
+
+ <img src="images/integration1.png" alt="entrevista1" width="800"><br>
+
+
+
+#### Core Integration Tests
+
+Los Core Integration Tests validan la comunicación entre las distintas capas de la aplicación, principalmente entre los controladores, servicios y repositorios. A través de estas pruebas se asegura que los endpoints respondan correctamente a las solicitudes, devuelvan los códigos de estado apropiados y mantengan la consistencia de los datos intercambiados. Son fundamentales para comprobar el correcto funcionamiento del sistema como un todo antes de las pruebas de aceptación.
+
+
+ <img src="images/integrationunittests.png" alt="entrevista1" width="800"><br>
+
+
+#### Features:
+
+
+ <img src="images/feature11.png" alt="" width="600"><br>
+
+
+  <img src="images/feature2.png" alt="" width="600"><br>
+
+
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
 En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
@@ -5791,6 +5874,7 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
 </p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+  
 Durante el Sprint 2 se desarrollaron y documentaron 8 nuevos endpoints correspondientes a los bounded contexts Project Collaboration y Student Applications.
 Estos endpoints permiten gestionar solicitudes de colaboración entre empresas y estudiantes, así como postulación a oportunidades laborales dentro de la plataforma.
 
@@ -5945,6 +6029,7 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
   - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
 
 
+#### 4.2.2.8. Team Collaboration Insights during Sprint
 
 
 ## 4.3. Validation Interviews
