@@ -5906,7 +5906,7 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
 
 <br>
 <p align="center">
-  <img src="images/chapter4-sprint1/swaggerdeploy.png" alt="execution" width="1000">
+  <img src="images/chapter4-sprint1/swaggerdeploy1.png" alt="execution" width="1000">
 </p>
 
 <br>
@@ -6291,6 +6291,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
