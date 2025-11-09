@@ -5836,13 +5836,6 @@ Finalmente, se incluye también la **URL del repositorio de los Web Services** y
 | PUT | `/api/v1/users/{id}/update-proofing` | Actualizar verificación |
 | GET | `/api/v1/roles` | Listar roles |
 
-**Ejemplo Sign-in (curl):**
-```bash
-curl -X POST "https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1/authentication/sign-in" \
-  -H "Content-Type: application/json" \
-  -d '{"email":"user@example.com","password":"secret"}'
-# Ejemplo de respuesta:
-# { "token": "eyJhbGci...", "userId": 12 }
 
 #### 2. Student Profiles / Manager Profiles
 
@@ -5892,14 +5885,6 @@ curl -X POST "https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azureweb
 | POST   | `/api/v1/applications/{id}/accept`                 | Aceptar postulación            |
 | POST   | `/api/v1/applications/{id}/reject`                 | Rechazar postulación           |
 
-**Ejemplo**
-
-curl -X POST "https://innospacebackend-.../api/v1/applications" 
-  -H "Authorization: Bearer <TOKEN>" 
-  -H "Content-Type: application/json" 
-  -d '{"studentId":201,"opportunityId":301,"projectId":123}'
-Ejemplo de respuesta:
-{ "applicationId": 456, "status": "PENDING", "submissionDate": "2025-10-28T18:00:00Z" }
 
 ### 6. Project Collaboration (Decisiones de colaboración)
 
@@ -5910,14 +5895,6 @@ Ejemplo de respuesta:
 | GET    | `/api/v1/collaboration/{id}`                | Obtener decisión por ID        |
 | POST   | `/api/v1/collaboration/{id}/response`       | Responder colaboración         |
 | DELETE | `/api/v1/collaboration/{id}`                | Eliminar decisión              |
-
-**Ejemplo**
-curl -X POST "https://innospacebackend-.../api/v1/collaboration" 
-  -H "Authorization: Bearer <TOKEN>" 
-  -H "Content-Type: application/json" 
-  -d '{"projectId":123,"companyId":45,"message":"Interesados en colaborar"}'
-Ejemplo de respuesta:
- { "id": 987, "projectId": 123, "companyId": 45, "status": "PENDING" }
 
 #### Evidencias y Trazabilidad
 
@@ -6342,6 +6319,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
