@@ -5791,135 +5791,214 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
 </p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
-Durante este Sprint, se logró un avance significativo en la documentación y despliegue de múltiples Endpoints pertenecientes a los diferentes bounded contexts implementados por el equipo. Para este propósito, se empleó OpenAPI, una herramienta fundamental que permitió describir de manera estructurada, clara y estandarizada los servicios web desarrollados, asegurando así una mejor comprensión y mantenimiento del sistema.
+Durante este Sprint, se logró un avance significativo en la **documentación y despliegue de múltiples Endpoints** pertenecientes a los diferentes *bounded contexts* implementados por el equipo.  
 
-Asimismo, se presenta a continuación la relación detallada de los Endpoints, junto con las acciones soportadas y la documentación correspondiente, la cual refleja el trabajo colaborativo y la alineación con las buenas prácticas de desarrollo.
+Para este propósito, se empleó **OpenAPI**, una herramienta fundamental que permitió describir de manera estructurada, clara y estandarizada los servicios web desarrollados, asegurando así una mejor comprensión y mantenimiento del sistema.
 
-Dicha documentación abarca los verbos HTTP utilizados, la sintaxis de las llamadas, los parámetros requeridos, así como ejemplos de respuesta y evidencias gráficas que muestran la interacción con los servicios web utilizando datos de prueba reales. Finalmente, se incluye también la URL del repositorio de los Web Services y los commit IDs asociados al trabajo de documentación efectuado durante este Sprint, garantizando así la trazabilidad y transparencia del proceso de desarrollo.
+Asimismo, se presenta a continuación la relación detallada de los **Endpoints**, junto con las acciones soportadas y la documentación correspondiente, la cual refleja el trabajo colaborativo y la alineación con las buenas prácticas de desarrollo.
 
-Base URL 
+La documentación abarca los **verbos HTTP utilizados**, la sintaxis de las llamadas, los parámetros requeridos, ejemplos de respuesta y evidencias gráficas que muestran la interacción con los servicios web utilizando datos de prueba reales.
 
-API base: https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1
-Swagger UI: https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html#/Student%20Profiles/createStudentProfile
-Repo backend: https://github.com/UniPafi/backend-InnoSpace.git
-Seguridad
+Finalmente, se incluye también la **URL del repositorio de los Web Services** y los *commit IDs* asociados al trabajo de documentación efectuado durante este Sprint, garantizando la **trazabilidad y transparencia** del proceso de desarrollo.
 
-Autenticación: JWT Bearer
-Header: Authorization: Bearer <TOKEN>
-Validaciones: @Valid en DTOs, manejo de errores con códigos 400/401/403/404/422
-Resumen por bounded context (endpoints relevantes, verbo, descripción y ejemplo)
+---
 
-IAM / Usuarios / Roles
+### Base URL
 
-POST /api/v1/authentication/sign-up — Registro de usuario (body: email,password,role,...). Response incluye id y roles.
-POST /api/v1/authentication/sign-in — Inicio de sesión (body: email,password). Response: { token, userId }.
-GET /api/v1/users — Listar usuarios.
-GET /api/v1/users/{id} — Obtener usuario por id.
-PUT /api/v1/users/{id} — Actualizar usuario.
-PUT /api/v1/users/{id}/update-proofing — Actualizar verificación/“proofing” (si aplica).
-GET /api/v1/roles — Listar roles.
-Ejemplo sign-in (curl)
+| Descripción | URL |
+|--------------|-----|
+| **API base** | [https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1](https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1) |
+| **Swagger UI** | [https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html#/Student%20Profiles/createStudentProfile](https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html#/Student%20Profiles/createStudentProfile) |
+| **Repo Backend** | [https://github.com/UniPafi/backend-InnoSpace.git](https://github.com/UniPafi/backend-InnoSpace.git) |
 
+---
 
-# logincurl -X POST "https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1/authentication/sign-in" \  -H "Content-Type: application/json" \  -d '{"email":"user@example.com","password":"secret"}'# Response (ejemplo)# { "token":"eyJhbGci...", "userId": 12 }
-Student Profiles / Manager Profiles
+### Seguridad
 
-GET /api/v1/student-profiles — Listar perfiles estudiantes.
-POST /api/v1/student-profiles — Crear perfil estudiante.
-GET /api/v1/student-profiles/{id} — Obtener perfil por id.
-PUT /api/v1/student-profiles/{id} — Actualizar perfil.
-GET /api/v1/manager-profiles — Listar perfiles gerentes/empresas.
-POST /api/v1/manager-profiles — Crear perfil manager.
-GET /api/v1/manager-profiles/{id} — Obtener por id.
-PUT /api/v1/manager-profiles/{id} — Actualizar.
-Company Opportunities
+- **Autenticación:** JWT Bearer  
+- **Header:** `Authorization: Bearer <TOKEN>`  
+- **Validaciones:** `@Valid` en DTOs  
+- **Manejo de errores:** códigos `400`, `401`, `403`, `404`, `422`
 
-POST /api/v1/opportunities — Crear oportunidad/convocatoria.
-GET /api/v1/opportunities — Listar oportunidades.
-GET /api/v1/opportunities/{id} — Obtener oportunidad por id.
-PUT /api/v1/opportunities/{id} — Actualizar oportunidad.
-POST /api/v1/opportunities/{id}/publish — Publicar.
-POST /api/v1/opportunities/{id}/close — Cerrar.
-GET /api/v1/opportunities/company/{companyId} — Oportunidades por empresa.
-Student Projects
+---
 
-POST /api/v1/projects — Crear proyecto estudiantil.
-GET /api/v1/projects — Listar proyectos.
-GET /api/v1/projects/{id} — Obtener proyecto por id.
-PUT /api/v1/projects/{id} — Actualizar proyecto.
-POST /api/v1/projects/{id}/publish — Publicar proyecto.
-POST /api/v1/projects/{id}/finalize — Finalizar proyecto.
-GET /api/v1/projects/student/{studentId} — Proyectos por estudiante.
-Student Applications (postulaciones)
+### Resumen por Bounded Context
 
-POST /api/v1/applications — Enviar postulación (body: studentId, opportunityId, projectId).
-GET /api/v1/applications/{id} — Obtener detalle de postulación.
-GET /api/v1/applications/student/{studentId} — Postulaciones por estudiante.
-GET /api/v1/applications/opportunity/{opportunityId} — Postulaciones por oportunidad.
-POST /api/v1/applications/{id}/accept — Aceptar postulación.
-POST /api/v1/applications/{id}/reject — Rechazar postulación.
-Ejemplo de envío de postulación (curl)
+#### 1. IAM / Usuarios / Roles
 
+| Método | Endpoint | Descripción |
+|---------|-----------|-------------|
+| POST | `/api/v1/authentication/sign-up` | Registro de usuario |
+| POST | `/api/v1/authentication/sign-in` | Inicio de sesión |
+| GET | `/api/v1/users` | Listar usuarios |
+| GET | `/api/v1/users/{id}` | Obtener usuario por ID |
+| PUT | `/api/v1/users/{id}` | Actualizar usuario |
+| PUT | `/api/v1/users/{id}/update-proofing` | Actualizar verificación |
+| GET | `/api/v1/roles` | Listar roles |
 
-curl -X POST "https://innospacebackend-.../api/v1/applications" \  -H "Authorization: Bearer <TOKEN>" \  -H "Content-Type: application/json" \  -d '{"studentId":201,"opportunityId":301,"projectId":123}'# Ejemplo response:# { "applicationId": 456, "status": "PENDING", "submissionDate":"2025-10-28T18:00:00Z" }
-Project Collaboration (decisiones de colaboración)
+**Ejemplo Sign-in (curl):**
+```bash
+curl -X POST "https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/api/v1/authentication/sign-in" \
+  -H "Content-Type: application/json" \
+  -d '{"email":"user@example.com","password":"secret"}'
+# Ejemplo de respuesta:
+# { "token": "eyJhbGci...", "userId": 12 }
 
-POST /api/v1/collaboration — Crear solicitud/decision de colaboración (companyId, projectId, message).
-GET /api/v1/collaboration/project/{projectId} — Listar decisiones por proyecto.
-GET /api/v1/collaboration/{id} — Obtener decision por id.
-POST /api/v1/collaboration/{id}/response — Responder (aceptar/rechazar) por parte del estudiante.
-DELETE /api/v1/collaboration/{id} — Eliminar decisión.
-Ejemplo envío de colaboración (curl)
+#### 2. Student Profiles / Manager Profiles
 
+| Método | Endpoint                        | Descripción                    |
+| ------ | ------------------------------- | ------------------------------ |
+| GET    | `/api/v1/student-profiles`      | Listar perfiles de estudiantes |
+| POST   | `/api/v1/student-profiles`      | Crear perfil de estudiante     |
+| GET    | `/api/v1/student-profiles/{id}` | Obtener perfil por ID          |
+| PUT    | `/api/v1/student-profiles/{id}` | Actualizar perfil              |
+| GET    | `/api/v1/manager-profiles`      | Listar perfiles de gerentes    |
+| POST   | `/api/v1/manager-profiles`      | Crear perfil de gerente        |
+| GET    | `/api/v1/manager-profiles/{id}` | Obtener perfil por ID          |
+| PUT    | `/api/v1/manager-profiles/{id}` | Actualizar perfil              |
 
-curl -X POST "https://innospacebackend-.../api/v1/collaboration" \  -H "Authorization: Bearer <TOKEN>" \  -H "Content-Type: application/json" \  -d '{"projectId":123,"companyId":45,"message":"Interesados en colaborar"}'# Response ejemplo:# { "id": 987, "projectId":123, "companyId":45, "status":"PENDING" }
-Evidencias y trazabilidad (commits / ramas)
+#### 3. Company Opportunities
 
-Repo: https://github.com/UniPafi/backend-InnoSpace.git
-Commits relevantes (Sprint / features):
+| Método | Endpoint                                    | Descripción                |
+| ------ | ------------------------------------------- | -------------------------- |
+| POST   | `/api/v1/opportunities`                     | Crear oportunidad          |
+| GET    | `/api/v1/opportunities`                     | Listar oportunidades       |
+| GET    | `/api/v1/opportunities/{id}`                | Obtener oportunidad por ID |
+| PUT    | `/api/v1/opportunities/{id}`                | Actualizar oportunidad     |
+| POST   | `/api/v1/opportunities/{id}/publish`        | Publicar                   |
+| POST   | `/api/v1/opportunities/{id}/close`          | Cerrar                     |
+| GET    | `/api/v1/opportunities/company/{companyId}` | Oportunidades por empresa  |
+
+### 4. Student Projects
+
+| Método | Endpoint                               | Descripción                |
+| ------ | -------------------------------------- | -------------------------- |
+| POST   | `/api/v1/projects`                     | Crear proyecto estudiantil |
+| GET    | `/api/v1/projects`                     | Listar proyectos           |
+| GET    | `/api/v1/projects/{id}`                | Obtener proyecto por ID    |
+| PUT    | `/api/v1/projects/{id}`                | Actualizar proyecto        |
+| POST   | `/api/v1/projects/{id}/publish`        | Publicar proyecto          |
+| POST   | `/api/v1/projects/{id}/finalize`       | Finalizar proyecto         |
+| GET    | `/api/v1/projects/student/{studentId}` | Proyectos por estudiante   |
+
+### 5. Student Applications (Postulaciones)
+
+| Método | Endpoint                                           | Descripción                    |
+| ------ | -------------------------------------------------- | ------------------------------ |
+| POST   | `/api/v1/applications`                             | Enviar postulación             |
+| GET    | `/api/v1/applications/{id}`                        | Obtener detalle de postulación |
+| GET    | `/api/v1/applications/student/{studentId}`         | Postulaciones por estudiante   |
+| GET    | `/api/v1/applications/opportunity/{opportunityId}` | Postulaciones por oportunidad  |
+| POST   | `/api/v1/applications/{id}/accept`                 | Aceptar postulación            |
+| POST   | `/api/v1/applications/{id}/reject`                 | Rechazar postulación           |
+
+**Ejemplo**
+
+curl -X POST "https://innospacebackend-.../api/v1/applications" \
+  -H "Authorization: Bearer <TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{"studentId":201,"opportunityId":301,"projectId":123}'
+# Ejemplo de respuesta:
+# { "applicationId": 456, "status": "PENDING", "submissionDate": "2025-10-28T18:00:00Z" }
+
+### 6. Project Collaboration (Decisiones de colaboración)
+
+| Método | Endpoint                                    | Descripción                    |
+| ------ | ------------------------------------------- | ------------------------------ |
+| POST   | `/api/v1/collaboration`                     | Crear solicitud/decisión       |
+| GET    | `/api/v1/collaboration/project/{projectId}` | Listar decisiones por proyecto |
+| GET    | `/api/v1/collaboration/{id}`                | Obtener decisión por ID        |
+| POST   | `/api/v1/collaboration/{id}/response`       | Responder colaboración         |
+| DELETE | `/api/v1/collaboration/{id}`                | Eliminar decisión              |
+
+**Ejemplo**
+curl -X POST "https://innospacebackend-.../api/v1/collaboration" \
+  -H "Authorization: Bearer <TOKEN>" \
+  -H "Content-Type: application/json" \
+  -d '{"projectId":123,"companyId":45,"message":"Interesados en colaborar"}'
+# Ejemplo de respuesta:
+# { "id": 987, "projectId": 123, "companyId": 45, "status": "PENDING" }
+
+#### Evidencias y Trazabilidad
+
+Repositorio: https://github.com/UniPafi/backend-InnoSpace.git
+
+Commits relevantes:
+
 feat/profiles-bounded-context — 49f2fd1
-feature/company-opportunities-bounded-context — 314ef27
-feature/student-projects-bounded-context — 70e83e1
-feature/iam-bounded-context — 56b2668
-Swagger UI desplegado y accesible en la URL de Azure (ver arriba). Capturas están en el informe (images/chapter4-sprint1/swaggerdeploy.png).
-Arquitectura y patrones aplicados
 
-Separación CQRS (Command / Query services) en bounded contexts.
-DTO / Resource pattern para transferencia REST <-> dominio.
-Repositorios JPA para persistencia (MySQL en Azure).
-Seguridad basada en JWT; endpoints protegidos con filtro Bearer.
-Buenas prácticas y recomendaciones
+feature/company-opportunities-bounded-context — 314ef27
+
+feature/student-projects-bounded-context — 70e83e1
+
+feature/iam-bounded-context — 56b2668
+
+Swagger UI desplegado: disponible en Azure (ver enlaces anteriores).
+
+Capturas de evidencia: images/chapter4-sprint1/swaggerdeploy.png
+
+#### Arquitectura y Patrones Aplicados
+
+Separación CQRS (Command / Query Services) por bounded context
+
+Uso de DTO / Resource pattern para la transferencia entre REST ↔ dominio
+
+Repositorios JPA para persistencia (MySQL en Azure)
+
+Seguridad basada en JWT con filtro Bearer
+
+#### Buenas Prácticas y Recomendaciones
 
 Incluir ejemplos de errores comunes (401, 403, 404, 422) en la documentación OpenAPI.
-Exportar y versionar la colección Postman en el repo (docs/postman_collection.json).
-Añadir ejemplos de tokens válidos para pruebas (env de testes) y un snippet con curl + Authorization para QA.
 
-Conclusión
-La documentación de servicios del Sprint cubre los endpoints principales de los bounded contexts implementados, está disponible en OpenAPI/Swagger (link arriba) y se respalda con commits en el repositorio. Recomendación inmediata: exportar OpenAPI/Swagger yaml al repo (docs/openapi.yaml) y añadir colección Postman para facilitar pruebas de integración.
+Exportar y versionar la colección Postman (docs/postman_collection.json).
 
+Añadir ejemplos de tokens válidos de pruebas y snippets de autenticación (curl + Authorization) para QA.
+
+#### Conclusión
+
+La documentación de servicios del Sprint cubre los endpoints principales de los bounded contexts implementados.
+Está disponible en OpenAPI/Swagger (ver enlace) y respaldada con commits en el repositorio.
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
-El Sprint 2 tuvo como enfoque principal el desarrollo de la aplicación móvil en Android Studio, la cual, si bien aún no se encuentra al 100%, se encuentra en su etapa final de desarrollo. La documentación de los Endpoints con OpenAPI y los detalles técnicos complementarios serán presentados en la entrega final del proyecto.
 
-Actividades Realizadas
-*1. Creación de Cuentas y Configuración de Recursos
+Durante este Sprint, el equipo enfocó sus esfuerzos en las actividades de despliegue de los productos digitales del proyecto InnoSpace, incluyendo la Landing Page y el Backend alojados en servicios en la nube. Estas tareas fueron esenciales para garantizar la disponibilidad, escalabilidad y seguridad de las aplicaciones en entornos reales.
 
-Proveedor de Hosting: Se realizó la selección y configuración del servicio de hosting adecuado para el despliegue de la landing page.
+A continuación, se detalla el proceso seguido, las configuraciones realizadas y las evidencias obtenidas durante el despliegue.
 
-Configuración del Entorno: Se establecieron los entornos de desarrollo y producción, garantizando la correcta sincronización entre ambos y la estabilidad del despliegue.
+<b>1. Creación de cuentas y configuración de recursos</b>
 
-*2. Configuración de Proyectos para Integración
+Se seleccionó Microsoft Azure como proveedor de nube, debido a su integración con herramientas de despliegue continuo y administración de bases de datos.
 
-Repositorio de Código: Se configuró el repositorio en GitHub para facilitar la integración continua (CI) y el despliegue automatizado del proyecto.
+Se configuraron los servicios necesarios para el despliegue, incluyendo Azure App Service para el backend y una base de datos MySQL Flexible Server, asegurando la persistencia de los datos.
 
-Automatización: Se desarrollaron scripts y flujos de trabajo (GitHub Actions) para automatizar la publicación del sitio, optimizando los tiempos de entrega y reduciendo errores manuales.
+Se definieron los entornos de desarrollo y producción, permitiendo mantener un flujo ordenado entre las versiones en prueba y las liberadas.
 
-*3. Despliegue de la Landing Page
+<b>2. Configuración de proyectos para integración</b>
 
-Subida de Archivos: Se transfirieron los archivos y recursos necesarios al servidor, asegurando la correcta estructura del proyecto y la compatibilidad con el entorno de producción.
+Se creó y configuró el repositorio GitHub para la Landing Page y el Backend, habilitando flujos de Integración Continua (CI) y Despliegue Continuo (CD) mediante GitHub Actions.
 
-Verificación: Se validó que la landing page estuviera desplegada correctamente, verificando su disponibilidad pública, funcionalidad y rendimiento general.
+Se implementaron scripts de automatización para la ejecución de pruebas, compilación y despliegue, optimizando los tiempos y reduciendo errores manuales.
 
+<b>3. Despliegue de la Landing Page</b>
+
+Se realizó el deployment de la Landing Page utilizando GitHub Pages, asegurando su disponibilidad pública y una correcta visualización en navegadores modernos.
+
+Se verificó el correcto funcionamiento del sitio, incluyendo enlaces, recursos multimedia y adaptabilidad responsiva.
+
+Enlace del Repositorio: https://aventis-scholr.github.io/landing-page/
+
+Capturas de pantalla: Ver Anexo N.
+
+<b>4. Despliegue del Backend</b>
+
+El Backend se desplegó en Azure App Service, garantizando una arquitectura escalable y segura.
+
+Se estableció la conexión con la base de datos MySQL en Azure, asegurando la persistencia de información y la correcta comunicación con los endpoints documentados.
+
+Se realizaron pruebas de acceso y rendimiento a través de peticiones HTTP con herramientas como Postman y OpenAPI.
+
+Capturas de pantalla: Ver Anexo O.
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -6264,6 +6343,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
