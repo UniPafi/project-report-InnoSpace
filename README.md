@@ -5901,6 +5901,25 @@ La documentación de servicios del Sprint cubre los endpoints principales de los
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 El Sprint 2 tuvo como enfoque principal el desarrollo de la aplicación móvil en Android Studio, la cual, si bien aún no se encuentra al 100%, se encuentra en su etapa final de desarrollo. La documentación de los Endpoints con OpenAPI y los detalles técnicos complementarios serán presentados en la entrega final del proyecto.
 
+Actividades Realizadas
+*1. Creación de Cuentas y Configuración de Recursos
+
+Proveedor de Hosting: Se realizó la selección y configuración del servicio de hosting adecuado para el despliegue de la landing page.
+
+Configuración del Entorno: Se establecieron los entornos de desarrollo y producción, garantizando la correcta sincronización entre ambos y la estabilidad del despliegue.
+
+*2. Configuración de Proyectos para Integración
+
+Repositorio de Código: Se configuró el repositorio en GitHub para facilitar la integración continua (CI) y el despliegue automatizado del proyecto.
+
+Automatización: Se desarrollaron scripts y flujos de trabajo (GitHub Actions) para automatizar la publicación del sitio, optimizando los tiempos de entrega y reduciendo errores manuales.
+
+*3. Despliegue de la Landing Page
+
+Subida de Archivos: Se transfirieron los archivos y recursos necesarios al servidor, asegurando la correcta estructura del proyecto y la compatibilidad con el entorno de producción.
+
+Verificación: Se validó que la landing page estuviera desplegada correctamente, verificando su disponibilidad pública, funcionalidad y rendimiento general.
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -6245,6 +6264,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
