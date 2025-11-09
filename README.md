@@ -5791,7 +5791,11 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
 </p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint, se logró un avance significativo en la documentación y despliegue de múltiples Endpoints pertenecientes a los diferentes bounded contexts implementados por el equipo. Para este propósito, se empleó OpenAPI, una herramienta fundamental que permitió describir de manera estructurada, clara y estandarizada los servicios web desarrollados, asegurando así una mejor comprensión y mantenimiento del sistema.
 
+Asimismo, se presenta a continuación la relación detallada de los Endpoints, junto con las acciones soportadas y la documentación correspondiente, la cual refleja el trabajo colaborativo y la alineación con las buenas prácticas de desarrollo.
+
+Dicha documentación abarca los verbos HTTP utilizados, la sintaxis de las llamadas, los parámetros requeridos, así como ejemplos de respuesta y evidencias gráficas que muestran la interacción con los servicios web utilizando datos de prueba reales. Finalmente, se incluye también la URL del repositorio de los Web Services y los commit IDs asociados al trabajo de documentación efectuado durante este Sprint, garantizando así la trazabilidad y transparencia del proceso de desarrollo.
 
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
@@ -6141,6 +6145,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
