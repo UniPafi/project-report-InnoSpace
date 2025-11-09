@@ -5820,9 +5820,214 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+
+Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. La interfase fue diseñada siguiendo un estilo limpio y coherente con el propósito de seguir la guía UI/UX, así como anteponiendo las premisas de facilidad de uso y aprecio por la seguridad.
+
+<p align="center">
+  <img src="images/profile1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/profile2.png" alt="Sprint Backlog 2 Trello" width="
+  190">
+</p>
+
+Exploración: Esta opción posibilita a los usuarios realizar la búsqueda entre las diferentes oportunidades publicadas por parte de las empresas o los gerentes. Se llevó a cabo un listado dinámico que consume los endpoints del backend, en el cual se presenta la información correspondiente a cada convocatoria: título, empresa, fecha y estado.
+
+<p align="center">
+  <img src="images/explore1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando). Se implementó la funcionalidad de listar, crear y editar proyectos así como visualizar su estado de avance.
+
+<p align="center">
+  <img src="images/project1.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/project2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/project3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. Así mismo, permite al usuario acceder a la información del detalle del proyecto y poder interactuar con las personas responsables de este.
+
+<p align="center">
+  <img src="images/postulation1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/postulation2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos que están relacionados con su cuenta y su perfil, es decir, su nombre, correo, descripción, habilidades y foto de perfil. El diseño de esta vista tiene una estética sencilla pero responsiva, siguiendo la guía de estilos estipulada en el proceso de diseño UI/UX. Al mismo tiempo se creó la conexión con el backend para poder actualizar los datos de manera instantánea.
+
+<p align="center">
+  <img src="images/perfil1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/perfil2.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/perfil3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
+  
+Durante el Sprint 2 se desarrollaron y documentaron 8 nuevos endpoints correspondientes a los bounded contexts Project Collaboration y Student Applications.
+Estos endpoints permiten gestionar solicitudes de colaboración entre empresas y estudiantes, así como postulación a oportunidades laborales dentro de la plataforma.
+
+La documentación se realizó utilizando OpenAPI (Swagger), asegurando claridad, estandarización y trazabilidad.
+Asimismo, se evidenció con pruebas funcionales desde Swagger UI y control de versiones en GitHub.
+
+| User Story | Task  | Descripción                        | Endpoint Implementado                            | Estado |
+| ---------- | ----- | ---------------------------------- | ------------------------------------------------ |------- |
+| TS28       | WI001 | Enviar solicitud de colaboración   | `POST /api/v1/collaborations`                    |  Done  |
+| TS29       | WI002 | Rechazar solicitud de colaboración | `PATCH /api/v1/collaborations/{id}/reject`       |  Done  |
+| TS30       | WI003 | Aceptar solicitud de colaboración  | `PATCH /api/v1/collaborations/{id}/accept`       |  Done  |
+| TS31       | WI004 | Listar solicitudes por proyecto    | `GET /api/v1/collaborations/project/{projectId}` |  Done  |
+| TS32       | WI005 | Enviar postulación a convocatoria  | `POST /api/v1/student-applications`              |  Done  |
+| TS33       | WI006 | Rechazar postulación de estudiante | `PATCH /api/v1/student-applications/{id}/reject` |  Done  |
+| TS34       | WI007 | Aceptar postulación de estudiante  | `PATCH /api/v1/student-applications/{id}/accept` |  Done  |
+| TS35       | WI008 | Obtener detalle de postulación     | `GET /api/v1/student-applications/{id}`          |  Done  |
+
+
+*A) Estilo Académico (para Informe)*
+**Endpoints del Bounded Context: Project Collaboration**
+
+| Método    | Endpoint                                     | Propósito                                                                | Estado Final |
+| --------- | -------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
+| **POST**  | `/api/v1/collaborations`                     | Permite que un gerente envíe una solicitud de colaboración a un proyecto | Completado   |
+| **PATCH** | `/api/v1/collaborations/{id}/reject`         | Permite que un estudiante rechace una solicitud                          | Completado   |
+| **PATCH** | `/api/v1/collaborations/{id}/accept`         | Permite que un estudiante acepte una solicitud                           | Completado   |
+| **GET**   | `/api/v1/collaborations/project/{projectId}` | Lista solicitudes asociadas a un proyecto                                | Completado   |
+
+
+Estos endpoints permiten la interacción entre empresas y estudiantes, fortaleciendo la colaboración y habilitando procesos de toma de decisión bilateral dentro del ecosistema de InnoSpace.
+
+**Endpoints del Bounded Context: Student Applications**
+
+| Método    | Endpoint                                   | Propósito                                           | Estado Final |
+| --------- | ------------------------------------------ | --------------------------------------------------- | ------------ |
+| **POST**  | `/api/v1/student-applications`             | Permite que un estudiante postule a una oportunidad | Completado   |
+| **PATCH** | `/api/v1/student-applications/{id}/reject` | Permite que un gerente rechace una postulación      | Completado   |
+| **PATCH** | `/api/v1/student-applications/{id}/accept` | Permite que un gerente acepte una postulación       | Completado   |
+| **GET**   | `/api/v1/student-applications/{id}`        | Muestra el detalle de una postulación               | Completado   |
+
+
+Este conjunto de endpoints formaliza el flujo de postulación y selección entre estudiantes y organizaciones.
+
+*B) Estilo Técnico (para Swagger / Anexos / QA)*
+
+#### 1) Crear Solicitud de Colaboración
+POST /api/v1/collaborations
+Body:
+{
+  "projectId": 12,
+  "managerId": 4,
+  "message": "Estamos interesados en tu proyecto"
+}
+Response: 201 Created
+
+#### 2) Rechazar Solicitud
+PATCH /api/v1/collaborations/{id}/reject
+Response: 200 OK
+
+#### 3) Aceptar Solicitud
+PATCH /api/v1/collaborations/{id}/accept
+Response: 200 OK
+
+#### 4) Listar Solicitudes por Proyecto
+GET /api/v1/collaborations/project/{projectId}
+Response: 200 OK [ ... ]
+
+#### 5) Crear Postulación
+POST /api/v1/student-applications
+Body:
+{
+  "studentId": 14,
+  "opportunityId": 6,
+  "description": "Me gustaría formar parte de este reto"
+}
+Response: 201 Created
+
+#### 6) Rechazar Postulación
+PATCH /api/v1/student-applications/{id}/reject
+Response: 200 OK
+
+#### 7) Aceptar Postulación
+PATCH /api/v1/student-applications/{id}/accept
+Response: 200 OK
+
+#### 8) Obtener Detalle de Postulación
+GET /api/v1/student-applications/{id}
+Response: 200 OK
+
+**-Swagger Documentación:**
+
+https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html
+
+### Conclusión (para cerrar el apartado)
+
+Los endpoints desarrollados en este Sprint habilitan la interacción bidireccional entre estudiantes y empresas, consolidando la postulación y aceptación de proyectos como mecanismos formales dentro de la plataforma. Toda la implementación fue validada mediante Swagger y versionada en el repositorio oficial, garantizando trazabilidad, mantenibilidad y alineamiento con el Product Backlog del Sprint 2.
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración, y se dejó preparada la arquitectura para futuros desarrollos. Aquí las evidencias principales:
+
+### Despliegue del Backend en Azure
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
+</p>
+
+<br>
+> Backend operativo en Azure App Service, conectado correctamente con MySQL Flexible Server.
+
+### Evidencia de Swagger UI - Endpoints
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy1.png" alt="execution" width="1000">
+</p>
+
+<br>
+> Documentación Swagger mostrando los endpoints habilitados en el backend.
+
+### Modelos y API REST implementados
+
+- **Manager y Student Profiles**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="Manager profile API" width="1000">
+</p>
+<br>
+
+- **Proyectos estudiantiles**  
+  <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot1.png" alt="Proyectos API" width="1000">
+</p>
+<br>
+
+- **Oportunidades empresariales**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
+</p>
+<br>
+
+### Commits y branches relevantes
+
+- Repositorio: [github.com/UniPafi/backend-InnoSpace](https://github.com/UniPafi/backend-InnoSpace)
+- Commits Sprint 2:
+  - `feat/profiles-bounded-context` `49f2fd1`: Dominio y REST API para perfiles de manager y estudiante
+  - `feature/company-opportunities-bounded-context` `314ef27`: API para gestión de oportunidades
+  - `feature/student-projects-bounded-context` `70e83e1`: API para gestión de proyectos estudiantiles
+  - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
+
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
 
@@ -6169,4 +6374,18 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 **Link del repositorio en Github:**
 
+
 https://github.com/UniPafi/project-report-InnoSpace
+
+
+
+
+
+
+
+
+
+
+
+
+
