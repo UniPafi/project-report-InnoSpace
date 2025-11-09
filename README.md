@@ -5894,24 +5894,46 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
 
 ### Despliegue del Backend en Azure
 
-![Backend desplegado en Azure](imageschapter4-sprint1backendwebapp.png)
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
+</p>
+
+<br>
 > Backend operativo en Azure App Service, conectado correctamente con MySQL Flexible Server.
 
 ### Evidencia de Swagger UI - Endpoints
 
-![Endpoints Backend Swagger](imageschapter4-sprint1swaggerdeploy.png)
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy.png" alt="execution" width="1000">
+</p>
+
+<br>
 > Documentación Swagger mostrando los endpoints habilitados en el backend.
 
 ### Modelos y API REST implementados
 
 - **Manager y Student Profiles**  
-  ![Manager profile API](imageschapter4-sprint1ManagerProfilesEvidence.png)
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="Manager profile API" width="1000">
+</p>
+<br>
 
 - **Proyectos estudiantiles**  
-  ![Proyectos API](imageschapter4-sprint1projectsot1.png)
+  <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot1.png" alt="Proyectos API" width="1000">
+</p>
+<br>
 
 - **Oportunidades empresariales**  
-  ![Oportunidades API](imageschapter4-sprint1oportunites.png)
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
+</p>
+<br>
 
 ### Commits y branches relevantes
 
@@ -5922,12 +5944,6 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
   - `feature/student-projects-bounded-context` `70e83e1`: API para gestión de proyectos estudiantiles
   - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
 
-### Evidencia de despliegue en Render (extra)
-
-Si migraste o probaste también con Render, puedes agregar la captura aquí:
-
-![Despliegue backend Render](ruta/de/tu/captura.png)
-> Backend desplegado en Render para validar portabilidad y configuración adicional.
 
 
 
@@ -6275,6 +6291,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
