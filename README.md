@@ -5898,8 +5898,8 @@ curl -X POST "https://innospacebackend-.../api/v1/applications" \
   -H "Authorization: Bearer <TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{"studentId":201,"opportunityId":301,"projectId":123}'
-# Ejemplo de respuesta:
-# { "applicationId": 456, "status": "PENDING", "submissionDate": "2025-10-28T18:00:00Z" }
+Ejemplo de respuesta:
+{ "applicationId": 456, "status": "PENDING", "submissionDate": "2025-10-28T18:00:00Z" }
 
 ### 6. Project Collaboration (Decisiones de colaboración)
 
@@ -5916,8 +5916,8 @@ curl -X POST "https://innospacebackend-.../api/v1/collaboration" \
   -H "Authorization: Bearer <TOKEN>" \
   -H "Content-Type: application/json" \
   -d '{"projectId":123,"companyId":45,"message":"Interesados en colaborar"}'
-# Ejemplo de respuesta:
-# { "id": 987, "projectId": 123, "companyId": 45, "status": "PENDING" }
+Ejemplo de respuesta:
+ { "id": 987, "projectId": 123, "companyId": 45, "status": "PENDING" }
 
 #### Evidencias y Trazabilidad
 
@@ -6343,6 +6343,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
