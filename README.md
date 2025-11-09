@@ -5894,9 +5894,9 @@ curl -X POST "https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azureweb
 
 **Ejemplo**
 
-curl -X POST "https://innospacebackend-.../api/v1/applications" \
-  -H "Authorization: Bearer <TOKEN>" \
-  -H "Content-Type: application/json" \
+curl -X POST "https://innospacebackend-.../api/v1/applications" 
+  -H "Authorization: Bearer <TOKEN>" 
+  -H "Content-Type: application/json" 
   -d '{"studentId":201,"opportunityId":301,"projectId":123}'
 Ejemplo de respuesta:
 { "applicationId": 456, "status": "PENDING", "submissionDate": "2025-10-28T18:00:00Z" }
@@ -5912,9 +5912,9 @@ Ejemplo de respuesta:
 | DELETE | `/api/v1/collaboration/{id}`                | Eliminar decisión              |
 
 **Ejemplo**
-curl -X POST "https://innospacebackend-.../api/v1/collaboration" \
-  -H "Authorization: Bearer <TOKEN>" \
-  -H "Content-Type: application/json" \
+curl -X POST "https://innospacebackend-.../api/v1/collaboration" 
+  -H "Authorization: Bearer <TOKEN>" 
+  -H "Content-Type: application/json" 
   -d '{"projectId":123,"companyId":45,"message":"Interesados en colaborar"}'
 Ejemplo de respuesta:
  { "id": 987, "projectId": 123, "companyId": 45, "status": "PENDING" }
@@ -5966,7 +5966,7 @@ Durante este Sprint, el equipo enfocó sus esfuerzos en las actividades de despl
 
 A continuación, se detalla el proceso seguido, las configuraciones realizadas y las evidencias obtenidas durante el despliegue.
 
-<b>1. Creación de cuentas y configuración de recursos</b>
+- 1. Creación de cuentas y configuración de recursos
 
 Se seleccionó Microsoft Azure como proveedor de nube, debido a su integración con herramientas de despliegue continuo y administración de bases de datos.
 
@@ -5974,13 +5974,13 @@ Se configuraron los servicios necesarios para el despliegue, incluyendo Azure Ap
 
 Se definieron los entornos de desarrollo y producción, permitiendo mantener un flujo ordenado entre las versiones en prueba y las liberadas.
 
-<b>2. Configuración de proyectos para integración</b>
+- 2. Configuración de proyectos para integración
 
 Se creó y configuró el repositorio GitHub para la Landing Page y el Backend, habilitando flujos de Integración Continua (CI) y Despliegue Continuo (CD) mediante GitHub Actions.
 
 Se implementaron scripts de automatización para la ejecución de pruebas, compilación y despliegue, optimizando los tiempos y reduciendo errores manuales.
 
-<b>3. Despliegue de la Landing Page</b>
+- 3. Despliegue de la Landing Page
 
 Se realizó el deployment de la Landing Page utilizando GitHub Pages, asegurando su disponibilidad pública y una correcta visualización en navegadores modernos.
 
@@ -5988,9 +5988,8 @@ Se verificó el correcto funcionamiento del sitio, incluyendo enlaces, recursos 
 
 Enlace del Repositorio: https://aventis-scholr.github.io/landing-page/
 
-Capturas de pantalla: Ver Anexo N.
 
-<b>4. Despliegue del Backend</b>
+- 4. Despliegue del Backend
 
 El Backend se desplegó en Azure App Service, garantizando una arquitectura escalable y segura.
 
@@ -5998,7 +5997,7 @@ Se estableció la conexión con la base de datos MySQL en Azure, asegurando la p
 
 Se realizaron pruebas de acceso y rendimiento a través de peticiones HTTP con herramientas como Postman y OpenAPI.
 
-Capturas de pantalla: Ver Anexo O.
+
 ## 4.3. Validation Interviews
 
 ### 4.3.1. Diseño de Entrevistas
@@ -6343,6 +6342,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
