@@ -5881,163 +5881,87 @@ Estos endpoints permiten gestionar solicitudes de colaboración entre empresas y
 La documentación se realizó utilizando OpenAPI (Swagger), asegurando claridad, estandarización y trazabilidad.
 Asimismo, se evidenció con pruebas funcionales desde Swagger UI y control de versiones en GitHub.
 
-| User Story | Task  | Descripción                        | Endpoint Implementado                            | Estado |
-| ---------- | ----- | ---------------------------------- | ------------------------------------------------ |------- |
-| TS28       | WI001 | Enviar solicitud de colaboración   | `POST /api/v1/collaborations`                    |  Done  |
-| TS29       | WI002 | Rechazar solicitud de colaboración | `PATCH /api/v1/collaborations/{id}/reject`       |  Done  |
-| TS30       | WI003 | Aceptar solicitud de colaboración  | `PATCH /api/v1/collaborations/{id}/accept`       |  Done  |
-| TS31       | WI004 | Listar solicitudes por proyecto    | `GET /api/v1/collaborations/project/{projectId}` |  Done  |
-| TS32       | WI005 | Enviar postulación a convocatoria  | `POST /api/v1/student-applications`              |  Done  |
-| TS33       | WI006 | Rechazar postulación de estudiante | `PATCH /api/v1/student-applications/{id}/reject` |  Done  |
-| TS34       | WI007 | Aceptar postulación de estudiante  | `PATCH /api/v1/student-applications/{id}/accept` |  Done  |
-| TS35       | WI008 | Obtener detalle de postulación     | `GET /api/v1/student-applications/{id}`          |  Done  |
+<h3>Endpoints implementados</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint URL (local)</th>
+      <th>Recurso</th>
+      <th>Verbo HTTP</th>
+      <th>Acción / Sintaxis</th>
+      <th>Parámetros</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/collaborations</td>
+      <td>Project-Manager Collaborations</td>
+      <td>POST</td>
+      <td>Enviar solicitud de colaboración</td>
+      <td>Body: projectId, managerId, message</td>
+      <td>{ "id": 1, "status": "PENDING" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/{id}/reject</td>
+      <td>Project-Manager Collaborations</td>
+      <td>PATCH</td>
+      <td>Rechazar solicitud de colaboración</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "REJECTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/{id}/accept</td>
+      <td>Project-Manager Collaborations</td>
+      <td>PATCH</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "ACCEPTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/project/{projectId}</td>
+      <td>Project-Manager Collaborations</td>
+      <td>GET</td>
+      <td>Listar solicitudes por proyecto</td>
+      <td>projectId</td>
+      <td>[ { "id": 1, "status": "PENDING" }, ... ]</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications</td>
+      <td>Student Applications</td>
+      <td>POST</td>
+      <td>Enviar postulación a oportunidad</td>
+      <td>Body: studentId, opportunityId, description</td>
+      <td>{ "id": 1, "status": "PENDING" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}/reject</td>
+      <td>Student Applications</td>
+      <td>PATCH</td>
+      <td>Rechazar postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "REJECTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}/accept</td>
+      <td>Student Applications</td>
+      <td>PATCH</td>
+      <td>Aceptar postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "ACCEPTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}</td>
+      <td>Student Applications</td>
+      <td>GET</td>
+      <td>Obtener detalle de postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "studentId": 10, "opportunityId": 5, "status": "PENDING" }</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Link del Swagger:</strong> <a href="https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html" target="_blank">https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html</a></p>
 
-
-*A) Estilo Académico (para Informe)*
-**Endpoints del Bounded Context: Project Collaboration**
-
-| Método    | Endpoint                                     | Propósito                                                                | Estado Final |
-| --------- | -------------------------------------------- | ------------------------------------------------------------------------ | ------------ |
-| **POST**  | `/api/v1/collaborations`                     | Permite que un gerente envíe una solicitud de colaboración a un proyecto | Completado   |
-| **PATCH** | `/api/v1/collaborations/{id}/reject`         | Permite que un estudiante rechace una solicitud                          | Completado   |
-| **PATCH** | `/api/v1/collaborations/{id}/accept`         | Permite que un estudiante acepte una solicitud                           | Completado   |
-| **GET**   | `/api/v1/collaborations/project/{projectId}` | Lista solicitudes asociadas a un proyecto                                | Completado   |
-
-
-Estos endpoints permiten la interacción entre empresas y estudiantes, fortaleciendo la colaboración y habilitando procesos de toma de decisión bilateral dentro del ecosistema de InnoSpace.
-
-**Endpoints del Bounded Context: Student Applications**
-
-| Método    | Endpoint                                   | Propósito                                           | Estado Final |
-| --------- | ------------------------------------------ | --------------------------------------------------- | ------------ |
-| **POST**  | `/api/v1/student-applications`             | Permite que un estudiante postule a una oportunidad | Completado   |
-| **PATCH** | `/api/v1/student-applications/{id}/reject` | Permite que un gerente rechace una postulación      | Completado   |
-| **PATCH** | `/api/v1/student-applications/{id}/accept` | Permite que un gerente acepte una postulación       | Completado   |
-| **GET**   | `/api/v1/student-applications/{id}`        | Muestra el detalle de una postulación               | Completado   |
-
-
-Este conjunto de endpoints formaliza el flujo de postulación y selección entre estudiantes y organizaciones.
-
-*B) Estilo Técnico (para Swagger / Anexos / QA)*
-
-#### 1) Crear Solicitud de Colaboración
-POST /api/v1/collaborations
-Body:
-{
-  "projectId": 12,
-  "managerId": 4,
-  "message": "Estamos interesados en tu proyecto"
-}
-Response: 201 Created
-
-#### 2) Rechazar Solicitud
-PATCH /api/v1/collaborations/{id}/reject
-Response: 200 OK
-
-#### 3) Aceptar Solicitud
-PATCH /api/v1/collaborations/{id}/accept
-Response: 200 OK
-
-#### 4) Listar Solicitudes por Proyecto
-GET /api/v1/collaborations/project/{projectId} <br>
-Response: 200 OK [ ... ]
-
-#### 5) Crear Postulación
-POST /api/v1/student-applications <br>
-Body:
-{
-  "studentId": 14,
-  "opportunityId": 6,
-  "description": "Me gustaría formar parte de este reto"
-}
-Response: 201 Created
-
-#### 6) Rechazar Postulación
-PATCH /api/v1/student-applications/{id}/reject  <br>
-Response: 200 OK
-
-#### 7) Aceptar Postulación
-PATCH /api/v1/student-applications/{id}/accept <br>
-Response: 200 OK
-
-#### 8) Obtener Detalle de Postulación
-GET /api/v1/student-applications/{id} <br>
-Response: 200 OK
-
-**-Swagger Documentación:**
-
-https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html
-
-4.2.2.6. Services Documentation Evidence for Sprint Review
-
-[Tu texto original: explicación Swagger + repo + base URL + tablas generales]
-
-#### Endpoints Agregados Durante el Sprint 2 (Detalle Funcional)
-
-- 1) Crear Solicitud de Colaboración
-POST /api/v1/collaborations
-Body:
-{
-  "projectId": number,
-  "managerId": number,
-  "message": string
-}
-Response: 201 Created
-Descripción funcional:
-Permite que un gerente envíe una solicitud de colaboración a un estudiante.
-Relacionado con: **US TS28 – WI001**
-
-- 2) Rechazar Solicitud
-PATCH /api/v1/collaborations/{id}/reject
-Response: 200 OK
-Descripción funcional:
-Permite que el estudiante rechace la colaboración.
-Relacionado con: **TS29 – WI002**
-
-- 3) Aceptar Solicitud
-PATCH /api/v1/collaborations/{id}/accept
-Response: 200 OK
-Descripción funcional:
-Permite que el estudiante acepte la colaboración.
-Relacionado con: **TS30 – WI003**
-
-- 4) Listar Solicitudes por Proyecto
-GET /api/v1/collaborations/project/{projectId}
-Response: 200 OK [ ... ]
-Descripción funcional:
-Muestra todas las solicitudes de colaboración asociadas a un proyecto del estudiante.
-Relacionado con: **TS31 – WI004**
-
-- 5) Crear Postulación
-POST /api/v1/student-applications
-Body:
-{
-  "studentId": number,
-  "opportunityId": number,
-  "description": string
-}
-Response: 201 Created
-Relacionado con: **TS32 – WI005**
-
-- 6) Rechazar Postulación
-PATCH /api/v1/student-applications/{id}/reject
-Response: 200 OK
-Relacionado con: **TS33 – WI006**
-
-- 7) Aceptar Postulación
-PATCH /api/v1/student-applications/{id}/accept
-Response: 200 OK
-Relacionado con: **TS34 – WI007**
-
-- 8) Obtener Detalle de Postulación
-GET /api/v1/student-applications/{id}
-Response: 200 OK
-Relacionado con: **TS35 – WI008**
-
-
-### Conclusión (para cerrar el apartado)
-
-Los endpoints desarrollados en este Sprint habilitan la interacción bidireccional entre estudiantes y empresas, consolidando la postulación y aceptación de proyectos como mecanismos formales dentro de la plataforma. Toda la implementación fue validada mediante Swagger y versionada en el repositorio oficial, garantizando trazabilidad, mantenibilidad y alineamiento con el Product Backlog del Sprint 2.
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -6443,6 +6367,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
