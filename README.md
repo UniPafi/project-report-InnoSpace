@@ -5939,11 +5939,11 @@ PATCH /api/v1/collaborations/{id}/accept
 Response: 200 OK
 
 #### 4) Listar Solicitudes por Proyecto
-GET /api/v1/collaborations/project/{projectId}
+GET /api/v1/collaborations/project/{projectId} <br>
 Response: 200 OK [ ... ]
 
 #### 5) Crear Postulación
-POST /api/v1/student-applications
+POST /api/v1/student-applications <br>
 Body:
 {
   "studentId": 14,
@@ -5953,20 +5953,87 @@ Body:
 Response: 201 Created
 
 #### 6) Rechazar Postulación
-PATCH /api/v1/student-applications/{id}/reject
+PATCH /api/v1/student-applications/{id}/reject  <br>
 Response: 200 OK
 
 #### 7) Aceptar Postulación
-PATCH /api/v1/student-applications/{id}/accept
+PATCH /api/v1/student-applications/{id}/accept <br>
 Response: 200 OK
 
 #### 8) Obtener Detalle de Postulación
-GET /api/v1/student-applications/{id}
+GET /api/v1/student-applications/{id} <br>
 Response: 200 OK
 
 **-Swagger Documentación:**
 
 https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html
+
+4.2.2.6. Services Documentation Evidence for Sprint Review
+
+[Tu texto original: explicación Swagger + repo + base URL + tablas generales]
+
+#### Endpoints Agregados Durante el Sprint 2 (Detalle Funcional)
+
+- 1) Crear Solicitud de Colaboración
+POST /api/v1/collaborations
+Body:
+{
+  "projectId": number,
+  "managerId": number,
+  "message": string
+}
+Response: 201 Created
+Descripción funcional:
+Permite que un gerente envíe una solicitud de colaboración a un estudiante.
+Relacionado con: **US TS28 – WI001**
+
+- 2) Rechazar Solicitud
+PATCH /api/v1/collaborations/{id}/reject
+Response: 200 OK
+Descripción funcional:
+Permite que el estudiante rechace la colaboración.
+Relacionado con: **TS29 – WI002**
+
+- 3) Aceptar Solicitud
+PATCH /api/v1/collaborations/{id}/accept
+Response: 200 OK
+Descripción funcional:
+Permite que el estudiante acepte la colaboración.
+Relacionado con: **TS30 – WI003**
+
+- 4) Listar Solicitudes por Proyecto
+GET /api/v1/collaborations/project/{projectId}
+Response: 200 OK [ ... ]
+Descripción funcional:
+Muestra todas las solicitudes de colaboración asociadas a un proyecto del estudiante.
+Relacionado con: **TS31 – WI004**
+
+- 5) Crear Postulación
+POST /api/v1/student-applications
+Body:
+{
+  "studentId": number,
+  "opportunityId": number,
+  "description": string
+}
+Response: 201 Created
+Relacionado con: **TS32 – WI005**
+
+- 6) Rechazar Postulación
+PATCH /api/v1/student-applications/{id}/reject
+Response: 200 OK
+Relacionado con: **TS33 – WI006**
+
+- 7) Aceptar Postulación
+PATCH /api/v1/student-applications/{id}/accept
+Response: 200 OK
+Relacionado con: **TS34 – WI007**
+
+- 8) Obtener Detalle de Postulación
+GET /api/v1/student-applications/{id}
+Response: 200 OK
+Relacionado con: **TS35 – WI008**
+
 
 ### Conclusión (para cerrar el apartado)
 
@@ -6376,6 +6443,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
