@@ -180,9 +180,36 @@
 </p>
 
 
+## TP
+
+<p align="center">
+  <img src="images/tpinsight1.png" alt="contributors" width="80%">
+</p>
 
 
+<p align="center">
+  <img src="images/tpinsgiht2.png" alt="contributors" width="80%">
+</p>
 
+<p align="center">
+  <img src="images/tpnetwork.png" alt="network" width="80%">
+</p>
+
+
+## TB2
+
+<p align="center">
+  <img src="images/tb2report2.png" alt="contributors" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="images/tb2report1.png" alt="contributors" width="80%">
+</p>
+
+<p align="center">
+  <img src="images/tb2network.png" alt="network" width="80%">
+</p>
 
 
 ---
@@ -5825,7 +5852,7 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
 
-Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. La interfase fue diseñada siguiendo un estilo limpio y coherente con el propósito de seguir la guía UI/UX, así como anteponiendo las premisas de facilidad de uso y aprecio por la seguridad.
+Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. 
 
 <p align="center">
   <img src="images/profile1.png" alt="Sprint Backlog 2 Trello" width="
@@ -5845,7 +5872,7 @@ Exploración: Esta opción posibilita a los usuarios realizar la búsqueda entre
   200">
 </p>
 
-Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando). Se implementó la funcionalidad de listar, crear y editar proyectos así como visualizar su estado de avance.
+Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando).
 
 <p align="center">
   <img src="images/project1.png" alt="Sprint Backlog 2 Trello" width="
@@ -5856,7 +5883,7 @@ Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar 
   200">
 </p>
 
-Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. Así mismo, permite al usuario acceder a la información del detalle del proyecto y poder interactuar con las personas responsables de este.
+Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. .
 
 <p align="center">
   <img src="images/postulation1.png" alt="Sprint Backlog 2 Trello" width="
