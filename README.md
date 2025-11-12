@@ -33,9 +33,7 @@
 | U20231D974 | Renzo Sebastian, Rivera Ratachi     |
 
 
-**Agosto 2025**
-
-<div style="page-break-after: always;"></div>
+**Noviembre 2025**
 
 <br>
 
@@ -188,29 +186,11 @@
   <img src="images/networkgraph.png" alt="network" width="80%">
 </p>
 
-<br>
 
-## TP1
 
-<br>
 
-<p align="center">
-  <img src="images/contibutors2.png" alt="contributors" width="80%">
-</p>
 
-<br>
 
-<p align="center">
-  <img src="images/pulse2.png" alt="contributors" width="80%">
-</p>
-
-<br>
-
-<p align="center">
-  <img src="images/networkgraph2.png" alt="network" width="80%">
-</p>
-
-<br>
 
 ---
 
@@ -1821,21 +1801,21 @@ Empathy Map Segmento 2:
       </td>
       <td>EP01</td>
     </tr>
-    <tr>
-      <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>
-        <strong>Como</strong> usuario, <strong>quiero</strong> recuperar mi contraseña, <strong>para</strong> poder acceder a mi cuenta si la olvido.</td>
-      <td>
-      <strong>Escenario 1: Usuario envía solicitud de recuperación
-      </strong><br>
-        <strong>Dado</strong> que el usuario está en la pantalla de inicio de sesión,
-        <strong>cuando</strong> haga clic en el enlace de “¿Olvidaste tu contraseña?”,
-        <strong>Y</strong> proporciona su correo electrónico registrado, 
-        <strong>entonces</strong> debe recibir un correo electrónico con un enlace para restablecer su contraseña.
-      </td>
-      <td>EP01</td>
-    </tr>
+   <tr>
+  <td>US04</td>
+  <td>Guardado de Proyectos Favoritos</td>
+  <td>
+    <strong>Como</strong> gerente, <strong>quiero</strong> guardar proyectos como favoritos, <strong>para</strong> consultar su información en un futuro.
+  </td>
+  <td>
+    <strong>Escenario 1: Marcar proyecto como favorito</strong><br>
+    <strong>Dado</strong> que un gerente visualiza el listado de proyectos, <strong>cuando</strong> haga clic en el ícono "Añadir a Favoritos" en un proyecto, <strong>entonces</strong> el proyecto debe guardarse en su lista de favoritos y el ícono debe cambiar de estado.
+    <br><br>
+    <strong>Escenario 2: Acceder a proyectos favoritos</strong><br>
+    <strong>Dado</strong> que el gerente necesita revisar proyectos importantes, <strong>cuando</strong> acceda a la sección "Mis Favoritos", <strong>entonces</strong> debe visualizar todos los proyectos marcados como favoritos con indicadores de estado y progreso.
+  </td>
+  <td>EP02</td>
+</tr>
     <tr>
       <td>US05</td>
       <td>Explorar proyectos de empresa</td>
@@ -1913,15 +1893,10 @@ Empathy Map Segmento 2:
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> buscar proyectos según palabras clave, <strong>para</strong> identificar oportunidades que se ajusten a mi perfil.</td>
       <td>
         <strong>Escenario 1: Búsqueda con resultados disponibles</strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> aplica filtros por habilidades y área académica, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles, ordenados por relevancia, y el estudiante puede marcar algunos como favoritos.
-        <br><br>
-        <strong>Escenario 2: Búsqueda sin resultados     </strong><br>
-        <strong>Dado</strong> que el estudiante ha iniciado sesión y aplica filtros demasiado específicos, <strong>Y</strong> selecciona la opción “Registrarse como Gerente”, 
-        <strong>cuando</strong> se ejecuta la búsqueda,
-        <strong>entonces</strong> el sistema no muestra proyectos disponibles y presenta el mensaje “No se encontraron proyectos” con la sugerencia de ampliar los filtros.
+        <strong>Dado</strong> que el estudiante ha iniciado sesión y se encuentra en la sección “Proyectos”, <strong>cuando</strong> coloca palabras clave en la barra de busqueda, <strong>entonces</strong> el sistema muestra una lista de proyectos compatibles y el estudiante puede marcar algunos como favoritos.
       </td>
       <td>EP03</td>
     </tr>
@@ -1972,18 +1947,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
+      <td>Registro de portafolio</td>
       <td>
-        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> que los proyectos en los que participé exitosamente se registren en mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
+        <strong>Como</strong> estudiante universitario, <strong>quiero</strong> poder registrar mi portafolio, <strong>para</strong> demostrar mi experiencia a futuras empresas.
       </td>
       <td>
-        <strong>Escenario 1: Proyecto validado agregado al portafolio</strong><br>
-        <strong>Dado</strong> que el estudiante ha finalizado un proyecto y la empresa lo marcó como “Completado”, <strong>cuando</strong> crevisa su portafolio, <strong>entonces</strong> el sistema muestra automáticamente el proyecto con el rol desempeñado, duración y competencias aplicadas.
+        <strong>Escenario 1: Enlace agregado de portafolio</strong><br>
+        <strong>Dado</strong> que el estudiante accede a su perfil, <strong>cuando</strong> edita el enlace a su portafolio, <strong>entonces</strong> el sistema guarda el enlace en la base de datos.
         <br><br>
-        <strong>Escenario 2: Proyecto pendiente de validación</strong><br>
-        <strong>Dado</strong> que el estudiante finalizó un proyecto pero la empresa aún no confirma la finalización, 
-        <strong>cuando</strong> revisa su portafolio,
-        <strong>entonces</strong> el sistema no muestra el proyecto y aparece la nota “Pendiente de validación”.
       </td>
       <td>EP03</td>
     </tr>
@@ -2004,16 +1975,14 @@ Empathy Map Segmento 2:
     </tr>
     <tr>
       <td>US16</td>
-      <td>Filtrado de estudiantes</td>
+      <td>Filtrado de proyectos de estudiantes</td>
       <td>
-        <strong>Como</strong> gerente, <strong>quiero</strong>  filtrar estudiantes por habilidades y nivel académico, <strong>para</strong> para identificar candidatos adecuados más rápido.
+        <strong>Como</strong> gerente, <strong>quiero</strong>  buscar proyectos de  estudiantes por habilidades y tecnologias, <strong>para</strong> identificar proyectos adecuados más rápido.
       </td>
       <td>
-        <strong>Escenario 1: Filtrado exitoso por habilidades</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> selecciona habilidades específicas, <strong>entonces</strong> aparece la lista de estudiantes que cumplen.
+        <strong>Escenario 1: Busqueda exitosa por palabras clave</strong><br>
+        <strong>Dado</strong> que el gerente realiza una busqueda con palabras clave, <strong>cuando</strong> escribe  tecnologias específicas, <strong>entonces</strong> aparece la lista de proyectos de  estudiantes que cumplen.
         <br><br>
-        <strong>Escenario 2: Manejo de filtros sin resultados</strong><br>
-        <strong>Dado</strong> que el gerente aplica filtros, <strong>cuando</strong> cuando no hay coincidencias, <strong>entonces</strong> entonces el sistema muestra el mensaje “No se encontraron estudiantes con estos criterios”.
       </td>
       <td>EP03</td>
     </tr>
@@ -2322,27 +2291,158 @@ Empathy Map Segmento 2:
       <td></td>
     </tr>
     <tr>
-      <td>SP01</td>
-      <td>Evaluar frameworks móviles para el desarrollo</td>
+      <td>TS28</td>
+      <td>Creación de Solicitud de Colaboración</td>
       <td>
-        Como equipo de desarrollo, queremos analizar diferentes frameworks móviles (Flutter, React Native, Ionic) para determinar cuál ofrece mejor rendimiento y compatibilidad con la infraestructura del proyecto.
+        Como desarrollador, quiero permitir que un gerente envíe una solicitud de colaboración a un proyecto de un estudiante, para iniciar un posible trabajo conjunto y mentoría.
       </td>
       <td>
-        Escenario 1: Prueba de rendimiento en Flutter Dado que se desarrolla un prototipo base de la aplicación en Flutter, Cuando se ejecuta en distintos dispositivos Android, Entonces se registran los tiempos de carga, consumo de recursos y estabilidad general. Escenario 2: Comparación con React Native Dado que se replica el mismo prototipo en React Native, Cuando se evalúan las integraciones con Firebase y la fluidez de la interfaz, Entonces se documentan los resultados y se selecciona el framework más eficiente.
+        Escenario 1: Solicitud exitosa. 
+        Dado que un gerente está viendo un proyecto de un estudiante que le interesa, Cuando presiona el botón "Solicitar Colaboración", Entonces el sistema registra la solicitud con estado "pendiente".
       <td></td>
     </tr>
     <tr>
-      <td>SP02</td>
-      <td>Validar integración de Firebase Authentication y Firestore</td>
+      <td>TS29</td>
+      <td>Rechazar solicitud de colaboración</td>
       <td>
-        Como desarrollador, quiero realizar pruebas de integración entre Firebase Authentication y Firestore, para confirmar que ambos servicios permiten gestionar usuarios, roles y datos de forma segura y sincronizada.
+        Como desarrollador, quiero permitir que un estudiante rechace una solicitud de colaboración de un gerente, para gestionar sus solicitudes entrantes.
       </td>
       <td>
-        Escenario 1: Creación de usuario y registro en Firestore Dado que un nuevo usuario completa su registro, Cuando se autentica mediante Firebase Authentication, Entonces sus datos se guardan automáticamente en la colección correspondiente dentro de Firestore. Escenario 2: Verificación de roles en autenticación Dado que un usuario autenticado intenta acceder a funciones restringidas, Cuando su rol no corresponde a la acción solicitada, Entonces el sistema bloquea el acceso y muestra un mensaje de restricción.
+        Escenario 1: Rechazo exitoso. 
+        Dado que un estudiante tiene una solicitud de colaboración pendiente de un gerente, Cuando presiona el botón "Rechazar", Entonces el sistema actualiza el estado de la solicitud a "Rechazada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS30</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante acepte una solicitud de colaboración de un gerente, para confirmar el interés en trabajar juntos.
+      </td>
+      <td>
+        Escenario 1: Aceptación exitosa. 
+        Dado que un estudiante tiene una solicitud de colaboración pendiente, Cuando presiona el botón "Aceptar", Entonces el sistema actualiza el estado de la solicitud a "Aceptada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS31</td>
+      <td>Obtener solicitudes de colaboración por proyecto</td>
+      <td>
+        Como desarrollador, quiero mostrar al estudiante todas las solicitudes de colaboración que ha recibido para un proyecto específico, para facilitar su revisión y gestión.
+      </td>
+      <td>
+        Escenario 1: Listado de solicitudes.
+        Dado que un estudiante accede a la vista de detalle de su proyecto publicado, Cuando selecciona la pestaña "Solicitudes de Colaboración", Entonces el sistema muestra una lista de todas las solicitudes de gerentes (pendientes, aceptadas, rechazadas) para ese proyecto.
+        Escenario 2: Proyecto sin solicitudes. Dado que un estudiante revisa un proyecto que no ha recibido solicitudes de colaboración, Cuando accede a la pestaña "Solicitudes de Colaboración", Entonces el sistema muestra un mensaje indicando que "Aún no hay solicitudes".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS32</td>
+      <td>Enviar postulación a convocatoria</td>
+      <td>
+        Como desarrollador, quiero permitir que un estudiante postule a una convocatoria de una empresa, para expresar su interés en participar.
+      </td>
+      <td>
+        Escenario 1: Postulación exitosa. 
+        Dado que un estudiante está viendo una convocatoria de su interés, Cuando presiona el botón "Postular", Entonces el sistema crea la postulación con estado "pendiente".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS33</td>
+      <td>Rechazar postulación de estudiante</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente rechace la postulación de un estudiante a una de sus convocatorias, para gestionar el proceso de selección.
+      </td>
+      <td>
+        Escenario 1: Rechazo exitoso. 
+        Dado que un gerente está revisando las postulaciones pendientes de una convocatoria, Cuando presiona "Rechazar" en la postulación de un estudiante, Entonces el sistema actualiza el estado de la postulación a "Rechazada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS34</td>
+      <td>Aceptar postulación de estudiante</td>
+      <td>
+        Como desarrollador, quiero permitir que un gerente acepte la postulación de un estudiante a una convocatoria, para avanzar en el proceso de selección.
+      </td>
+      <td>
+        Escenario 1: Aceptación exitosa. 
+        Dado que un gerente está revisando una postulación pendiente, Cuando presiona el botón "Aceptar", Entonces el sistema actualiza el estado de la postulación a "Aceptada".
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS35</td>
+      <td>Obtener detalle de postulación</td>
+      <td>
+        Como desarrollador, quiero obtener los detalles de una postulación específica, para mostrar el estado y la información relevante tanto al estudiante como al gerente.
+      </td>
+      <td>
+        Escenario 1: Consulta de gerente. 
+        Dado que un gerente selecciona una postulación de su lista, Cuando el sistema carga los datos, Entonces muestra el detalle de la postulación, incluyendo el perfil del estudiante y el estado actual.
       <td></td>
     </tr>
   </tbody>
 </table>
+
+<table>
+  <tr>
+    <th>Spike ID</th>
+    <th>Spike Story</th>
+  </tr>
+
+  <tr>
+    <td><b>SP01</b></td>
+    <td>
+      <b>Nombre:</b> Validar la Integración de Firebase Authentication y Firestore para el Módulo de Autenticación y Perfiles.<br><br>
+      <b>Contexto:</b>  
+      La aplicación móvil <i>InnoSpace</i> requiere autenticación segura y diferenciada por roles (Estudiante y Gerente), además de un almacenamiento eficiente para perfiles y proyectos.  
+      El equipo evaluará <b>Firebase Authentication</b> y <b>Firestore</b> como posibles servicios gestionados que permitan manejar usuarios, roles y escalabilidad sin infraestructura propia.<br><br>
+      <b>Objetivo:</b>  
+      Investigar la integración de Firebase Authentication y Firestore en la app móvil InnoSpace para validar viabilidad técnica, rendimiento y control de roles.<br><br>
+      <b>Criterios de Aceptación (Given–When–Then):</b><br>
+      1. <b>Dado</b> que el equipo necesita entender la gestión de usuarios en Firebase,  
+         <b>Cuando</b> el desarrollador revisa la documentación de autenticación y base de datos,  
+         <b>Entonces</b> documenta el flujo recomendado para registro, login y permisos.<br><br>
+      2. <b>Dado</b> que se requiere un flujo funcional,  
+         <b>Cuando</b> se implementa un prototipo de registro e inicio de sesión,  
+         <b>Entonces</b> el sistema autentica correctamente y crea usuarios en Firestore.<br><br>
+      3. <b>Dado</b> que InnoSpace distingue entre Estudiantes y Gerentes,  
+         <b>Cuando</b> el desarrollador configura roles y reglas de seguridad,  
+         <b>Entonces</b> las operaciones respetan las restricciones por rol.<br><br>
+      4. <b>Dado</b> que la app móvil requiere tiempos de respuesta bajos,  
+         <b>Cuando</b> se ejecutan pruebas de autenticación,  
+         <b>Entonces</b> se documentan métricas de rendimiento y estabilidad.<br><br>
+      <b>Definition of Done (DoD):</b><br>
+      • Se entrega un prototipo funcional de login/registro.<br>
+      • Se documentan configuraciones y tiempos de respuesta.<br>
+      • Se presenta un informe y se decide la adopción de Firebase.<br>
+    </td>
+  </tr>
+  <tr>
+    <td><b>SP02</b></td>
+    <td>
+      <b>Nombre:</b> Evaluar Alternativas de Almacenamiento para Portafolios Estudiantiles (Firebase Storage vs. Cloudinary).<br><br>
+      <b>Contexto:</b>  
+      Los portafolios de los estudiantes en <i>InnoSpace</i> incluyen imágenes, PDFs y enlaces externos.  
+      El equipo de desarrollo necesita definir la mejor solución para almacenamiento seguro y ágil, considerando tiempo de carga, seguridad y costos.<br><br>
+      <b>Objetivo:</b>  
+      Investigar y comparar <b>Firebase Storage</b> y <b>Cloudinary</b> como soluciones para almacenar archivos multimedia, determinando la opción más eficiente y económica.<br><br>
+      <b>Criterios de Aceptación (Given–When–Then):</b><br>
+      1. <b>Dado</b> que el equipo necesita conocer costos y límites de ambos servicios,  
+         <b>Cuando</b> el desarrollador revisa la documentación de precios y políticas,  
+         <b>Entonces</b> se documentan ventajas, costos y límites mensuales.<br><br>
+      2. <b>Dado</b> que los estudiantes subirán imágenes y PDFs,  
+         <b>Cuando</b> el desarrollador crea un prototipo de carga y descarga en ambos servicios,  
+         <b>Entonces</b> se comparan tiempos de carga, facilidad y rendimiento.<br><br>
+      3. <b>Dado</b> que los archivos deben estar protegidos,  
+         <b>Cuando</b> se evalúan las opciones de acceso privado y autenticado,  
+         <b>Entonces</b> se determina qué servicio ofrece mejor control de seguridad.<br><br>
+      <b>Definition of Done (DoD):</b><br>
+      • Informe comparativo con métricas de tiempo, costo y seguridad.<br>
+      • Prototipo de carga/descarga en la app móvil.<br>
+      • Decisión técnica documentada sobre la plataforma seleccionada.<br>
+    </td>
+  </tr>
+</table>
+
 
 <br>
 
@@ -2410,9 +2510,9 @@ Empathy Map Segmento 2:
     <tr>
       <td>5</td>
       <td>US04</td>
-      <td>Recuperar contraseña</td>
-      <td>Como usuario registrado, quiero recuperar mi contraseña, para poder acceder a mi cuenta si la olvido.</td>
-      <td>e</td>
+      <td>Guardado de proyectos Favoritos</td>
+      <td>Como gerente, quiero guardar proyectos como favoritos, para consultar su información en un futuro.</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>6</td>
@@ -2439,7 +2539,8 @@ Empathy Map Segmento 2:
       <td>9</td>
       <td>US10</td>
       <td>Búsqueda filtrada de convocatorias</td>
-      <td>Como estudiante universitario, quiero buscar proyectos según filtros (habilidades, área académica, nivel de experiencia), para identificar oportunidades que se ajusten a mi perfil.</td>
+      <td>Como estudiante universitario, quiero buscar proyectos según palabras clave, 
+para identificar oportunidades que se ajusten a mi perfil.</td>
       <td>5</td>
     </tr>
     <tr>
@@ -2491,6 +2592,7 @@ Empathy Map Segmento 2:
       <td>Como usuario, quiero publicar una descripción de mi idea o startup innovadora, para atraer la atención e inversión de empresas interesadas.</td>
       <td>4</td>
     </tr>
+    <tr>
     <td>17</td>
       <td>US09</td>
       <td>Explorar Ideas de estudiantes</td>
@@ -2500,199 +2602,257 @@ Empathy Map Segmento 2:
     <tr>
     <td>18</td>
       <td>US14</td>
-      <td>Construcción de portafolio</td>
-      <td>Como estudiante universitario, quiero que los proyectos en los que participé exitosamente se registren en mi portafolio, para edemostrar mi experiencia a futuras empresas.</td>
+      <td>Registro de portafolio</td>
+      <td>Como estudiante universitario, 
+quiero poder registrar mi portafolio, 
+para demostrar mi experiencia a futuras empresas.</td>
       <td>8</td>
     </tr>
     <tr>
-<td>19</td>
-<td>TS01</td>
-<td>Configuración de autenticación y roles</td>
-<td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
-<td>5</td>
-</tr>
-<tr>
-<td>20</td>
-<td>TS02</td>
-<td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
-<td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
-<td>5</td>
-</tr>
-<tr>
-<td>21</td>
-<td>TS03</td>
-<td>Bottom Navigation Bar</td>
-<td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>22</td>
-<td>TS04</td>
-<td>Registrarse</td>
-<td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>23</td>
-<td>TS05</td>
-<td>Iniciar Sesión</td>
-<td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>24</td>
-<td>TS06</td>
-<td>Actualizar Usuario</td>
-<td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>25</td>
-<td>TS07</td>
-<td>Obtener todos los usuarios</td>
-<td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>26</td>
-<td>TS08</td>
-<td>Obtener usuario por Id</td>
-<td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>27</td>
-<td>TS09</td>
-<td>Crear perfil de estudiante</td>
-<td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>28</td>
-<td>TS10</td>
-<td>Actualizar perfil de estudiante por Id</td>
-<td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>29</td>
-<td>TS11</td>
-<td>Obtener perfil de estudiante por Id</td>
-<td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>30</td>
-<td>TS12</td>
-<td>Obtener perfiles de estudiante</td>
-<td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>31</td>
-<td>TS13</td>
-<td>Crear perfil de manager</td>
-<td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>32</td>
-<td>TS14</td>
-<td>Actualizar perfil de manager por Id</td>
-<td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>33</td>
-<td>TS15</td>
-<td>Obtener perfil de manager por Id</td>
-<td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>34</td>
-<td>TS16</td>
-<td>Obtener perfiles de manager</td>
-<td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>35</td>
-<td>TS17</td>
-<td>Crear convocatoria</td>
-<td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>36</td>
-<td>TS18</td>
-<td>Actualizar convocatoria</td>
-<td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>37</td>
-<td>TS19</td>
-<td>Cambiar estado de convocatoria a publicado</td>
-<td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>38</td>
-<td>TS20</td>
-<td>Cambiar estado de convocatoria a cerrado</td>
-<td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>39</td>
-<td>TS21</td>
-<td>Borrar convocatoria</td>
-<td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>40</td>
-<td>TS22</td>
-<td>Obtener convocatoria por Id</td>
-<td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>41</td>
-<td>TS23</td>
-<td>Obtener todas las convocatorias</td>
-<td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>42</td>
-<td>TS24</td>
-<td>Crear Proyecto</td>
-<td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
-<td>3</td>
-</tr>
-<tr>
-<td>43</td>
-<td>TS25</td>
-<td>Actualizar Proyecto</td>
-<td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
-<td>2</td>
-</tr>
-<tr>
-<td>44</td>
-<td>TS26</td>
-<td>Cambiar estado de proyecto a publicado</td>
-<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
-<td>1</td>
-</tr>
-<tr>
-<td>45</td>
-<td>TS27</td>
-<td>Cambiar estado de proyecto a cerrado</td>
-<td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
-<td>1</td>
-</tr>
+    <td>19</td>
+      <td>TS01</td>
+      <td>Configuración de autenticación y roles</td>
+      <td>Como desarrollador, quiero implementar un sistema de autenticación que distinga entre los roles de estudiante y gerente, para garantizar un acceso seguro y una experiencia personalizada según el tipo de usuario.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+    <td>20</td>
+      <td>TS02</td>
+      <td>Estructura de base de datos para gestión de proyectos y convocatorias</td>
+      <td>Como desarrollador, quiero diseñar y configurar la base de datos que almacene usuarios, proyectos, convocatorias y solicitudes, para permitir la comunicación fluida entre estudiantes y gerentes.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+    <td>21</td>
+      <td>TS03</td>
+      <td>Bottom Navigation Bar</td>
+      <td>Como desarrollador, quiero implementar una barra de navegación inferior que conecte las secciones principales del sistema (Explorar, Mis proyectos/convocatorias, Solicitudes y Perfil), para mantener coherencia visual y facilidad de uso.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>22</td>
+      <td>TS04</td>
+      <td>Registrarse</td>
+      <td>Como desarrollador, quiero implementar el registro de nuevos usuarios (estudiantes o gerentes), para permitir su acceso inicial a la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>23</td>
+      <td>TS05</td>
+      <td>Iniciar Sesión</td>
+      <td>Como desarrollador, quiero permitir que los usuarios inicien sesión con sus credenciales válidas, para acceder de forma segura según su rol.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>24</td>
+      <td>TS06</td>
+      <td>Actualizar Usuario</td>
+      <td>Como desarrollador, quiero permitir la actualización de los datos de usuario (nombre, correo, contraseña) para mantener la información actualizada.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>25</td>
+      <td>TS07</td>
+      <td>Obtener todos los usuarios</td>
+      <td>Como desarrollador, quiero listar todos los usuarios registrados, para fines de administración o validación interna.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>26</td>
+      <td>TS08</td>
+      <td>Obtener usuario por Id</td>
+      <td>Como desarrollador, quiero obtener la información de un usuario específico mediante su ID, para mostrar su perfil detallado.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>27</td>
+      <td>TS09</td>
+      <td>Crear perfil de estudiante</td>
+      <td>Como desarrollador, quiero crear el perfil de un estudiante asociado a su usuario, para mostrar sus habilidades y estudios.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>28</td>
+      <td>TS10</td>
+      <td>Actualizar perfil de estudiante por Id</td>
+      <td>Como desarrollador, quiero permitir que un estudiante actualice su perfil por ID, para mantener su información vigente.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>29</td>
+      <td>TS11</td>
+      <td>Obtener perfil de estudiante por Id</td>
+      <td>Como desarrollador, quiero obtener el perfil de un estudiante por su ID, para mostrarlo en la vista de detalle.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>30</td>
+      <td>TS12</td>
+      <td>Obtener perfiles de estudiante</td>
+      <td>Como desarrollador, quiero listar los perfiles de estudiantes para permitir su visualización por parte de los gerentes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>31</td>
+      <td>TS13</td>
+      <td>Crear perfil de manager</td>
+      <td>Como desarrollador, quiero permitir la creación de un perfil de gerente asociado a su usuario, para que pueda mostrar la información de su empresa y área de innovación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>32</td>
+      <td>TS14</td>
+      <td>Actualizar perfil de manager por Id</td>
+      <td>Como desarrollador, quiero permitir que los gerentes actualicen su perfil por ID, para mantener actualizada la información de la empresa.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>33</td>
+      <td>TS15</td>
+      <td>Obtener perfil de manager por Id</td>
+      <td>Como desarrollador, quiero obtener el perfil de un gerente por su ID, para mostrarlo a los estudiantes interesados en sus convocatorias.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>34</td>
+      <td>TS16</td>
+      <td>Obtener perfiles de manager</td>
+      <td>Como desarrollador, quiero obtener todos los perfiles de gerentes, para que los estudiantes puedan conocer a las empresas que publican convocatorias.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>35</td>
+      <td>TS17</td>
+      <td>Crear convocatoria</td>
+      <td>Como desarrollador, quiero permitir que los gerentes creen convocatorias, para que los estudiantes puedan postular a proyectos de innovación.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>36</td>
+      <td>TS18</td>
+      <td>Actualizar convocatoria</td>
+      <td>Como desarrollador, quiero permitir que el gerente edite una convocatoria activa, para actualizar información antes de su cierre.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>37</td>
+      <td>TS19</td>
+      <td>Cambiar estado de convocatoria a publicado</td>
+      <td>Como desarrollador, quiero permitir que el gerente publique una convocatoria, para que los estudiantes puedan visualizarla y postularse.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>38</td>
+      <td>TS20</td>
+      <td>Cambiar estado de convocatoria a cerrado</td>
+      <td>Como desarrollador, quiero permitir que un gerente cierre una convocatoria, para finalizar su periodo de postulaciones.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>39</td>
+      <td>TS21</td>
+      <td>Borrar convocatoria</td>
+      <td>Como desarrollador, quiero permitir eliminar una convocatoria existente, para mantener la base de datos limpia y actualizada.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>40</td>
+      <td>TS22</td>
+      <td>Obtener convocatoria por Id</td>
+      <td>Como desarrollador, quiero obtener la información completa de una convocatoria específica mediante su ID, para mostrar su detalle.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>41</td>
+      <td>TS23</td>
+      <td>Obtener todas las convocatorias</td>
+      <td>Como desarrollador, quiero obtener todas las convocatorias activas, para que los estudiantes puedan explorarlas.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>42</td>
+      <td>TS24</td>
+      <td>Crear Proyecto</td>
+      <td>Como desarrollador, quiero permitir que un estudiante cree un nuevo proyecto, para incluirlo en su portafolio y hacerlo visible a los gerentes.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>43</td>
+      <td>TS25</td>
+      <td>Actualizar Proyecto</td>
+      <td>Como desarrollador, quiero permitir que el estudiante actualice la información de su proyecto, para mantenerla vigente y corregir errores.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>44</td>
+      <td>TS26</td>
+      <td>Cambiar estado de proyecto a publicado</td>
+      <td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de su proyecto a Publicado, para hacerlo visible a los gerentes interesados.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>45</td>
+      <td>TS27</td>
+      <td>Cambiar estado de proyecto a cerrado</td>
+      <td>Como desarrollador, quiero permitir que los estudiantes cambien el estado de sus proyectos a Cerrado, cuando ya no deseen recibir solicitudes o colaboraciones.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+    <td>46</td>
+      <td>TS28</td>
+      <td>Creación de Solicitud de Colaboración</td>
+      <td>Como desarrollador, quiero permitir que un gerente envíe una solicitud de colaboración a un proyecto de un estudiante, para iniciar un posible trabajo conjunto y mentoría.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>47</td>
+      <td>TS29</td>
+      <td>Rechazar solicitud de colaboración</td>
+      <td>Como desarrollador, quiero permitir que un estudiante rechace una solicitud de colaboración de un gerente, para gestionar sus solicitudes entrantes.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>48</td>
+      <td>TS30</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>Como desarrollador, quiero permitir que un estudiante acepte una solicitud de colaboración de un gerente, para confirmar el interés en trabajar juntos.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>49</td>
+      <td>TS31</td>
+      <td>Obtener solicitudes de colaboración por proyecto</td>
+      <td>Como desarrollador, quiero mostrar al estudiante todas las solicitudes de colaboración que ha recibido para un proyecto específico, para facilitar su revisión y gestión.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>50</td>
+      <td>TS32</td>
+      <td>Enviar postulación a convocatoria</td>
+      <td>Como desarrollador, quiero permitir que un estudiante postule a una convocatoria de una empresa, para expresar su interés en participar.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+    <td>51</td>
+      <td>TS33</td>
+      <td>Rechazar postulación de estudiante</td>
+      <td>Como desarrollador, quiero permitir que un gerente rechace la postulación de un estudiante a una de sus convocatorias, para gestionar el proceso de selección.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>52</td>
+      <td>TS34</td>
+      <td>Aceptar postulación de estudiante</td>
+      <td>Como desarrollador, quiero permitir que un gerente acepte la postulación de un estudiante a una convocatoria, para avanzar en el proceso de selección.</td>
+      <td>1</td>
+    </tr>
+    <tr>
+    <td>53</td>
+      <td>TS35</td>
+      <td>Obtener detalle de postulación</td>
+      <td>Como desarrollador, quiero obtener los detalles de una postulación específica, para mostrar el estado y la información relevante tanto al estudiante como al gerente.</td>
+      <td>2</td>
+    </tr>
   </tbody>
 </table>
 
@@ -2726,16 +2886,160 @@ Como equipo realizamos una sesión de EventStorming con el objetivo de comprende
 
 Durante la sesión usamos una herramienta colaborativa para organizar y visualizar los elementos, lo que nos permitió discutir, consensuar y delimitar los primeros bounded contexts del sistema. El resultado es un mapa inicial del dominio que servirá como base para el análisis y diseño detallado en las siguientes etapas.
 
+Paleta de Colores:
 
+Paleta de colores usados para los post-its utilizados
+
+- Naranja (Domain Event): Evento (pasado).
+
+- Azul (Command): Acción (imperativo).
+
+- Amarillo Claro (Role): Actor/Usuario.
+
+- Morado (Business Rule): Regla/Condición.
+
+- Verde (View): Pantalla/UI.
+
+- Amarillo Oscuro (Aggregate): Entidad/Estado.
+
+- Rosa (External System): Sistema Externo.
+
+Primer Paso
 
 <p align="center">
-  <img src="images/chapterii/eventstorming.png" alt="UPC logo" width="1000">
+  <img src="images/eventstorming/1.png" alt="UPC logo" width="1000">
 </p>
 <p align="center">
-    Event Storming - Elaboración propia
+    Event Storming 1- Elaboración propia
 </p>
 
+Segundo Paso:
 
+<p align="center">
+  <img src="images/eventstorming/2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 2- Elaboración propia
+</p>
+
+Tercer Paso:
+
+<p align="center">
+  <img src="images/eventstorming/3.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 3.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/3.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 3.2- Elaboración propia
+</p>
+
+Cuarto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/4.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 4.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/4.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 4.2- Elaboración propia
+</p>
+
+Quinto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/5.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 5- Elaboración propia
+</p>
+
+Sexto Paso:
+
+<p align="center">
+  <img src="images/eventstorming/6.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 6.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/6.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 6.2- Elaboración propia
+</p>
+
+Septimo Paso:
+
+<p align="center">
+  <img src="images/eventstorming/7.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 7.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/7.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 7.2- Elaboración propia
+</p>
+
+Octavo Paso:
+
+<p align="center">
+  <img src="images/eventstorming/8.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/8.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.2- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/8.3.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 8.3- Elaboración propia
+</p>
+
+Noveno Paso:
+
+<p align="center">
+  <img src="images/eventstorming/9.1.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.1- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/9.2.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.2- Elaboración propia
+</p>
+
+<p align="center">
+  <img src="images/eventstorming/9.3.png" alt="UPC logo" width="1000">
+</p>
+<p align="center">
+    Event Storming 9.3- Elaboración propia
+</p>
 
 
 #### 2.5.1.1. Candidate Context Discovery
@@ -2839,111 +3143,56 @@ Luego de realizar estos pasos, se utilizó la herramienta Miro para dividir esto
 
 
 
-### Student Projects:
-
-<br>
-
-<p align="center">
-  <img src="images/chapterii/studentprojectsmiro.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Student Applications
-<p align="center">
-  <img src="images/chapterii/mirostud.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Project Collaboration:
-<p align="center">
-  <img src="images/chapterii/miro_projcollab.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-### Company Opportunities
-<p align="center">
-  <img src="images/chapterii/mirocomp.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
-
-
-
 #### 2.5.1.2. Domain Message Flows Modeling
 
-<br>
+Con los Bounded Contexts definidos en la etapa anterior, el equipo procedió a realizar una sesión de modelado de flujo de mensajes (Domain Message Flow Modeling) para definir cómo estos contextos colaboran entre sí para resolver los distintos escenarios del negocio.
 
-Ahora se mostrarán los eventos en los cuales se comunican los bounded contexts hallados previamente.
+Esta técnica nos permitió visualizar de forma clara los flujos de comunicación entre contextos y entender mejor el comportamiento esperado del sistema desde la perspectiva de los usuarios: el Estudiante y el Gerente (Empresa).
 
+Durante la sesión, se analizaron principalmente los dos casos de uso principales de la plataforma:
 
-<strong>Company Opportunities y Student Applications:</strong> Cuando un estudiante postula a una convocatoria, se mostrará en la lista de postulantes del gerente, luego el gerente podrá revisar el perfil del postulante y validar su postulación
+Caso 1: Postulación de un Estudiante a una Oportunidad de Empresa
+Este flujo involucra a los Bounded Contexts Company Opportunities y Student Applications.
+
+El Gerente (Empresa) publica una nueva convocatoria. Esta acción se envía como un comando (PublishOpportunity) al Bounded Context Company Opportunities.
+
+Una vez procesado, Company Opportunities emite un evento (OpportunityPublished).
+
+El Bounded Context Student Applications "escucha" este evento para saber que la oportunidad está activa.
+
+El Estudiante explora las oportunidades y envía su postulación, asociando uno de sus proyectos. Esto se envía como un comando (SubmitApplication) al Bounded Context Student Applications.
+
+Student Applications recibe la postulación, actualiza su estado a "Pendiente" y emite un evento (ApplicationSubmitted) para notificar al Gerente.
+
+Finalmente, el Gerente revisa y acepta la postulación (comando AcceptApplication), lo que genera un evento final (ApplicationAccepted) para notificar al Estudiante.
+
+Caso 2: Colaboración iniciada por un Gerente sobre un Proyecto Estudiantil
+Este flujo involucra a los Bounded Contexts Student Projects y Project Collaboration.
+
+El Estudiante publica su proyecto innovador. Esta acción se envía como un comando (PublishProject) al Bounded Context Student Projects.
+
+Una vez procesado, Student Projects emite un evento (ProjectPublished).
+
+El Bounded Context Project Collaboration "escucha" este evento para mostrar el proyecto a las empresas.
+
+Un Gerente explora los proyectos y registra su interés en uno. Esto se envía como un comando (CreateCollaborationDecision) al Bounded Context Project Collaboration.
+
+Project Collaboration recibe la decisión y emite un evento (CollaborationInterestShown) para notificar al Estudiante.
+
+El Estudiante revisa el interés de la empresa y responde (ej. "Aceptar"), enviando un comando (SubmitStudentResponse) que actualiza el estado de la colaboración.
+
+Esta visualización permitió entender no solo los puntos de integración entre los contextos, sino también los límites de responsabilidad de cada uno, asegurando una arquitectura desacoplada pero coherente. El resultado fue un conjunto de diagramas de Domain Message Flow que reflejan claramente cómo fluyen los mensajes (Comandos y Eventos) entre usuarios y contextos del sistema.
 
 <p align="center">
-  <img src="images/chapterii/mesage3.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/DomainMessageFlow1.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
      Elaboración propia
 </p>
 
-
-<strong>Company Opportunities y Student Applications:</strong> Cuando una convocatoria acaba y el estudiante elegido participa en ella, entonces el perfil del estudiante se actualizará con la convocatoria en la que participó.
-
 <p align="center">
-  <img src="images/chapterii/mesage5.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
-
-<strong>Project Collaboration y Student Applications:</strong> Cuando el estudiante gana experiencia después de una convocatoria, el gerente puede corroborar su experiencia antes de colaborar en un proyecto del estudiante.
-
-<p align="center">
-  <img src="images/chapterii/mesage6.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-
-
-<strong>Project Collaboration y Student Projects:</strong> Cuando el estudiante publica un proyecto, un gerente podrá verlo en la aplicación y enviar la decisión al estudiante, finalmente el estudiante aceptará si decidir la colaboración o no.
-
-<p align="center">
-  <img src="images/chapterii/mesage7.png" alt = "updated diagram" width="100%">
-</p>
-
-<p align="center">
-     Elaboración propia
-</p>
-
-<br>
-
-Aca se muestra el diagrama completo que incluye los 4 Bounded Contexts: 
-
-
-
-<p align="center">
-  <img src="images/chapterii/fulldiagram.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/DomainMessageFlow2.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -2965,7 +3214,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Student Projects
 <p align="center">
-  <img src="images/chapterii/canvas1.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCStudentProjectsCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -2974,7 +3223,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Company Opportunities
 <p align="center">
-  <img src="images/chapterii/canvas2.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCCompanyOportunitiesCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -2983,7 +3232,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Student Applications
 <p align="center">
-  <img src="images/chapterii/canvas3.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCStudentApplicationsCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -2992,7 +3241,7 @@ En esta parte se lleva a cabo la descomposición estratégica del dominio a trav
 
 ### Project Collaboration
 <p align="center">
-  <img src="images/chapterii/canvas4.png" alt = "updated diagram" width="100%">
+  <img src="images/chapterii/BCProjectCollaborationCanvas.png" alt = "updated diagram" width="100%">
 </p>
 
 <p align="center">
@@ -4824,11 +5073,6 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 1 del p
 Link al Trello: https://trello.com/invite/b/68e840ec8e4c22f7bff0705b/ATTI8861ab62d0a5c5a2ec8cd4630bcadfa4FB379D9A/sprint-backlog-1-unipafi 
 
 
-
-
-
-
-
 <h3>Sprint Backlog – Sprint 1</h3>
 <table border="1" cellspacing="0" cellpadding="5">
 <thead>
@@ -5511,6 +5755,550 @@ Se podra visualizar los commit y contribuciones hechas por los integrantes.
 
 <br>
 
+### 4.2.2. Sprint 2
+
+Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
+
+#### 4.2.2.1. Sprint Planning 2
+
+En esta sección se detallan los aspectos principales del Sprint Planning Meeting, una reunión clave para definir los objetivos, tareas y prioridades del Sprint 2. Dando continuidad al trabajo previo, este encuentro permitió al equipo alinear esfuerzos, distribuir responsabilidades y establecer el alcance del trabajo a realizar durante esta nueva iteración. A continuación, se presenta un cuadro resumen del Sprint Planning Meeting, donde se registran los puntos más relevantes discutidos y las decisiones acordadas por el equipo.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 2</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-10-28</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>08:00 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Rivera Ratachi, Renzo Sebastian</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Santur Tello, Andrea Elizabeth
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Review Summary</b></td>
+      <td>Al finalizar el Sprint 1, el equipo completó exitosamente el 100% del backlog planificado (60 Story Points). Los productos de software clave alcanzados incluyen el despliegue funcional de la Landing Page en GitHub Pages y el despliegue del núcleo del backend en Azure, con todos los servicios principales (perfiles, proyectos, oportunidades y autenticación) operativos y documentados en Swagger. Los miembros del equipo se mostraron satisfechos con la alta velocidad y la finalización de todas las tareas. El Product Owner validó los entregables, dando feedback positivo sobre la sólida infraestructura y el avance visual en la app.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 1 Retrospective Summary</b></td>
+      <td>El equipo identificó como aciertos principales la alta colaboración entre los desarrolladores de backend y móvil (reflejado en los Insights) y la efectividad en la división de tareas, lo que permitió completar el 100% del backlog. El despliegue temprano de la infraestructura en Azure se consideró un gran éxito técnico.</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Goal</b></td>
+      <td>Our focus is on implementing the complete interaction cycle between managers and students, enabling managers to request collaboration on projects and students to apply for opportunities.
+      We believe it delivers tangible connection tools for both user roles. For managers, it provides a direct channel to proactively recruit talent. For students, it provides a clear path to apply for opportunities and respond to collaboration offers.
+      This will be confirmed when a manager can view a project, send a collaboration request, and the student can successfully accept or reject that request; AND when a student can view an opportunity, send an application, and the manager can successfully accept or reject that application.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Velocity</b></td>
+      <td>13 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 = 13 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 4.2.2.2. Sprint Backlog 2
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue implementar las funcionalidades centrales de interacción de la plataforma, incluyendo la gestión de solicitudes de colaboración y las postulaciones a convocatorias. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<br>
+<p align="center">
+  <img src="images/trelloSprint2.png" alt="Sprint Backlog 2 Trello" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 2 - Elaboración propia
+</p>
+
+
+Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bde2d8cc2dd9b1a1b6f2fa9033b197AB661/sprint-2
+
+<br>
+
+<h3>Sprint Backlog – Sprint 2</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS28</td>
+<td>Creación de Solicitud de Colaboración</td>
+<td>WI001</td>
+<td>Implementar envío de solicitud de colaboración</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda enviar una solicitud (con estado "pendiente") al proyecto de un estudiante.</td>
+<td>5</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS29</td>
+<td>Rechazar solicitud de colaboración</td>
+<td>WI002</td>
+<td>Implementar rechazo de colaboración</td>
+<td>Crear la lógica para que un estudiante pueda cambiar el estado de una solicitud de colaboración recibida a "Rechazada".</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS30</td>
+<td>Aceptar solicitud de colaboración</td>
+<td>WI003</td>
+<td>Implementar aceptación de colaboración</td>
+<td>Desarrollar la lógica para que un estudiante pueda actualizar el estado de una solicitud de colaboración recibida a "Aceptada".</td>
+<td>2</td>
+<td>Carlos Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS31</td>
+<td>Obtener solicitudes de colaboración por proyecto</td>
+<td>WI004</td>
+<td>Listar solicitudes por proyecto</td>
+<td>Crear la funcionalidad para mostrar al estudiante un listado de todas las solicitudes de colaboración asociadas a su proyecto.</td>
+<td>3</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS32</td>
+<td>Enviar postulación a convocatoria</td>
+<td>WI005</td>
+<td>Implementar envío de postulación</td>
+<td>Desarrollar la funcionalidad para que un estudiante pueda postular a una convocatoria, creando un registro en estado "pendiente".</td>
+<td>5</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS33</td>
+<td>Rechazar postulación de estudiante</td>
+<td>WI006</td>
+<td>Implementar rechazo de postulación</td>
+<td>Crear la lógica para que un gerente pueda cambiar el estado de una postulación de estudiante (que recibió en su convocatoria) a "Rechazada".</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS34</td>
+<td>Aceptar postulación de estudiante</td>
+<td>WI007</td>
+<td>Implementar aceptación de postulación</td>
+<td>Desarrollar la lógica para que un gerente pueda actualizar el estado de una postulación de estudiante (que recibió en su convocatoria) a "Aceptada".</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>TS35</td>
+<td>Obtener detalle de postulación</td>
+<td>WI008</td>
+<td>Desarrollar obtención de detalle de postulación</td>
+<td>Implementar la funcionalidad para obtener y mostrar la información detallada de una postulación específica.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+
+#### 4.2.2.3. Development Evidence for Sprint Review
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>develop</td>
+    <td>963b277</td>
+    <td>feat: add unit and integration tests for project and auth</td>
+    <td>Added ProjectCommandServiceImplTest to test project creation logic</td>
+    <td>06/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>deployment</td>
+    <td>92475a6</td>
+    <td>fix: switch base image to eclipse-temurin:24-jdk</td>
+    <td>Replaces the OpenJDK base image with Eclipse Temurin for building the container.</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/backend-InnoSpace</td>
+    <td>feat/collaboration-applications</td>
+    <td>9b0875b</td>
+    <td>feat: add endpoints to query cards by manager and student</td>
+    <td>Introduced new REST endpoints and service methods to fetch collaboration cards by manager and student application cards by student.</td>
+    <td>04/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>bca1592</td>
+    <td>feat: update project card and top bar UI</td>
+    <td>Updated ProjectCard with improved styling, rounded corners, elevation, and better text handling including ellipsis for overflow.</td>
+    <td>05/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>21af86e</td>
+    <td>feat(profile): add new profile and update bio</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e7e65e9</td>
+    <td>feat: postulations</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>62df927</td>
+    <td>feat: update the styles</td>
+    <td>-</td>
+    <td>05/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>e503886</td>
+    <td>feat: add collaborators</td>
+    <td>-</td>
+    <td>04/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>02/10/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/my-projects</td>
+    <td>c6cd876</td>
+    <td>feat: fixed Bugs and add the Edit Button</td>
+    <td>-</td>
+    <td>03/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>feature/explore-opportunities-section</td>
+    <td>3ad27a9</td>
+    <td>feat: add apply to opportunity feature for students</td>
+    <td>Introduced the ability for students to apply to opportunities from the OpportunityDetailScreen. Added ApplyToOpportunityUseCase, updated navigation to pass studentId, and extended the OpportunityDetailViewModel and UI to handle application logic and feedback.</td>
+    <td>03/11/25</td>
+  </tr>
+<table>
+
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### Core Entities Unit Tests
+
+Los Core Entities Unit Tests son esenciales en el desarrollo de software, ya que garantizan la calidad y correcto funcionamiento de las entidades centrales. Estas pruebas verifican que la lógica interna y las reglas de negocio implementadas en los servicios y agregados funcionen de manera independiente y coherente, previniendo errores y facilitando el mantenimiento del código.
+
+ 
+
+
+ <img src="images/integration1.png" alt="entrevista1" width="800"><br>
+
+
+
+#### Core Integration Tests
+
+Los Core Integration Tests validan la comunicación entre las distintas capas de la aplicación, principalmente entre los controladores, servicios y repositorios. A través de estas pruebas se asegura que los endpoints respondan correctamente a las solicitudes, devuelvan los códigos de estado apropiados y mantengan la consistencia de los datos intercambiados. Son fundamentales para comprobar el correcto funcionamiento del sistema como un todo antes de las pruebas de aceptación.
+
+
+ <img src="images/integrationunittests.png" alt="entrevista1" width="800"><br>
+
+
+#### Features:
+
+
+ <img src="images/feature11.png" alt="" width="600"><br>
+
+
+  <img src="images/feature2.png" alt="" width="600"><br>
+
+
+#### 4.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+
+Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. La interfase fue diseñada siguiendo un estilo limpio y coherente con el propósito de seguir la guía UI/UX, así como anteponiendo las premisas de facilidad de uso y aprecio por la seguridad.
+
+<p align="center">
+  <img src="images/profile1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/profile2.png" alt="Sprint Backlog 2 Trello" width="
+  190">
+</p>
+
+Exploración: Esta opción posibilita a los usuarios realizar la búsqueda entre las diferentes oportunidades publicadas por parte de las empresas o los gerentes. Se llevó a cabo un listado dinámico que consume los endpoints del backend, en el cual se presenta la información correspondiente a cada convocatoria: título, empresa, fecha y estado.
+
+<p align="center">
+  <img src="images/explore1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/explore2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando). Se implementó la funcionalidad de listar, crear y editar proyectos así como visualizar su estado de avance.
+
+<p align="center">
+  <img src="images/project1.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/project2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/project3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. Así mismo, permite al usuario acceder a la información del detalle del proyecto y poder interactuar con las personas responsables de este.
+
+<p align="center">
+  <img src="images/postulation1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/postulation2.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos que están relacionados con su cuenta y su perfil, es decir, su nombre, correo, descripción, habilidades y foto de perfil. El diseño de esta vista tiene una estética sencilla pero responsiva, siguiendo la guía de estilos estipulada en el proceso de diseño UI/UX. Al mismo tiempo se creó la conexión con el backend para poder actualizar los datos de manera instantánea.
+
+<p align="center">
+  <img src="images/perfil1.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+  <img src="images/perfil2.png" alt="Sprint Backlog 2 Trello" width="
+  210">
+  <img src="images/perfil3.png" alt="Sprint Backlog 2 Trello" width="
+  200">
+</p>
+
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review
+  
+Durante el Sprint 2 se desarrollaron y documentaron 8 nuevos endpoints correspondientes a los bounded contexts Project Collaboration y Student Applications.
+Estos endpoints permiten gestionar solicitudes de colaboración entre empresas y estudiantes, así como postulación a oportunidades laborales dentro de la plataforma.
+
+La documentación se realizó utilizando OpenAPI (Swagger), asegurando claridad, estandarización y trazabilidad.
+Asimismo, se evidenció con pruebas funcionales desde Swagger UI y control de versiones en GitHub.
+
+<h3>Endpoints implementados</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint URL (local)</th>
+      <th>Recurso</th>
+      <th>Verbo HTTP</th>
+      <th>Acción / Sintaxis</th>
+      <th>Parámetros</th>
+      <th>Ejemplo de Response</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>/api/v1/collaborations</td>
+      <td>Project-Manager Collaborations</td>
+      <td>POST</td>
+      <td>Enviar solicitud de colaboración</td>
+      <td>Body: projectId, managerId, message</td>
+      <td>{ "id": 1, "status": "PENDING" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/{id}/reject</td>
+      <td>Project-Manager Collaborations</td>
+      <td>PATCH</td>
+      <td>Rechazar solicitud de colaboración</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "REJECTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/{id}/accept</td>
+      <td>Project-Manager Collaborations</td>
+      <td>PATCH</td>
+      <td>Aceptar solicitud de colaboración</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "ACCEPTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/collaborations/project/{projectId}</td>
+      <td>Project-Manager Collaborations</td>
+      <td>GET</td>
+      <td>Listar solicitudes por proyecto</td>
+      <td>projectId</td>
+      <td>[ { "id": 1, "status": "PENDING" }, ... ]</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications</td>
+      <td>Student Applications</td>
+      <td>POST</td>
+      <td>Enviar postulación a oportunidad</td>
+      <td>Body: studentId, opportunityId, description</td>
+      <td>{ "id": 1, "status": "PENDING" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}/reject</td>
+      <td>Student Applications</td>
+      <td>PATCH</td>
+      <td>Rechazar postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "REJECTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}/accept</td>
+      <td>Student Applications</td>
+      <td>PATCH</td>
+      <td>Aceptar postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "status": "ACCEPTED" }</td>
+    </tr>
+    <tr>
+      <td>/api/v1/student-applications/{id}</td>
+      <td>Student Applications</td>
+      <td>GET</td>
+      <td>Obtener detalle de postulación</td>
+      <td>id</td>
+      <td>{ "id": 1, "studentId": 10, "opportunityId": 5, "status": "PENDING" }</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Link del Swagger:</strong> <a href="https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html" target="_blank">https://innospacebackend-gebta4gkasgkhaap.chilecentral-01.azurewebsites.net/swagger-ui/index.html</a></p>
+
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración, y se dejó preparada la arquitectura para futuros desarrollos. Aquí las evidencias principales:
+
+### Despliegue del Backend en Azure
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
+</p>
+
+<br>
+> Backend operativo en Azure App Service, conectado correctamente con MySQL Flexible Server.
+
+### Evidencia de Swagger UI - Endpoints
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy1.png" alt="execution" width="1000">
+</p>
+
+<br>
+> Documentación Swagger mostrando los endpoints habilitados en el backend.
+
+### Modelos y API REST implementados
+
+- **Manager y Student Profiles**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="Manager profile API" width="1000">
+</p>
+<br>
+
+- **Proyectos estudiantiles**  
+  <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot1.png" alt="Proyectos API" width="1000">
+</p>
+<br>
+
+- **Oportunidades empresariales**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
+</p>
+<br>
+
+### Commits y branches relevantes
+
+- Repositorio: [github.com/UniPafi/backend-InnoSpace](https://github.com/UniPafi/backend-InnoSpace)
+- Commits Sprint 2:
+  - `feat/profiles-bounded-context` `49f2fd1`: Dominio y REST API para perfiles de manager y estudiante
+  - `feature/company-opportunities-bounded-context` `314ef27`: API para gestión de oportunidades
+  - `feature/student-projects-bounded-context` `70e83e1`: API para gestión de proyectos estudiantiles
+  - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
+
+
+#### 4.2.2.8. Team Collaboration Insights during Sprint
+
+Backend Insights:
+
+<p align="center">
+  <img src="images/backend_insights_2.png" alt="backend insights" width="800">
+</p>
+
+
+Kotlin App Insights :
+
+<p align="center">
+  <img src="images/kotlin_insights_2.png" alt="Kotlin Insights" width="800">
+</p>
+
+
+
+
 
 ## 4.3. Validation Interviews
 
@@ -5876,20 +6664,20 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 **Link del repositorio en Github:**
 
+
 https://github.com/UniPafi/project-report-InnoSpace
 
-**Link del repositorio del backend**
 
-https://github.com/UniPafi/backend-InnoSpace
 
-**Link del repositorio del Kotlin**
 
-https://github.com/UniPafi/kotlin_app_InnoSpace
 
-**Link del repositorio del landing page**
 
-https://github.com/UniPafi/landing-page-InnoSpace 
 
-**Link del video TP1**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/EUHAlsLtptRPg1xziieQTaYBBDjPHlcAW3V2-afIvUNiPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EC632T 
+
+
+
+
+
+
+
