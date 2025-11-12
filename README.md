@@ -182,6 +182,9 @@
 
 
 
+
+
+
 ---
 
 ## Contenido
@@ -6021,6 +6024,22 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
 
 
 #### 4.2.2.8. Team Collaboration Insights during Sprint
+
+Backend Insights:
+
+<p align="center">
+  <img src="images/backend_insights_2.png" alt="backend insights" width="800">
+</p>
+
+
+Kotlin App Insights :
+
+<p align="center">
+  <img src="images/kotlin_insights_2.png" alt="Kotlin Insights" width="800">
+</p>
+
+
+
 
 
 ## 4.3. Validation Interviews
