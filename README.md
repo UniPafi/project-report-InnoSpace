@@ -6002,6 +6002,79 @@ Interés y adopción potencial
   </tr>
 </table>
 
+*Entrevistas a segmentos objetivos usando la aplicación Innospace*
+---
+
+**Estudiantes Universitarios**
+
+**Preguntas para Estudiantes Universitarios Innovadores (Android Studio)**
+
+1. ¿Qué tan clara te pareció la información presentada en la landing page sobre el propósito de la aplicación?
+
+2. ¿La navegación de la landing page te pareció sencilla e intuitiva?
+
+3. ¿El diseño visual y el contenido de la landing page te transmitieron confianza e interés para probar la aplicación?
+
+4. ¿Qué tan fácil te resultó registrarte e iniciar sesión en la aplicación?
+
+5. ¿Pudiste entender rápidamente cómo explorar las convocatorias publicadas por los managers?
+
+6. ¿Qué opinas de la funcionalidad que permite crear proyectos y recibir interés de managers? ¿Te parece útil y motivadora?
+
+7. ¿Te resultó claro el proceso para postularte a convocatorias y hacer seguimiento de tus postulaciones?
+
+8. ¿Qué tan fácil te pareció editar tu perfil y mantener tu información actualizada?
+
+9. ¿Consideras que el perfil refleja adecuadamente tus habilidades o intereses como estudiante para conectar con managers?
+
+10. En general, ¿qué tan probable sería que recomiendes esta aplicación a otros estudiantes interesados en colaborar con empresas o managers? (Escala 1 a 5)
+
+**Registro de entrevista Estudiante Universitario (Android Studio)**
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Adrian Moreno</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Cercado de Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:22 - 10:34</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/IQBCriLfRrZmSp_RM6HF19A-AZcouoAqYZKZ-UAaeEqXUOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGmTqb`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Adrián Moreno, estudiante de 24 años de Marketing y Administración, participó en la validación de la aplicación y la landing page desarrolladas. Ademas, destacó que la información presentada en la landing le pareció clara, sencilla y bien estructurada, transmitiéndole confianza gracias a su diseño moderno. Considera que la navegación es intuitiva y que los apartados están bien organizados, lo que facilita comprender el propósito de la plataforma desde el primer vistazo. Al utilizar la aplicación móvil, resaltó la facilidad del registro e inicio de sesión, así como la simpleza para explorar las convocatorias publicadas por los managers. Valoró positivamente la posibilidad de crear proyectos propios y recibir interés de empresas o gerentes, ya que considera que esta funcionalidad permite a los estudiantes mostrar su talento y generar oportunidades de colaboración. Mencionó que la opción de visualizar y gestionar sus postulaciones le pareció muy útil, ya que puede ver fácilmente el estado de cada solicitud, además de poder editar su perfil para reflejar sus habilidades e intereses. Considera que la aplicación ayuda a reducir la distancia entre estudiantes y empresas, fomentando el networking y el aprendizaje práctico, elementos que él valora como esenciales para su desarrollo profesional. En una escala del 1 al 5, calificó su experiencia con un 5, indicando que recomendaría la aplicación a otros estudiantes interesados en colaborar con empresas y managers.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante.png" alt="entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
 ### 4.3.3. Evaluaciones según heurísticas
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información y diseño de experiencia de usuario.
