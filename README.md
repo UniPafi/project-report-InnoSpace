@@ -6644,6 +6644,20 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 <br>
 
+**TB2**
+
+<br>
+
+- Se integraron funcionalidades clave en InnoSpace, como la actualización y eliminación de postulaciones, lo que permitió una gestión más eficiente y completa por parte de los apoderados.
+
+- El contexto IAM, desarrollado en Flutter, consolidó una conexión estable y eficiente con el backend, garantizando la coherencia general del sistema.
+
+- El trabajo en equipo destacó por su coordinación y comunicación constante, favoreciendo la integración fluida de las distintas secciones.
+
+- Estos avances fortalecieron la calidad del producto final de InnoSpace y reflejaron la madurez técnica alcanzada por el equipo durante el sprint.
+
+<br>
+
 ## Bibliografia
 
 <br>
@@ -6666,6 +6680,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 
 https://github.com/UniPafi/project-report-InnoSpace
+
 
 
 
