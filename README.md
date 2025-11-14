@@ -98,7 +98,7 @@
     Coca,<br>
     Cabrera, Santur
     </td>
-    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
+    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Design de los Bounded Context.</td>
   </tr>
   <tr>
     <td>2.00</td>
@@ -116,7 +116,7 @@
     Palomino,<br>
     Coca
     </td>
-    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Desing</td>
+    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Design</td>
   </tr>
   <tr>
     <td>2.02</td>
@@ -145,6 +145,33 @@
     Coca
     </td>
     <td>Realización del Sprint 1 y las entrevistas de validacion con su evaluación segun heuristicas</td>
+  </tr>
+  <tr>
+    <td>3.00</td>
+    <td>27/10/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Correcciones en EventStorming realizadas</td>
+  </tr>
+  <tr>
+    <td>3.01</td>
+    <td>03/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Plantilla de Sprint 2 agregada</td>
+  </tr>
+  <tr>
+    <td>3.02</td>
+    <td>13/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
   </tr>
 </table>
 
@@ -363,69 +390,61 @@
 ---
 ## Student Outcome
 
-<table align="center">
-  <tr>
-    <td><strong>Criterio</strong></td>
-    <td><strong>Acciones Realizadas</strong></td>
-    <td><strong>Conclusiones</strong></td>
-  </tr>
+<table align="center"> <tr> <td><strong>Criterio</strong></td> <td><strong>Acciones Realizadas</strong></td> <td><strong>Conclusiones</strong></td> </tr> <tr> <td> Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. </td> <td> <strong>Santur Tello, Andrea Elizabeth:</strong><br> TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br> TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br> TB2 – Desarrollo del Student Profile App section, implementación de Software Deployment Evidence for Sprint 2, Execution Evidence for sprint2, y modificaciones del Landing Page para mejorar la experiencia de usuario.<br><br>
+  <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+  TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
+  TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
+  TB2 – Avance del Sprint 2 (Sprint Planning 2 y Sprint Backlog 2), desarrollo avanzado de la aplicación en Android Studio, y migración de componentes a Flutter para multiplataforma.<br><br>
+  
+  <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
+  TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
+  TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
+  TB2 – Desarrollo de Student Applications Endpoints, implementación de Project Collaboration Endpoints, configuración de Firebase App Distribution, y diseño de la Explore Opportunities section.<br><br>
+  
+  <strong>Coca Lavado, Carlos Andrés:</strong><br>
+  TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
+  TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
+  TB2 – Development Evidence for Sprint Review, avance significativo de la aplicación Kotlin, y desarrollo paralelo de la aplicación Flutter para expansión multiplataforma.<br><br>
+  
+  <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+  TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
+  TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
+  TB2 – Service Documentation Evidence for Sprint Review, avance de la aplicación en Android Studio, y Execution Evidence for sprint2 con mejoras en la documentación técnica.<br><br>
+</td>
+<td>
+  TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
+  TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.<br><br>
+  TB2 – El equipo demostró una actualización continua en tecnologías emergentes como Flutter, Firebase Distribution y desarrollo de APIs especializadas. Se consolidaron conocimientos en gestión de sprints, documentación de servicios y distribución de aplicaciones móviles.
+</td>
 
-  <tr>
-    <td>
-      Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
-    </td>
-    <td>
-      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
-      TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br>
-      TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br>
-      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
-      TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
-      TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
-      <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
-      TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
-      TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
-      <strong>Coca Lavado, Carlos Andrés:</strong><br>
-      TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
-      TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
-      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
-      TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
-      TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
-    </td>
-    <td>
-      TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
-      TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
-    </td>
-    <td>
-      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
-      TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br>
-      TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br>
-      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
-      TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
-      TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
-      <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
-      TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
-      TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
-      <strong>Coca Lavado, Carlos Andrés:</strong><br>
-      TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
-      TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
-      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
-      TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
-      TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
-    </td>
-    <td>
-      TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
-      TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.
-    </td>
-  </tr>
-</table>
+</tr> <tr> <td> Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. </td> <td> <strong>Santur Tello, Andrea Elizabeth:</strong><br> TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br> TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br> TB2 – Aprendizaje en deployment continuo, gestión de evidencias de sprint y mejora de interfaces web, demostrando adaptación a nuevas metodologías de desarrollo.<br><br>
+  <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+  TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
+  TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
+  TB2 – Expansión de competencias hacia el desarrollo multiplataforma con Flutter, profundización en planificación ágil y optimización de aplicaciones móviles.<br><br>
+  
+  <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
+  TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
+  TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
+  TB2 – Especialización en desarrollo de APIs RESTful, implementación de servicios en la nube con Firebase, y gestión de distribución de aplicaciones móviles.<br><br>
+  
+  <strong>Coca Lavado, Carlos Andrés:</strong><br>
+  TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
+  TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
+  TB2 – Desarrollo simultáneo en Kotlin y Flutter, gestión de evidencias de revisión de sprint, y aplicación de mejores prácticas en desarrollo nativo e híbrido.<br><br>
+  
+  <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+  TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
+  TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
+  TB2 – Perfeccionamiento en documentación de servicios, gestión de evidencias técnicas y desarrollo de aplicaciones Android con mejores prácticas de código.<br><br>
+</td>
+<td>
+  TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
+  TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.<br><br>
+  TB2 – Se consolidó la cultura de aprendizaje continuo con la adopción de múltiples tecnologías y frameworks. El equipo demostró capacidad para adaptarse a nuevos desafíos técnicos, gestionar complejidades de desarrollo multiplataforma y mantener estándares de calidad.
+</td>
 
-
-
+</tr> </table>
 
 
 
@@ -6041,12 +6060,45 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
 </p>
 <br>
 
-- **Oportunidades empresariales**  
+- **Convocatorias de empresa**  
  <br>
 <p align="center">
   <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
 </p>
 <br>
+
+### Distribución en Firebase
+
+
+
+- **Creación de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/projectcreatiton+.png" alt="-" width="1000">
+</p>
+<br>
+
+
+- **Visualización de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/firebasevisualizar.png" alt="-" width="1000">
+</p>
+<br>
+
+- **APK subida a proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/aplicacionsubida.png" alt="-" width="1000">
+</p>
+<br>
+
+
+
+
+
+
+
 
 ### Commits y branches relevantes
 
