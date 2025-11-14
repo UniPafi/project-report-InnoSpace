@@ -5612,11 +5612,11 @@ En esta sección se detallan los aspectos principales del Sprint Planning Meetin
     </tr>
     <tr>
       <td><b>Sprint 2 Velocity</b></td>
-      <td>13 Story Points</td>
+      <td> 63 Story Points</td>
     </tr>
     <tr>
       <td><b>Sum of Story Points</b></td>
-      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 = 13 Story Points</td>
+      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 + 3 + 3 + 2 + 3 + 1 + 5 + 5 + 3 + 3 + 5 + 3 + 2 + 4 + 8 = 63 Story Points</td>
     </tr>
   </tbody>
 </table>
@@ -5627,7 +5627,7 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del p
 
 <br>
 <p align="center">
-  <img src="images/trelloSprint2.png" alt="Sprint Backlog 2 Trello" width="600">
+  <img src="images/trello_spritnbacklog2.0.png" alt="Sprint Backlog 2 Trello" width="600">
 </p>
 <p align="center">
      Sprint Backlog 2 - Elaboración propia
@@ -5738,6 +5738,146 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 <td>Implementar la funcionalidad para obtener y mostrar la información detallada de una postulación específica.</td>
 <td>2</td>
 <td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Registro de usuario</td>
+<td>WI009</td>
+<td>Implementar registro de Gerente</td>
+<td>Desarrollar la lógica para que un gerente cree una cuenta.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Inicio de sesión</td>
+<td>WI010</td>
+<td>Implementar inicio de sesión</td>
+<td>Crear la funcionalidad de autenticación para que un usuario registrado pueda ingresar con su usuario y contraseña.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Cierre de Sesión</td>
+<td>WI011</td>
+<td>Implementar cierre de sesión</td>
+<td>Desarrollar la lógica para invalidar la sesión del usuario y redirigirlo a la pantalla de inicio de sesión.</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Explorar proyectos de empresa</td>
+<td>WI012</td>
+<td>Implementar listado de proyectos (Estudiante)</td>
+<td>Crear la vista para que el estudiante vea una lista de todos los proyectos de empresas disponibles.</td>
+<td>4</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Gerente publica nuevo proyecto</td>
+<td>WI013</td>
+<td>Implementar formulario de publicación de proyecto</td>
+<td>Desarrollar el formulario para que un gerente cree un nuevo proyecto.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Estudiante publica nuevo idea innovadora</td>
+<td>WI014</td>
+<td>Implementar formulario de publicación de idea</td>
+<td>Desarrollar el formulario para que un estudiante publique una idea.</td>
+<td>3</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Editar Perfil de Usuario</td>
+<td>WI015</td>
+<td>Implementar edición de perfil</td>
+<td>Crear el formulario y la lógica para que un usuario (ambos roles) pueda modificar y guardar los datos de su perfil.</td>
+<td>4</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US11</td>
+<td>Visualización de detalles del proyecto</td>
+<td>WI016</td>
+<td>Crear vista de detalle de proyecto (Vigente)</td>
+<td>Desarrollar la página de detalle del proyecto mostrando toda la información con el botón "Postular" habilitado.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US12</td>
+<td>Postulación en línea</td>
+<td>WI017</td>
+<td>Implementar lógica de postulación</td>
+<td>Desarrollar la funcionalidad del botón "Postular", registrando la postulación.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US13</td>
+<td>Seguimiento de postulaciones</td>
+<td>WI018</td>
+<td>Crear panel "Mis Postulaciones" (Estudiante)</td>
+<td>Desarrollar una vista donde el estudiante pueda ver todas sus postulaciones y el estado de cada una.</td>
+<td>4</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US14</td>
+<td>Registro de portafolio</td>
+<td>WI019</td>
+<td>Añadir campo de portafolio al perfil</td>
+<td>Agregar un campo en el formulario de "Editar Perfil" para que el estudiante guarde un enlace a su portafolio.</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US15</td>
+<td>Guardado de Convocatorias Favoritos</td>
+<td>WI020</td>
+<td>Implementar "Guardar en Favoritos" (Estudiante)</td>
+<td>Desarrollar la funcionalidad para que un estudiante guarde un proyecto en su lista de favoritos.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US10</td>
+<td>Búsqueda filtrada de convocatorias</td>
+<td>WI021</td>
+<td>Implementar barra de búsqueda de proyectos</td>
+<td>Añadir una barra de búsqueda en la lista de convocatorias que filtre por palabras clave.</td>
+<td>2</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US18</td>
+<td>Llamados a la acción claros en cada sección</td>
+<td>WI022</td>
+<td>Añadir CTAs en secciones de la landing</td>
+<td>Colocar botones de "Regístrate ahora" o "Publica tu proyecto" al final de las secciones relevantes de la landing page.</td>
+<td>4</td>
+<td>Andrea Santur</td>
 <td>Done</td>
 </tr>
 </tbody>
@@ -5877,7 +6017,9 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
-En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace en Android Studio, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+
+**Android Studio**
 
 Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. 
 
@@ -5928,6 +6070,28 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
   210">
   <img src="images/perfil3.png" alt="Sprint Backlog 2 Trello" width="
   200">
+</p>
+
+**Flutter (Avance):**
+
+Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo las credenciales que registraron previamente (correo electrónico y contraseña), lo que les permite verificar su identidad y acceder de forma personalizada a las funciones que les corresponden.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_login.jpeg" alt="login flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_register.jpeg" alt="register flutter" width="
+  210">
+</p>
+
+Convocatorias: La sección Convocatorias permite a los usuarios ver y gestionar sus convocatorias que se les mostrara a los estudiantes
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_convocatorias.jpeg" alt="convocatorias flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_detalleConvocatoria.jpeg" alt="Convocatorias detalle flutter" width="
+  210">
+  <img src="images/flutter_demo/flutter_crearConvocatoria.jpeg" alt="Convocatorias crear flutter" width="
+  210">
 </p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
