@@ -6495,51 +6495,6 @@ Interés y adopción potencial
 
 10. En general, ¿qué tan probable sería que recomiendes esta aplicación a otros estudiantes interesados en colaborar con empresas o managers? (Escala 1 a 5)
 
-**Registro de entrevista Estudiante Universitario (Android Studio)**
-
-<table align="center">
-  <tr>
-    <th colspan="2" style="text-align:center">Entrevista 1</th>
-  </tr>
-  <tr>
-    <td><strong>Entrevistado</strong></td>
-    <td>Adrian Moreno</td>
-  </tr>
-  <tr>
-    <td><strong>Edad</strong></td>
-    <td>24</td>
-  </tr>
-  <tr>
-    <td><strong>Distrito</strong></td>
-    <td>Cercado de Lima</td>
-  </tr>
-  <tr>
-    <td><strong>Timing</strong></td>
-    <td>00:22 - 10:34</td>
-  </tr>
-  <tr>
-    <td><strong>URL</strong></td>
-    <td>
-
-  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/IQBCriLfRrZmSp_RM6HF19A-AZcouoAqYZKZ-UAaeEqXUOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGmTqb`
-
-    
-  </td>
-  </tr>
-  <tr>
-    <td colspan="2" style="text-align:justify">
-    Resumen: <br>
-      Adrián Moreno, estudiante de 24 años de Marketing y Administración, participó en la validación de la aplicación y la landing page desarrolladas. Ademas, destacó que la información presentada en la landing le pareció clara, sencilla y bien estructurada, transmitiéndole confianza gracias a su diseño moderno. Considera que la navegación es intuitiva y que los apartados están bien organizados, lo que facilita comprender el propósito de la plataforma desde el primer vistazo. Al utilizar la aplicación móvil, resaltó la facilidad del registro e inicio de sesión, así como la simpleza para explorar las convocatorias publicadas por los managers. Valoró positivamente la posibilidad de crear proyectos propios y recibir interés de empresas o gerentes, ya que considera que esta funcionalidad permite a los estudiantes mostrar su talento y generar oportunidades de colaboración. Mencionó que la opción de visualizar y gestionar sus postulaciones le pareció muy útil, ya que puede ver fácilmente el estado de cada solicitud, además de poder editar su perfil para reflejar sus habilidades e intereses. Considera que la aplicación ayuda a reducir la distancia entre estudiantes y empresas, fomentando el networking y el aprendizaje práctico, elementos que él valora como esenciales para su desarrollo profesional. En una escala del 1 al 5, calificó su experiencia con un 5, indicando que recomendaría la aplicación a otros estudiantes interesados en colaborar con empresas y managers.
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2"><br>
-      <img src="images/interviews/entrevistaestudiante.png" alt="entrevista1" width="1000"><br>
-    </td>
-  </tr>
-</table>
-
-<br><br>
 
 ### 4.3.3. Evaluaciones según heurísticas
 
@@ -6687,6 +6642,153 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 - La sincronización con el backend requirio estrategias sofisticadas de manejo de caché y resolución de conflictos, evidenciando la importancia de diseñar una capa de datos robusta desde el inicio.
 
 - La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
+
+
+
+<br>
+
+# Video App Validation
+
+En este video presentamos el proceso de validación de nuestras aplicaciones con el segmento objetivo de estudiantes. A través de sus opiniones y experiencias, buscamos comprobar si las soluciones propuestas realmente responden a sus necesidades y expectativas. Este análisis nos permitirá ajustar y fortalecer el proyecto para asegurar que el producto final sea útil, accesible y relevante para ellos.
+
+
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Adrian Moreno</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Cercado de Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:22 - 10:34</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
+
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/IQBCriLfRrZmSp_RM6HF19A-AZcouoAqYZKZ-UAaeEqXUOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGmTqb`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Adrián Moreno, estudiante de 24 años de Marketing y Administración, participó en la validación de la aplicación y la landing page desarrolladas. Ademas, destacó que la información presentada en la landing le pareció clara, sencilla y bien estructurada, transmitiéndole confianza gracias a su diseño moderno. Considera que la navegación es intuitiva y que los apartados están bien organizados, lo que facilita comprender el propósito de la plataforma desde el primer vistazo. Al utilizar la aplicación móvil, resaltó la facilidad del registro e inicio de sesión, así como la simpleza para explorar las convocatorias publicadas por los managers. Valoró positivamente la posibilidad de crear proyectos propios y recibir interés de empresas o gerentes, ya que considera que esta funcionalidad permite a los estudiantes mostrar su talento y generar oportunidades de colaboración. Mencionó que la opción de visualizar y gestionar sus postulaciones le pareció muy útil, ya que puede ver fácilmente el estado de cada solicitud, además de poder editar su perfil para reflejar sus habilidades e intereses. Considera que la aplicación ayuda a reducir la distancia entre estudiantes y empresas, fomentando el networking y el aprendizaje práctico, elementos que él valora como esenciales para su desarrollo profesional. En una escala del 1 al 5, calificó su experiencia con un 5, indicando que recomendaría la aplicación a otros estudiantes interesados en colaborar con empresas y managers.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante.png" alt="entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+
+
+
+# Video About the Team
+
+El video ofrece una síntesis del trabajo realizado por el equipo, en la que cada miembro explica las actividades que desempeñó para alcanzar las metas del curso. También se destaca la relevancia de la comunicación, tanto oral como escrita, como recurso fundamental para transmitir ideas y dar a conocer el avance del proyecto.
+
+<table align="center">
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td>10:20 min</td>
+  </tr>
+  <tr>
+    <td><strong>URL Microsoft</strong></td>
+    <td>
+    
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>URL Youtube</strong></td>
+    <td>
+    
+    https://youtu.be/dHOylX76VjU
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>Timings</strong></td>
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 05:00: Resumen de lo trabajado </a>
+      <br>
+      <a href="  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">05:01: Erick Leonardo Palomino Fiestas</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">06:10: Renzo Sebastian Rivera Ratachi</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=bKdZwb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mzk1LjEyfX0%3D">07:10: Diego Ivan Cabrera Buitron</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">08:22: Andrea Elizabeth  Santur Tello</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">09:21: Carlos Andres Coca Lavado</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+<td colspan="2">
+  <img src="images/aboutthetim.png" alt="screenshot about the team" width="800">
+    </td>
+  </tr>
+</table>
+
+
+# Video About the Product
+
+Este video presenta un recorrido por las principales funciones de la aplicación móvil, mostrando cómo cada característica está diseñada para facilitar la experiencia del usuario. A lo largo del video se incluyen escenas reales de un estudiante utilizando la aplicación en distintos contextos, lo que permite evidenciar su utilidad.
+
+<table align="center">
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td>4:40 min</td>
+  </tr>
+  <tr>
+    <td><strong>URL Microsoft</strong></td>
+    <td>
+    
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQAijXg7iFhISrSmB9lImPFRAcB50ptiQNffB8yspbQxztY?e=d67QbQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>URL Youtube</strong></td>
+    <td>
+    
+ https://youtu.be/VFNbzqBn_M0
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>Timings</strong></td>
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 03:07: Explicación del producto </a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">3:08: Escenas de uso de aplicación por el segmento objetivo </a>
+    </td>
+  </tr>
+  <tr>
+<td colspan="2">
+  <img src="images/aboudaprouc.png" alt="screenshot about the prou" width="800">
+    </td>
+  </tr>
+</table>
+
 
 ## Bibliografia
 
