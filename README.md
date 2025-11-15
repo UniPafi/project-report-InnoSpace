@@ -6276,7 +6276,7 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
-En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace en Android Studio, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace en Kotlin, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
 
 **Aplicación Kotlin**
 
@@ -7072,10 +7072,22 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQAijXg7
 
 <br>
 
-**Link del repositorio en Github:**
+**Link de los repositorios en Github:**
 
-
+Documento del informe:
 https://github.com/UniPafi/project-report-InnoSpace
+
+Landing Page:
+https://github.com/UniPafi/landing-page-InnoSpace
+
+Backend:
+https://github.com/UniPafi/backend-InnoSpace
+
+Aplicacion en Kotlin:
+https://github.com/UniPafi/kotlin_app_InnoSpace
+
+Aplicacion en Flutter:
+https://github.com/UniPafi/flutter_InnoSpace
 
 
 
