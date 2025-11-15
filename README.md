@@ -6278,7 +6278,7 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace en Android Studio, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
 
-**Android Studio**
+**Aplicación Kotlin**
 
 Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. 
 
@@ -6548,8 +6548,12 @@ Kotlin App Insights :
   <img src="images/kotlin_insights_2.png" alt="Kotlin Insights" width="800">
 </p>
 
+Flutter App Insights :
 
 
+<p align="center">
+  <img src="images/insightsflutter.png" alt="Kotlin Insights" width="800">
+</p>
 
 
 ## 4.3. Validation Interviews
@@ -6895,6 +6899,15 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 - La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
 
 
+**TB2**
+
+<br>
+
+- El contexto IAM, desarrollado en Flutter, consolidó una conexión estable y eficiente con el backend, garantizando la coherencia general del sistema.
+
+- El trabajo en equipo destacó por su coordinación y comunicación constante, favoreciendo la integración fluida de las distintas secciones.
+
+- Estos avances fortalecieron la calidad del producto final de InnoSpace y reflejaron la madurez técnica alcanzada por el equipo durante el sprint.
 
 <br>
 
