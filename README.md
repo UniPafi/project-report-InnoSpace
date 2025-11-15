@@ -98,7 +98,7 @@
     Coca,<br>
     Cabrera, Santur
     </td>
-    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Desing de los Bounded Context.</td>
+    <td>Creación del EventStorming, Context Mapping, Software Architecture y del Tactical-Level Domain-Driven Design de los Bounded Context.</td>
   </tr>
   <tr>
     <td>2.00</td>
@@ -116,7 +116,7 @@
     Palomino,<br>
     Coca
     </td>
-    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Desing</td>
+    <td>Realizacion del Style Guidelines y Information Architecture, ademas de el planteamiento del diseño del Landing Page UI Design</td>
   </tr>
   <tr>
     <td>2.02</td>
@@ -145,6 +145,33 @@
     Coca
     </td>
     <td>Realización del Sprint 1 y las entrevistas de validacion con su evaluación segun heuristicas</td>
+  </tr>
+  <tr>
+    <td>3.00</td>
+    <td>27/10/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Correcciones en EventStorming realizadas</td>
+  </tr>
+  <tr>
+    <td>3.01</td>
+    <td>03/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Plantilla de Sprint 2 agregada</td>
+  </tr>
+  <tr>
+    <td>3.02</td>
+    <td>13/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
   </tr>
 </table>
 
@@ -187,9 +214,36 @@
 </p>
 
 
+## TP
+
+<p align="center">
+  <img src="images/tpinsight1.png" alt="contributors" width="80%">
+</p>
 
 
+<p align="center">
+  <img src="images/tpinsgiht2.png" alt="contributors" width="80%">
+</p>
 
+<p align="center">
+  <img src="images/tpnetwork.png" alt="network" width="80%">
+</p>
+
+
+## TB2
+
+<p align="center">
+  <img src="images/tb2report2.png" alt="contributors" width="80%">
+</p>
+
+
+<p align="center">
+  <img src="images/tb2report1.png" alt="contributors" width="80%">
+</p>
+
+<p align="center">
+  <img src="images/tb2network.png" alt="network" width="80%">
+</p>
 
 
 ---
@@ -323,7 +377,15 @@
       - [4.2.1.6. Services Documentation Evidence for Sprint Review](#4216-services-documentation-evidence-for-sprint-review)
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
-
+    - [4.2.2. Sprint 2](#422-sprint-2)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-1)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-1)
+      - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
+      - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
+      - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
+      - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
+      - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
+      - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -340,70 +402,63 @@
 
 ## Student Outcome
 
-<br>
+<table align="center"> <tr> <td><strong>Criterio</strong></td> <td><strong>Acciones Realizadas</strong></td> <td><strong>Conclusiones</strong></td> </tr> <tr> <td> Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. </td> <td> <strong>Santur Tello, Andrea Elizabeth:</strong><br> TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br> TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br> TB2 – Desarrollo del Student Profile App section, implementación de Software Deployment Evidence for Sprint 2, Execution Evidence for sprint2, y modificaciones del Landing Page para mejorar la experiencia de usuario.<br><br>
+  <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+  TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
+  TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
+  TB2 – Avance del Sprint 2 (Sprint Planning 2 y Sprint Backlog 2), desarrollo avanzado de la aplicación en Android Studio, y migración de componentes a Flutter para multiplataforma.<br><br>
+  
+  <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
+  TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
+  TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
+  TB2 – Desarrollo de Student Applications Endpoints, implementación de Project Collaboration Endpoints, configuración de Firebase App Distribution, y diseño de la Explore Opportunities section.<br><br>
+  
+  <strong>Coca Lavado, Carlos Andrés:</strong><br>
+  TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
+  TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
+  TB2 – Development Evidence for Sprint Review, avance significativo de la aplicación Kotlin, y desarrollo paralelo de la aplicación Flutter para expansión multiplataforma.<br><br>
+  
+  <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+  TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
+  TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
+  TB2 – Service Documentation Evidence for Sprint Review, avance de la aplicación en Android Studio, y Execution Evidence for sprint2 con mejoras en la documentación técnica.<br><br>
+</td>
+<td>
+  TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
+  TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.<br><br>
+  TB2 – El equipo demostró una actualización continua en tecnologías emergentes como Flutter, Firebase Distribution y desarrollo de APIs especializadas. Se consolidaron conocimientos en gestión de sprints, documentación de servicios y distribución de aplicaciones móviles.
+</td>
 
-<table align="center">
-  <tr>
-    <td><strong>Criterio</strong></td>
-    <td><strong>Acciones Realizadas</strong></td>
-    <td><strong>Conclusiones</strong></td>
-  </tr>
+</tr> <tr> <td> Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. </td> <td> <strong>Santur Tello, Andrea Elizabeth:</strong><br> TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br> TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br> TB2 – Aprendizaje en deployment continuo, gestión de evidencias de sprint y mejora de interfaces web, demostrando adaptación a nuevas metodologías de desarrollo.<br><br>
+  <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
+  TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
+  TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
+  TB2 – Expansión de competencias hacia el desarrollo multiplataforma con Flutter, profundización en planificación ágil y optimización de aplicaciones móviles.<br><br>
+  
+  <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
+  TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
+  TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
+  TB2 – Especialización en desarrollo de APIs RESTful, implementación de servicios en la nube con Firebase, y gestión de distribución de aplicaciones móviles.<br><br>
+  
+  <strong>Coca Lavado, Carlos Andrés:</strong><br>
+  TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
+  TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
+  TB2 – Desarrollo simultáneo en Kotlin y Flutter, gestión de evidencias de revisión de sprint, y aplicación de mejores prácticas en desarrollo nativo e híbrido.<br><br>
+  
+  <strong>Cabrera Buitrón, Diego Iván:</strong><br>
+  TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
+  TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
+  TB2 – Perfeccionamiento en documentación de servicios, gestión de evidencias técnicas y desarrollo de aplicaciones Android con mejores prácticas de código.<br><br>
+</td>
+<td>
+  TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
+  TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.<br><br>
+  TB2 – Se consolidó la cultura de aprendizaje continuo con la adopción de múltiples tecnologías y frameworks. El equipo demostró capacidad para adaptarse a nuevos desafíos técnicos, gestionar complejidades de desarrollo multiplataforma y mantener estándares de calidad.
+</td>
 
-  <tr>
-    <td>
-      Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.
-    </td>
-    <td>
-      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
-      TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br>
-      TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br>
-      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
-      TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
-      TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
-      <strong> Rivera Ratachi, Renzo Sebastián:</strong><br>
-      TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
-      TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
-      <strong>Coca Lavado, Carlos Andrés:</strong><br>
-      TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
-      TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
-      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
-      TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
-      TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
-    </td>
-    <td>
-      TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
-      TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.
-    </td>
-    <td>
-      <strong>Santur Tello, Andrea Elizabeth:</strong><br>
-      TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br>
-      TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br>
-      <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
-      TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
-      TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
-      <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
-      TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
-      TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
-      <strong>Coca Lavado, Carlos Andrés:</strong><br>
-      TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
-      TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
-      <strong>Cabrera Buitrón, Diego Iván:</strong><br>
-      TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
-      TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
-    </td>
-    <td>
-      TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
-      TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.
-    </td>
-  </tr>
-</table>
+</tr> </table>
 
-<br>
+
 
 ## Objetivos SMART
 
@@ -5816,11 +5871,11 @@ En esta sección se detallan los aspectos principales del Sprint Planning Meetin
     </tr>
     <tr>
       <td><b>Sprint 2 Velocity</b></td>
-      <td>13 Story Points</td>
+      <td> 63 Story Points</td>
     </tr>
     <tr>
       <td><b>Sum of Story Points</b></td>
-      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 = 13 Story Points</td>
+      <td>3 + 1 + 1 + 1 + 3 + 1 + 1 + 2 + 3 + 3 + 2 + 3 + 1 + 5 + 5 + 3 + 3 + 5 + 3 + 2 + 4 + 8 = 63 Story Points</td>
     </tr>
   </tbody>
 </table>
@@ -5831,7 +5886,7 @@ En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del p
 
 <br>
 <p align="center">
-  <img src="images/trelloSprint2.png" alt="Sprint Backlog 2 Trello" width="600">
+  <img src="images/trello_spritnbacklog2.0.png" alt="Sprint Backlog 2 Trello" width="600">
 </p>
 <p align="center">
      Sprint Backlog 2 - Elaboración propia
@@ -5942,6 +5997,146 @@ Link al Trello: https://trello.com/invite/b/66ddda7fe193854f9470acad/ATTI964a3bd
 <td>Implementar la funcionalidad para obtener y mostrar la información detallada de una postulación específica.</td>
 <td>2</td>
 <td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US01</td>
+<td>Registro de usuario</td>
+<td>WI009</td>
+<td>Implementar registro de Gerente</td>
+<td>Desarrollar la lógica para que un gerente cree una cuenta.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US02</td>
+<td>Inicio de sesión</td>
+<td>WI010</td>
+<td>Implementar inicio de sesión</td>
+<td>Crear la funcionalidad de autenticación para que un usuario registrado pueda ingresar con su usuario y contraseña.</td>
+<td>2</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US03</td>
+<td>Cierre de Sesión</td>
+<td>WI011</td>
+<td>Implementar cierre de sesión</td>
+<td>Desarrollar la lógica para invalidar la sesión del usuario y redirigirlo a la pantalla de inicio de sesión.</td>
+<td>3</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US05</td>
+<td>Explorar proyectos de empresa</td>
+<td>WI012</td>
+<td>Implementar listado de proyectos (Estudiante)</td>
+<td>Crear la vista para que el estudiante vea una lista de todos los proyectos de empresas disponibles.</td>
+<td>4</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Gerente publica nuevo proyecto</td>
+<td>WI013</td>
+<td>Implementar formulario de publicación de proyecto</td>
+<td>Desarrollar el formulario para que un gerente cree un nuevo proyecto.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US07</td>
+<td>Estudiante publica nuevo idea innovadora</td>
+<td>WI014</td>
+<td>Implementar formulario de publicación de idea</td>
+<td>Desarrollar el formulario para que un estudiante publique una idea.</td>
+<td>3</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Editar Perfil de Usuario</td>
+<td>WI015</td>
+<td>Implementar edición de perfil</td>
+<td>Crear el formulario y la lógica para que un usuario (ambos roles) pueda modificar y guardar los datos de su perfil.</td>
+<td>4</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US11</td>
+<td>Visualización de detalles del proyecto</td>
+<td>WI016</td>
+<td>Crear vista de detalle de proyecto (Vigente)</td>
+<td>Desarrollar la página de detalle del proyecto mostrando toda la información con el botón "Postular" habilitado.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US12</td>
+<td>Postulación en línea</td>
+<td>WI017</td>
+<td>Implementar lógica de postulación</td>
+<td>Desarrollar la funcionalidad del botón "Postular", registrando la postulación.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US13</td>
+<td>Seguimiento de postulaciones</td>
+<td>WI018</td>
+<td>Crear panel "Mis Postulaciones" (Estudiante)</td>
+<td>Desarrollar una vista donde el estudiante pueda ver todas sus postulaciones y el estado de cada una.</td>
+<td>4</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US14</td>
+<td>Registro de portafolio</td>
+<td>WI019</td>
+<td>Añadir campo de portafolio al perfil</td>
+<td>Agregar un campo en el formulario de "Editar Perfil" para que el estudiante guarde un enlace a su portafolio.</td>
+<td>2</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US15</td>
+<td>Guardado de Convocatorias Favoritos</td>
+<td>WI020</td>
+<td>Implementar "Guardar en Favoritos" (Estudiante)</td>
+<td>Desarrollar la funcionalidad para que un estudiante guarde un proyecto en su lista de favoritos.</td>
+<td>2</td>
+<td>Diego Cabrera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US10</td>
+<td>Búsqueda filtrada de convocatorias</td>
+<td>WI021</td>
+<td>Implementar barra de búsqueda de proyectos</td>
+<td>Añadir una barra de búsqueda en la lista de convocatorias que filtre por palabras clave.</td>
+<td>2</td>
+<td>Andres Coca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US18</td>
+<td>Llamados a la acción claros en cada sección</td>
+<td>WI022</td>
+<td>Añadir CTAs en secciones de la landing</td>
+<td>Colocar botones de "Regístrate ahora" o "Publica tu proyecto" al final de las secciones relevantes de la landing page.</td>
+<td>4</td>
+<td>Andrea Santur</td>
 <td>Done</td>
 </tr>
 </tbody>
@@ -6081,9 +6276,11 @@ Los Core Integration Tests validan la comunicación entre las distintas capas de
 
 #### 4.2.2.5. Execution Evidence for Sprint Review
 
-En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
+En el Sprint 2 se han desarrollado las funcionalidades completas de la aplicación móvil InnoSpace en Android Studio, facilitando la navegación y las secciones del flujo de usuario. Esto ha permitido validar la experiencia a los estudiantes y a los gerentes durante el inicio del uso de la aplicación, mediado por servicios API detallados en la documentación de Swagger. El desarrollo se ha enfocado en las siguientes secciones importantes:
 
-Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. La interfase fue diseñada siguiendo un estilo limpio y coherente con el propósito de seguir la guía UI/UX, así como anteponiendo las premisas de facilidad de uso y aprecio por la seguridad.
+**Android Studio**
+
+Iniciar sesión: Desde esta vista, los usuarios tienen la posibilidad de acceder al sistema proporcionando las credenciales de usuario que previamente habían registrado mediante el correo electrónico y la contraseña, lo que les permite autenticar su identidad y poder acceder a las funcionalidades que les corresponden de manera personalizada según les corresponda. 
 
 <p align="center">
   <img src="images/profile1.png" alt="Sprint Backlog 2 Trello" width="
@@ -6103,7 +6300,7 @@ Exploración: Esta opción posibilita a los usuarios realizar la búsqueda entre
   200">
 </p>
 
-Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando). Se implementó la funcionalidad de listar, crear y editar proyectos así como visualizar su estado de avance.
+Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar sus proyectos (aquellos creados por ellos o en los que están colaborando).
 
 <p align="center">
   <img src="images/project1.png" alt="Sprint Backlog 2 Trello" width="
@@ -6114,7 +6311,7 @@ Mis Proyectos: La sección Mis Proyectos permite a los usuarios ver y gestionar 
   200">
 </p>
 
-Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. Así mismo, permite al usuario acceder a la información del detalle del proyecto y poder interactuar con las personas responsables de este.
+Mis Postulaciones: Se elaboró un módulo para que los estudiantes puedan realizar la revisión de sus candidaturas a proyectos y convocatorias activas. La vista presenta información del estado de cada candidatura: tal como pendiente, aceptada o rechazada. .
 
 <p align="center">
   <img src="images/postulation1.png" alt="Sprint Backlog 2 Trello" width="
@@ -6132,6 +6329,28 @@ Mi Perfil: Desde esta vista, los usuarios pueden consultar y modificar los datos
   210">
   <img src="images/perfil3.png" alt="Sprint Backlog 2 Trello" width="
   200">
+</p>
+
+**Flutter (Avance):**
+
+Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo las credenciales que registraron previamente (correo electrónico y contraseña), lo que les permite verificar su identidad y acceder de forma personalizada a las funciones que les corresponden.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_login.jpeg" alt="login flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_register.jpeg" alt="register flutter" width="
+  210">
+</p>
+
+Convocatorias: La sección Convocatorias permite a los usuarios ver y gestionar sus convocatorias que se les mostrara a los estudiantes
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_convocatorias.jpeg" alt="convocatorias flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_detalleConvocatoria.jpeg" alt="Convocatorias detalle flutter" width="
+  210">
+  <img src="images/flutter_demo/flutter_crearConvocatoria.jpeg" alt="Convocatorias crear flutter" width="
+  210">
 </p>
 
 #### 4.2.2.6. Services Documentation Evidence for Sprint Review
@@ -6264,12 +6483,45 @@ Durante el Sprint 2, se desplegó el backend de InnoSpace en Azure, asegurando s
 </p>
 <br>
 
-- **Oportunidades empresariales**  
+- **Convocatorias de empresa**  
  <br>
 <p align="center">
   <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
 </p>
 <br>
+
+### Distribución en Firebase
+
+
+
+- **Creación de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/projectcreatiton+.png" alt="-" width="1000">
+</p>
+<br>
+
+
+- **Visualización de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/firebasevisualizar.png" alt="-" width="1000">
+</p>
+<br>
+
+- **APK subida a proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/aplicacionsubida.png" alt="-" width="1000">
+</p>
+<br>
+
+
+
+
+
+
+
 
 ### Commits y branches relevantes
 
@@ -6642,21 +6894,152 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 - La integración continua y despliegue se complicó por la naturaleza modular del proyecto, requiriendo configuración avanzada de Gradle y estrategias de versionado que mantuvieran la consistencia entre todos los módulos.
 
-<br>
 
-**TB2**
 
 <br>
 
-- Se integraron funcionalidades clave en InnoSpace, como la actualización y eliminación de postulaciones, lo que permitió una gestión más eficiente y completa por parte de los apoderados.
+# Video App Validation
 
-- El contexto IAM, desarrollado en Flutter, consolidó una conexión estable y eficiente con el backend, garantizando la coherencia general del sistema.
+En este video presentamos el proceso de validación de nuestras aplicaciones con el segmento objetivo de estudiantes. A través de sus opiniones y experiencias, buscamos comprobar si las soluciones propuestas realmente responden a sus necesidades y expectativas. Este análisis nos permitirá ajustar y fortalecer el proyecto para asegurar que el producto final sea útil, accesible y relevante para ellos.
 
-- El trabajo en equipo destacó por su coordinación y comunicación constante, favoreciendo la integración fluida de las distintas secciones.
 
-- Estos avances fortalecieron la calidad del producto final de InnoSpace y reflejaron la madurez técnica alcanzada por el equipo durante el sprint.
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 1</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Adrian Moreno</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Cercado de Lima</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>00:22 - 10:34</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
 
-<br>
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231a500_upc_edu_pe/IQBCriLfRrZmSp_RM6HF19A-AZcouoAqYZKZ-UAaeEqXUOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGmTqb`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Adrián Moreno, estudiante de 24 años de Marketing y Administración, participó en la validación de la aplicación y la landing page desarrolladas. Ademas, destacó que la información presentada en la landing le pareció clara, sencilla y bien estructurada, transmitiéndole confianza gracias a su diseño moderno. Considera que la navegación es intuitiva y que los apartados están bien organizados, lo que facilita comprender el propósito de la plataforma desde el primer vistazo. Al utilizar la aplicación móvil, resaltó la facilidad del registro e inicio de sesión, así como la simpleza para explorar las convocatorias publicadas por los managers. Valoró positivamente la posibilidad de crear proyectos propios y recibir interés de empresas o gerentes, ya que considera que esta funcionalidad permite a los estudiantes mostrar su talento y generar oportunidades de colaboración. Mencionó que la opción de visualizar y gestionar sus postulaciones le pareció muy útil, ya que puede ver fácilmente el estado de cada solicitud, además de poder editar su perfil para reflejar sus habilidades e intereses. Considera que la aplicación ayuda a reducir la distancia entre estudiantes y empresas, fomentando el networking y el aprendizaje práctico, elementos que él valora como esenciales para su desarrollo profesional. En una escala del 1 al 5, calificó su experiencia con un 5, indicando que recomendaría la aplicación a otros estudiantes interesados en colaborar con empresas y managers.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/interviews/entrevistaestudiante.png" alt="entrevista1" width="1000"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+
+
+
+# Video About the Team
+
+El video ofrece una síntesis del trabajo realizado por el equipo, en la que cada miembro explica las actividades que desempeñó para alcanzar las metas del curso. También se destaca la relevancia de la comunicación, tanto oral como escrita, como recurso fundamental para transmitir ideas y dar a conocer el avance del proyecto.
+
+<table align="center">
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td>10:20 min</td>
+  </tr>
+  <tr>
+    <td><strong>URL Microsoft</strong></td>
+    <td>
+    
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>URL Youtube</strong></td>
+    <td>
+    
+    https://youtu.be/dHOylX76VjU
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>Timings</strong></td>
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 05:00: Resumen de lo trabajado </a>
+      <br>
+      <a href="  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">05:01: Erick Leonardo Palomino Fiestas</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">06:10: Renzo Sebastian Rivera Ratachi</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=bKdZwb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mzk1LjEyfX0%3D">07:10: Diego Ivan Cabrera Buitron</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">08:22: Andrea Elizabeth  Santur Tello</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBrgsMdtZOITbx13ZXE6aRJAYrIs7s4gxT3x7FgF4JIIws?e=DDYCUt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">09:21: Carlos Andres Coca Lavado</a>
+      <br>
+    </td>
+  </tr>
+  <tr>
+<td colspan="2">
+  <img src="images/aboutthetim.png" alt="screenshot about the team" width="800">
+    </td>
+  </tr>
+</table>
+
+
+# Video About the Product
+
+Este video presenta un recorrido por las principales funciones de la aplicación móvil, mostrando cómo cada característica está diseñada para facilitar la experiencia del usuario. A lo largo del video se incluyen escenas reales de un estudiante utilizando la aplicación en distintos contextos, lo que permite evidenciar su utilidad.
+
+<table align="center">
+  <tr>
+    <td><strong>Duración</strong></td>
+    <td>4:40 min</td>
+  </tr>
+  <tr>
+    <td><strong>URL Microsoft</strong></td>
+    <td>
+    
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQAijXg7iFhISrSmB9lImPFRAcB50ptiQNffB8yspbQxztY?e=d67QbQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>URL Youtube</strong></td>
+    <td>
+    
+ https://youtu.be/VFNbzqBn_M0
+    
+  </td>
+  </tr>
+  <tr>
+    <td><strong>Timings</strong></td>
+    <td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 03:07: Explicación del producto </a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">3:08: Escenas de uso de aplicación por el segmento objetivo </a>
+    </td>
+  </tr>
+  <tr>
+<td colspan="2">
+  <img src="images/aboudaprouc.png" alt="screenshot about the prou" width="800">
+    </td>
+  </tr>
+</table>
+
 
 ## Bibliografia
 
