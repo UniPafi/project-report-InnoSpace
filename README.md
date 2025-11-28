@@ -1,39 +1,39 @@
-<h1 align="center">Informe de Trabajo Final</h1>
+<div align="center">
+  <img src="images/logoupc.png" alt="Logo de la UPC" width="150">
+  
+  # Universidad Peruana de Ciencias Aplicadas
+  ## Ingeniería de Software
+  
+  ### Periodo: 202520 
+  
+  **1ACC0238** | **Aplicaciones para Dispositivos Móviles**
+  
+  **NRC:** 1795
+  
+  **Docente:** Jorge Luis Mayta Guillermo
+  
+  <hr style="width: 50%; margin-top: 20px; margin-bottom: 20px;">
+  
+  <h1>Informe del Trabajo Final</h1>
+  
+  **Startup:** UniPafi
+  
+  **Producto:** InnoSpace
+  
+  <br>
 
-<p align="center">
-  <img src="images/logoupc.png" alt="UPC logo" width="150">
-</p>
-
-**Universidad Peruana de Ciencias Aplicadas**
-
-**Ingeniería de Software**
-
-**Ciclo 2025-02**
-
-**Código del curso:** 1ACC0238
-
-**Nombre del curso:** Aplicaciones para Dispositvos Móviles
-
-**NRC:** 1795
-
-**Nombre del profesor:** Jorge Luis Mayta Guillermo
-
-**Nombre del Startup:** UniPafi
-
-**Nombre del Producto:** InnoSpace
-
-### Relación de Integrantes
-
-| **Código** | **Apellidos y Nombres**             |
-| ---------- | ----------------------------------- |
-| U202310988 | Andrea Elizabeth, Santur Tello     |
-| U202313172 | Carlos Andres, Coca Lavado |
-| U20211B293 | Diego Ivan, Cabrera Buitron, |
-| U20231A500 | Erick Leonardo, Palomino Fiestas    |
-| U20231D974 | Renzo Sebastian, Rivera Ratachi     |
-
-
-**Noviembre 2025**
+  | |  |
+  | :----------: | :----------------------------------- |
+  | U202310988 | Andrea Elizabeth, Santur Tello |
+  | U202313172 | Carlos Andres, Coca Lavado |
+  | U20211B293 | Diego Ivan, Cabrera Buitron, |
+  | U20231A500 | Erick Leonardo, Palomino Fiestas |
+  | U20231D974 | Renzo Sebastian, Rivera Ratachi |
+  
+  <br>
+  
+  **Noviembre 2025**
+</div>
 
 <div style="page-break-after: always;"></div>
 
@@ -6581,13 +6581,107 @@ Kotlin App Insights :
   <img src="images/kotlin_insights_2.png" alt="Kotlin Insights" width="800">
 </p>
 
-Flutter App Insights :
+### 4.2.3. Sprint 3
 
+Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
 
+#### 4.2.3.1. Sprint Planning 3
+
+#### 4.2.3.2. Sprint Backlog 3
+
+#### 4.2.3.3. Development Evidece for Sprint Review
+
+#### 4.2.3.4. Testing Suite Evidece for Sprint Review
+
+#### 4.2.3.5. Execution Evidece for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidece for Sprint Review
+
+#### 4.2.3.7. Software Deployment Evidece for Sprint Review
+
+Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración y se dejó preparada la arquitectura para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
+
+### Despliegue del Backend en Azure
+
+<br>
 <p align="center">
-  <img src="images/insightsflutter.png" alt="Kotlin Insights" width="800">
+  <img src="images/chapter4-sprint1/backendwebapp.png" alt="execution" width="1000">
 </p>
 
+<br>
+> Backend operativo en Azure App Service, conectado correctamente con MySQL Flexible Server.
+
+### Evidencia de Swagger UI - Endpoints
+
+<br>
+<p align="center">
+  <img src="images/chapter4-sprint1/swaggerdeploy1.png" alt="execution" width="1000">
+</p>
+
+<br>
+> Documentación Swagger mostrando los endpoints habilitados en el backend.
+
+### Modelos y API REST implementados
+
+- **Manager y Student Profiles**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/ManagerProfilesEvidence.png" alt="Manager profile API" width="1000">
+</p>
+<br>
+
+- **Proyectos estudiantiles**  
+  <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/projectsot1.png" alt="Proyectos API" width="1000">
+</p>
+<br>
+
+- **Convocatorias de empresa**  
+ <br>
+<p align="center">
+  <img src="images/chapter4-sprint1/oportunites.png" alt="Oportunidades API" width="1000">
+</p>
+<br>
+
+### Distribución en Firebase
+
+
+
+- **Creación de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/projectcreatiton+.png" alt="-" width="1000">
+</p>
+<br>
+
+
+- **Visualización de proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/firebasevisualizar.png" alt="-" width="1000">
+</p>
+<br>
+
+- **APK subida a proyecto en Firebase**  
+ <br>
+<p align="center">
+  <img src="images/aplicacionsubida.png" alt="-" width="1000">
+</p>
+<br>
+
+
+
+### Commits y branches relevantes
+
+- Repositorio: [github.com/UniPafi/backend-InnoSpace](https://github.com/UniPafi/backend-InnoSpace)
+- Commits Sprint 3:
+  - `develop` `963b277`: Testeo de los dominios y de la seguridad JWT
+  - `feature/collaboration-applications` `9b0875b`: Endpoints añadidos a la sección de estudiantes
+  - `feature/student-projects-bounded-context` `70e83e1`: API para gestión de proyectos estudiantiles
+  - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
+
+#### 4.2.3.8. Team Collaboration Insights during Sprint Review
 
 ## 4.3. Validation Interviews
 
