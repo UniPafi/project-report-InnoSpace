@@ -1,39 +1,39 @@
-<h1 align="center">Informe de Trabajo Final</h1>
+<div align="center">
+  <img src="images/logoupc.png" alt="Logo de la UPC" width="150">
+  
+  # Universidad Peruana de Ciencias Aplicadas
+  ## Ingeniería de Software
+  
+  ### Periodo: 202520 
+  
+  **1ACC0238** | **Aplicaciones para Dispositivos Móviles**
+  
+  **NRC:** 1795
+  
+  **Docente:** Jorge Luis Mayta Guillermo
+  
+  <hr style="width: 50%; margin-top: 20px; margin-bottom: 20px;">
+  
+  <h1>Informe del Trabajo Final</h1>
+  
+  **Startup:** UniPafi
+  
+  **Producto:** InnoSpace
+  
+  <br>
 
-<p align="center">
-  <img src="images/logoupc.png" alt="UPC logo" width="150">
-</p>
-
-**Universidad Peruana de Ciencias Aplicadas**
-
-**Ingeniería de Software**
-
-**Ciclo 2025-02**
-
-**Código del curso:** 1ACC0238
-
-**Nombre del curso:** Aplicaciones para Dispositvos Móviles
-
-**NRC:** 1795
-
-**Nombre del profesor:** Jorge Luis Mayta Guillermo
-
-**Nombre del Startup:** UniPafi
-
-**Nombre del Producto:** InnoSpace
-
-### Relación de Integrantes
-
-| **Código** | **Apellidos y Nombres**             |
-| ---------- | ----------------------------------- |
-| U202310988 | Andrea Elizabeth, Santur Tello     |
-| U202313172 | Carlos Andres, Coca Lavado |
-| U20211B293 | Diego Ivan, Cabrera Buitron, |
-| U20231A500 | Erick Leonardo, Palomino Fiestas    |
-| U20231D974 | Renzo Sebastian, Rivera Ratachi     |
-
-
-**Noviembre 2025**
+  | |  |
+  | :----------: | :----------------------------------- |
+  | U202310988 | Andrea Elizabeth, Santur Tello |
+  | U202313172 | Carlos Andres, Coca Lavado |
+  | U20211B293 | Diego Ivan, Cabrera Buitron, |
+  | U20231A500 | Erick Leonardo, Palomino Fiestas |
+  | U20231D974 | Renzo Sebastian, Rivera Ratachi |
+  
+  <br>
+  
+  **Noviembre 2025**
+</div>
 
 <br>
 
