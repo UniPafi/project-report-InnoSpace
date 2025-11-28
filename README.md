@@ -6550,11 +6550,123 @@ Kotlin App Insights :
 
 ### 4.2.3. Sprint 3
 
-Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
+...
 
 #### 4.2.3.1. Sprint Planning 3
 
+...
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 3</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-11-21</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>07:00 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Rivera Ratachi, Renzo Sebastian</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Santur Tello, Andrea Elizabeth
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Review Summary</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Retrospective Summary</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Goal</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Velocity</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.3.2. Sprint Backlog 3
+
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue implementar las funcionalidades centrales de interacción de la plataforma, incluyendo la gestión de solicitudes de colaboración y las postulaciones a convocatorias. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+
+<br>
+<p align="center">
+  <img src="-" alt="Sprint Backlog 3 Trello" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 3 - Elaboración propia
+</p>
+
+
+Link al Trello: ...
+
+<br>
+
+<h3>Sprint Backlog – Sprint 2</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS28</td>
+<td>Creación de Solicitud de Colaboración</td>
+<td>WI001</td>
+<td>Implementar envío de solicitud de colaboración</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda enviar una solicitud (con estado "pendiente") al proyecto de un estudiante.</td>
+<td>5</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
 
 #### 4.2.3.3. Development Evidece for Sprint Review
 
