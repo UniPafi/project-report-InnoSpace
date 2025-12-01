@@ -6634,6 +6634,16 @@ Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar t
   200">
 </p>
 
+Mi Perfil:La sección de Mi Perfil permite al usuario visualizar y actualizar su información personal y profesional, incluyendo datos como nombre, rol, teléfono, empresa, ubicación, descripción y tecnologías. A través de la opción Editar Perfil, el usuario puede modificar estos datos, actualizar su foto y gestionar sus tecnologías mediante etiquetas dinámicas. Al guardar los cambios, la aplicación muestra una confirmación de actualización exitosa.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_perfil.jpg" alt="perfil flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="editar perfil flutter" width="
+  210">
+  <img src="images/flutter_demo/flutter_confirperfil.jpg" alt="exitoso perfil flutter" width="
+  209">
+</p>
 #### 4.2.3.6. Services Documentation Evidece for Sprint Review
 
 #### 4.2.3.7. Software Deployment Evidece for Sprint Review
@@ -7258,5 +7268,6 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
 
 
