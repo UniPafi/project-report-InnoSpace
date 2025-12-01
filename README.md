@@ -6594,6 +6594,45 @@ Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación fin
 #### 4.2.3.4. Testing Suite Evidece for Sprint Review
 
 #### 4.2.3.5. Execution Evidece for Sprint Review
+Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
+**Flutter**
+Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_loginmod.jpeg" alt="login flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_registermod.jpeg" alt="register flutter" width="
+  210">
+</p>
+
+Proyectos: La sección Proyectos permite a los estudiantes explorar las iniciativas disponibles, donde se muestra el título del proyecto, un resumen breve y etiquetas que representan la categoría tecnológica (como IT, Software Development o App Móvil.Además esta compuesto por dos pestañas: Explorar, que muestra el catálogo completo de proyectos disponibles, y Favoritos, donde se listan únicamente aquellos que el estudiante ha marcado con el ícono de corazón.
+
+Manteniendo un diseño uniforme con categoría, resumen corto y el ícono de favorito alineado a la derecha para facilitar la interacción.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_explorarproyectos.jpeg" alt="proyectos flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_favoritosproyectos.jpeg" alt="proyectos favorito flutter" width="
+  210">
+</p>
+  
+
+Convocatorias: La sección de Convocatorias permite al Manager visualizar las convocatorias que ha creado, gestionar su estado y acceder al detalle de cada una.
+Desde aquí puede visualizar toda la información asociada, editar, cerrar o eliminar convocatorias, además de revisar los postulantes.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_convocatoriasmod.jpeg" alt="convocatorias flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_detalleConvocatoriamod.jpeg" alt="Convocatorias detalle flutter" width="
+  210">
+</p>
+
+Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar todas las convocatorias a las que ha aplicado, mostrando información clave como el nombre de la convocatoria, una breve descripción y el estado actual de la postulación (por ejemplo: Pending). Esta funcionalidad brinda al usuario un mayor control y seguimiento sobre sus solicitudes, permitiéndole identificar fácilmente en qué etapa se encuentra cada una.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_postulaciones.jpeg" alt="postulaciones flutter" width="
+  200">
+</p>
 
 #### 4.2.3.6. Services Documentation Evidece for Sprint Review
 
@@ -7219,3 +7258,4 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
