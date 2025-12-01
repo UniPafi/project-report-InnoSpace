@@ -6599,9 +6599,9 @@ Durante este Sprint se implementaron las funcionalidades principales de la aplic
 Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_loginmod.jpeg" alt="login flutter" width="
+  <img src="images/flutter_demo/flutter_loginmod.jpg" alt="login flutter" width="
   200">
-  <img src="images/flutter_demo/flutter_registermod.jpeg" alt="register flutter" width="
+  <img src="images/flutter_demo/flutter_registermod.jpg" alt="register flutter" width="
   210">
 </p>
 
@@ -6610,9 +6610,9 @@ Proyectos: La sección Proyectos permite a los estudiantes explorar las iniciati
 Manteniendo un diseño uniforme con categoría, resumen corto y el ícono de favorito alineado a la derecha para facilitar la interacción.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_explorarproyectos.jpeg" alt="proyectos flutter" width="
+  <img src="images/flutter_demo/flutter_explorarproyectos.jpg" alt="proyectos flutter" width="
   200">
-  <img src="images/flutter_demo/flutter_favoritosproyectos.jpeg" alt="proyectos favorito flutter" width="
+  <img src="images/flutter_demo/flutter_favoritosproyectos.jpg" alt="proyectos favorito flutter" width="
   210">
 </p>
   
@@ -6621,16 +6621,16 @@ Convocatorias: La sección de Convocatorias permite al Manager visualizar las co
 Desde aquí puede visualizar toda la información asociada, editar, cerrar o eliminar convocatorias, además de revisar los postulantes.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_convocatoriasmod.jpeg" alt="convocatorias flutter" width="
+  <img src="images/flutter_demo/flutter_convocatoriasmod.jpg" alt="convocatorias flutter" width="
   200">
-  <img src="images/flutter_demo/flutter_detalleConvocatoriamod.jpeg" alt="Convocatorias detalle flutter" width="
+  <img src="images/flutter_demo/flutter_detalleConvocatoriamod.jpg" alt="Convocatorias detalle flutter" width="
   210">
 </p>
 
 Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar todas las convocatorias a las que ha aplicado, mostrando información clave como el nombre de la convocatoria, una breve descripción y el estado actual de la postulación (por ejemplo: Pending). Esta funcionalidad brinda al usuario un mayor control y seguimiento sobre sus solicitudes, permitiéndole identificar fácilmente en qué etapa se encuentra cada una.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_postulaciones.jpeg" alt="postulaciones flutter" width="
+  <img src="images/flutter_demo/flutter_postulaciones.jpg" alt="postulaciones flutter" width="
   200">
 </p>
 
@@ -7258,4 +7258,5 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
 
