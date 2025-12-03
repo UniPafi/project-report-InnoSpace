@@ -378,14 +378,25 @@
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
-      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-1)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-1)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review) 
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+
+
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -6668,15 +6679,19 @@ Link al Trello: ...
 </tbody>
 </table>
 
-#### 4.2.3.3. Development Evidece for Sprint Review
+#### 4.2.3.3. Development Evidence for Sprint Review
 
-#### 4.2.3.4. Testing Suite Evidece for Sprint Review
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
-#### 4.2.3.5. Execution Evidece for Sprint Review
+#### 4.2.3.5. Execution Evidence for Sprint Review
 
-#### 4.2.3.6. Services Documentation Evidece for Sprint Review
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
 
-#### 4.2.3.7. Software Deployment Evidece for Sprint Review
+Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
+El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
+
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración y se dejó preparada la arquitectura para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
 
@@ -6761,6 +6776,10 @@ Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su 
   - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint Review
+
+
+
+
 
 ## 4.3. Validation Interviews
 
