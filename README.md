@@ -6815,17 +6815,17 @@ Link al Trello: ...
 Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
 El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
 
-=======
+
 #### 4.2.3.5. Execution Evidece for Sprint Review
 Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
+
 **Flutter**
+
 Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
 
 <p align="center">
   <img src="images/flutter_demo/flutter_loginmod.jpg" alt="login flutter" width="
   200">
-  <img src="images/flutter_demo/flutter_registermod.jpg" alt="register flutter" width="
-  210">
 </p>
 
 Proyectos: La sección Proyectos permite a los estudiantes explorar las iniciativas disponibles, donde se muestra el título del proyecto, un resumen breve y etiquetas que representan la categoría tecnológica (como IT, Software Development o App Móvil.Además esta compuesto por dos pestañas: Explorar, que muestra el catálogo completo de proyectos disponibles, y Favoritos, donde se listan únicamente aquellos que el estudiante ha marcado con el ícono de corazón.
@@ -6865,7 +6865,7 @@ Mi Perfil:La sección de Mi Perfil permite al usuario visualizar y actualizar su
   <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="editar perfil flutter" width="
   210">
   <img src="images/flutter_demo/flutter_confirperfil.jpg" alt="exitoso perfil flutter" width="
-  209">
+  200">
 </p>
 #### 4.2.3.6. Services Documentation Evidece for Sprint Review
 
@@ -7495,6 +7495,7 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
 
 
 
