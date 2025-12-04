@@ -32,7 +32,7 @@
   
   <br>
   
-  **Noviembre 2025**
+  **Diciembre 2025**
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -174,6 +174,33 @@
     Palomino,<br>
     </td>
     <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
+  </tr>
+<tr>
+    <td>4.00</td>
+    <td>20/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Plantilla de Sprint 3 agregada </td>
+  </tr>
+<tr>
+    <td>4.01</td>
+    <td>28/11/25</td>
+    <td>
+     Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
+  </tr>
+<tr>
+    <td>4.02</td>
+    <td>3/12/25</td>
+    <td>
+     Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 3 </td>
   </tr>
 </table>
 
@@ -386,14 +413,25 @@
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
-      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-1)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-1)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review) 
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+
+
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -430,27 +468,33 @@
         TB1 – Participación en Eventstorming, entrevistas, arquitectura de software (Context, Container, Deployment), Lean UX Problem Statements y Assumptions, y creación del lenguaje ubicuo.<br><br>
         TP1 – Desarrollo de wireframes móviles, entrevistas de validación, guía de estilos y convenciones, configuración del despliegue y definición del Sprint Backlog 1.<br><br>
         TB2 – Desarrollo del Student Profile App section, implementación de Software Deployment Evidence for Sprint 2, Execution Evidence for sprint2, y modificaciones del Landing Page para mejorar la experiencia de usuario.<br><br>
+        TF1 – Desarrollo del Profile Section, realización de entrevistas de validación para evaluar la usabilidad del producto, y documentación de Execution Evidence sprint 3.<br><br>
         <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
         TB1 – Eventstorming, análisis de competidores, entrevistas, diagramas de Bounded Context y elaboración de User Stories.<br><br>
         TP1 – Desarrollo de la aplicación móvil en Kotlin, backend y landing page; diseño de wireframes, mockups y sistemas de navegación y búsqueda.<br><br>
         TB2 – Avance del Sprint 2 (Sprint Planning 2 y Sprint Backlog 2), desarrollo avanzado de la aplicación en Android Studio, y migración de componentes a Flutter para multiplataforma.<br><br>
+        TF1 – Implementación de My Opportunities Section, elaboración del Sprint Planning 3 y definición del Sprint Backlog 3 para la iteración final del proyecto.<br><br>
         <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
         TB1 – Elaboración de Solution Profile, Startup Profile, User Journey y Empathy Mapping, Eventstorming y Bounded Context Canvases.<br><br>
         TP1 – Diseño de mockups y prototipos, definición de user flows, evidencia de despliegue del Sprint 1, desarrollo de endpoints y configuración del backend.<br><br>
         TB2 – Desarrollo de Student Applications Endpoints, implementación de Project Collaboration Endpoints, configuración de Firebase App Distribution, y diseño de la Explore Opportunities section.<br><br>
+        TF1 – Elaboración de Project Report Insights, desarrollo de Explore Section y Favorite Projects Section, consolidando la funcionalidad de navegación y gestión de proyectos favoritos.<br><br>
         <strong>Coca Lavado, Carlos Andrés:</strong><br>
         TB1 – Entrevistas, definición de User Stories, Product Backlog y creación de User Personas.<br><br>
         TP1 – Entrevistas de validación, desarrollo en Kotlin, Labeling System, análisis de entrevistas y evaluación heurística.<br><br>
         TB2 – Development Evidence for Sprint Review, avance significativo de la aplicación Kotlin, y desarrollo paralelo de la aplicación Flutter para expansión multiplataforma.<br><br>
+        TF1 – Mejora integral en el diseño de la aplicación Kotlin y optimización del diseño de la aplicación Flutter, refinando la experiencia de usuario en ambas plataformas.<br><br>
         <strong>Cabrera Buitrón, Diego Iván:</strong><br>
         TB1 – Participación en Eventstorming, análisis de antecedentes y diseño de diagramas de base de datos.<br><br>
         TP1 – Desarrollo de wireframes y wireflows móviles, configuración del entorno de desarrollo y gestión de configuración del software.<br><br>
         TB2 – Service Documentation Evidence for Sprint Review, avance de la aplicación en Android Studio, y Execution Evidence for sprint2 con mejoras en la documentación técnica.<br><br>
+        TF1 – Implementación de Software Deployment Evidence for Sprint Review y desarrollo de Postulation Section, completando funcionalidades clave de postulación a proyectos.<br><br>
       </td>
       <td style="border: 1px solid black; padding: 8px; vertical-align: top;">
         TB1 – El equipo aplicó con éxito nuevos conceptos de ingeniería de software, integrando herramientas como Eventstorming, Lean UX y diseño de arquitectura. Cada miembro reforzó su conocimiento técnico y aportó al desarrollo de soluciones bien estructuradas.<br><br>
         TP1 – Se evidenció una evolución técnica en las áreas de desarrollo móvil, backend y despliegue. Los integrantes aplicaron nuevos aprendizajes para mejorar la calidad del proyecto, consolidando sus competencias profesionales en entornos reales de desarrollo.<br><br>
-        TB2 – El equipo demostró una actualización continua en tecnologías emergentes como Flutter, Firebase Distribution y desarrollo de APIs especializadas. Se consolidaron conocimientos en gestión de sprints, documentación de servicios y distribución de aplicaciones móviles.
+        TB2 – El equipo demostró una actualización continua en tecnologías emergentes como Flutter, Firebase Distribution y desarrollo de APIs especializadas. Se consolidaron conocimientos en gestión de sprints, documentación de servicios y distribución de aplicaciones móviles.<br><br>
+        TF1 – El equipo completó el ciclo de desarrollo integrando funcionalidades avanzadas como gestión de perfiles, oportunidades, exploración de proyectos y postulaciones. Se evidenció dominio en desarrollo multiplataforma, validación de productos y documentación técnica completa, demostrando una actualización integral de conocimientos en soluciones de software profesionales.
       </td>
     </tr>
     <tr>
@@ -462,32 +506,37 @@
         TB1 – Aplicación de nuevos métodos de análisis y diseño colaborativo mediante Lean UX y arquitectura de software.<br><br>
         TP1 – Adopción de prácticas de validación, configuración de despliegue y guía de estilos, reforzando su capacidad de aprendizaje continuo.<br><br>
         TB2 – Aprendizaje en deployment continuo, gestión de evidencias de sprint y mejora de interfaces web, demostrando adaptación a nuevas metodologías de desarrollo.<br><br>
+        TF1 – Perfeccionamiento en técnicas de validación con usuarios reales, gestión de perfiles de usuario y documentación exhaustiva de evidencias de ejecución, consolidando su compromiso con la mejora continua.<br><br>
         <strong>Palomino Fiestas, Erick Leonardo:</strong><br>
         TB1 – Aprendizaje en técnicas de análisis de competidores, entrevistas y diseño estructural del sistema.<br><br>
         TP1 – Fortalecimiento de habilidades en desarrollo full stack y mejora de la experiencia de usuario mediante prototipos funcionales.<br><br>
         TB2 – Expansión de competencias hacia el desarrollo multiplataforma con Flutter, profundización en planificación ágil y optimización de aplicaciones móviles.<br><br>
+        TF1 – Liderazgo en la planificación del sprint final, implementación de funcionalidades complejas de oportunidades y aplicación de metodologías ágiles avanzadas, evidenciando madurez en gestión de proyectos.<br><br>
         <strong>Rivera Ratachi, Renzo Sebastián:</strong><br>
         TB1 – Adquisición de conocimientos en modelado de dominio, arquitectura modular y documentación técnica.<br><br>
         TP1 – Aprendizaje práctico en despliegue, endpoints y prototipado, demostrando autonomía en la aplicación de nuevas herramientas.<br><br>
         TB2 – Especialización en desarrollo de APIs RESTful, implementación de servicios en la nube con Firebase, y gestión de distribución de aplicaciones móviles.<br><br>
+        TF1 – Desarrollo de capacidades analíticas mediante Project Report Insights, perfeccionamiento en UX/UI con secciones de exploración y favoritos, demostrando versatilidad técnica y visión de producto.<br><br>
         <strong>Coca Lavado, Carlos Andrés:</strong><br>
         TB1 – Implementación de metodologías centradas en el usuario y gestión del backlog.<br><br>
         TP1 – Profundización en validación, heurísticas y desarrollo móvil, con actitud constante de mejora.<br><br>
         TB2 – Desarrollo simultáneo en Kotlin y Flutter, gestión de evidencias de revisión de sprint, y aplicación de mejores prácticas en desarrollo nativo e híbrido.<br><br>
+        TF1 – Especialización en optimización de interfaces multiplataforma, aplicación de principios de diseño avanzados y refinamiento de experiencias de usuario en tecnologías nativas e híbridas.<br><br>
         <strong>Cabrera Buitrón, Diego Iván:</strong><br>
         TB1 – Consolidación de conocimientos en análisis de datos y modelado de base de datos.<br><br>
         TP1 – Aprendizaje en gestión de configuración y entornos de desarrollo colaborativos.<br><br>
         TB2 – Perfeccionamiento en documentación de servicios, gestión de evidencias técnicas y desarrollo de aplicaciones Android con mejores prácticas de código.<br><br>
+        TF1 – Dominio en procesos de despliegue completo, implementación de funcionalidades críticas de postulación y gestión integral de documentación técnica para revisiones finales.<br><br>
       </td>
       <td style="border: 1px solid black; padding: 8px; vertical-align: top;">
         TB1 – El grupo evidenció una actitud proactiva hacia el aprendizaje, asimilando nuevas herramientas y metodologías con efectividad. Cada miembro demostró disposición por mejorar continuamente sus capacidades técnicas.<br><br>
         TP1 – Los integrantes fortalecieron su mentalidad de aprendizaje permanente, integrando nuevas prácticas en diseño, desarrollo y despliegue. El trabajo colaborativo y la actualización constante fueron claves para el progreso del proyecto y su crecimiento profesional.<br><br>
-        TB2 – Se consolidó la cultura de aprendizaje continuo con la adopción de múltiples tecnologías y frameworks. El equipo demostró capacidad para adaptarse a nuevos desafíos técnicos, gestionar complejidades de desarrollo multiplataforma y mantener estándares de calidad.
+        TB2 – Se consolidó la cultura de aprendizaje continuo con la adopción de múltiples tecnologías y frameworks. El equipo demostró capacidad para adaptarse a nuevos desafíos técnicos, gestionar complejidades de desarrollo multiplataforma y mantener estándares de calidad.<br><br>
+        TF1 – El equipo demostró una mentalidad de aprendizaje permanente excepcional al integrar validación de usuarios, optimización de diseño multiplataforma, gestión avanzada de proyectos ágiles y documentación profesional. Cada miembro evidenció crecimiento técnico y profesional significativo, confirmando su preparación para enfrentar desafíos complejos en desarrollo de software.
       </td>
     </tr>
   </tbody>
 </table>
-
 
 
 ## Objetivos SMART
@@ -6583,23 +6632,320 @@ Kotlin App Insights :
 
 ### 4.2.3. Sprint 3
 
-Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
+Durante el Sprint 3 del proyecto, el equipo se enfocó en la finalización de la aplicación móvil desarrollada en Flutter, la cual esta específicada para los managers de empresas. Se logró la implementación total de los módulos clave, tales como "Explorar", "Mis convocatorias", "Mis postulaciones" y "Perfil". Además, se realizaron mejoras significativas en el diseño de la interfaz tanto en Flutter como en Android Studio. El objetivo principal fue entregar una aplicación visualmente atractiva y funcional.
 
 #### 4.2.3.1. Sprint Planning 3
 
+Este apartado describe los componentes esenciales del Sprint Planning Meeting correspondiente al Sprint 3. Con el fin de mantener la continuidad del proyecto, la sesión se centró en la alineación del equipo, la asignación de responsabilidades y la delimitación del alcance para esta nueva iteración. Seguidamente, se incluye una tabla que compila los acuerdos estratégicos y los puntos clave tratados durante la reunión.
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 3</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-11-21</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>07:00 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Rivera Ratachi, Renzo Sebastian</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Santur Tello, Andrea Elizabeth
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Review Summary</b></td>
+      <td>Al finalizar el Sprint 2, el equipo completó exitosamente el desarrollo de las funcionalidades críticas en la aplicación nativa de Android (Kotlin), logrando un flujo de usuario fluido para el inicio de sesión, exploración de proyectos, gestión de postulaciones y perfil. Los productos de software clave alcanzados incluyen la implementación y documentación de 8 nuevos endpoints en el backend para los contextos de Colaboración y Postulaciones, y la validación de la experiencia de usuario en Android. Se validó la lógica de negocio y la integración de servicios, aunque se destacó la necesidad de nivelar el avance en la versión de Flutter y pulir la consistencia visual en ambas plataformas.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Retrospective Summary</b></td>
+      <td>El equipo identificó como aciertos principales el trabajar dividiendo por features por integrantes, ademas de la segregación de tareas mediante Technical Stories, lo que aceleró la integración del backend con la app móvil, y el uso efectivo de la documentación en Swagger. Sin embargo, se reconoció la necesidad de mejorar el diseño del aplicativo en Android Studio y la mejora de la aplicativo del Flutter en general</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Goal</b></td>
+      <td>Our focus is on finalizing the Flutter mobile application specifically for Company Managers and refining the User Interface across both platforms. We believe it delivers a consistent, professional, and functional experience for Managers to handle recruitments efficiently. This will be confirmed when a Manager can successfully log in via the Flutter app to explore ideas, manage their convocations, accept or reject applications, and edit their profile with a high-fidelity design; AND when the Android application reflects the final polished UI improvements.</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Velocity</b></td>
+      <td>21 Story Points</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>5 + 3 + 5 + 5 + 3 = 21 Story Points</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.3.2. Sprint Backlog 3
 
-#### 4.2.3.3. Development Evidece for Sprint Review
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue finalizar la aplicación móvil en Flutter destinada a los managers, incluyendo la implementación de los apartados de mis postulaciones y perfil, así como mejorar el diseño de la interfaz tanto en la aplicación de Flutter como en Android Studio.
 
-#### 4.2.3.4. Testing Suite Evidece for Sprint Review
+<br>
+<p align="center">
+  <img src="images/trello3.png" alt="Sprint Backlog 3 Trello" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 3 - Elaboración propia
+</p>
 
-#### 4.2.3.5. Execution Evidece for Sprint Review
 
-#### 4.2.3.6. Services Documentation Evidece for Sprint Review
+Link al Trello: https://trello.com/invite/b/692a429b882177c311ce6589/ATTI6d2de2372325fb95c3a4590dc308519427C2E5DF/sprint-3
 
-#### 4.2.3.7. Software Deployment Evidece for Sprint Review
+<br>
 
-Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración y se dejó preparada la arquitectura para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
+<h3>Sprint Backlog – Sprint 2</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US04</td>
+<td>Guardado de Proyectos Favoritos</td>
+<td>WI012</td>
+<td>Implementar "Añadir a Favoritos" (Gerente)</td>
+<td>Desarrollar la funcionalidad para que un gerente guarde un proyecto en su lista y el ícono cambie de estado.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US09</td>
+<td>Explorar Ideas de estudiantes</td>
+<td>WI017</td>
+<td>Implementar listado de ideas (Gerente)</td>
+<td>Crear la vista para que el gerente vea una lista de ideas de estudiantes, con opción a "Ver Detalles".</td>
+<td>4</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US16</td>
+<td>Filtrado de proyectos de estudiantes</td>
+<td>WI024</td>
+<td>Implementar búsqueda de proyectos de estudiantes (Gerente)</td>
+<td>Desarrollar una barra de búsqueda en la lista de ideas de estudiantes que filtre por habilidades y tecnologías.</td>
+<td>4</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Gerente publica nuevo proyecto</td>
+<td>WI013</td>
+<td>Implementar formulario de publicación de proyecto</td>
+<td>Desarrollar el formulario para que un gerente cree un nuevo proyecto.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Editar Perfil de Usuario</td>
+<td>WI015</td>
+<td>Implementar edición de perfil</td>
+<td>Crear el formulario y la lógica para que un usuario (ambos roles) pueda modificar y guardar los datos de su perfil.</td>
+<td>4</td>
+<td>Andrea Santur</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>2b0a450</td>
+    <td>style: Bottom search bar update</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>deveplop</td>
+    <td>d57180f</td>
+    <td>fix: fixed style</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>39083e4</td>
+    <td>fix: fix the themes</td>
+    <td>-</td>
+    <td>26/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>7f17d94</td>
+    <td>feat: upgrade themes</td>
+    <td>-</td>
+    <td>03/12/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>e3f14fd</td>
+    <td>feat: add platform permissions and image_picker dependency</td>
+    <td>Add Android permissions (INTERNET, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES, CAMERA)</td>
+    <td>28/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>b95fa63</td>
+    <td>Fix lint errors: add path dependency, fix deprecated APIs and null-aware operators</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>2de5e7d</td>
+    <td>feat: added manager</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>ed8018d</td>
+    <td>fix: add dependencies</td>
+    <td>-</td>
+    <td>30/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>dea4768</td>
+    <td>fix: updated gitignore and dependencies</td>
+    <td>-</td>
+    <td>20/11/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>d5bb0d2</td>
+    <td>feat: testing the app</td>
+    <td>-</td>
+    <td>14/11/25</td>
+  </tr>
+<table>
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+No se realizaron Unit Tests debido a que en este sprint 3 no se ejecutaron pruebas funcionales ni unitarias. El equipo consideró que no era necesario desarrollar ni documentar nuevos tests porque el backend ya se encontraba completado al 100% en iteraciones anteriores, sin cambios de lógica o nuevas funcionalidades que requirieran validación adicional. Dado que no hubo modificaciones en el código ni integración de nuevos componentes que pudieran generar riesgos, se decidió omitir la ejecución de pruebas y, en consecuencia, no se generó evidencia para este apartado.
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
+**Flutter**
+Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_loginmod.jpg" alt="login flutter" width="
+  200">
+ 
+</p>
+
+Proyectos: La sección Proyectos permite a los estudiantes explorar las iniciativas disponibles, donde se muestra el título del proyecto, un resumen breve y etiquetas que representan la categoría tecnológica (como IT, Software Development o App Móvil.Además esta compuesto por dos pestañas: Explorar, que muestra el catálogo completo de proyectos disponibles, y Favoritos, donde se listan únicamente aquellos que el estudiante ha marcado con el ícono de corazón.
+
+Manteniendo un diseño uniforme con categoría, resumen corto y el ícono de favorito alineado a la derecha para facilitar la interacción.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_explorarproyectos.jpg" alt="proyectos flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_favoritosproyectos.jpg" alt="proyectos favorito flutter" width="
+  210">
+</p>
+  
+
+Convocatorias: La sección de Convocatorias permite al Manager visualizar las convocatorias que ha creado, gestionar su estado y acceder al detalle de cada una.
+Desde aquí puede visualizar toda la información asociada, editar, cerrar o eliminar convocatorias, además de revisar los postulantes.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_convocatoriasmod.jpg" alt="convocatorias flutter" width="
+  200">
+  <img src="images/flutter_demo/flutter_detalleConvocatoriamod.jpg" alt="Convocatorias detalle flutter" width="
+  210">
+</p>
+
+Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar todas las convocatorias a las que ha aplicado, mostrando información clave como el nombre de la convocatoria, una breve descripción y el estado actual de la postulación (por ejemplo: Pending). Esta funcionalidad brinda al usuario un mayor control y seguimiento sobre sus solicitudes, permitiéndole identificar fácilmente en qué etapa se encuentra cada una.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_postulaciones.jpg" alt="postulaciones flutter" width="
+  200">
+</p>
+
+Mi Perfil: La sección de Mi Perfil permite al usuario visualizar y actualizar su información personal y profesional, incluyendo datos como nombre, rol, teléfono, empresa, ubicación, descripción y tecnologías. A través de la opción Editar Perfil, el usuario puede modificar estos datos, actualizar su foto y gestionar sus tecnologías mediante etiquetas dinámicas. Al guardar los cambios, la aplicación muestra una confirmación de actualización exitosa.
+
+<p align="center">
+  <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="editar perfil flutter" width="
+  210">
+  <img src="images/flutter_demo/flutter_confirperfil.jpg" alt="exitoso perfil flutter" width="
+  209">
+</p>
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
+El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
+
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
 
 ### Despliegue del Backend en Azure
 
@@ -6682,6 +7028,20 @@ Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su 
   - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint Review
+
+Flutter Insights:
+
+<p align="center">
+  <img src="images/sprint3/image.png" alt="flutter insights" width="800">
+</p>
+
+
+Kotlin App Insights :
+
+<p align="center">
+  <img src="images/sprint3/image2.png" alt="Kotlin Insights" width="800">
+</p>
+
 
 ## 4.3. Validation Interviews
 
@@ -7038,6 +7398,15 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 <br>
 
+**TF1**
+
+
+- La implementación completa de las funcionalidades en Kotlin y Flutter aseguró un flujo operativo estable y coherente, confirmando la solidez técnica de la arquitectura propuesta.
+
+- La integración entre frontend y backend se realizó de manera fluida, permitiendo validar todas las operaciones esenciales de la aplicación y garantizando una experiencia de usuario consistente.
+
+- La finalización total de los módulos planificados demostró el avance significativo del proyecto y dejó una base firme para futuras mejoras y extensiones de la plataforma.
+
 <div style="page-break-after: always;"></div>
 
 <br>
@@ -7219,3 +7588,6 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
+
+
