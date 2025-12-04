@@ -6681,6 +6681,98 @@ Link al Trello: ...
 
 #### 4.2.3.3. Development Evidence for Sprint Review
 
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>2b0a450</td>
+    <td>style: Bottom search bar update</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>deveplop</td>
+    <td>d57180f</td>
+    <td>fix: fixed style</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>39083e4</td>
+    <td>fix: fix the themes</td>
+    <td>-</td>
+    <td>26/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>7f17d94</td>
+    <td>feat: upgrade themes</td>
+    <td>-</td>
+    <td>03/12/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>e3f14fd</td>
+    <td>feat: add platform permissions and image_picker dependency</td>
+    <td>Add Android permissions (INTERNET, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES, CAMERA)</td>
+    <td>28/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>b95fa63</td>
+    <td>Fix lint errors: add path dependency, fix deprecated APIs and null-aware operators</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>2de5e7d</td>
+    <td>feat: added manager</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>ed8018d</td>
+    <td>fix: add dependencies</td>
+    <td>-</td>
+    <td>30/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>dea4768</td>
+    <td>fix: updated gitignore and dependencies</td>
+    <td>-</td>
+    <td>20/11/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>d5bb0d2</td>
+    <td>feat: testing the app</td>
+    <td>-</td>
+    <td>14/11/25</td>
+  </tr>
+<table>
+
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
 #### 4.2.3.5. Execution Evidence for Sprint Review
