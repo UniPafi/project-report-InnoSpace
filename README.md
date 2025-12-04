@@ -32,7 +32,7 @@
   
   <br>
   
-  **Noviembre 2025**
+  **Diciembre 2025**
 </div>
 
 <div style="page-break-after: always;"></div>
@@ -174,6 +174,33 @@
     Palomino,<br>
     </td>
     <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
+  </tr>
+<tr>
+    <td>4.00</td>
+    <td>20/11/25</td>
+    <td>
+    Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Plantilla de Sprint 3 agregada </td>
+  </tr>
+<tr>
+    <td>4.01</td>
+    <td>28/11/25</td>
+    <td>
+     Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 2 y videos About the Team y About the Product anexados. </td>
+  </tr>
+<tr>
+    <td>4.02</td>
+    <td>3/12/25</td>
+    <td>
+     Rivera,<br>
+    Palomino,<br>
+    </td>
+    <td>Realización del Sprint 3 </td>
   </tr>
 </table>
 
