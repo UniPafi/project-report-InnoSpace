@@ -7431,7 +7431,7 @@ Nota: A pesar de estos puntos de mejora, es importante destacar que los entrevis
 
 # Video App Validation
 
-En este video presentamos el proceso de validación de nuestras aplicaciones con el segmento objetivo de estudiantes. A través de sus opiniones y experiencias, buscamos comprobar si las soluciones propuestas realmente responden a sus necesidades y expectativas. Este análisis nos permitirá ajustar y fortalecer el proyecto para asegurar que el producto final sea útil, accesible y relevante para ellos.
+En estos videos presentamos el proceso de validación de nuestras aplicaciones con el segmento objetivo de estudiantes y gerentes. A través de sus opiniones y experiencias, buscamos comprobar si las soluciones propuestas realmente responden a sus necesidades y expectativas. Este análisis nos permitirá ajustar y fortalecer el proyecto para asegurar que el producto final sea útil, accesible y relevante para ellos.
 
 
 <table align="center">
@@ -7479,7 +7479,51 @@ En este video presentamos el proceso de validación de nuestras aplicaciones con
 <br><br>
 
 
+<table align="center">
+  <tr>
+    <th colspan="2" style="text-align:center">Entrevista 2</th>
+  </tr>
+  <tr>
+    <td><strong>Entrevistado</strong></td>
+    <td>Manuel Torres</td>
+  </tr>
+  <tr>
+    <td><strong>Edad</strong></td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td><strong>Distrito</strong></td>
+    <td>Los Olivos</td>
+  </tr>
+  <tr>
+    <td><strong>Timing</strong></td>
+    <td>01:48 - 14:13</td>
+  </tr>
+  <tr>
+    <td><strong>URL</strong></td>
+    <td>
 
+  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQBR_bOIb9cWTq3e1oZgE3wHAUR-0FcueVyTNR4PFvKBzo8?e=CDRHWz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+
+    
+  </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align:justify">
+    Resumen: <br>
+      Durante la entrevista, Manuel Torres, compartió sus impresiones tras probar la aplicación. Destacó que la plataforma representa una herramienta valiosa para los gerentes que buscan conectar con proyectos desarrollados por estudiantes o identificar ideas innovadoras que puedan aportar soluciones frescas dentro de sus organizaciones.
+Manuel resaltó que la aplicación facilita el descubrimiento de talento emergente y promueve la colaboración entre empresas y nuevos profesionales, lo que considera un beneficio estratégico para impulsar la innovación.
+Además, subrayó la facilidad de uso de la aplicación: mencionó que su interfaz intuitiva permite navegar, buscar proyectos y evaluar propuestas de manera rápida y eficiente, sin necesidad de una curva de aprendizaje extensa. Para él, esta simplicidad es un aspecto clave que favorece su adopción en entornos empresariales.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br>
+      <img src="images/sprint3/entrevista.png" alt="entrevista2" width="800"><br>
+    </td>
+  </tr>
+</table>
+
+<br><br>
 
 # Video About the Team
 
@@ -7533,18 +7577,18 @@ El video ofrece una síntesis del trabajo realizado por el equipo, en la que cad
 
 # Video About the Product
 
-Este video presenta un recorrido por las principales funciones de la aplicación móvil, mostrando cómo cada característica está diseñada para facilitar la experiencia del usuario. A lo largo del video se incluyen escenas reales de un estudiante utilizando la aplicación en distintos contextos, lo que permite evidenciar su utilidad.
+Este video presenta un recorrido por las principales funciones de la aplicación móvil, mostrando cómo cada característica está diseñada para facilitar la experiencia del usuario. A lo largo del video se incluyen escenas reales de un estudiante y ungerente utilizando la aplicación en distintos contextos, lo que permite evidenciar su utilidad.
 
 <table align="center">
   <tr>
     <td><strong>Duración</strong></td>
-    <td>4:40 min</td>
+    <td>5:09 min</td>
   </tr>
   <tr>
     <td><strong>URL Microsoft</strong></td>
     <td>
     
-`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQAijXg7iFhISrSmB9lImPFRAcB50ptiQNffB8yspbQxztY?e=d67QbQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
+`https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQDP_iKHqquWRIUvsoAXHMqtARkWzFv6qAP2G-Y9a2y7YZ8?e=V3o9LW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`
     
   </td>
   </tr>
@@ -7552,17 +7596,19 @@ Este video presenta un recorrido por las principales funciones de la aplicación
     <td><strong>URL Youtube</strong></td>
     <td>
     
- https://youtu.be/VFNbzqBn_M0
+ https://youtu.be/TP2rjrAK0XI
     
   </td>
   </tr>
   <tr>
     <td><strong>Timings</strong></td>
     <td>
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 03:07: Explicación del producto </a>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQDP_iKHqquWRIUvsoAXHMqtARkWzFv6qAP2G-Y9a2y7YZ8?e=dKQbe8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 03:07: Explicación del producto </a>
       <br>
-      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312966_upc_edu_pe/EV7uCG0fOapKliYCWA-fSe4BEp6TjG5eNeEMRXq8qm8J_w?e=jZyFTB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">3:08: Escenas de uso de aplicación por el segmento objetivo </a>
-    </td>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQDP_iKHqquWRIUvsoAXHMqtARkWzFv6qAP2G-Y9a2y7YZ8?e=dKQbe8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">3:08: Escenas de uso de aplicación por el segmento objetivo  de estudiantes</a>
+      <br>
+      <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQDP_iKHqquWRIUvsoAXHMqtARkWzFv6qAP2G-Y9a2y7YZ8?e=dKQbe8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">4:40: Escenas de uso de aplicación por el segmento objetivo de gerentes </a>
+    </td> 
   </tr>
   <tr>
 <td colspan="2">
