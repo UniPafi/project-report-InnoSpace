@@ -1,43 +1,34 @@
-<div align="center">
-  <img src="images/logoupc.png" alt="Logo de la UPC" width="150">
-  
-  # Universidad Peruana de Ciencias Aplicadas
-  ## Ingeniería de Software
-  
-  ### Periodo: 202520 
-  
-  **1ACC0238** | **Aplicaciones para Dispositivos Móviles**
-  
-  **NRC:** 1795
-  
-  **Docente:** Jorge Luis Mayta Guillermo
-  
-  <hr style="width: 50%; margin-top: 20px; margin-bottom: 20px;">
-  
-  <h1>Informe del Trabajo Final</h1>
-  
-  **Startup:** UniPafi
-  
-  **Producto:** InnoSpace
-  
-  <br>
+<div style="text-align: center; page-break-after: always;">
 
-  | |  |
-  | :----------: | :----------------------------------- |
-  | U202310988 | Andrea Elizabeth, Santur Tello |
-  | U202313172 | Carlos Andres, Coca Lavado |
-  | U20211B293 | Diego Ivan, Cabrera Buitron, |
-  | U20231A500 | Erick Leonardo, Palomino Fiestas |
-  | U20231D974 | Renzo Sebastian, Rivera Ratachi |
-  
-  <br>
-  
-  **Diciembre 2025**
-</div>
+<img src="images/logoupc.png" width="150" style="display: block; margin: 0 auto;">
 
-<div style="page-break-after: always;"></div>
+<h1>Universidad Peruana de Ciencias Aplicadas</h1>
+<h2>Ingeniería de Software</h2>
+<h3>Periodo: 202520</h3>
+
+<p><strong>1ACC0238</strong> | <strong>Aplicaciones para Dispositivos Móviles</strong></p>
+<p><strong>NRC:</strong> 1795</p>
+<p><strong>Docente:</strong> Jorge Luis Mayta Guillermo</p>
 
 <br>
+
+<h1>Informe del Trabajo Final</h1>
+<p><strong>Startup:</strong> UniPafi</p>
+<p><strong>Producto:</strong> InnoSpace</p>
+
+<br>
+
+<p>U20211B293 - Cabrera Buitron, Diego Ivan</p>
+<p>U202313172 - Coca Lavado, Carlos Andres</p>
+<p>U20231A500 - Palomino Fiestas, Erick Leonardo</p>
+<p>U20231D974 - Rivera Ratachi, Renzo Sebastian</p>
+<p>U202310988 - Santur Tello, Andrea Elizabeth</p>
+
+<br>
+
+<p><strong>Diciembre 2025</strong></p>
+
+</div>
 
 **Registro de Versiones del Informe**
 
@@ -64,7 +55,6 @@
     <td>
     Rivera,<br>
     Palomino,<br>
-    Coca,<br>
     Cabrera, Santur
     </td>
     <td>Creacion del Descripcion del Startup y perfil de los integrantes.</td>
@@ -74,7 +64,6 @@
     <td>09/09/25</td>
     <td>
     Rivera,<br>
-    Palomino,<br>
     Coca,<br>
     Cabrera, Santur
     </td>
@@ -87,7 +76,6 @@
     Rivera,<br>
     Palomino,<br>
     Coca,<br>
-    Cabrera, Santur
     </td>
     <td>Creacion del analis competitivo, estrategias y tacticas frenete a los competidores, ademas se realizaron las entrevistas, todo el apartado del Needfinding y del Ubiquitous Language.</td>
   </tr>
@@ -7602,6 +7590,7 @@ Este video presenta un recorrido por las principales funciones de la aplicación
   </tr>
   <tr>
     <td><strong>Timings</strong></td>
+    <br>
     <td>
       <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231d974_upc_edu_pe/IQDP_iKHqquWRIUvsoAXHMqtARkWzFv6qAP2G-Y9a2y7YZ8?e=dKQbe8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">00:00 - 03:07: Explicación del producto </a>
       <br>
