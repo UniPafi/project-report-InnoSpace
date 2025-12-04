@@ -6677,11 +6677,11 @@ Link al Trello: https://trello.com/invite/b/692a429b882177c311ce6589/ATTI6d2de23
 
 <br>
 
-<h3>Sprint Backlog – Sprint 2</h3>
+<h3>Sprint Backlog – Sprint 3</h3>
 <table border="1" cellspacing="0" cellpadding="5">
 <thead>
 <tr>
-<th colspan="8">Sprint 2</th>
+<th colspan="8">Sprint 3</th>
 </tr>
 <tr>
 <th colspan="2">User Story</th>
@@ -7531,6 +7531,7 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
 
 
 
