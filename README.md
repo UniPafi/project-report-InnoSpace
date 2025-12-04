@@ -6808,15 +6808,10 @@ Link al Trello: ...
 
 #### 4.2.3.4. Testing Suite Evidence for Sprint Review
 
+No se realizaron Unit Tests debido a que en este sprint 3 no se ejecutaron pruebas funcionales ni unitarias. El equipo consideró que no era necesario desarrollar ni documentar nuevos tests porque el backend ya se encontraba completado al 100% en iteraciones anteriores, sin cambios de lógica o nuevas funcionalidades que requirieran validación adicional. Dado que no hubo modificaciones en el código ni integración de nuevos componentes que pudieran generar riesgos, se decidió omitir la ejecución de pruebas y, en consecuencia, no se generó evidencia para este apartado.
+
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
-#### 4.2.3.6. Services Documentation Evidence for Sprint Review
-
-Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
-El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
-
-=======
-#### 4.2.3.5. Execution Evidece for Sprint Review
 Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
 **Flutter**
 Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
@@ -6824,8 +6819,7 @@ Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema in
 <p align="center">
   <img src="images/flutter_demo/flutter_loginmod.jpg" alt="login flutter" width="
   200">
-  <img src="images/flutter_demo/flutter_registermod.jpg" alt="register flutter" width="
-  210">
+ 
 </p>
 
 Proyectos: La sección Proyectos permite a los estudiantes explorar las iniciativas disponibles, donde se muestra el título del proyecto, un resumen breve y etiquetas que representan la categoría tecnológica (como IT, Software Development o App Móvil.Además esta compuesto por dos pestañas: Explorar, que muestra el catálogo completo de proyectos disponibles, y Favoritos, donde se listan únicamente aquellos que el estudiante ha marcado con el ícono de corazón.
@@ -6857,21 +6851,23 @@ Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar t
   200">
 </p>
 
-Mi Perfil:La sección de Mi Perfil permite al usuario visualizar y actualizar su información personal y profesional, incluyendo datos como nombre, rol, teléfono, empresa, ubicación, descripción y tecnologías. A través de la opción Editar Perfil, el usuario puede modificar estos datos, actualizar su foto y gestionar sus tecnologías mediante etiquetas dinámicas. Al guardar los cambios, la aplicación muestra una confirmación de actualización exitosa.
+Mi Perfil: La sección de Mi Perfil permite al usuario visualizar y actualizar su información personal y profesional, incluyendo datos como nombre, rol, teléfono, empresa, ubicación, descripción y tecnologías. A través de la opción Editar Perfil, el usuario puede modificar estos datos, actualizar su foto y gestionar sus tecnologías mediante etiquetas dinámicas. Al guardar los cambios, la aplicación muestra una confirmación de actualización exitosa.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_perfil.jpg" alt="perfil flutter" width="
-  200">
   <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="editar perfil flutter" width="
   210">
   <img src="images/flutter_demo/flutter_confirperfil.jpg" alt="exitoso perfil flutter" width="
   209">
 </p>
-#### 4.2.3.6. Services Documentation Evidece for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
+El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
 
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración y se dejó preparada la arquitectura para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
+Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
 
 ### Despliegue del Backend en Azure
 
