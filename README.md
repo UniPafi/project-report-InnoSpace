@@ -6905,7 +6905,9 @@ No se realizaron Unit Tests debido a que en este sprint 3 no se ejecutaron prueb
 #### 4.2.3.5. Execution Evidence for Sprint Review
 
 Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
+
 **Flutter**
+
 Iniciar sesión: Desde esta pantalla, los usuarios pueden ingresar al sistema introduciendo el correo y contraseña registrados previamente. El sistema valida las credenciales y permite el acceso personalizado según el tipo de usuario.
 
 <p align="center">
@@ -6946,10 +6948,12 @@ Mis Postulaciones: La vista Mis Postulaciones permite al estudiante visualizar t
 Mi Perfil: La sección de Mi Perfil permite al usuario visualizar y actualizar su información personal y profesional, incluyendo datos como nombre, rol, teléfono, empresa, ubicación, descripción y tecnologías. A través de la opción Editar Perfil, el usuario puede modificar estos datos, actualizar su foto y gestionar sus tecnologías mediante etiquetas dinámicas. Al guardar los cambios, la aplicación muestra una confirmación de actualización exitosa.
 
 <p align="center">
-  <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="editar perfil flutter" width="
+  <img src="images/flutter_demo/flutter_perfil.jpg" alt="editar perfil flutter" width="
   210">
+  <img src="images/flutter_demo/flutter_editarperfil.jpg" alt="exitoso perfil flutter" width="
+  200">
   <img src="images/flutter_demo/flutter_confirperfil.jpg" alt="exitoso perfil flutter" width="
-  209">
+  200">
 </p>
 
 #### 4.2.3.6. Services Documentation Evidence for Sprint Review
@@ -7602,6 +7606,7 @@ https://github.com/UniPafi/kotlin_app_InnoSpace
 
 Aplicacion en Flutter:
 https://github.com/UniPafi/flutter_InnoSpace
+
 
 
 
