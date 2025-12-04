@@ -6594,11 +6594,11 @@ Kotlin App Insights :
 
 ### 4.2.3. Sprint 3
 
-...
+Durante el Sprint 3 del proyecto, el equipo se enfocó en la finalización de la aplicación móvil desarrollada en Flutter, la cual esta específicada para los managers de empresas. Se logró la implementación total de los módulos clave, tales como "Explorar", "Mis convocatorias", "Mis postulaciones" y "Perfil". Además, se realizaron mejoras significativas en el diseño de la interfaz tanto en Flutter como en Android Studio. El objetivo principal fue entregar una aplicación visualmente atractiva y funcional.
 
 #### 4.2.3.1. Sprint Planning 3
 
-...
+Este apartado describe los componentes esenciales del Sprint Planning Meeting correspondiente al Sprint 3. Con el fin de mantener la continuidad del proyecto, la sesión se centró en la alineación del equipo, la asignación de responsabilidades y la delimitación del alcance para esta nueva iteración. Seguidamente, se incluye una tabla que compila los acuerdos estratégicos y los puntos clave tratados durante la reunión.
 
 <table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
   <tbody>
@@ -6636,44 +6636,44 @@ Kotlin App Insights :
     </tr>
     <tr>
       <td><b>Sprint 2 Review Summary</b></td>
-      <td>...</td>
+      <td>Al finalizar el Sprint 2, el equipo completó exitosamente el desarrollo de las funcionalidades críticas en la aplicación nativa de Android (Kotlin), logrando un flujo de usuario fluido para el inicio de sesión, exploración de proyectos, gestión de postulaciones y perfil. Los productos de software clave alcanzados incluyen la implementación y documentación de 8 nuevos endpoints en el backend para los contextos de Colaboración y Postulaciones, y la validación de la experiencia de usuario en Android. Se validó la lógica de negocio y la integración de servicios, aunque se destacó la necesidad de nivelar el avance en la versión de Flutter y pulir la consistencia visual en ambas plataformas.</td>
     </tr>
     <tr>
       <td><b>Sprint 2 Retrospective Summary</b></td>
-      <td>...</td>
+      <td>El equipo identificó como aciertos principales el trabajar dividiendo por features por integrantes, ademas de la segregación de tareas mediante Technical Stories, lo que aceleró la integración del backend con la app móvil, y el uso efectivo de la documentación en Swagger. Sin embargo, se reconoció la necesidad de mejorar el diseño del aplicativo en Android Studio y la mejora de la aplicativo del Flutter en general</td>
     </tr>
     <tr>
       <td colspan="2"><b>Sprint Goal & User Stories</b></td>
     </tr>
     <tr>
       <td><b>Sprint 3 Goal</b></td>
-      <td>...</td>
+      <td>Our focus is on finalizing the Flutter mobile application specifically for Company Managers and refining the User Interface across both platforms. We believe it delivers a consistent, professional, and functional experience for Managers to handle recruitments efficiently. This will be confirmed when a Manager can successfully log in via the Flutter app to explore ideas, manage their convocations, accept or reject applications, and edit their profile with a high-fidelity design; AND when the Android application reflects the final polished UI improvements.</td>
     </tr>
     <tr>
       <td><b>Sprint 3 Velocity</b></td>
-      <td>...</td>
+      <td>21 Story Points</td>
     </tr>
     <tr>
       <td><b>Sum of Story Points</b></td>
-      <td>...</td>
+      <td>5 + 3 + 5 + 5 + 3 = 21 Story Points</td>
     </tr>
   </tbody>
 </table>
 
 #### 4.2.3.2. Sprint Backlog 3
 
-En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue implementar las funcionalidades centrales de interacción de la plataforma, incluyendo la gestión de solicitudes de colaboración y las postulaciones a convocatorias. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 3 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue finalizar la aplicación móvil en Flutter destinada a los managers, incluyendo la implementación de los apartados de mis postulaciones y perfil, así como mejorar el diseño de la interfaz tanto en la aplicación de Flutter como en Android Studio.
 
 <br>
 <p align="center">
-  <img src="-" alt="Sprint Backlog 3 Trello" width="600">
+  <img src="images/trello3.png" alt="Sprint Backlog 3 Trello" width="600">
 </p>
 <p align="center">
      Sprint Backlog 3 - Elaboración propia
 </p>
 
 
-Link al Trello: ...
+Link al Trello: https://trello.com/invite/b/692a429b882177c311ce6589/ATTI6d2de2372325fb95c3a4590dc308519427C2E5DF/sprint-3
 
 <br>
 
@@ -6700,13 +6700,53 @@ Link al Trello: ...
 </thead>
 <tbody>
 <tr>
-<td>TS28</td>
-<td>Creación de Solicitud de Colaboración</td>
-<td>WI001</td>
-<td>Implementar envío de solicitud de colaboración</td>
-<td>Desarrollar la funcionalidad para que un gerente pueda enviar una solicitud (con estado "pendiente") al proyecto de un estudiante.</td>
-<td>5</td>
+<td>US04</td>
+<td>Guardado de Proyectos Favoritos</td>
+<td>WI012</td>
+<td>Implementar "Añadir a Favoritos" (Gerente)</td>
+<td>Desarrollar la funcionalidad para que un gerente guarde un proyecto en su lista y el ícono cambie de estado.</td>
+<td>2</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US09</td>
+<td>Explorar Ideas de estudiantes</td>
+<td>WI017</td>
+<td>Implementar listado de ideas (Gerente)</td>
+<td>Crear la vista para que el gerente vea una lista de ideas de estudiantes, con opción a "Ver Detalles".</td>
+<td>4</td>
 <td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US16</td>
+<td>Filtrado de proyectos de estudiantes</td>
+<td>WI024</td>
+<td>Implementar búsqueda de proyectos de estudiantes (Gerente)</td>
+<td>Desarrollar una barra de búsqueda en la lista de ideas de estudiantes que filtre por habilidades y tecnologías.</td>
+<td>4</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US06</td>
+<td>Gerente publica nuevo proyecto</td>
+<td>WI013</td>
+<td>Implementar formulario de publicación de proyecto</td>
+<td>Desarrollar el formulario para que un gerente cree un nuevo proyecto.</td>
+<td>3</td>
+<td>Erick Palomino</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>US08</td>
+<td>Editar Perfil de Usuario</td>
+<td>WI015</td>
+<td>Implementar edición de perfil</td>
+<td>Crear el formulario y la lógica para que un usuario (ambos roles) pueda modificar y guardar los datos de su perfil.</td>
+<td>4</td>
+<td>Andrea Santur</td>
 <td>Done</td>
 </tr>
 </tbody>
