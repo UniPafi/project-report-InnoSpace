@@ -386,14 +386,25 @@
       - [4.2.1.7. Software Deployment Evidence for Sprint Review](#4217-software-deployment-evidence-for-sprint-review)
       - [4.2.1.8. Team Collaboration Insights during Sprint](#4218-team-collaboration-insights-during-sprint)
     - [4.2.2. Sprint 2](#422-sprint-2)
-      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-1)
-      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-1)
+      - [4.2.2.1. Sprint Planning 2](#4221-sprint-planning-2)
+      - [4.2.2.2. Sprint Backlog 2](#4222-sprint-backlog-2)
       - [4.2.2.3. Development Evidence for Sprint Review](#4223-development-evidence-for-sprint-review)
       - [4.2.2.4. Testing Suite Evidence for Sprint Review](#4224-testing-suite-evidence-for-sprint-review)
       - [4.2.2.5. Execution Evidence for Sprint Review](#4225-execution-evidence-for-sprint-review)
       - [4.2.2.6. Services Documentation Evidence for Sprint Review](#4226-services-documentation-evidence-for-sprint-review)
       - [4.2.2.7. Software Deployment Evidence for Sprint Review](#4227-software-deployment-evidence-for-sprint-review)
       - [4.2.2.8. Team Collaboration Insights during Sprint](#4228-team-collaboration-insights-during-sprint)
+    - [4.2.3. Sprint 3](#423-sprint-3)
+      - [4.2.3.1. Sprint Planning 3](#4231-sprint-planning-3)
+      - [4.2.3.2. Sprint Backlog 3](#4232-sprint-backlog-3)
+      - [4.2.3.3. Development Evidence for Sprint Review](#4233-development-evidence-for-sprint-review) 
+      - [4.2.3.4. Testing Suite Evidence for Sprint Review](#4234-testing-suite-evidence-for-sprint-review)
+      - [4.2.3.5. Execution Evidence for Sprint Review](#4235-execution-evidence-for-sprint-review)
+      - [4.2.3.6. Services Documentation Evidence for Sprint Review](#4236-services-documentation-evidence-for-sprint-review)
+      - [4.2.3.7. Software Deployment Evidence for Sprint Review](#4237-software-deployment-evidence-for-sprint-review)
+      - [4.2.3.8. Team Collaboration Insights during Sprint](#4238-team-collaboration-insights-during-sprint)
+
+
   - [4.3. Validation Interviews](#43-validation-interviews)
     - [4.3.1. Diseño de Entrevistas](#431-diseño-de-entrevistas)
     - [4.3.2. Registro de Entrevistas](#432-registro-de-entrevistas)
@@ -6583,16 +6594,228 @@ Kotlin App Insights :
 
 ### 4.2.3. Sprint 3
 
-Durante el Sprint 2 del proyecto, el equipo se enfocó en la implementación final de la aplicación móvil y la consolidación de todos los servicios del backend. Además, se trabajó en la resolución de incidencias y mejoras que quedaron pendientes del sprint anterior. El objetivo principal fue integrar todos los componentes desarrollados para alcanzar una versión completa y funcional de la plataforma, asegurando la correcta comunicación entre la aplicación y el sistema.
+...
 
 #### 4.2.3.1. Sprint Planning 3
 
+...
+
+<table border="1" cellpadding="6" style="border-collapse: collapse; width: 100%;">
+  <tbody>
+    <tr>
+      <td><b>Sprint #</b></td>
+      <td><b>Sprint 3</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Planning Background</b></td>
+    </tr>
+    <tr>
+      <td><b>Date</b></td>
+      <td>2025-11-21</td>
+    </tr>
+    <tr>
+      <td><b>Time</b></td>
+      <td>07:00 PM</td>
+    </tr>
+    <tr>
+      <td><b>Location</b></td>
+      <td>Reunión virtual realizada mediante Discord.</td>
+    </tr>
+    <tr>
+      <td><b>Prepared By</b></td>
+      <td>Rivera Ratachi, Renzo Sebastian</td>
+    </tr>
+    <tr>
+      <td><b>Attendees (to planning meeting)</b></td>
+      <td>
+        Cabrera Buitron, Diego Ivan <br>
+        Coca Lavado, Carlos Andres <br>
+        Palomino Fiestas, Erick Leonardo <br>
+        Santur Tello, Andrea Elizabeth
+      </td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Review Summary</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 2 Retrospective Summary</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Goal</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sprint 3 Velocity</b></td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><b>Sum of Story Points</b></td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 4.2.3.2. Sprint Backlog 3
 
-#### 4.2.3.3. Development Evidece for Sprint Review
+En esta sección se presenta el Sprint Backlog correspondiente al Sprint 2 del proyecto UniPafi (InnoSpace). El objetivo principal de este sprint fue implementar las funcionalidades centrales de interacción de la plataforma, incluyendo la gestión de solicitudes de colaboración y las postulaciones a convocatorias. Cada tarea está asociada a una User Story específica, lo que permite al equipo realizar un seguimiento del progreso y asegurarse de que se cumplan los objetivos del sprint. 
 
-#### 4.2.3.4. Testing Suite Evidece for Sprint Review
+<br>
+<p align="center">
+  <img src="-" alt="Sprint Backlog 3 Trello" width="600">
+</p>
+<p align="center">
+     Sprint Backlog 3 - Elaboración propia
+</p>
 
+
+Link al Trello: ...
+
+<br>
+
+<h3>Sprint Backlog – Sprint 2</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+<thead>
+<tr>
+<th colspan="8">Sprint 2</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="2">Work-Item / Task</th>
+<th rowspan="2">Description</th>
+<th rowspan="2">Estimation (Hours)</th>
+<th rowspan="2">Assigned To</th>
+<th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TS28</td>
+<td>Creación de Solicitud de Colaboración</td>
+<td>WI001</td>
+<td>Implementar envío de solicitud de colaboración</td>
+<td>Desarrollar la funcionalidad para que un gerente pueda enviar una solicitud (con estado "pendiente") al proyecto de un estudiante.</td>
+<td>5</td>
+<td>Renzo Rivera</td>
+<td>Done</td>
+</tr>
+</tbody>
+</table>
+
+#### 4.2.3.3. Development Evidence for Sprint Review
+
+<table align="center">
+  <tr>
+    <td><strong>Repository</strong></td>
+    <td><strong>Branch</strong></td>
+    <td><strong>Commit Id</strong></td>
+    <td><strong>Commit Message</strong></td>
+    <td><strong>Commit Message Body</strong></td>
+    <td><strong>Commited on (Date)</strong></td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>2b0a450</td>
+    <td>style: Bottom search bar update</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>deveplop</td>
+    <td>d57180f</td>
+    <td>fix: fixed style</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/kotlin_app_InnoSpace</td>
+    <td>develop</td>
+    <td>39083e4</td>
+    <td>fix: fix the themes</td>
+    <td>-</td>
+    <td>26/11/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>7f17d94</td>
+    <td>feat: upgrade themes</td>
+    <td>-</td>
+    <td>03/12/25</td>
+  </tr>
+<tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>e3f14fd</td>
+    <td>feat: add platform permissions and image_picker dependency</td>
+    <td>Add Android permissions (INTERNET, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES, CAMERA)</td>
+    <td>28/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>b95fa63</td>
+    <td>Fix lint errors: add path dependency, fix deprecated APIs and null-aware operators</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+  <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>2de5e7d</td>
+    <td>feat: added manager</td>
+    <td>-</td>
+    <td>27/11/25</td>
+  </tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>ed8018d</td>
+    <td>fix: add dependencies</td>
+    <td>-</td>
+    <td>30/11/25</td>
+  </tr>
+</tr>
+    <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>dea4768</td>
+    <td>fix: updated gitignore and dependencies</td>
+    <td>-</td>
+    <td>20/11/25</td>
+  </tr>
+ <tr>
+    <td>https://github.com/UniPafi/flutter_InnoSpace</td>
+    <td>develop</td>
+    <td>d5bb0d2</td>
+    <td>feat: testing the app</td>
+    <td>-</td>
+    <td>14/11/25</td>
+  </tr>
+<table>
+
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 4.2.3.5. Execution Evidence for Sprint Review
+
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 no se generó nueva documentación de endpoints ni se realizaron modificaciones en los servicios existentes. Esto se debe a que el backend del proyecto ya se encontraba completo al 100% antes del inicio del sprint, con todos los endpoints implementados, documentados y validados en ciclos anteriores.
+El foco del sprint se centró en otras tareas planificadas que no involucraban intervención directa sobre la API.
+
+=======
 #### 4.2.3.5. Execution Evidece for Sprint Review
 Durante este Sprint se implementaron las funcionalidades principales de la aplicación móvil de Innospace desarrollada en Flutter. 
 **Flutter**
@@ -6646,7 +6869,7 @@ Mi Perfil:La sección de Mi Perfil permite al usuario visualizar y actualizar su
 </p>
 #### 4.2.3.6. Services Documentation Evidece for Sprint Review
 
-#### 4.2.3.7. Software Deployment Evidece for Sprint Review
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su disponibilidad y persistencia de datos. Se validó el funcionamiento de los endpoints por medio de Swagger y pruebas de integración y se dejó preparada la arquitectura para el correcto desarrollo de nuestra aplicación móvil en el entorno de Flutter. Aquí las evidencias principales:
 
@@ -6731,6 +6954,10 @@ Durante el Sprint 3, se revisó el backend de InnoSpace en Azure, asegurando su 
   - `feature/iam-bounded-context` `56b2668`: API de autenticación, endpoints de usuarios y seguridad JWT
 
 #### 4.2.3.8. Team Collaboration Insights during Sprint Review
+
+
+
+
 
 ## 4.3. Validation Interviews
 
